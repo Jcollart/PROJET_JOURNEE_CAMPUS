@@ -30,14 +30,18 @@ body {
 /******** SECTION NOUVELLE EDITION *********/
 .new_edition{
     height: 30vh;
-
+    background-color: orangered;
+    padding-top: 4em;
 }
 
-.accordion>.card {
-    width: 80% !important;
-    margin-left: auto;
-    margin-right:auto; 
+.card.card-body{
+    background-color: orangered;
 }
+
+
+
+
+
 
 
 /******* SECTION ANCIENNE EDITION ********/
