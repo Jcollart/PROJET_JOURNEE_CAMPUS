@@ -14,41 +14,41 @@ body {
 }
 
 
-.header{
-    height: 20vh;
-    background-color: black;
-}
-
-
-
+/******* SECTION ENTETE *******/
 .entete{
-    height: 80vh;
-    background-color: brown;
+    height: 100vh;
 }
 
+
+/******* PRESENTATION ********/
 .presentation{
     height: 70vh;
-    background-color: red;
+    background-color: grey;
 }
 
+
+/******** SECTION NOUVELLE EDITION *********/
 .new_edition{
     height: 30vh;
-    background-color: yellowgreen;
+
 }
 
+.accordion>.card {
+    width: 80% !important;
+    margin-left: auto;
+    margin-right:auto; 
+}
+
+
+/******* SECTION ANCIENNE EDITION ********/
 .ancienne_edition{
     height: 50vh;
-    background-color: green;
 }
 
-
+/******* SECTION TEMOIGNAGES ********/
 .temoignages{
     height: 25vh;
-    background-color: greenyellow;
+    
 }
 
 
-.footer{
-    height: 25vh;
-    background-color: blue;
-}
