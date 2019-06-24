@@ -1,1 +1,54 @@
-body
+html {
+    height: 100%;
+}
+
+body {
+    position: relative;
+    background-color: white;
+    min-height: 100%;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    /*font-family: "Arvo";*/
+    text-align: center;
+}
+
+
+.header{
+    height: 20vh;
+    background-color: black;
+}
+
+
+
+.entete{
+    height: 80vh;
+    background-color: brown;
+}
+
+.presentation{
+    height: 70vh;
+    background-color: red;
+}
+
+.new_edition{
+    height: 30vh;
+    background-color: yellowgreen;
+}
+
+.ancienne_edition{
+    height: 50vh;
+    background-color: green;
+}
+
+
+.temoignages{
+    height: 25vh;
+    background-color: greenyellow;
+}
+
+
+.footer{
+    height: 25vh;
+    background-color: blue;
+}
