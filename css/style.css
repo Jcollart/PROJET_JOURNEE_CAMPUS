@@ -28,10 +28,14 @@ body {
 }
 
 .presentation>.card.mb-3{
-    height: 60vh;
-    width: 80%;
     margin: auto;
-    
+}
+
+.carousel-item{
+    height: 60vh;
+    width: 80% !important;
+    margin-left: 10%;
+    margin-right: -90% !important;
 }
 /******** SECTION NOUVELLE EDITION *********/
 .new_edition{
