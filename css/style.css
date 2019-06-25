@@ -23,10 +23,16 @@ body {
 /******* PRESENTATION ********/
 .presentation{
     height: 70vh;
-    background-color: grey;
+    padding-top: 3em;
+    background-color: grey;   
 }
 
-
+.presentation>.card.mb-3{
+    height: 60vh;
+    width: 80%;
+    margin: auto;
+    
+}
 /******** SECTION NOUVELLE EDITION *********/
 .new_edition{
     height: 30vh;
