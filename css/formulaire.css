@@ -51,7 +51,8 @@ form {
   .arrow_box {
 	position: relative;
 	background: rgb(233, 95, 16);
-	border: 4px solid rgba(136, 183, 213, 0);
+    border: 2px solid rgba(136, 183, 213, 0);
+    border-bottom-color: #0a0a0a;
 }
 .arrow_box:after, .arrow_box:before {
 	top: 100%;
@@ -72,7 +73,7 @@ form {
 }
 .arrow_box:before {
 	border-color: rgba(194, 225, 245, 0);
-	border-top-color: #c2e1f5;
+	border-top-color: #0a0a0a;
 	border-width: 36px;
 	margin-left: -36px;
 }
