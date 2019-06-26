@@ -17,26 +17,43 @@ body {
 /******* SECTION ENTETE *******/
 .entete{
     height: 100vh;
+    background-color: orange;
 }
 
 
 /******* PRESENTATION ********/
 .presentation{
-    height: 70vh;
-    padding-top: 3em;
-    background-color: grey;   
-}
-
-.presentation>.card.mb-3{
-    margin: auto;
+    height: 70vh;   
 }
 
 .carousel-item{
-    height: 60vh;
-    width: 80% !important;
-    margin-left: 10%;
-    margin-right: -90% !important;
+    height: 70vh;
+    margin-left: 0%;
+    margin-right: -100% !important;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: auto;
+    padding-bottom: auto;
 }
+
+.carousel-item>.card{
+    padding:2em;
+    height: 70vh;
+}
+
+.card-img{
+margin-top: auto;
+margin-bottom: auto;
+}
+
+.carousel-control-next-icon,
+.carousel-control-prev-icon {
+    width: 40px !important;
+    height: 40px !important;
+    background-color: orangered;
+    border-radius:50%;
+}
+
 /******** SECTION NOUVELLE EDITION *********/
 .new_edition{
     height: 30vh;
