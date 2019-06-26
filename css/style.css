@@ -74,12 +74,19 @@ margin-bottom: auto;
 /******* SECTION ANCIENNE EDITION ********/
 .ancienne_edition{
     height: 50vh;
+    background-color: beige;
 }
 
 /******* SECTION TEMOIGNAGES ********/
 .temoignages{
-    height: 25vh;
-    
+    height: 25vh; 
 }
 
+#carouselExampleControls{
+    height: 25vh;
+}
 
+.footer{
+    background-color: black;
+    height: 25vh;
+}
