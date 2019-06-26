@@ -6,7 +6,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>FORMULAIRE PIQUE NIQUE</title>
+  <title>FORMULAIRE CAROLO EXPRESS</title>
   <meta name="author" content="Jérôme COLLART & Gaël PONSARD">
   <meta name="description" content="description du site en max 3 phrases courtes -156 carac">
   <!-- Si vous voulez une favicon enregistrez-la dans le même répertoire que la page
@@ -69,40 +69,57 @@
         </div>
       </nav>
 
-<center><h1 style="color:rgb(233, 95, 16)"> INSCRIPTION PIQUE-NIQUE </h1></br>
-<p>Merci de remplir les champs ci dessous pour reserver votre repas </br>
-    a la plaine du mont olympe pour le prix de 2.5€ </br>
-    pour les 200 premieres réservations
+<center><h1 style="color:rgb(233, 95, 16)"> INSCRIPTION CAROLO EXPRESS </h1></br>
+<p>Merci de remplir les champs ci dessous pour inscrire votre équipe </br>
+    et participer à la course d'orientation qui pourra vous permettre </br>
+        de gagner des cadeaux en repondant à un questionnaire à travers </br>
+          de la ville.
 </p></center></br>
 
 
         <form action="/ma-page-de-formulaire" method="post">
             <div>
-                <label for="name"><strong>Nom :</strong></label>
+                    <label for="name"><strong>Etablissement:</strong></label>
+                    <select name="etablissement" id="etablissement">
+                            <option value="Sévignée">Sévigné</option>
+                            <option value="Chanzy">Chanzy</option>
+                            <option value="Monge">Monge</option>
+                            <option value="Bazin">Bazin</option>
+                            
+                    </select>
+                </div>
+                <div>
+                        <label for="name"><strong>Equipe:</strong></label>
+                        <input type="text" id="equipe" name="equipe">
+                    </div>
+
+
+            <div>
+                <label for="name"><strong>Nom:</strong></label>
                 <input type="text" id="name" name="Votre noms">
             </div>
         </br>
             <div>
-                    <label for="name"><strong>Prénom :</strong></label>
+                    <label for="name"><strong>Prénom:</strong></label>
                     <input type="text" id="surname" name="Votre prénom">
                 </div>
             </br>
                 <div>
-                        <label for="name"><strong>Mobile :</strong></label>
+                        <label for="name"><strong>Mobile:</strong></label>
                         <input type="text" id="name" name="Votre téléphone mobile">
                     </div>
                 </br>
             <div>
-                <label for="mail"><strong>E-mail :</strong></label>
+                <label for="mail"><strong>E-mail:</strong></label>
                 <input type="email" id="mail" name="votre email">
             </div>
         </br>
             <div>
-                <label for="name"><strong>Repas=2,5€</strong></label>
-                <input id="reserve" name="reservation repas"></input>
+                <label for="name"><strong>Mot de passe:</strong></label>
+                <input type="password" id="password" name="password"></input>
             </div>
-            <div class="button">
-                <button type="button" class="btn btn-light"><strong>Réserver le repas</strong></button>
+            <div class="row justify-content-center">
+                <button type="button" class="btn btn-light"><strong>S'inscrire</strong></button>
             </div>        
 
         </form></br></br>
@@ -113,7 +130,7 @@
                     <div class="arrow_box"></div></br></br>
               
                 <section>
-                        <button type="button" style="color:rgb(233, 95, 16)" class="btn btn-light">INSCRIPTION CAROLO EXPRESS</button>
+                        <button type="button" style="color:rgb(233, 95, 16)" class="btn btn-light">INSCRIPTION PIQUE-NIQUE</button>
                 </section></br>
               
                 <section>

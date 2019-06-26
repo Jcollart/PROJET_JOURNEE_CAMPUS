@@ -109,33 +109,3 @@ Vous allez poser la question: comment se déconnecter ? C'est facile, on rajoute
 </html>
 
 
-Un problème rencontré lors de la soumission d'un formulaire est qu'on peut avoir plusieurs clics et donc plusieurs exécutions de la même opération de vérification, redirection, etc. ça peut causer des anomalies et le serveur génère des erreurs et s’arrête.
-La solution est dans cet article : Comment activer/désactiver un bouton submit avec jQuery ?
-
-
-
-Partager cet article
-Twitter Facebook Google+
-mardi 20 décembre 2016 PHP SQL Web
-
-Voir aussi:
-
-Rechercher dans ce blog
-	
-
-Articles les plus
-
-    Socket java : Créer une application de chat Client/Serveur
-    Formulaire de login avec HTML/CSS, PHP et MySQL
-    Minimum et maximum d'un tableau en Java
-    Comment parcourir une HashMap en Java
-    Comment parcourir un ArrayList en Java
-    Apache POI: Créer, lire et modifier un fichier Excel en java
-    Vérifier si un élément existe dans un tableau en Java
-    Parcourir et lire JSON avec jQuery - for et $.each
-    Java - Lire les fichiers vidéo et audio (mp4, mp3, ...) avec vlcj
-    Trier un tableau dans l'ordre croissant et décoissant en Java
-
-Abonnez-vous à la chaîne YouTube
-
-Suivez-nous sur Facebook
