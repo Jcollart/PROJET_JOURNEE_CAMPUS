@@ -537,6 +537,7 @@
     <!--/////////////////////FOOTER///////////////////////-->
 
     <!--<section class=footer>FOOTER</section>-->
+<?php include("footer.php"); ?>
 
 
 
