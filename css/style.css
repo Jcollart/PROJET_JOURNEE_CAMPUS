@@ -14,7 +14,7 @@ body {
 
 
 /******* SECTION ENTETE *******/
-.entete{
+.entete {
     height: 100vh;
     background-color: orange;
 }
@@ -22,13 +22,13 @@ body {
 
 
 /******* PRESENTATION ********/
-.presentation{
+.presentation {
     position: relative;
     height: 70vh;
-    background-color:white;  
+    background-color: white;
 }
 
-.presentation:after{
+.presentation:after {
     position: absolute;
     height: 70vh;
     content: '';
@@ -39,9 +39,9 @@ body {
     left: 0;
     transform-origin: top left;
     transform: skewY(2deg);
- }
+}
 
-.carousel-item{
+.carousel-item {
     height: 70vh;
     margin-left: 0%;
     margin-right: -100% !important;
@@ -51,28 +51,24 @@ body {
 }
 
 
-.carousel-item>.card{
-    
-}
+.carousel-item>.card {}
 
-.carousel-item>.card.mb-3{
-    padding:2em;
+.carousel-item>.card.mb-3 {
+    padding: 2em;
     height: 70vh;
     border: 0px solid rgba(0, 0, 0, .125);
-justify-content: center;
+    justify-content: center;
 }
 
-.col-md-4{
-    
-    }
+.col-md-4 {}
 
-    .col-md-4>.card-img{
-        z-index:20;
-    }
+.col-md-4>img.card-img{
+    z-index: 20;
+}
 
 
 .carousel-control-next,
-.carousel-control-prev{
+.carousel-control-prev {
     z-index: 5;
 }
 
@@ -81,29 +77,30 @@ justify-content: center;
     width: 40px !important;
     height: 40px !important;
     background-color: orangered;
-    border-radius:50%;
+    border-radius: 50%;
 }
 
 /******** SECTION NOUVELLE EDITION *********/
-.new_edition{
+.new_edition {
     position: relative;
     height: 30vh;
     background-color: orangered;
-    padding-top: 4em;  
+    padding-top: 4em;
 }
 
 
-#collapseExample>.card.card-body{
+#collapseExample>.card.card-body {
     background-color: orangered;
 }
 
 /***.accordion>.card>.card-header{
     position: static;
-}*//* Je sais pas comment pousser les div du dessous !!!!*/
+}*/
+/* Je sais pas comment pousser les div du dessous !!!!*/
 
 
 /******* SECTION ANCIENNE EDITION ********/
-.ancienne_edition{
+.ancienne_edition {
     height: 50vh;
     background-color: beige;
 }
@@ -111,13 +108,13 @@ justify-content: center;
 
 /******* SECTION TEMOIGNAGES ********/
 
-.temoignages{
+.temoignages {
     height: 25vh;
     position: relative;
     background-color: white;
 }
 
-.temoignages:after{
+.temoignages:after {
     position: absolute;
     height: 25vh;
     content: '';
@@ -128,24 +125,24 @@ justify-content: center;
     left: 0;
     transform-origin: top right;
     transform: skewY(-2deg);
- }
+}
 
-#carouselTemoignages>.carousel-inner>.carousel-item.active{
+#carouselTemoignages>.carousel-inner>.carousel-item.active {
     height: 25vh;
 }
 
-#carouselTemoignages{
+#carouselTemoignages {
     height: 25vh;
 }
 
-.carousel-item>.card.mb-4{
+.carousel-item>.card.mb-4 {
     height: 25vh;
     border: 0px solid rgba(0, 0, 0, .125);
 }
 
-.col-md-12>.card-body{
+.col-md-12>.card-body {
     margin-top: 1.5%;
-    
+
 
 }
 
