@@ -40,7 +40,7 @@
 
         <!--Image-->
         <div class="view overlay z-depth-1-half">
-          <img src="img/01.jpg" class="img-fluid"
+          <img src="img/Logos/ARDENNE-LOGO-RVB.png" class="img-fluid"
             alt="">
           <a href="">
             <div class="mask rgba-white-light"></div>
@@ -55,7 +55,7 @@
 
         <!--Image-->
         <div class="view overlay z-depth-1-half">
-          <img src="img/02.jpg" class="img-fluid"
+          <img src="img/Logos/Crous Reims.png" class="img-fluid"
             alt="">
           <a href="">
             <div class="mask rgba-white-light"></div>
@@ -70,7 +70,7 @@
 
         <!--Image-->
         <div class="view overlay z-depth-1-half">
-          <img src="img/03.jpg" class="img-fluid"
+          <img src="img/Logos/decathlon.jpg" class="img-fluid"
             alt="">
           <a href="">
             <div class="mask rgba-white-light"></div>
@@ -85,7 +85,7 @@
 
         <!--Image-->
         <div class="view overlay z-depth-1-half">
-          <img src="img/04.jpg" class="img-fluid"
+          <img src="img/Logos/otacos.png" class="img-fluid"
             alt="">
           <a href="">
             <div class="mask rgba-white-light"></div>
@@ -100,7 +100,7 @@
 
         <!--Image-->
         <div class="view overlay z-depth-1-half">
-          <img src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(82).jpg" class="img-fluid"
+          <img src="img/Logos/intercampus.jpg" class="img-fluid"
             alt="">
           <a href="">
             <div class="mask rgba-white-light"></div>
@@ -115,7 +115,7 @@
 
         <!--Image-->
         <div class="view overlay z-depth-1-half">
-          <img src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(84).jpg" class="img-fluid"
+          <img src="img/Logos/jeanteur.png" class="img-fluid"
             alt="">
           <a href="">
             <div class="mask rgba-white-light"></div>

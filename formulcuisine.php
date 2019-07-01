@@ -51,7 +51,7 @@
                 Menu Deroulant
               </a>
               <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                <a class="dropdown-item" href="#">CAROLO EXPRESS</a>
+                <a class="dropdown-item" href="formulexpress.php">CAROLO EXPRESS</a>
                 <a class="dropdown-item" href="#">CAROLO PIQUE-NIQUE</a>
                 <a class="dropdown-item" href="#">CAROLO WARRIOR</a>
                 <div class="dropdown-divider"></div>
@@ -69,7 +69,7 @@
         </div>
       </nav>
 
-<center><h1 style="color:rgb(233, 95, 16)"> INSCRIPTION CAROLO CUISINE </h1></br>
+<center><h1 style="color:white"> INSCRIPTION CAROLO CUISINE </h1></br>
 <p>Merci de remplir les champs ci dessous pour inscrire votre équipe </br>
     et participer au concours de cuisine qui se déroulera place DUCALE et </br>
         devenir la meilleure équipe de cuisine de 2019 de la ville.</br>
