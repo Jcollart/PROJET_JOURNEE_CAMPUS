@@ -9,7 +9,6 @@ body {
     margin: 0;
     padding: 0;
     overflow-x: hidden;
-    /*font-family: "Arvo";*/
     text-align: center;
 }
 
@@ -82,7 +81,7 @@ body {
 }
 
 
-.card.card-body{
+#collapseExample>.card.card-body{
     background-color: orangered;
 }
 
@@ -127,18 +126,18 @@ body {
     height: 25vh;
 }
 
-.card.mb-4{
+.carousel-item>.card.mb-4{
     height: 25vh;
     border: 0px solid rgba(0, 0, 0, .125);
 }
 
-.card-body{
+.col-md-12>.card-body{
     margin-top: 1.5%;
     
 
 }
 
-.footer{
+/*.footer{
     background-color: black;
     height: 25vh;
-}
+}*/
