@@ -19,7 +19,7 @@
 
     <!--/////////////////////SECTION ENTETE///////////////////////-->
 
-    <section class=entete>IMAGE MASCOTTE + TITRE</section>
+    <section class=entete></section>
 
 
     <!--/////////////////////SECTION PRESENTATION///////////////////////-->

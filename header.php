@@ -14,7 +14,8 @@
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
         integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
 
-  <link rel="stylesheet" href="reset.css">
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/header.css">
 
 
 </head>
@@ -22,7 +23,7 @@
 <body>
   <!-- NAVBAR BOOTSTRAP-->
   <nav class="navbar navbar-expand-lg navbar-light bg-light">
-    <a class="navbar-brand" href="#">LOGO CAROLO</a>
+    <a class="navbar-brand" href="#"><img id="logo" src="img/logoetudiant.png" alt="logo"/></a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
       aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
@@ -51,6 +52,9 @@
         </li>
         <li class="nav-item">
           <a class="nav-link" href="#">GALERIE PHOTO</a>
+        </li>  
+        <li class="nav-item">  
+          <a class="nav-link" href="#"><img id="logocm" src="img/logos/logomairie.png" alt="logocm"/></a>
         </li>
       </ul>
       <form class="form-inline my-2 my-lg-0">
