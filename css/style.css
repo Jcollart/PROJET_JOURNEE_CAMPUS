@@ -26,7 +26,6 @@ body {
     position: relative;
     height: 70vh;
     background-color:white;  
-    
 }
 
 .presentation:after{
@@ -53,10 +52,23 @@ body {
 
 
 .carousel-item>.card{
+    
+}
+
+.carousel-item>.card.mb-3{
     padding:2em;
     height: 70vh;
     border: 0px solid rgba(0, 0, 0, .125);
+justify-content: center;
 }
+
+.col-md-4{
+    
+    }
+
+    .col-md-4>.card-img{
+        z-index:20;
+    }
 
 
 .carousel-control-next,
