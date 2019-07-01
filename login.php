@@ -5,7 +5,10 @@
         <link rel="stylesheet" href="css/login.css" media="screen" type="text/css" />
     </head>
     <body>
-        <div id="container">
+
+    <h1>Administration du Site</h1>
+    <div id="container">
+
             <!-- zone de connexion -->
             
             <form action="verification.php" method="POST">
