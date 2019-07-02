@@ -215,7 +215,7 @@
 					data-paddingleft="[0,0,0,0]"
 
 					style="z-index: 5;">
-		<div class="rs-looped rs-wave"  data-speed="5" data-angle="0" data-radius="3px" data-origin="50% 50%"><img src="img/eclair.png" alt="" data-ww="['509px','509px','509px','407px']" data-hh="['750px','750px','750px','700px']" width="407" height="200" data-no-retina> </div></div>
+		<div class="rs-looped rs-wave"  data-speed="5" data-angle="0" data-radius="3px" data-origin="50% 50%"><img src="img/eclair.png" alt="" data-ww="['709px','709px','709px','607px']" data-hh="['950px','950px','950px','900px']" width="407" height="200" data-no-retina> </div></div>
 
 				<!-- LAYER NR. 7 -->
 				<div class="tp-caption   tp-resizeme rs-parallaxlevel-2" 
