@@ -12,13 +12,6 @@ body {
     text-align: center;
 }
 
-/******MAIN********/
-
-.main{
-    height: 80%;
-    z-index:2;
-}
-
 
 
 /******* SECTION ENTETE *******/
@@ -50,7 +43,7 @@ body {
     height: 70vh;
     content: '';
     background-color: inherit;
-    top: -10em;
+    top: -4em;
     right: 0;
     bottom: 0;
     left: 0;
@@ -136,7 +129,7 @@ body {
     height: 25vh;
     content: '';
     background-color: inherit;
-    top: -5em;
+    top: -4em;
     right: 0;
     bottom: 0;
     left: 0;
