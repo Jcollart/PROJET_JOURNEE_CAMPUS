@@ -50,7 +50,7 @@
           </div>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">GALERIE PHOTO</a>
+          <a class="nav-link" href="galerie.php">GALERIE PHOTO</a>
         </li>  
         <li class="nav-item">  
           <a class="nav-link" href="#"><img id="logocm" src="img/Logos/logomairie.png" alt="logocm"/></a>

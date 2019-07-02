@@ -6,8 +6,11 @@
 
 #logocm{
     width:150px;
-    
+    z-index: 50;
     position:absolute;
     margin-top: 20px;
 
+}
+.navbar  {
+    background: rgba(255, 255, 255, 0.3) !important;
 }

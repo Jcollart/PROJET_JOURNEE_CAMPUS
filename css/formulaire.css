@@ -1,4 +1,13 @@
+html{
+  
+}
 
+body {
+  background: url(../img/eclair.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height:100%;
+}
 .form {
     /* Uniquement centrer le formulaire sur la page */
     margin: 0 auto;
