@@ -11,8 +11,7 @@
   <meta name="description" content="description du site en max 3 phrases courtes -156 carac">
   <!-- Si vous voulez une favicon enregistrez-la dans le même répertoire que la page
     d'index du site, sous le format .ico pour compatibilié IE6 et linkez la-->
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
-        integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    
 
   <link rel="stylesheet" href="css/reset.css">
   <link rel="stylesheet" href="css/header.css">
@@ -23,7 +22,7 @@
 <body>
   <!-- NAVBAR BOOTSTRAP-->
   <nav class="navbar navbar-expand-lg navbar-light bg-light">
-    <a class="navbar-brand" href="#"><img id="logo" src="img/logoetudiant.png" alt="logo"/></a>
+    <a class="navbar-brand" href="http://www.ardenne-metropole.fr"><img id="logo" src="img/logoetudiant.png" alt="logo"/></a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
       aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
@@ -32,7 +31,7 @@
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
       <ul class="navbar-nav mr-auto">
         <li class="nav-item active">
-          <a class="nav-link" href="#"><i style="font-size:1em" class="fas fa-home"></i><span class="sr-only">(current)</span></a>
+          <a class="nav-link" href="index.php"><i style="font-size:1em" class="fas fa-home"></i><span class="sr-only">(current)</span></a>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="https://www.charleville-mezieres.fr/">Lien CM</a>
@@ -43,11 +42,11 @@
             Menu Deroulant
           </a>
           <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-            <a class="dropdown-item" href="#">CAROLO EXPRESS</a>
-            <a class="dropdown-item" href="#">CAROLO PIQUE-NIQUE</a>
-            <a class="dropdown-item" href="#">CAROLO WARRIOR</a>
+            <a class="dropdown-item" href="formulexpress">CAROLO EXPRESS</a>
+            <a class="dropdown-item" href="formulpiquenique">CAROLO PIQUE-NIQUE</a>
+            <a class="dropdown-item" href="formulwarrior.php">CAROLO WARRIOR</a>
             <div class="dropdown-divider"></div>
-            <a class="dropdown-item" href="#">CAROLO CUISINE</a>
+            <a class="dropdown-item" href="formulcuisine.php">CAROLO CUISINE</a>
           </div>
         </li>
         <li class="nav-item">

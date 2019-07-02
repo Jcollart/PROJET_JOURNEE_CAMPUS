@@ -1,8 +1,5 @@
-body{
-  background: url(../img/fond.jpg);
-}
 
-form {
+.form {
     /* Uniquement centrer le formulaire sur la page */
     margin: 0 auto;
     width: 400px;
@@ -12,7 +9,7 @@ form {
     border-radius: 1em;
   }
   
-  form div + div {
+  .form div + div {
     margin-top: 1em;
   }
   
