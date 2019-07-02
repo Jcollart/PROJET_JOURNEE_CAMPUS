@@ -3,10 +3,9 @@ html{
 }
 
 body {
-  background: url(../img/eclair.png);
+  background: url(../img/fond.jpg) no-repeat ;
+  background: url(../img/eclair.png) no-repeat ;
   background-size: cover;
-  background-repeat: no-repeat;
-  height:100%;
 }
 .form {
     /* Uniquement centrer le formulaire sur la page */
