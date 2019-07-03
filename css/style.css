@@ -94,7 +94,7 @@ body {
 .new_edition {
     position: relative;
     height: 30vh;
-    background-color: orangered;
+    background-image: url(../img/fond.jpg);
     padding-top: 4em;
 }
 
