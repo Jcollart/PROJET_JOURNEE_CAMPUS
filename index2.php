@@ -204,7 +204,7 @@
 
                                 <!-- LAYER NR. 8 -->
                                 <a class="tp-caption   tp-resizeme"
-                                    href="https://revolution.themepunch.com/direct-customer-benefits/" target="_blank"
+                                    href="#new_edition" target="_blank"
                                     id="slide-32-layer-16" data-x="['center','center','center','center']"
                                     data-hoffset="['0','0','0','0']" data-y="['bottom','bottom','bottom','bottom']"
                                     data-voffset="['230','210','310','310']" data-fontsize="['25','25','25','20']"
@@ -655,17 +655,17 @@ A titre d’exemple, le « Carolo Express » vise à la découverte des lieux sa
 
     <!--/////////////////////SECTION NOUVELLE EDITION///////////////////////-->
 
-    <section class=new_edition>
+    <section class="new_edition" id="new_edition">
         <h1>EDITION 2019</h1>
         <p>
             <!-- Bouton ouvrant l'accordéon -->
-            <button class="btn btn-warning" type="button" data-toggle="collapse" data-target="#collapseExample"
+            <button class="btn btn-warning" id ="button1" type="button" data-toggle="collapse" data-target="#collapseExample"
                 aria-expanded="false" aria-controls="collapseExample">
                 DECOUVREZ LE PROGRAMME
             </button>
         </p>
         <div class="collapse" id="collapseExample">
-            <div class="card card-body">
+            <div class="card card-body" id="cardbody">
 
                 <div class="accordion" id="accordionExample">
                     <div class="card">
@@ -758,12 +758,12 @@ Info + : n’oubliez pas de prendre de la monnaie
 <li>Activité aquatique</li> 
 <li>Course & passage d’obstacles</li>
 
-Afin de participer à cette manifestation, il est nécessaire au préalable de composer une équipe de 8 personnes. 
+Afin de participer à cette manifestation, il est nécessaire au préalable de composer une équipe de 8 personnes.</br> 
 
-Informations pratiques :
-
-Horaires de la manifestation :
-Lieu : Plaine du Mont Olympe
+Informations pratiques :</br>
+                                </br>
+Horaires de la manifestation :</br>
+Lieu : Plaine du Mont Olympe </br>
 Info + : pensez à prendre une tenue de sport
 
                                 </p>
