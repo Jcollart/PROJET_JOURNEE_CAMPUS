@@ -69,7 +69,6 @@ body {
     justify-content: center;
 }
 
-
 .card-img {
     width: 20em;
     height: auto;
@@ -104,7 +103,7 @@ body {
 /******** SECTION NOUVELLE EDITION *********/
 .new_edition {
     position: relative;
-    height: 30vh;
+    min-height: 30vh;
     background-color: orangered;
     /*background-image: url(../img/fond.jpg);
     background-size: cover;*/
@@ -116,16 +115,12 @@ body {
     background-color: orangered;
 }
 
-/***.accordion>.card>.card-header{
-    position: static;
-}*/
-/* Je sais pas comment pousser les div du dessous !!!!*/
 
 
 /******* SECTION ANCIENNE EDITION ********/
 .ancienne_edition {
     height: 50vh;
-    background-color: beige;
+    background-color: white;
 }
 
 
@@ -134,7 +129,7 @@ body {
 .temoignages {
     height: 25vh;
     position: relative;
-    background-color: white;
+    background-color: orangered;
 }
 
 .temoignages:after {
@@ -163,6 +158,7 @@ body {
     border: 0px solid rgba(0, 0, 0, .125);
     display: flex;
     justify-content: center;
+    background-color: orangered;
 
 }
 
