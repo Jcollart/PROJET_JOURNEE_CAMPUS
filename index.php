@@ -698,7 +698,7 @@ Arrivée : Place Ducale
 Info + : pensez à prendre des baskets car vous allez crapahuter !
 
                                 </p>
-                                <button type="button" class="btn btn-dark">S'inscrire</button>
+                                <a id="button-inscription" href="formulexpress.php" class="btn btn-warning btn-lg active" role="button" title="Inscription">S'inscrire</a>
                             </div>
                         </div>
                     </div>
@@ -728,7 +728,7 @@ Lieu : Plaine du Mont Olympe
 Info + : n’oubliez pas de prendre de la monnaie
 .
                                 </p>
-                                <button type="button" class="btn btn-dark">S'inscrire</button>
+                                <a id="button-inscription" href="formulpiquenique.php" class="btn btn-warning btn-lg active" role="button" title="Inscription">S'inscrire</a>
                             </div>
                         </div>
                     </div>
@@ -767,7 +767,7 @@ Lieu : Plaine du Mont Olympe
 Info + : pensez à prendre une tenue de sport
 
                                 </p>
-                                <button type="button" class="btn btn-dark">S'inscrire</button>
+                                <a id="button-inscription" href="formulwarrior.php" class="btn btn-warning btn-lg active" role="button" title="Inscription">S'inscrire</a>
                             </div>
                         </div>
                     </div>
@@ -798,7 +798,7 @@ Horaires de la manifestation :
 Lieu : Place Ducale
 .
                                 </p>
-                                <button type="button" class="btn btn-dark">S'inscrire</button>
+                                <a id="button-inscription" href="formulcuisine.php" class="btn btn-warning btn-lg active" role="button" title="Inscription">S'inscrire</a>
                             </div>
                         </div>
                     </div>
