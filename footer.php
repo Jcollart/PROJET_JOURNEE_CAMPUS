@@ -11,8 +11,7 @@
   <meta name="description" content="description du site en max 3 phrases courtes -156 carac">
   <!-- Si vous voulez une favicon enregistrez-la dans le même répertoire que la page
     d'index du site, sous le format .ico pour compatibilié IE6 et linkez la-->
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
-        integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    
 
  
   <!-- Tout les liens -->
