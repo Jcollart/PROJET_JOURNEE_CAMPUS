@@ -574,31 +574,16 @@
                             <div class="col-md-8">
                                 <div class="card-body">
                                     <h5 class="card-title">Qu'est-ce que c'est?</h5>
-                                    <p class="card-text"> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam
-                                        vitae
-                                        interdum mi. Proin semper vel turpis sed tempus. Vivamus sollicitudin diam ut
-                                        dolor iaculis,
-                                        in dignissim quam scelerisque. Vivamus ut ex pellentesque, iaculis ipsum varius,
-                                        consequat
-                                        erat. Morbi vulputate magna purus, a efficitur justo vestibulum sit amet. Donec
-                                        viverra id
-                                        felis eget accumsan. Aliquam sit amet cursus nisl. Aenean eu luctus tellus.
-                                        Morbi imperdiet
-                                        nulla in mauris dignissim, eget maximus dolor tempus. Quisque rutrum sem at
-                                        turpis pharetra
-                                        imperdiet.
+                                    <p class="card-text"> La Rentrée des Etudiants est une journée d'intégration ouverte à tous les étudiants du territoire. C’EST LA JOURNEE DES ETUDIANTS !!!
 
-                                        Nam pretium enim vel est bibendum luctus. Maecenas porttitor ultrices massa ut
-                                        fermentum.
-                                        Aliquam feugiat urna et semper posuere. Sed mollis, orci non lobortis sodales,
-                                        nibh justo
-                                        sollicitudin enim, quis accumsan ex velit aliquam purus. Donec non magna sit
-                                        amet dui
-                                        ultricies sodales sit amet eget dui. Integer faucibus malesuada placerat. Donec
-                                        ullamcorper
-                                        laoreet faucibus. Pellentesque risus nisi, porttitor nec posuere eget, sagittis
-                                        nec nisl.
-                                        Morbi iaculis augue sed malesuada blandit. </p>
+A l'initiative de la Ville de Charleville-Mézières et en partenariat avec les associations étudiantes, cette manifestation vise à souhaiter la bienvenue à tous les étudiants du territoire ! Cette journée est une occasion festive, ludique, sportive et culturelle de découvrir la ville, de rencontrer d'autres étudiants issus des différents établissements du territoire.
+
+Plusieurs activités sont proposées aux étudiants durant la journée. De nombreux lots sont à gagner pour les équipes gagnantes. C'est aussi, à cette occasion, que le « Chéquier étudiant » est distribué. Il s'agit d'un chéquier proposant des offres promotionnelles & des avantages aux étudiants du territoire. 
+
+Cette manifestation témoigne de la volonté de tous les acteurs de développer une politique d’accueil et d’animation pour les étudiants.
+
+Bien évidemment, les manifestations ne sont pas payantes. 
+</p>
                                 </div>
                             </div>
                         </div>
@@ -614,31 +599,9 @@
                             <div class="col-md-8">
                                 <div class="card-body">
                                     <h5 class="card-title">C'est pour qui?</h5>
-                                    <p class="card-text"> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam
-                                        vitae
-                                        interdum mi. Proin semper vel turpis sed tempus. Vivamus sollicitudin diam ut
-                                        dolor iaculis,
-                                        in dignissim quam scelerisque. Vivamus ut ex pellentesque, iaculis ipsum varius,
-                                        consequat
-                                        erat. Morbi vulputate magna purus, a efficitur justo vestibulum sit amet. Donec
-                                        viverra id
-                                        felis eget accumsan. Aliquam sit amet cursus nisl. Aenean eu luctus tellus.
-                                        Morbi imperdiet
-                                        nulla in mauris dignissim, eget maximus dolor tempus. Quisque rutrum sem at
-                                        turpis pharetra
-                                        imperdiet.
-
-                                        Nam pretium enim vel est bibendum luctus. Maecenas porttitor ultrices massa ut
-                                        fermentum.
-                                        Aliquam feugiat urna et semper posuere. Sed mollis, orci non lobortis sodales,
-                                        nibh justo
-                                        sollicitudin enim, quis accumsan ex velit aliquam purus. Donec non magna sit
-                                        amet dui
-                                        ultricies sodales sit amet eget dui. Integer faucibus malesuada placerat. Donec
-                                        ullamcorper
-                                        laoreet faucibus. Pellentesque risus nisi, porttitor nec posuere eget, sagittis
-                                        nec nisl.
-                                        Morbi iaculis augue sed malesuada blandit. </p>
+                                    <p class="card-text"> Cette journée est proposée à tous les étudiants du territoire de Charleville-Mézières jusqu’à Sedan. Tous les étudiants qui entament ou poursuivent une formation post bac sur le territoire peuvent participer à cette manifestation.
+Venez nombreux !
+</p>
                                 </div>
                             </div>
                         </div>
@@ -653,31 +616,7 @@
                             <div class="col-md-8">
                                 <div class="card-body">
                                     <h5 class="card-title">C'est quand?</h5>
-                                    <p class="card-text"> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam
-                                        vitae
-                                        interdum mi. Proin semper vel turpis sed tempus. Vivamus sollicitudin diam ut
-                                        dolor iaculis,
-                                        in dignissim quam scelerisque. Vivamus ut ex pellentesque, iaculis ipsum varius,
-                                        consequat
-                                        erat. Morbi vulputate magna purus, a efficitur justo vestibulum sit amet. Donec
-                                        viverra id
-                                        felis eget accumsan. Aliquam sit amet cursus nisl. Aenean eu luctus tellus.
-                                        Morbi imperdiet
-                                        nulla in mauris dignissim, eget maximus dolor tempus. Quisque rutrum sem at
-                                        turpis pharetra
-                                        imperdiet.
-
-                                        Nam pretium enim vel est bibendum luctus. Maecenas porttitor ultrices massa ut
-                                        fermentum.
-                                        Aliquam feugiat urna et semper posuere. Sed mollis, orci non lobortis sodales,
-                                        nibh justo
-                                        sollicitudin enim, quis accumsan ex velit aliquam purus. Donec non magna sit
-                                        amet dui
-                                        ultricies sodales sit amet eget dui. Integer faucibus malesuada placerat. Donec
-                                        ullamcorper
-                                        laoreet faucibus. Pellentesque risus nisi, porttitor nec posuere eget, sagittis
-                                        nec nisl.
-                                        Morbi iaculis augue sed malesuada blandit. </p>
+                                    <p class="card-text"> La Rentrée des Etudiants 2019 aura lieu le jeudi 3 octobre prochain ! Prenez date . </p>
                                 </div>
                             </div>
                         </div>
@@ -692,31 +631,9 @@
                             <div class="col-md-8">
                                 <div class="card-body">
                                     <h5 class="card-title">C'est où?</h5>
-                                    <p class="card-text"> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam
-                                        vitae
-                                        interdum mi. Proin semper vel turpis sed tempus. Vivamus sollicitudin diam ut
-                                        dolor iaculis,
-                                        in dignissim quam scelerisque. Vivamus ut ex pellentesque, iaculis ipsum varius,
-                                        consequat
-                                        erat. Morbi vulputate magna purus, a efficitur justo vestibulum sit amet. Donec
-                                        viverra id
-                                        felis eget accumsan. Aliquam sit amet cursus nisl. Aenean eu luctus tellus.
-                                        Morbi imperdiet
-                                        nulla in mauris dignissim, eget maximus dolor tempus. Quisque rutrum sem at
-                                        turpis pharetra
-                                        imperdiet.
-
-                                        Nam pretium enim vel est bibendum luctus. Maecenas porttitor ultrices massa ut
-                                        fermentum.
-                                        Aliquam feugiat urna et semper posuere. Sed mollis, orci non lobortis sodales,
-                                        nibh justo
-                                        sollicitudin enim, quis accumsan ex velit aliquam purus. Donec non magna sit
-                                        amet dui
-                                        ultricies sodales sit amet eget dui. Integer faucibus malesuada placerat. Donec
-                                        ullamcorper
-                                        laoreet faucibus. Pellentesque risus nisi, porttitor nec posuere eget, sagittis
-                                        nec nisl.
-                                        Morbi iaculis augue sed malesuada blandit. </p>
+                                    <p class="card-text">La manifestation se déroule sur la Ville de Charleville-Mézières à plusieurs endroits en fonction des activités de la journée.
+A titre d’exemple, le « Carolo Express » vise à la découverte des lieux saillants de la ville, plusieurs activités auront lieu également sur la Plaine du Mont Olympe ou sur la Place Ducale.
+. </p>
 
                                 </div>
                             </div>
@@ -764,24 +681,22 @@
                         <div id="collapseOne" class="collapse" aria-labelledby="headingOne"
                             data-parent="#accordionExample">
                             <div class="card-body">
-                                <p>Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry
-                                    richardson ad
-                                    squid.
-                                    3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck
-                                    quinoa
-                                    nesciunt
-                                    laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid
-                                    single-origin
-                                    coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer
-                                    labore
-                                    wes
-                                    anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice
-                                    lomo.
-                                    Leggings
-                                    occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you
-                                    probably
-                                    haven't heard
-                                    of them accusamus labore sustainable VHS.
+                                <p>A travers les rues de Charleville-Mézières, le Carolo Express permet aux étudiants de découvrir la ville autrement avec ses moments incontournables et de nombreux lieux insolites ou méconnus.
+Etes-vous déjà entré au sein de la TOUR DU ROY ?
+
+Le parcours est composé d’environ 15 étapes. Sur chaque étape, une énigme ou une mise en situation sera demandée. 
+
+Les équipes qui auront découvert les lieux le plus rapidement possible remporteront cette course d’orientation. Le parcours du Carolo Express doit, bien évidemment, se faire à pied (sinon, c’est trop facile ). #SORS TES BASKETS
+
+Afin de participer à cette manifestation, il est nécessaire au préalable de composer une équipe de 5 personnes. 
+
+Informations pratiques :
+
+Horaires de la manifestation : 9h30-12h30
+Départ : Place d’Arches
+Arrivée : Place Ducale
+Info + : pensez à prendre des baskets car vous allez crapahuter !
+
                                 </p>
                                 <button type="button" class="btn btn-dark">S'inscrire</button>
                             </div>
@@ -799,24 +714,19 @@
                         <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo"
                             data-parent="#accordionExample">
                             <div class="card-body">
-                                <p>Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry
-                                    richardson ad
-                                    squid.
-                                    3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck
-                                    quinoa
-                                    nesciunt
-                                    laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid
-                                    single-origin
-                                    coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer
-                                    labore
-                                    wes
-                                    anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice
-                                    lomo.
-                                    Leggings
-                                    occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you
-                                    probably
-                                    haven't heard
-                                    of them accusamus labore sustainable VHS.
+                                <p>Afin qu’on puisse passer tous ensemble une pause déjeuner conviviale, vous avez soit la possibilité de venir avec votre déjeuner, des chaises et des tables seront à disposition sur un espace de la Plaine du Mont Olympe.
+Soit, vous avez la possibilité de profiter d’une formule déjeuner à 2.5€ (au lieu de 4€) pour les 200 premiers les plus rapides !!
+
+La formule sera composée d’un burger, d’une frite et d’une boisson !
+
+Afin de bénéficier du repas à 2.5€, il est impératif de réserver votre repas ! Vous paierez sur place le jour J ! #NE TARDEZ PAS A RESERVER
+
+Informations pratiques :
+
+Horaires de la manifestation :
+Lieu : Plaine du Mont Olympe
+Info + : n’oubliez pas de prendre de la monnaie
+.
                                 </p>
                                 <button type="button" class="btn btn-dark">S'inscrire</button>
                             </div>
@@ -834,24 +744,28 @@
                         <div id="collapseThree" class="collapse" aria-labelledby="headingThree"
                             data-parent="#accordionExample">
                             <div class="card-body">
-                                <p>Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry
-                                    richardson ad
-                                    squid.
-                                    3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck
-                                    quinoa
-                                    nesciunt
-                                    laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid
-                                    single-origin
-                                    coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer
-                                    labore
-                                    wes
-                                    anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice
-                                    lomo.
-                                    Leggings
-                                    occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you
-                                    probably
-                                    haven't heard
-                                    of them accusamus labore sustainable VHS.
+                                <p>Carolo Warrior est un relais sportif composé de nombreuses activités sportives et/ou ludiques. Plusieurs activités composent le relais, à savoir :
+
+<li>raversée en canoë/kayak</li>
+<li>Slackline</li> 
+<li>Lancers francs de basket</li></li>
+<li>Tir à l’arc</li>
+<li>Pédalo de cirque</li>
+<li>Frisbee</li>
+<li>Parcours sac à patates</li>
+<li>Blind Foot</li> 
+<li>Course</li>
+<li>Activité aquatique</li> 
+<li>Course & passage d’obstacles</li>
+
+Afin de participer à cette manifestation, il est nécessaire au préalable de composer une équipe de 8 personnes. 
+
+Informations pratiques :
+
+Horaires de la manifestation :
+Lieu : Plaine du Mont Olympe
+Info + : pensez à prendre une tenue de sport
+
                                 </p>
                                 <button type="button" class="btn btn-dark">S'inscrire</button>
                             </div>
@@ -869,24 +783,20 @@
                         <div id="collapseFour" class="collapse" aria-labelledby="headingFour"
                             data-parent="#accordionExample">
                             <div class="card-body">
-                                <p>Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry
-                                    richardson ad
-                                    squid.
-                                    3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck
-                                    quinoa
-                                    nesciunt
-                                    laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid
-                                    single-origin
-                                    coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer
-                                    labore
-                                    wes
-                                    anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice
-                                    lomo.
-                                    Leggings
-                                    occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you
-                                    probably
-                                    haven't heard
-                                    of them accusamus labore sustainable VHS.
+                                <p>Pour ceux qui aiment cuisiner ou tout simplement ceux qui veulent se lancer un challenge, un Concours de cuisine sera proposé sur la Place Ducale en partenariat avec l’association INTERCampus.
+Sur la base de quelques ingrédients, vous devrez concocter un bon petit plat !
+
+Plusieurs équipes s’affronteront. Le matériel minimum nécessaire vous sera mis à disposition.
+
+Un jury à la fin notera et goûtera, pour le meilleur ou pour le pire, vos préparations  #MERCOTTE
+
+Afin de participer à cette manifestation, il est nécessaire au préalable de composer une équipe de 2 personnes.
+
+Informations pratiques :
+
+Horaires de la manifestation :
+Lieu : Place Ducale
+.
                                 </p>
                                 <button type="button" class="btn btn-dark">S'inscrire</button>
                             </div>
@@ -1018,14 +928,8 @@
                         <div class="row no-gutters">
                             <div class="col-md-12">
                                 <div class="card-body">
-                                    <p class="card-text"> "Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                                        Etiam
-                                        vitae
-                                        interdum mi. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                                        Etiam
-                                        vitae
-                                        interdum mi."" </p>
-                                    <p class="card-text"><small class="text-muted">Romain</small></p>
+                                    <p class="card-text"> «  Une amie m’a convaincu et je n’ai pas regretté. J’ai rencontré d’autres étudiants, c’était sympa ce brassage. Je n’ai pas pu faire les activités mais j’ai encouragé les équipes de mon école et on a gagné ;) » </p>
+                                    <p class="card-text"><small class="text-muted">Mareme  – 18 ans</small></p>
                                 </div>
                             </div>
                         </div>
@@ -1036,15 +940,8 @@
                         <div class="row no-gutters">
                             <div class="col-md-12">
                                 <div class="card-body align-items-center">
-                                    <p class="card-text"> "Proin semper vel turpis sed tempus. Vivamus sollicitudin diam
-                                        ut
-                                        dolor iaculis,
-                                        in dignissim quam scelerisque. Proin semper vel turpis sed tempus. Vivamus
-                                        sollicitudin diam
-                                        ut
-                                        dolor iaculis,
-                                        in dignissim quam scelerisque."</p>
-                                    <p class="card-text"><small class="text-muted">Benoit</small></p>
+                                    <p class="card-text"> «  J’ai apprécié cette journée et toutes les villes devraient organiser ce genre de manifestation pour les étudiants. Moi j’ai participé au Carolo Express, c’était fun ! »</p>
+                                    <p class="card-text"><small class="text-muted">Jérémy – 21 ans</small></p>
                                 </div>
                             </div>
                         </div>
@@ -1055,15 +952,20 @@
                         <div class="row no-gutters">
                             <div class="col-md-12">
                                 <div class="card-body">
-                                    <p class="card-text"> "Morbi vulputate magna purus, a efficitur justo vestibulum sit
-                                        amet. Donec
-                                        viverra id
-                                        felis eget accumsan. Morbi vulputate magna purus, a efficitur justo vestibulum
-                                        sit
-                                        amet. Donec
-                                        viverra id
-                                        felis eget accumsan."</p>
-                                    <p class="card-text"><small class="text-muted">Micheline</small></p>
+                                    <p class="card-text"> «  Superbe journée ! J’ai notamment adoré le Carolo Express qui m’a permis de découvrir des lieux que je ne connaissais pas à Charleville, c’était super intéressant. Je recommande sans problème ! »</p>
+                                    <p class="card-text"><small class="text-muted">Claire - 19ans</small></p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="card mb-4">
+                        <div class="row no-gutters">
+                            <div class="col-md-12">
+                                <div class="card-body align-items-center">
+                                    <p class="card-text"> «  TOP !!! Je compte bien me réinscrire cette année… et gagner le GROS LOT  #GUIGUI MONEY FROM NEUILLY»</p>
+                                    <p class="card-text"><small class="text-muted">Jaahed – 19 ans</small></p>
                                 </div>
                             </div>
                         </div>
@@ -1085,7 +987,7 @@
 
     <!--/////////////////////FOOTER///////////////////////-->
 
-    <?php include("footer.php") ; ?>
+    <?php include("footer1.php") ; ?>
 
 
 
