@@ -184,7 +184,7 @@ color:#FB9F15;
     position: absolute;
     height: 25vh;
     content: '';
-    background-color: inherit;
+    background: inherit;
     top: -4em;
     right: 0;
     bottom: 0;
