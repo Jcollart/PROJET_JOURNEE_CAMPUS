@@ -14,6 +14,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/galeriecampus.css">
 
     <!-- LOAD JQUERY LIBRARY -->
     <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.js"></script>
@@ -656,12 +657,12 @@ A titre d’exemple, le « Carolo Express » vise à la découverte des lieux sa
     <!--/////////////////////SECTION NOUVELLE EDITION///////////////////////-->
 
     <section class="new_edition" id="new_edition">
-        <h1>EDITION 2019</h1>
+        <h1>EDITION 2019</h1></br>
         <p>
             <!-- Bouton ouvrant l'accordéon -->
-            <button class="btn btn-warning" id ="button1" type="button" data-toggle="collapse" data-target="#collapseExample"
-                aria-expanded="false" aria-controls="collapseExample">
-                DECOUVREZ LE PROGRAMME
+            <button class="btn btn-danger btn-circle btn-lg" id ="button1" type="button" data-toggle="collapse" data-target="#collapseExample"
+                aria-expanded="false" aria-controls="collapseExample"><span class="fa fa-chevron-down" ></span>
+                
             </button>
         </p>
         <div class="collapse" id="collapseExample">
@@ -914,7 +915,41 @@ Lieu : Place Ducale
 
     <!--/////////////////////SECTION ANCIENNE EDITION///////////////////////-->
 
-    <section class=ancienne_edition>EDITION 2018</section>
+    <section class=ancienne_edition>EDITION 2018
+
+    <div section="galery">
+  <div class="thumb">
+    <!-- Image -->
+    <a href="index.php">
+      <!-- Label -->
+      <span>CAROLO EXPRESS</span>
+    </a>
+  </div>
+
+  <div class="thumb">
+    <!-- Image>-->
+    <a id="un" href="index.php">
+      <!--< Label-->
+      <span>PIQUE-NIQUE</span>
+    </a>
+  </div>
+
+ <div class="thumb">
+   
+    <a id="deux" href="galerie.php">
+      <span>CAROLO WARRIOR</span>
+    </a>
+  </div>
+
+  <div class="thumb">
+    
+       <a id="trois" href="galerie.php">
+         <span>CAROLO CUISINE</span>
+       </a>
+     </div>
+    
+    
+    </section>
 
 
 

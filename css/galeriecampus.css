@@ -1,16 +1,10 @@
 /*custom font - Montserrat*/
 @import url(http://fonts.googleapis.com/css?family=Montserrat);
-/*basic reset*/
-* {margin: 0; padding: 0;}
-/*forcing the body to take 100% height*/
-html, body {min-height: 25%;}
-/*a nice BG*/
-body {
-	background: #544; /*fallback*/
-	background: linear-gradient(#544, #565);
-}
+
 .galery {
-	display: flex;
+	display:flex;
+    flex-direction:row;
+    flex-direction: left;
 	flex-flow: row wrap;
 } 
 

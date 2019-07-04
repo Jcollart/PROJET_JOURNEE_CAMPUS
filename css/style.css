@@ -11,16 +11,22 @@ body {
     overflow-x: hidden;
     text-align: center;
 }
+<<<<<<< HEAD
 p{
     overflow: hidden;
 }
 
+=======
+
+p{
+    overflow: hidden;
+}
+>>>>>>> 776e77bf5c9be44c51e525180d93b2216a5db9d2
 
 /******* SECTION ENTETE *******/
 .entete {
     height: 100vh;
-    background-color: orange;
-    background-image: url(../img/fond.jpg);
+    background-color: orangered background-image: url(../img/fond.jpg);
     background-repeat: repeat;
     background-size: cover;
     z-index: 1;
@@ -85,7 +91,9 @@ p{
     align-items: center;
 }
 
-.col-md-8>.card-body>.card-text{
+
+
+.col-md-8>.card-body>.card-text {
     text-align: left;
 }
 
@@ -93,13 +101,20 @@ p{
 .carousel-control-prev {
     z-index: 5;
 }
+    
 
 .carousel-control-next-icon,
 .carousel-control-prev-icon {
     width: 40px !important;
-    height: 40px !important;
-    background-color: orangered;
-    border-radius: 50%;
+    height: 40px !important;    
+}
+
+.carousel-control-prev-icon {
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' fill='%23000' viewBox='0 0 8 8'%3e%3cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3e%3c/svg%3e")
+}
+
+.carousel-control-next-icon {
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' fill='%23000' viewBox='0 0 8 8'%3e%3cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3e%3c/svg%3e")
 }
 
 /******** SECTION NOUVELLE EDITION *********/
@@ -110,6 +125,11 @@ p{
     /*background-image: url(../img/fond.jpg);
     background-size: cover;*/
     padding-top: 1em;
+    background: #FB9F15;
+    background: -moz-linear-gradient(left, #FB9F15 0%, #F4552B 100%);
+    background: -webkit-linear-gradient(left, #FB9F15 0%, #F4552B 100%);
+    background: linear-gradient(to right, #FB9F15 0%, #F4552B 100%);
+    padding-top: 4em;
 }
 .btn-circle {
     width: 3.500rem;
@@ -134,11 +154,18 @@ p{
 color:#FB9F15;
   }
 #collapseExample>.card.card-body {
+<<<<<<< HEAD
     background-color: #FB9F15;
+=======
+    background: #FB9F15;
+    background: -moz-linear-gradient(left, #FB9F15 0%, #F4552B 100%);
+    background: -webkit-linear-gradient(left, #FB9F15 0%, #F4552B 100%);
+    background: linear-gradient(to right, #FB9F15 0%, #F4552B 100%);
+>>>>>>> 776e77bf5c9be44c51e525180d93b2216a5db9d2
     border: 0px solid rgba(0, 0, 0, .125);
 }
 
-#button-inscription{
+#button-inscription {
     margin-top: 1em;
 }
 
@@ -156,7 +183,10 @@ color:#FB9F15;
 .temoignages {
     height: 25vh;
     position: relative;
-    background-color: orangered;
+    background: #FB9F15;
+    background: -moz-linear-gradient(left, #FB9F15 0%, #F4552B 100%);
+    background: -webkit-linear-gradient(left, #FB9F15 0%, #F4552B 100%);
+    background: linear-gradient(to right, #FB9F15 0%, #F4552B 100%);
 }
 
 .temoignages:after {
@@ -172,6 +202,11 @@ color:#FB9F15;
     transform: skewY(-2deg);
 }
 
+.temoignages p{
+    color: white;
+    padding-bottom: 1em;
+}
+
 #carouselTemoignages {
     height: 25vh;
 }
@@ -185,8 +220,16 @@ color:#FB9F15;
     border: 0px solid rgba(0, 0, 0, .125);
     display: flex;
     justify-content: center;
-    background-color: orangered;
+    background-color:transparent;
 
+}
+
+#carousel-control-prev-icon {
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' fill='%23fff' viewBox='0 0 8 8'%3e%3cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3e%3c/svg%3e")
+}
+
+#carousel-control-next-icon {
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' fill='%23fff' viewBox='0 0 8 8'%3e%3cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3e%3c/svg%3e")
 }
 
 /*.footer{
