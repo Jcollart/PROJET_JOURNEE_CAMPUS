@@ -3,8 +3,8 @@ html{
 }
 
 body {
-  background: url(../img/fond.jpg) no-repeat ;
-  background: url(../img/eclair.png) no-repeat ;
+  background: url(../img/mascotte.png) no-repeat left,
+   url(../img/eclair.png) no-repeat center;
   background-size: cover;
 }
 .form {

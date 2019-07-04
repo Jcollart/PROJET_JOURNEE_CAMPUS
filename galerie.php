@@ -485,7 +485,7 @@
     </a>
   </div>
 
- <?php include("footer.php"); ?> 
+ <?php include("footer1.php"); ?> 
 
 
   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
