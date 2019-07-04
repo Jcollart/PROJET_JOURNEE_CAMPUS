@@ -11,7 +11,9 @@ body {
     overflow-x: hidden;
     text-align: center;
 }
-
+p{
+    overflow: hidden;
+}
 
 
 /******* SECTION ENTETE *******/
@@ -104,15 +106,35 @@ body {
 .new_edition {
     position: relative;
     min-height: 30vh;
-    background-color: orangered;
+    background-color: #FB9F15;
     /*background-image: url(../img/fond.jpg);
     background-size: cover;*/
-    padding-top: 4em;
+    padding-top: 1em;
 }
-
-
+.btn-circle {
+    width: 3.500rem;
+    height: 3.500rem;
+    text-align: center;
+    padding: 0.375rem 0;
+    font-size: 3rem;
+    line-height: 1.428571429;
+    border-radius: 1.876rem;
+    background-color: black;
+  }
+  .btn-circle.btn-lg {
+    width: 6rem;
+    height: 6rem;
+    padding: 0.625rem 1rem;
+    font-size: 4.5rem;
+    line-height: 1.33;
+    border-radius: 3.126rem;
+    background-color: rgb(255, 239, 9);
+  }
+  .fa.fa-chevron-down{
+color:#FB9F15;
+  }
 #collapseExample>.card.card-body {
-    background-color: orangered;
+    background-color: #FB9F15;
     border: 0px solid rgba(0, 0, 0, .125);
 }
 
