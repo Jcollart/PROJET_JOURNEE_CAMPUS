@@ -204,7 +204,7 @@
 
                                 <!-- LAYER NR. 8 -->
                                 <a class="tp-caption   tp-resizeme"
-                                    href="https://revolution.themepunch.com/direct-customer-benefits/" target="_blank"
+                                    href="#new_edition" target="_self"
                                     id="slide-32-layer-16" data-x="['center','center','center','center']"
                                     data-hoffset="['0','0','0','0']" data-y="['bottom','bottom','bottom','bottom']"
                                     data-voffset="['230','210','310','310']" data-fontsize="['25','25','25','20']"
@@ -655,11 +655,11 @@ A titre d’exemple, le « Carolo Express » vise à la découverte des lieux sa
 
     <!--/////////////////////SECTION NOUVELLE EDITION///////////////////////-->
 
-    <section class=new_edition>
+    <section class="new_edition" id="new_edition">
         <h1>EDITION 2019</h1>
         <p>
             <!-- Bouton ouvrant l'accordéon -->
-            <button class="btn btn-warning" type="button" data-toggle="collapse" data-target="#collapseExample"
+            <button class="btn btn-warning" type="button"  data-toggle="collapse" data-target="#collapseExample"
                 aria-expanded="false" aria-controls="collapseExample">
                 DECOUVREZ LE PROGRAMME
             </button>
