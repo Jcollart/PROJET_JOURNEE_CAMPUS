@@ -914,7 +914,15 @@ Lieu : Place Ducale
 
     <!--/////////////////////SECTION ANCIENNE EDITION///////////////////////-->
 
-    <section class=ancienne_edition>EDITION 2018</section>
+    <section class=ancienne_edition>EDITION 2018
+   <div class="anciennephoto">
+  <div><a href="galerie.php"><img src="img/JournéeEtudiants/Journée accueil Etudiants 27 09 2018 (126).jpg" class="img-fluid" alt=""></a></div>
+  <div><a href="galerie.php"><img src="img/JournéeEtudiants/Journée accueil Etudiants 27 09 2018 (18).jpg" class="img-fluid" alt=""></a></div>
+  <div><a href="galerie.php"><img src="img/JournéeEtudiants/Journée accueil Etudiants 27 09 2018 (13).jpg" class="img-fluid" alt=""></a></div>
+  <div><a href="galerie.php"><img src="img/JournéeEtudiants/Journée accueil Etudiants 27 09 2018 (42).jpg" class="img-fluid" alt=""></a></div>
+  <div><a href="galerie.php"><img src="img/JournéeEtudiants/Journée accueil Etudiants 27 09 2018 (27).jpg" class="img-fluid" alt=""></a></div>
+  </div>
+    </section>
 
 
 

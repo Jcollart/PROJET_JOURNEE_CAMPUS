@@ -53,7 +53,7 @@
           <a class="nav-link" href="galerie.php">GALERIE PHOTO</a>
         </li>  
         <li class="nav-item">  
-          <a class="nav-link" href="#"><img id="logocm" src="img/Logos/logomairie.png" alt="logocm"/></a>
+          <a class="nav-link" href="#"><img id="logocm" src="img/Logos/logomairieCM.png" alt="logocm"/></a>
         </li>
       </ul>
       <form class="form-inline my-2 my-lg-0">

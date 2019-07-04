@@ -130,7 +130,7 @@ p{
     width: 3.500rem;
     height: 3.500rem;
     text-align: center;
-    padding: 0.375rem 0;
+    padding: 0.75rem 1rem;
     font-size: 3rem;
     line-height: 1.428571429;
     border-radius: 1.876rem;
@@ -163,9 +163,25 @@ color:#FB9F15;
 
 
 /******* SECTION ANCIENNE EDITION ********/
-.ancienne_edition {
+.ancienne.edition {
     height: 50vh;
     background-color: white;
+    padding:1rem;
+}
+.anciennephoto { 
+    width:auto;
+    height: 50vh;      
+    display:flex;
+    flex-direction:row;
+    flex-direction: center;
+    grid-auto-rows: minmax(200px, auto);
+    align-items: center;
+}
+.anciennephoto img{
+    width:100px;
+    height:100px;
+    margin:5px;
+
 }
 
 
@@ -222,8 +238,3 @@ color:#FB9F15;
 #carousel-control-next-icon {
     background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' fill='%23fff' viewBox='0 0 8 8'%3e%3cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3e%3c/svg%3e")
 }
-
-/*.footer{
-    background-color: black;
-    height: 25vh;
-}*/
