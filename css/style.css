@@ -113,6 +113,11 @@ body {
 
 #collapseExample>.card.card-body {
     background-color: orangered;
+    border: 0px solid rgba(0, 0, 0, .125);
+}
+
+#button-inscription{
+    margin-top: 1em;
 }
 
 
