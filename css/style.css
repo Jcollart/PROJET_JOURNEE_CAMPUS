@@ -19,7 +19,8 @@ p{
 /******* SECTION ENTETE *******/
 .entete {
     height: 100vh;
-    background-color: orangered background-image: url(../img/fond.jpg);
+    background-color: orangered; 
+    background-image: url(../img/fond.jpg);
     background-repeat: repeat;
     background-size: cover;
     z-index: 1;
