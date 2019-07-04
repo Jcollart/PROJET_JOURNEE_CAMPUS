@@ -659,9 +659,9 @@ A titre d’exemple, le « Carolo Express » vise à la découverte des lieux sa
         <h1>EDITION 2019</h1>
         <p>
             <!-- Bouton ouvrant l'accordéon -->
-            <button class="btn btn-warning" type="button"  data-toggle="collapse" data-target="#collapseExample"
-                aria-expanded="false" aria-controls="collapseExample">
-                DECOUVREZ LE PROGRAMME
+            <button class="btn btn-danger btn-circle btn-lg" id ="button1" type="button" data-toggle="collapse" data-target="#collapseExample"
+                aria-expanded="false" aria-controls="collapseExample"><span class="fa fa-chevron-down" ></span>
+                
             </button>
         </p>
         <div class="collapse" id="collapseExample">

@@ -11,17 +11,10 @@ body {
     overflow-x: hidden;
     text-align: center;
 }
-<<<<<<< HEAD
 p{
     overflow: hidden;
 }
 
-=======
-
-p{
-    overflow: hidden;
-}
->>>>>>> 776e77bf5c9be44c51e525180d93b2216a5db9d2
 
 /******* SECTION ENTETE *******/
 .entete {
@@ -154,14 +147,10 @@ p{
 color:#FB9F15;
   }
 #collapseExample>.card.card-body {
-<<<<<<< HEAD
-    background-color: #FB9F15;
-=======
     background: #FB9F15;
     background: -moz-linear-gradient(left, #FB9F15 0%, #F4552B 100%);
     background: -webkit-linear-gradient(left, #FB9F15 0%, #F4552B 100%);
     background: linear-gradient(to right, #FB9F15 0%, #F4552B 100%);
->>>>>>> 776e77bf5c9be44c51e525180d93b2216a5db9d2
     border: 0px solid rgba(0, 0, 0, .125);
 }
 
