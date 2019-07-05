@@ -12,7 +12,7 @@ body {
     text-align: center;
 }
 
-p{
+p {
     overflow: hidden;
 }
 
@@ -20,7 +20,11 @@ p{
 /******* SECTION ENTETE *******/
 .entete {
     height: 100vh;
-    background-color: orangered; 
+    background-color: #FB9F15;
+    background: #FB9F15;
+    background: -moz-linear-gradient(left, #FB9F15 0%, #F4552B 100%);
+    background: -webkit-linear-gradient(left, #FB9F15 0%, #F4552B 100%);
+    background: linear-gradient(to right, #FB9F15 0%, #F4552B 100%);
     background-image: url(../img/fond.jpg);
     background-repeat: repeat;
     background-size: cover;
@@ -37,13 +41,13 @@ p{
 /******* PRESENTATION ********/
 .presentation {
     position: relative;
-    height: 70vh;
+    height: 50vh;
     background-color: white;
 }
 
 .presentation:after {
     position: absolute;
-    height: 70vh;
+    height: 50vh;
     content: '';
     background-color: inherit;
     top: -4em;
@@ -55,7 +59,7 @@ p{
 }
 
 .carousel-item {
-    height: 70vh;
+    height: 50vh;
     margin-left: 0%;
     margin-right: -100% !important;
     padding-left: 10%;
@@ -67,7 +71,7 @@ p{
 
 .carousel-item>.card.mb-3 {
     padding: 2em;
-    height: 70vh;
+    height: 50vh;
     border: 0px solid rgba(0, 0, 0, .125);
     justify-content: center;
 }
@@ -96,12 +100,12 @@ p{
 .carousel-control-prev {
     z-index: 5;
 }
-    
+
 
 .carousel-control-next-icon,
 .carousel-control-prev-icon {
     width: 40px !important;
-    height: 40px !important;    
+    height: 40px !important;
 }
 
 .carousel-control-prev-icon {
@@ -117,15 +121,13 @@ p{
     position: relative;
     min-height: 30vh;
     background-color: #FB9F15;
-    /*background-image: url(../img/fond.jpg);
-    background-size: cover;*/
-    padding-top: 1em;
     background: #FB9F15;
     background: -moz-linear-gradient(left, #FB9F15 0%, #F4552B 100%);
     background: -webkit-linear-gradient(left, #FB9F15 0%, #F4552B 100%);
     background: linear-gradient(to right, #FB9F15 0%, #F4552B 100%);
     padding-top: 1em;
 }
+
 .btn-circle {
     width: 3.500rem;
     height: 3.500rem;
@@ -135,8 +137,9 @@ p{
     line-height: 1.428571429;
     border-radius: 1.876rem;
     background-color: black;
-  }
-  .btn-circle.btn-lg {
+}
+
+.btn-circle.btn-lg {
     width: 6rem;
     height: 6rem;
     padding: 0.625rem 1rem;
@@ -144,10 +147,12 @@ p{
     line-height: 1.33;
     border-radius: 3.126rem;
     background-color: rgb(255, 239, 9);
-  }
-  .fa.fa-chevron-down{
-color:#FB9F15;
-  }
+}
+
+.fa.fa-chevron-down {
+    color: #FB9F15;
+}
+
 #collapseExample>.card.card-body {
     background: #FB9F15;
     background: -moz-linear-gradient(left, #FB9F15 0%, #F4552B 100%);
@@ -164,25 +169,23 @@ color:#FB9F15;
 
 /******* SECTION ANCIENNE EDITION ********/
 .ancienne.edition {
-    height: 50vh;
     background-color: white;
-    padding:1rem;
 }
-.anciennephoto { 
-    width:auto;
-    height: 50vh;      
-    display:flex;
-    flex-direction:row;
-    flex-direction: center;
-    grid-auto-rows: minmax(200px, auto);
-    align-items: center;
-}
-.anciennephoto img{
-    width:100px;
-    height:100px;
-    margin:5px;
-    float:left;
 
+.anciennephoto {
+    min-height: 45vh;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 4em;
+}
+
+.anciennephoto img {
+    width: 20em;
+    height: auto;
+    margin: 1em;
+    border-radius: 5px;
 }
 
 
@@ -210,7 +213,7 @@ color:#FB9F15;
     transform: skewY(-2deg);
 }
 
-.temoignages p{
+.temoignages p {
     color: white;
     padding-bottom: 1em;
 }
@@ -228,7 +231,7 @@ color:#FB9F15;
     border: 0px solid rgba(0, 0, 0, .125);
     display: flex;
     justify-content: center;
-    background-color:transparent;
+    background-color: transparent;
 
 }
 
