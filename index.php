@@ -203,8 +203,7 @@
                                 </div>
 
                                 <!-- LAYER NR. 8 -->
-                                <a class="tp-caption   tp-resizeme"
-                                    href="#new_edition" target="_self"
+                                <a class="tp-caption   tp-resizeme" href="#new_edition" target="_self"
                                     id="slide-32-layer-16" data-x="['center','center','center','center']"
                                     data-hoffset="['0','0','0','0']" data-y="['bottom','bottom','bottom','bottom']"
                                     data-voffset="['230','210','310','310']" data-fontsize="['25','25','25','20']"
@@ -574,16 +573,25 @@
                             <div class="col-md-8">
                                 <div class="card-body">
                                     <h5 class="card-title">Qu'est-ce que c'est?</h5>
-                                    <p class="card-text"> La Rentrée des Etudiants est une journée d'intégration ouverte à tous les étudiants du territoire. C’EST LA JOURNEE DES ETUDIANTS !!!
+                                    <p class="card-text"> La Rentrée des Etudiants est une journée d'intégration ouverte
+                                        à tous les étudiants du territoire. C’EST LA JOURNEE DES ETUDIANTS !!!
 
-A l'initiative de la Ville de Charleville-Mézières et en partenariat avec les associations étudiantes, cette manifestation vise à souhaiter la bienvenue à tous les étudiants du territoire ! Cette journée est une occasion festive, ludique, sportive et culturelle de découvrir la ville, de rencontrer d'autres étudiants issus des différents établissements du territoire.
+                                        A l'initiative de la Ville de Charleville-Mézières et en partenariat avec les
+                                        associations étudiantes, cette manifestation vise à souhaiter la bienvenue à
+                                        tous les étudiants du territoire ! Cette journée est une occasion festive,
+                                        ludique, sportive et culturelle de découvrir la ville, de rencontrer d'autres
+                                        étudiants issus des différents établissements du territoire.
 
-Plusieurs activités sont proposées aux étudiants durant la journée. De nombreux lots sont à gagner pour les équipes gagnantes. C'est aussi, à cette occasion, que le « Chéquier étudiant » est distribué. Il s'agit d'un chéquier proposant des offres promotionnelles & des avantages aux étudiants du territoire. 
+                                        Plusieurs activités sont proposées aux étudiants durant la journée. De nombreux
+                                        lots sont à gagner pour les équipes gagnantes. C'est aussi, à cette occasion,
+                                        que le « Chéquier étudiant » est distribué. Il s'agit d'un chéquier proposant
+                                        des offres promotionnelles & des avantages aux étudiants du territoire.
 
-Cette manifestation témoigne de la volonté de tous les acteurs de développer une politique d’accueil et d’animation pour les étudiants.
+                                        Cette manifestation témoigne de la volonté de tous les acteurs de développer une
+                                        politique d’accueil et d’animation pour les étudiants.
 
-Bien évidemment, les manifestations ne sont pas payantes. 
-</p>
+                                        Bien évidemment, les manifestations ne sont pas payantes.
+                                    </p>
                                 </div>
                             </div>
                         </div>
@@ -599,9 +607,12 @@ Bien évidemment, les manifestations ne sont pas payantes.
                             <div class="col-md-8">
                                 <div class="card-body">
                                     <h5 class="card-title">C'est pour qui?</h5>
-                                    <p class="card-text"> Cette journée est proposée à tous les étudiants du territoire de Charleville-Mézières jusqu’à Sedan. Tous les étudiants qui entament ou poursuivent une formation post bac sur le territoire peuvent participer à cette manifestation.
-Venez nombreux !
-</p>
+                                    <p class="card-text"> Cette journée est proposée à tous les étudiants du territoire
+                                        de Charleville-Mézières jusqu’à Sedan. Tous les étudiants qui entament ou
+                                        poursuivent une formation post bac sur le territoire peuvent participer à cette
+                                        manifestation.
+                                        Venez nombreux !
+                                    </p>
                                 </div>
                             </div>
                         </div>
@@ -616,7 +627,8 @@ Venez nombreux !
                             <div class="col-md-8">
                                 <div class="card-body">
                                     <h5 class="card-title">C'est quand?</h5>
-                                    <p class="card-text"> La Rentrée des Etudiants 2019 aura lieu le jeudi 3 octobre prochain ! Prenez date . </p>
+                                    <p class="card-text"> La Rentrée des Etudiants 2019 aura lieu le jeudi 3 octobre
+                                        prochain ! Prenez date . </p>
                                 </div>
                             </div>
                         </div>
@@ -631,9 +643,13 @@ Venez nombreux !
                             <div class="col-md-8">
                                 <div class="card-body">
                                     <h5 class="card-title">C'est où?</h5>
-                                    <p class="card-text">La manifestation se déroule sur la Ville de Charleville-Mézières à plusieurs endroits en fonction des activités de la journée.
-A titre d’exemple, le « Carolo Express » vise à la découverte des lieux saillants de la ville, plusieurs activités auront lieu également sur la Plaine du Mont Olympe ou sur la Place Ducale.
-. </p>
+                                    <p class="card-text">La manifestation se déroule sur la Ville de
+                                        Charleville-Mézières à plusieurs endroits en fonction des activités de la
+                                        journée.
+                                        A titre d’exemple, le « Carolo Express » vise à la découverte des lieux
+                                        saillants de la ville, plusieurs activités auront lieu également sur la Plaine
+                                        du Mont Olympe ou sur la Place Ducale.
+                                        . </p>
 
                                 </div>
                             </div>
@@ -659,9 +675,10 @@ A titre d’exemple, le « Carolo Express » vise à la découverte des lieux sa
         <h1>EDITION 2019</h1>
         <p>
             <!-- Bouton ouvrant l'accordéon -->
-            <button class="btn btn-danger btn-circle btn-lg" id ="button1" type="button" data-toggle="collapse" data-target="#collapseExample"
-                aria-expanded="false" aria-controls="collapseExample"><span class="fa fa-chevron-down" ></span>
-                
+            <button class="btn btn-danger btn-circle btn-lg" id="button1" type="button" data-toggle="collapse"
+                data-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample"><span
+                    class="fa fa-chevron-down"></span>
+
             </button>
         </p>
         <div class="collapse" id="collapseExample">
@@ -681,24 +698,32 @@ A titre d’exemple, le « Carolo Express » vise à la découverte des lieux sa
                         <div id="collapseOne" class="collapse" aria-labelledby="headingOne"
                             data-parent="#accordionExample">
                             <div class="card-body">
-                                <p>A travers les rues de Charleville-Mézières, le Carolo Express permet aux étudiants de découvrir la ville autrement avec ses moments incontournables et de nombreux lieux insolites ou méconnus.
-Etes-vous déjà entré au sein de la TOUR DU ROY ?
+                                <p>A travers les rues de Charleville-Mézières, le Carolo Express permet aux étudiants de
+                                    découvrir la ville autrement avec ses moments incontournables et de nombreux lieux
+                                    insolites ou méconnus.
+                                    Etes-vous déjà entré au sein de la TOUR DU ROY ?
 
-Le parcours est composé d’environ 15 étapes. Sur chaque étape, une énigme ou une mise en situation sera demandée. 
+                                    Le parcours est composé d’environ 15 étapes. Sur chaque étape, une énigme ou une
+                                    mise en situation sera demandée.
 
-Les équipes qui auront découvert les lieux le plus rapidement possible remporteront cette course d’orientation. Le parcours du Carolo Express doit, bien évidemment, se faire à pied (sinon, c’est trop facile ). #SORS TES BASKETS
+                                    Les équipes qui auront découvert les lieux le plus rapidement possible remporteront
+                                    cette course d’orientation. Le parcours du Carolo Express doit, bien évidemment, se
+                                    faire à pied (sinon, c’est trop facile ). #SORS TES BASKETS
 
-Afin de participer à cette manifestation, il est nécessaire au préalable de composer une équipe de 5 personnes. 
+                                    Afin de participer à cette manifestation, il est nécessaire au préalable de composer
+                                    une équipe de 5 personnes.
 
-Informations pratiques :
+                                    Informations pratiques :
 
-Horaires de la manifestation : 9h30-12h30
-Départ : Place d’Arches
-Arrivée : Place Ducale
-Info + : pensez à prendre des baskets car vous allez crapahuter !
+                                    Horaires de la manifestation : 9h30-12h30
+                                    Départ : Place d’Arches
+                                    Arrivée : Place Ducale
+                                    Info + : pensez à prendre des baskets car vous allez crapahuter !
 
                                 </p>
-                                <a id="button-inscription" href="formulexpress.php" class="btn btn-warning btn-lg active" role="button" title="Inscription">S'inscrire</a>
+                                <a id="button-inscription" href="formulexpress.php"
+                                    class="btn btn-warning btn-lg active" role="button"
+                                    title="Inscription">S'inscrire</a>
                             </div>
                         </div>
                     </div>
@@ -714,21 +739,27 @@ Info + : pensez à prendre des baskets car vous allez crapahuter !
                         <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo"
                             data-parent="#accordionExample">
                             <div class="card-body">
-                                <p>Afin qu’on puisse passer tous ensemble une pause déjeuner conviviale, vous avez soit la possibilité de venir avec votre déjeuner, des chaises et des tables seront à disposition sur un espace de la Plaine du Mont Olympe.
-Soit, vous avez la possibilité de profiter d’une formule déjeuner à 2.5€ (au lieu de 4€) pour les 200 premiers les plus rapides !!
+                                <p>Afin qu’on puisse passer tous ensemble une pause déjeuner conviviale, vous avez soit
+                                    la possibilité de venir avec votre déjeuner, des chaises et des tables seront à
+                                    disposition sur un espace de la Plaine du Mont Olympe.
+                                    Soit, vous avez la possibilité de profiter d’une formule déjeuner à 2.5€ (au lieu de
+                                    4€) pour les 200 premiers les plus rapides !!
 
-La formule sera composée d’un burger, d’une frite et d’une boisson !
+                                    La formule sera composée d’un burger, d’une frite et d’une boisson !
 
-Afin de bénéficier du repas à 2.5€, il est impératif de réserver votre repas ! Vous paierez sur place le jour J ! #NE TARDEZ PAS A RESERVER
+                                    Afin de bénéficier du repas à 2.5€, il est impératif de réserver votre repas ! Vous
+                                    paierez sur place le jour J ! #NE TARDEZ PAS A RESERVER
 
-Informations pratiques :
+                                    Informations pratiques :
 
-Horaires de la manifestation :
-Lieu : Plaine du Mont Olympe
-Info + : n’oubliez pas de prendre de la monnaie
-.
+                                    Horaires de la manifestation :
+                                    Lieu : Plaine du Mont Olympe
+                                    Info + : n’oubliez pas de prendre de la monnaie
+                                    .
                                 </p>
-                                <a id="button-inscription" href="formulpiquenique.php" class="btn btn-warning btn-lg active" role="button" title="Inscription">S'inscrire</a>
+                                <a id="button-inscription" href="formulpiquenique.php"
+                                    class="btn btn-warning btn-lg active" role="button"
+                                    title="Inscription">S'inscrire</a>
                             </div>
                         </div>
                     </div>
@@ -744,30 +775,35 @@ Info + : n’oubliez pas de prendre de la monnaie
                         <div id="collapseThree" class="collapse" aria-labelledby="headingThree"
                             data-parent="#accordionExample">
                             <div class="card-body">
-                                <p>Carolo Warrior est un relais sportif composé de nombreuses activités sportives et/ou ludiques. Plusieurs activités composent le relais, à savoir :
+                                <p>Carolo Warrior est un relais sportif composé de nombreuses activités sportives et/ou
+                                    ludiques. Plusieurs activités composent le relais, à savoir :
 
-<li>raversée en canoë/kayak</li>
-<li>Slackline</li> 
-<li>Lancers francs de basket</li></li>
-<li>Tir à l’arc</li>
-<li>Pédalo de cirque</li>
-<li>Frisbee</li>
-<li>Parcours sac à patates</li>
-<li>Blind Foot</li> 
-<li>Course</li>
-<li>Activité aquatique</li> 
-<li>Course & passage d’obstacles</li>
+                                    <li>raversée en canoë/kayak</li>
+                                    <li>Slackline</li>
+                                    <li>Lancers francs de basket</li>
+                                    </li>
+                                    <li>Tir à l’arc</li>
+                                    <li>Pédalo de cirque</li>
+                                    <li>Frisbee</li>
+                                    <li>Parcours sac à patates</li>
+                                    <li>Blind Foot</li>
+                                    <li>Course</li>
+                                    <li>Activité aquatique</li>
+                                    <li>Course & passage d’obstacles</li>
 
-Afin de participer à cette manifestation, il est nécessaire au préalable de composer une équipe de 8 personnes. 
+                                    Afin de participer à cette manifestation, il est nécessaire au préalable de composer
+                                    une équipe de 8 personnes.
 
-Informations pratiques :
+                                    Informations pratiques :
 
-Horaires de la manifestation :
-Lieu : Plaine du Mont Olympe
-Info + : pensez à prendre une tenue de sport
+                                    Horaires de la manifestation :
+                                    Lieu : Plaine du Mont Olympe
+                                    Info + : pensez à prendre une tenue de sport
 
                                 </p>
-                                <a id="button-inscription" href="formulwarrior.php" class="btn btn-warning btn-lg active" role="button" title="Inscription">S'inscrire</a>
+                                <a id="button-inscription" href="formulwarrior.php"
+                                    class="btn btn-warning btn-lg active" role="button"
+                                    title="Inscription">S'inscrire</a>
                             </div>
                         </div>
                     </div>
@@ -783,22 +819,29 @@ Info + : pensez à prendre une tenue de sport
                         <div id="collapseFour" class="collapse" aria-labelledby="headingFour"
                             data-parent="#accordionExample">
                             <div class="card-body">
-                                <p>Pour ceux qui aiment cuisiner ou tout simplement ceux qui veulent se lancer un challenge, un Concours de cuisine sera proposé sur la Place Ducale en partenariat avec l’association INTERCampus.
-Sur la base de quelques ingrédients, vous devrez concocter un bon petit plat !
+                                <p>Pour ceux qui aiment cuisiner ou tout simplement ceux qui veulent se lancer un
+                                    challenge, un Concours de cuisine sera proposé sur la Place Ducale en partenariat
+                                    avec l’association INTERCampus.
+                                    Sur la base de quelques ingrédients, vous devrez concocter un bon petit plat !
 
-Plusieurs équipes s’affronteront. Le matériel minimum nécessaire vous sera mis à disposition.
+                                    Plusieurs équipes s’affronteront. Le matériel minimum nécessaire vous sera mis à
+                                    disposition.
 
-Un jury à la fin notera et goûtera, pour le meilleur ou pour le pire, vos préparations  #MERCOTTE
+                                    Un jury à la fin notera et goûtera, pour le meilleur ou pour le pire, vos
+                                    préparations  #MERCOTTE
 
-Afin de participer à cette manifestation, il est nécessaire au préalable de composer une équipe de 2 personnes.
+                                    Afin de participer à cette manifestation, il est nécessaire au préalable de composer
+                                    une équipe de 2 personnes.
 
-Informations pratiques :
+                                    Informations pratiques :
 
-Horaires de la manifestation :
-Lieu : Place Ducale
-.
+                                    Horaires de la manifestation :
+                                    Lieu : Place Ducale
+                                    .
                                 </p>
-                                <a id="button-inscription" href="formulcuisine.php" class="btn btn-warning btn-lg active" role="button" title="Inscription">S'inscrire</a>
+                                <a id="button-inscription" href="formulcuisine.php"
+                                    class="btn btn-warning btn-lg active" role="button"
+                                    title="Inscription">S'inscrire</a>
                             </div>
                         </div>
                     </div>
@@ -914,17 +957,58 @@ Lieu : Place Ducale
 
     <!--/////////////////////SECTION ANCIENNE EDITION///////////////////////-->
 
-    <section class=ancienne_edition>EDITION 2018
-
-
-   <!--<div class="anciennephoto">
-  <div><a href="galerie.php"><img src="img/JournéeEtudiants/Journée accueil Etudiants 27 09 2018 (126).JPG" class="img-fluid" alt=""></a></div>
-  <div><a href="galerie.php"><img src="img/JournéeEtudiants/Journée accueil Etudiants 27 09 2018 (69).JPG" class="img-fluid" alt=""></a></div>
-  <div><a href="galerie.php"><img src="img/JournéeEtudiants/Journée accueil Etudiants 27 09 2018 (13).JPG" class="img-fluid" alt=""></a></div>
-  <div><a href="galerie.php"><img src="img/JournéeEtudiants/Journée accueil Etudiants 27 09 2018 (115).JPG" class="img-fluid" alt=""></a></div>
-  <div><a href="galerie.php"><img src="img/JournéeEtudiants/Journée accueil Etudiants 27 09 2018 (17).JPG" class="img-fluid" alt=""></a></div>
-  </div>
+    <!--<section class=ancienne_edition>EDITION 2018
+        <div class="anciennephoto">
+            <div><a href="galerie.php">
+                    <img src="img/JournéeEtudiants/Journée accueil Etudiants 27 09 2018 (126).JPG" class="img-fluid"
+                        alt=""></a>
+                        <span>REMISE DES PRIX</span>
+                    </div>
+            <div><a href="galerie.php">
+                    <img src="img/JournéeEtudiants/Journée accueil Etudiants 27 09 2018 (69).JPG" class="img-fluid"
+                        alt=""></a>
+                        <span>CAROLO WARRIOR</span>
+                    </div>
+            <div><a href="galerie.php">
+                    <img src="img/JournéeEtudiants/Journée accueil Etudiants 27 09 2018 (13).JPG" class="img-fluid"
+                        alt=""></a>
+                        <span>PIQUE NIQUE</span>
+                    </div>
+            <div><a href="galerie.php">
+                    <img src="img/JournéeEtudiants/Journée accueil Etudiants 27 09 2018 (115).JPG" class="img-fluid"
+                        alt=""></a>
+                        <span>REMISE DES PRIX</span>
+                    </div>
+            <div><a href="galerie.php">
+                    <img src="img/JournéeEtudiants/Journée accueil Etudiants 27 09 2018 (41).JPG" class="img-fluid"
+                        alt=""></a>
+                        <span>CAROLO WARRIOR</span>
+                    </div>
+        </div>
     </section>-->
+
+    <div class="container">
+  <div class="box">
+    <img src="img/JournéeEtudiants/Journée accueil Etudiants 27 09 2018 (126).JPG" class="img-fluid">
+    <span>REMISE DES PRIX</span>
+  </div>
+  <div class="box">
+    <img src="img/JournéeEtudiants/Journée accueil Etudiants 27 09 2018 (69).JPG" class="img-fluid">
+    <span>CAROLO WARRIOR</span>
+  </div>
+  <div class="box">
+    <img src="img/JournéeEtudiants/Journée accueil Etudiants 27 09 2018 (13).JPG" class="img-fluid">
+    <span>PIQUE NIQUE</span>
+  </div>
+  <div class="box">
+    <img src="img/JournéeEtudiants/Journée accueil Etudiants 27 09 2018 (115).JPG" class="img-fluid">
+    <span>REMISE DES PRIX</span>
+  </div>
+  <div class="box">
+    <img src="img/JournéeEtudiants/Journée accueil Etudiants 27 09 2018 (41).JPG" class="img-fluid">
+    <span>CAROLO WARRIOR</span>
+  </div>
+</div>
 
 
 
@@ -938,8 +1022,11 @@ Lieu : Place Ducale
                         <div class="row no-gutters">
                             <div class="col-md-12">
                                 <div class="card-body">
-                                    <p class="card-text"> «  Une amie m’a convaincu et je n’ai pas regretté. J’ai rencontré d’autres étudiants, c’était sympa ce brassage. Je n’ai pas pu faire les activités mais j’ai encouragé les équipes de mon école et on a gagné ;) » </p>
-                                    <p class="card-text">Mareme  – 18 ans</p>
+                                    <p class="card-text"> « Une amie m’a convaincu et je n’ai pas regretté. J’ai
+                                        rencontré d’autres étudiants, c’était sympa ce brassage. Je n’ai pas pu faire
+                                        les activités mais j’ai encouragé les équipes de mon école et on a gagné ;) »
+                                    </p>
+                                    <p class="card-text">Mareme – 18 ans</p>
                                 </div>
                             </div>
                         </div>
@@ -950,7 +1037,9 @@ Lieu : Place Ducale
                         <div class="row no-gutters">
                             <div class="col-md-12">
                                 <div class="card-body align-items-center">
-                                    <p class="card-text"> «  J’ai apprécié cette journée et toutes les villes devraient organiser ce genre de manifestation pour les étudiants. Moi j’ai participé au Carolo Express, c’était fun ! »</p>
+                                    <p class="card-text"> « J’ai apprécié cette journée et toutes les villes devraient
+                                        organiser ce genre de manifestation pour les étudiants. Moi j’ai participé au
+                                        Carolo Express, c’était fun ! »</p>
                                     <p class="card-text">Jérémy – 21 ans</p>
                                 </div>
                             </div>
@@ -962,7 +1051,9 @@ Lieu : Place Ducale
                         <div class="row no-gutters">
                             <div class="col-md-12">
                                 <div class="card-body">
-                                    <p class="card-text"> «  Superbe journée ! J’ai notamment adoré le Carolo Express qui m’a permis de découvrir des lieux que je ne connaissais pas à Charleville, c’était super intéressant. Je recommande sans problème ! »</p>
+                                    <p class="card-text"> « Superbe journée ! J’ai notamment adoré le Carolo Express qui
+                                        m’a permis de découvrir des lieux que je ne connaissais pas à Charleville,
+                                        c’était super intéressant. Je recommande sans problème ! »</p>
                                     <p class="card-text">Claire - 19ans</p>
                                 </div>
                             </div>
@@ -974,7 +1065,8 @@ Lieu : Place Ducale
                         <div class="row no-gutters">
                             <div class="col-md-12">
                                 <div class="card-body align-items-center">
-                                    <p class="card-text"> «  TOP !!! Je compte bien me réinscrire cette année… et gagner le GROS LOT  #GUIGUI MONEY FROM NEUILLY»</p>
+                                    <p class="card-text"> « TOP !!! Je compte bien me réinscrire cette année… et gagner
+                                        le GROS LOT  #GUIGUI MONEY FROM NEUILLY»</p>
                                     <p class="card-text">Jaahed – 19 ans</p>
                                 </div>
                             </div>
