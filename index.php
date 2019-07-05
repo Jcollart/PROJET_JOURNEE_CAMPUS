@@ -987,24 +987,24 @@
         </div>
     </section>-->
 
-    <div class="container">
-  <div class="box">
+    <div class="container" id="ancienne_edition">
+  <div class="box" id="anciennephoto">
     <img src="img/JournéeEtudiants/Journée accueil Etudiants 27 09 2018 (126).JPG" class="img-fluid">
     <span>REMISE DES PRIX</span>
   </div>
-  <div class="box">
+  <div class="box" id="anciennephoto">
     <img src="img/JournéeEtudiants/Journée accueil Etudiants 27 09 2018 (69).JPG" class="img-fluid">
     <span>CAROLO WARRIOR</span>
   </div>
-  <div class="box">
+  <div class="box" id="anciennephoto">
     <img src="img/JournéeEtudiants/Journée accueil Etudiants 27 09 2018 (13).JPG" class="img-fluid">
     <span>PIQUE NIQUE</span>
   </div>
-  <div class="box">
+  <div class="box" id="anciennephoto">
     <img src="img/JournéeEtudiants/Journée accueil Etudiants 27 09 2018 (115).JPG" class="img-fluid">
     <span>REMISE DES PRIX</span>
   </div>
-  <div class="box">
+  <div class="box" id="anciennephoto">
     <img src="img/JournéeEtudiants/Journée accueil Etudiants 27 09 2018 (41).JPG" class="img-fluid">
     <span>CAROLO WARRIOR</span>
   </div>
