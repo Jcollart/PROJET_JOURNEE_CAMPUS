@@ -117,9 +117,9 @@
                                     data-textAlign="['center','center','center','center']" data-paddingtop="[0,0,0,0]"
                                     data-paddingright="[0,0,0,0]" data-paddingbottom="[0,0,0,0]"
                                     data-paddingleft="[0,0,0,0]"
-                                    style="z-index: 6; white-space: nowrap; font-size: 120px; line-height: 90px; font-weight: 700; color: rgb(0, 0, 0);font-family:Poppins;letter-spacing:-10px;">
+                                    style="z-index: 6; white-space: nowrap; font-size: 120px; line-height: 130px; font-weight: 700; color: rgb(0, 0, 0);font-family:Poppins;letter-spacing:-10px;">
                                     <div class="rs-looped rs-wave" data-speed="3" data-angle="0" data-radius="2px"
-                                        data-origin="50% 50%">LA JOURNEE<br />DES ETUDIANTS </div>
+                                        data-origin="50% 50%">RENTREE<br />DES ETUDIANTS </div>
                                 </div>
 
                                 <!-- LAYER NR. 3 -->
@@ -133,9 +133,9 @@
                                     data-textAlign="['center','center','center','center']" data-paddingtop="[0,0,0,0]"
                                     data-paddingright="[0,0,0,0]" data-paddingbottom="[0,0,0,0]"
                                     data-paddingleft="[0,0,0,0]"
-                                    style="z-index: 7; white-space: nowrap; font-size: 120px; line-height: 90px; font-weight: 700; color: rgb(0, 0, 0);font-family:Poppins;letter-spacing:-10px;">
+                                    style="z-index: 7; white-space: nowrap; font-size: 120px; line-height: 130px; font-weight: 700; color: rgb(0, 0, 0);font-family:Poppins;letter-spacing:-10px;">
                                     <div class="rs-looped rs-wave" data-speed="3" data-angle="0" data-radius="2px"
-                                        data-origin="50% 50%">LA JOURNEE<br />DES ETUDIANTS </div>
+                                        data-origin="50% 50%">RENTREE<br />DES ETUDIANTS </div>
                                 </div>
 
                                 <!-- LAYER NR. 4 -->
@@ -149,9 +149,9 @@
                                     data-textAlign="['center','center','center','center']" data-paddingtop="[0,0,0,0]"
                                     data-paddingright="[0,0,0,0]" data-paddingbottom="[0,0,0,0]"
                                     data-paddingleft="[0,0,0,0]"
-                                    style="z-index: 8; white-space: nowrap; font-size: 120px; line-height: 90px; font-weight: 700; color: rgb(255, 255, 255);font-family:Poppins;letter-spacing:-10px;">
+                                    style="z-index: 8; white-space: nowrap; font-size: 120px; line-height: 130px; font-weight: 700; color: rgb(255, 255, 255);font-family:Poppins;letter-spacing:-10px;">
                                     <div class="rs-looped rs-wave" data-speed="3" data-angle="0" data-radius="2px"
-                                        data-origin="50% 50%">LA JOURNEE<br />DES ETUDIANTS </div>
+                                        data-origin="50% 50%">RENTREE<br />DES ETUDIANTS </div>
                                 </div>
 
                                 <!-- LAYER NR. 5 -->
@@ -165,8 +165,8 @@
                                     data-textAlign="['center','center','center','center']" data-paddingtop="[0,0,0,0]"
                                     data-paddingright="[0,0,0,0]" data-paddingbottom="[0,0,0,0]"
                                     data-paddingleft="[0,0,0,0]"
-                                    style="z-index: 9; white-space: nowrap; font-size: 120px; line-height: 90px; font-weight: 700; color: rgba(255,255,255,1);font-family:Poppins;letter-spacing:-10px;">
-                                    LA JOURNEE<br />DES ETUDIANTS </div>
+                                    style="z-index: 9; white-space: nowrap; font-size: 120px; line-height: 130px; font-weight: 700; color: rgba(255,255,255,1);font-family:Poppins;letter-spacing:-10px;">
+                                    RENTREE<br />DES ETUDIANTS </div>
 
                                 <!-- LAYER NR. 6 -->
                                 <div class="tp-caption   tp-resizeme rs-parallaxlevel-1" id="slide-32-layer-15"
