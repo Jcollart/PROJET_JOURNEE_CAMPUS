@@ -20,30 +20,30 @@
 <body>
 <ul id="nav">
 <li><a href="http://www.ardenne-metropole.fr"><img id="logo" src="img/logoetudiant.png" alt="logo"/></a></li>    
-<li class=""><a href="index.php"><i style="font-size:1em" class="fas fa-home"></i></a></li><!-- n1 -->
+<li class=""><a href="index.php"><i style="font-size:3em" class="fas fa-home"></i></a></li><!-- n1 -->
 <li><a href="#">Activitées</a><!-- n1 -->
 	<ul>
 		<li><a href="#">CAROLO EXPRESS <img src="img/multi.png" border="0" width="15" height="15" align="absmiddle"></a><!-- n2 -->
 			<ul>
-				<li><a href="#">Description activitée</a></li><!-- n3 -->
+				<li><a href="#collapseOne">Description activitée</a></li><!-- n3 -->
 				<li><a href="formulexpress.php">Formulaire d'inscription</a></li><!-- n3 -->
 			</ul>
 		</li>
 		<li><a href="#">CAROLO PIQUE-NIQUE <img src="img/multi.png" border="0" width="15" height="15" alt="" align="absmiddle"></a><!-- n2 -->
 			<ul>
-				<li><a href="#">Description réservation</a></li><!-- n3 -->
+				<li><a href="#collapseTwo">Description réservation</a></li><!-- n3 -->
 				<li><a href="formulpiquenique.php">formulaire d'inscription</a></li><!-- n3 -->
 			</ul>
         </li>
         <li><a href="#">CAROLO WARRIOR <img src="img/multi.png" border="0" width="15" height="15" alt="" align="absmiddle"></a><!-- n2 -->
 			<ul>
-				<li><a href="#">Description activitée</a></li><!-- n3 -->
+				<li><a href="#collapseThree">Description activitée</a></li><!-- n3 -->
 				<li><a href="formulwarrior.php">formulaire d'inscription</a></li><!-- n3 -->
 			</ul>
         </li>
         <li><a href="#">CAROLO CUISINE <img src="img/multi.png" border="0" width="15" height="15" alt="" align="absmiddle"></a><!-- n2 -->
 			<ul>
-				<li><a href="#">Description activités</a></li><!-- n3 -->
+				<li><a href="#collapseFour">Description activités</a></li><!-- n3 -->
 				<li><a href="formulcuisine.php">formulaire d'inscription</a></li><!-- n3 -->
 			</ul>
 		</li>
@@ -80,9 +80,10 @@
 	</ul>-->
 </li>	
 <li><a href="galerie.php">Galerie photos</a></li>
-<li><a href="#"><i style="font-size:1em" class="fas fa-user"></i>Contact</a></li>
-</ul>
-<br /><br /><br /><br /><br /><br />
+<li><a href="#formulcontact"><i style="font-size:1em" class="fas fa-user"></i>Contact</a></li>
+<li><form class="Fbarre">
+<input type="search" name "barre" id"champ1" value=" rechercher ..."</input>
+<button onlick= 'rechercher()'><i style="font-size:1em" class="fas fa-search"></i></button></form></li></ul>
 
 </body>
 

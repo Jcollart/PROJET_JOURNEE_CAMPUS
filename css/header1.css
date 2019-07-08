@@ -1,27 +1,30 @@
 body {
     font: normal .8em/1.5em Arial, Helvetica, sans-serif;
-    background: #ebebeb;
+    
     width: 100%;
     height:auto;
     margin: 0px auto;
-    color: #666;
+    
 }
 
 a {
     color: transparent;
+    font-size: 1em;
 }
 #logo{
     width:40px;
    float:left;
 }   
-
+form{
+    padding-top: 1.5em;
+}
 
 #logocm{
     width:150px;
     height: auto;
     z-index:50;
     position:absolute;
-    margin-top: 30px;
+    margin-top: 20px;
     margin-left:-60px;
 
 }
@@ -55,8 +58,8 @@ a {
     color: black;
     text-decoration: none;
     display: block;
-    padding: 8px 20px;
-    margin: 0;
+    padding: 2px 30px;
+    margin: 20px;
     
     text-shadow: 0 1px 1px rgba(0, 0, 0, .3);
 }
@@ -69,7 +72,7 @@ a {
 /* main level link hover */
 #nav .current a,
 #nav li:hover>a {
-    background: #666 url(../images/gradient.png) repeat-x 0 -40px;
+    background: rgb(255, 255, 255) url(../images/gradient.png) repeat-x 0 -40px;
     color: #444;
     border-top: solid 1px #f8f8f8;
     -webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, .2);
@@ -91,8 +94,7 @@ a {
 #nav ul a:hover {
     background: #0078ff url(../images/gradient.png) repeat-x 0 -100px !important;
     color: #fff !important;
-    -webkit-border-radius: 0;
-    -moz-border-radius: 0;
+    
     text-shadow: 0 1px 1px rgba(0, 0, 0, .1);
 }
 
@@ -112,8 +114,7 @@ a {
     left: 0;
     background: #ddd url(../images/gradient.png) repeat-x 0 0;
     border: solid 1px #b4b4b4;
-    
-    -webkit-box-shadow: 0 1px 3px rgba(0, 0, 0, .3);
+        -webkit-box-shadow: 0 1px 3px rgba(0, 0, 0, .3);
     -moz-box-shadow: 0 1px 3px rgba(0, 0, 0, .3);
     box-shadow: 0 1px 3px rgba(0, 0, 0, .3);
     z-index: 100;

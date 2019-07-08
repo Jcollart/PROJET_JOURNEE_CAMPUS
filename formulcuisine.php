@@ -28,7 +28,7 @@
 
 <body>
     <!-- NAVBAR BOOTSTRAP-->
-    <?php include("header.php"); ?></br></br></br>
+    <?php include("header1.php"); ?></br></br></br>
 
 <center><h1 style="color:black"> INSCRIPTION CAROLO CUISINE </h1></br>
 <p>Merci de remplir les champs ci dessous pour inscrire votre équipe </br>

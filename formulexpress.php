@@ -27,7 +27,7 @@
 
 
 </head>
-<?php include("header.php"); ?></br></br></br>
+<?php include("header1.php"); ?></br></br></br>
 
 <center><h1 style="color:rgb(233, 95, 16)"> INSCRIPTION CAROLO EXPRESS </h1></br>
 <p>Merci de remplir les champs ci dessous pour inscrire votre équipe </br>

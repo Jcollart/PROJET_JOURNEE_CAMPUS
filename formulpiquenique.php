@@ -30,7 +30,7 @@
 
 <body>
     <!-- NAVBAR BOOTSTRAP-->
-    <?php include("header.php"); ?></br></br></br>
+    <?php include("header1.php"); ?></br></br></br>
   
 
 <center><h1 style="color:rgb(233, 95, 16)"> INSCRIPTION PIQUE-NIQUE </h1></br>
