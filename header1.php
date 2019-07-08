@@ -16,8 +16,7 @@
 
   </head>
 
-<body>
-<body>
+<header>
 <ul id="nav">
 <li><a href="http://www.ardenne-metropole.fr"><img id="logo" src="img/logoetudiant.png" alt="logo" align="absmiddle"/></a></li>    
 <li class="hvr-grow"><a href="index.php"><i style="font-size:3em" class="fas fa-home"></i></a></li><!-- n1 -->
@@ -61,6 +60,6 @@
 <input type="search" name "barre" id"champ1" value=" rechercher ..."</input>
 <button onlick= 'rechercher()'><i style="font-size:1em" class="fas fa-search"></i></button></form></li></ul>
 
-</body>
+</header>
 
 </html>
