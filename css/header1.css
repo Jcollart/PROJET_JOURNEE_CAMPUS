@@ -2,7 +2,7 @@ header {
     font: normal .8em/1.5em Arial, Helvetica, sans-serif;
     background: #ebebeb;
     width: 100%;
-    height:auto;
+    height:10vh;
     margin: 0px auto;
     color: #666;
 }
@@ -13,6 +13,7 @@ header a {
 #logo{
     width:40px;
    float:left;
+   margin-top: 0px;
 }   
 
 
@@ -21,7 +22,7 @@ header a {
     height: auto;
     z-index:50;
     position:absolute;
-    margin-top: 30px;
+    margin-top: 0px;
     margin-left:-60px;
 
 }
@@ -37,26 +38,33 @@ header a {
     -webkit-box-shadow: 0 1px 3px rgba(0, 0, 0, .4);
     -moz-box-shadow: 0 1px 3px rgba(0, 0, 0, .4);
     width: 100%;
+    display:flex;
+    justify-content:space-between;
     height: auto;
 
 }
 
 #nav li {
     margin: 0 5px;
-    padding: 0 0 8px;
+    padding: 0 0 0px;
     float: left;
     position: relative;
     list-style: none;
+    margin-top:-40px;
 }
 
+form{
+    
+}
 /* main level link */
 #nav a {
     font-weight: bold;
     color: black;
     text-decoration: none;
     display: block;
-    padding: 8px 20px;
-    margin: 0;
+    
+    padding: 8px 10px;
+    margin: 2.6em;
 
     text-shadow: 0 1px 1px rgba(0, 0, 0, .3);
 }
@@ -69,8 +77,9 @@ header a {
 /* main level link hover */
 #nav .current a,
 #nav li:hover>a {
-    background: #666 url(../images/gradient.png) repeat-x 0 -40px;
-    color: #444;
+    background:  url(../images/gradient.png) repeat-x 0 -40px;
+    z-index: 100;
+    color:black ;
     border-top: solid 1px #f8f8f8;
     -webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, .2);
     -moz-box-shadow: 0 1px 1px rgba(0, 0, 0, .2);
@@ -83,10 +92,12 @@ header a {
 #nav li:hover li a {
     background: none;
     border: none;
-    color: #666;
+    color:transparent;
     -webkit-box-shadow: none;
     -moz-box-shadow: none;
 }
+
+
 
 #nav ul a:hover {
     background: #0078ff url(../images/gradient.png) repeat-x 0 -100px !important;
@@ -106,9 +117,9 @@ header a {
     display: none;
     margin: 0;
     padding: 0;
-    width: 185px;
+    width: 155px;
     position: absolute;
-    top: 35px;
+    top: 65px;
     left: 0;
     background: #ddd url(../images/gradient.png) repeat-x 0 0;
     border: solid 1px #b4b4b4;
@@ -133,7 +144,7 @@ header a {
 /* level 3+ list */
 #nav ul ul {
     left: 181px;
-    top: -3px;
+    top: 10px;
 }
 
 /* rounded corners of first and last link */
