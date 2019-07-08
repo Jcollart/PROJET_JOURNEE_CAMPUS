@@ -8,7 +8,7 @@
     <meta name="description" content="Slider Revolution Example" />
     <meta name="keywords" content="fullscreen image, grid layout, flexbox grid, transition" />
     <meta name="author" content="ThemePunch" />
-    <title>Rentrée de l'étudiant</title>
+    <title>Rentrée des étudiants</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
@@ -56,7 +56,7 @@
 </head>
 
 <body>
-    <?php include("header1.php") ; ?>
+    <?php include("header.php") ; ?>
 
 
 
@@ -957,70 +957,38 @@
 
     <!--/////////////////////SECTION ANCIENNE EDITION///////////////////////-->
 
-    <!--<section class=ancienne_edition>EDITION 2018
+    <section class=ancienne_edition>
+        <h2>EDITION 2018</h2>
         <div class="anciennephoto">
-            <div><a href="galerie.php">
+            <div class="animated pulse"><a href="galerie.php">
                     <img src="img/JournéeEtudiants/Journée accueil Etudiants 27 09 2018 (126).JPG" class="img-fluid"
                         alt=""></a>
-                        <span>REMISE DES PRIX</span>
+                        <p>Remise des prix - Place Ducale</p>
                     </div>
             <div><a href="galerie.php">
                     <img src="img/JournéeEtudiants/Journée accueil Etudiants 27 09 2018 (69).JPG" class="img-fluid"
                         alt=""></a>
-                        <span>CAROLO WARRIOR</span>
+                        <p>Carolo Warrior - Plaine du Mont-Olympe</p>
                     </div>
             <div><a href="galerie.php">
                     <img src="img/JournéeEtudiants/Journée accueil Etudiants 27 09 2018 (13).JPG" class="img-fluid"
                         alt=""></a>
-                        <span>PIQUE NIQUE</span>
+                        <p>Pique Nique - Plaine du Mont-Olympe</p>
                     </div>
             <div><a href="galerie.php">
                     <img src="img/JournéeEtudiants/Journée accueil Etudiants 27 09 2018 (115).JPG" class="img-fluid"
                         alt=""></a>
-                        <span>REMISE DES PRIX</span>
+                        <p>Remise des prix avec Boris Ravignon</p>
                     </div>
             <div><a href="galerie.php">
                     <img src="img/JournéeEtudiants/Journée accueil Etudiants 27 09 2018 (41).JPG" class="img-fluid"
                         alt=""></a>
-                        <span>CAROLO WARRIOR</span>
+                        <p>Carolo Warrior - Plaine du Mont-Olympe</p>
                     </div>
         </div>
-    </section>-->
-
-<<<<<<< HEAD
-   <div class="anciennephoto">
-  <div><a href="galerie.php"><img src="img/JournéeEtudiants/Journée accueil Etudiants 27 09 2018 (126).JPG" class="img-fluid" alt=""></a></div>
-  <div><a href="galerie.php"><img src="img/JournéeEtudiants/Journée accueil Etudiants 27 09 2018 (69).JPG" class="img-fluid" alt=""></a></div>
-  <div><a href="galerie.php"><img src="img/JournéeEtudiants/Journée accueil Etudiants 27 09 2018 (13).JPG" class="img-fluid" alt=""></a></div>
-  <div><a href="galerie.php"><img src="img/JournéeEtudiants/Journée accueil Etudiants 27 09 2018 (115).JPG" class="img-fluid" alt=""></a></div>
-  <div><a href="galerie.php"><img src="img/JournéeEtudiants/Journée accueil Etudiants 27 09 2018 (17).JPG" class="img-fluid" alt=""></a></div>
-  </div>
     </section>
-=======
-    <div class="container" id="ancienne_edition">
-  <div class="box" id="anciennephoto">
-    <img src="img/JournéeEtudiants/Journée accueil Etudiants 27 09 2018 (126).JPG" class="img-fluid">
-    <span>REMISE DES PRIX</span>
-  </div>
-  <div class="box" id="anciennephoto">
-    <img src="img/JournéeEtudiants/Journée accueil Etudiants 27 09 2018 (69).JPG" class="img-fluid">
-    <span>CAROLO WARRIOR</span>
-  </div>
-  <div class="box" id="anciennephoto">
-    <img src="img/JournéeEtudiants/Journée accueil Etudiants 27 09 2018 (13).JPG" class="img-fluid">
-    <span>PIQUE NIQUE</span>
-  </div>
-  <div class="box" id="anciennephoto">
-    <img src="img/JournéeEtudiants/Journée accueil Etudiants 27 09 2018 (115).JPG" class="img-fluid">
-    <span>REMISE DES PRIX</span>
-  </div>
-  <div class="box" id="anciennephoto">
-    <img src="img/JournéeEtudiants/Journée accueil Etudiants 27 09 2018 (41).JPG" class="img-fluid">
-    <span>CAROLO WARRIOR</span>
-  </div>
-</div>
->>>>>>> cfea1157879063a9b92f5db54d6f69813b74ee68
 
+    
 
 
     <!--/////////////////////TEMOIGNAGES///////////////////////-->
