@@ -671,11 +671,11 @@
         <h1>EDITION 2019</h1>
         <p>
             <!-- Bouton ouvrant l'accordéon -->
-            <button class="btn btn-danger btn-circle btn-lg" id="button1" type="button" data-toggle="collapse"
+            <div class="hvr-pulse-grow"><button class="btn btn-danger btn-circle btn-lg" id="button1" type="button" data-toggle="collapse"
                 data-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample"><span
                     class="fa fa-chevron-down"></span>
 
-            </button>
+            </button></div>
         </p>
         <div class="collapse" id="collapseExample">
             <div class="card card-body">
