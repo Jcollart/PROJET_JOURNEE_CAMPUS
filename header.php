@@ -15,7 +15,7 @@
 
   <link rel="stylesheet" href="css/reset.css">
   <link rel="stylesheet" href="css/header.css">
-
+  <link rel="stylesheet" href="css/hover-min.css">
 
 </head>
 
@@ -38,7 +38,7 @@
         </li>-->
         <li class="nav-item dropdown">
           <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
-            aria-haspopup="true" aria-expanded="false">
+            aria-haspopup="true" aria-expanded="false" hvr-grow-shadow hvr-underline-from-center>
             Menu Deroulant
           </a>
           <div class="dropdown-menu" aria-labelledby="navbarDropdown">

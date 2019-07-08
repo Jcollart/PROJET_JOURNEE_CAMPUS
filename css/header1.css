@@ -30,10 +30,11 @@ form{
 }
 
 #nav {
+    
     margin: 0;
     padding: 7px 6px 0;
     background: white url(../images/gradient.png) repeat-x 0 -110px;
-    line-height: 100%;
+    line-height: 50%;
     border-radius: 0;
     -webkit-border-radius: 0;
     -moz-border-radius: 0;
@@ -46,10 +47,12 @@ form{
 
 #nav li {
     margin: 0 5px;
-    padding: 0 0 8px;
+    padding: 0 0 16px;
     float: left;
     position: relative;
     list-style: none;
+}
+
 }
 
 /* main level link */
@@ -110,6 +113,7 @@ form{
     padding: 0;
     width: 185px;
     position: absolute;
+    width:100%;
     top: 35px;
     left: 0;
     background: #ddd url(../images/gradient.png) repeat-x 0 0;
@@ -174,4 +178,22 @@ html[xmlns] #nav {
 
 * html #nav {
     height: 1%;
+}
+
+/* Grow */
+.hvr-grow {
+    display: inline-block;
+    vertical-align: middle;
+    transform: translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+    backface-visibility: hidden;
+    -moz-osx-font-smoothing: grayscale;
+    transition-duration: 0.3s;
+    transition-property: transform;
+}
+
+.hvr-grow:hover,
+.hvr-grow:focus,
+.hvr-grow:active {
+    transform: scale(1.1);
 }

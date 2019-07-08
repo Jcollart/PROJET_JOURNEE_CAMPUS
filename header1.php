@@ -12,18 +12,18 @@
         integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
   <link rel="stylesheet" href="css/reset.css">
   <link rel="stylesheet" href="css/header1.css">
-
+  <link rel="stylesheet" href="css/hover-min.css">
 
   </head>
 
 <body>
 <body>
 <ul id="nav">
-<li><a href="http://www.ardenne-metropole.fr"><img id="logo" src="img/logoetudiant.png" alt="logo"/></a></li>    
-<li class=""><a href="index.php"><i style="font-size:3em" class="fas fa-home"></i></a></li><!-- n1 -->
+<li><a href="http://www.ardenne-metropole.fr"><img id="logo" src="img/logoetudiant.png" alt="logo" align="absmiddle"/></a></li>    
+<li class="hvr-grow"><a href="index.php"><i style="font-size:3em" class="fas fa-home"></i></a></li><!-- n1 -->
 <li><a href="#">Activitées</a><!-- n1 -->
 	<ul>
-		<li><a href="#">CAROLO EXPRESS <img src="img/multi.png" border="0" width="15" height="15" align="absmiddle"></a><!-- n2 -->
+		<li><a href="#">CAROLO EXPRESS <img src="img/multi.png"  border="0" width="20" height="20" align="absmiddle"></a><!-- n2 -->
 			<ul>
 				<li><a href="#collapseOne">Description activitée</a></li><!-- n3 -->
 				<li><a href="formulexpress.php">Formulaire d'inscription</a></li><!-- n3 -->
@@ -53,31 +53,7 @@
 <li class="">  
           <a href="https://www.charleville-mezieres.fr/"><img id="logocm" src="img/Logos/logomairieCM.png" alt="logocm"/></a>
         </li>
-<!--<li><a href="#">Multi-Niveaux</a>
-	<ul>
-		<li><a href="#">niveau 1 <img src="images/multi.png" border="0" width="15" height="15" alt="" align="absmiddle"></a>
-			<ul>
-				<li><a href="#">Niveau 2</a></li>
-				<li><a href="#">Niveau 2 <img src="images/multi.png" border="0" width="15" height="15" alt="" align="absmiddle"></a>
-					<ul>
-						<li><a href="#">Niveau 3</a></li>
-						<li><a href="#">Niveau 3</a></li>
-						<li><a href="#">Niveau 3</a></li>
-					</ul>
-				</li>
-				<li><a href="#">Niveau 2</a></li>
-			</ul>
-		</li>
-		<li><a href="#">Niveau 1</a></li>
-		<li><a href="#">Niveau 1</a></li>
-		<li><a href="#">Niveau 1 <img src="images/multi.png" border="0" width="15" height="15" alt="" align="absmiddle"></a>
-			<ul>
-				<li><a href="#">Niveau 2</a></li>
-				<li><a href="#">Niveau 2</a></li>
-				<li><a href="#">Niveau 2</a></li>
-			</ul>
-		</li>
-	</ul>-->
+
 </li>	
 <li><a href="galerie.php">Galerie photos</a></li>
 <li><a href="#formulcontact"><i style="font-size:1em" class="fas fa-user"></i>Contact</a></li>
