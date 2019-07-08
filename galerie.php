@@ -46,7 +46,7 @@
 </head>
 
 <body>
-  <!-- NAVBAR BOOTSTRAP-->
+  <!-- NAVBAR -->
  <?php include("header1.php"); ?>
   <!-- /* Code inspiré de celui de Mary Lou sur http://tympanus.net/codrops/2011/12/26/css3-lightbox/-->
 
@@ -57,26 +57,18 @@
       <li>
         <a href="#gal-1-image-1">
           <!----lien de la vignette vers le conteneur "lightbox" de la 1ère image-->
-          <img class="gal" width="120" height="90" alt="image01" src="img/01.jpg">
+          <img class="gal" width="120" height="90" alt="Journée accueil Etudiants 27 09 2018 (3)" src="img/JournéeEtudiants/Journée accueil Etudiants 27 09 2018 (3).JPG">
         </a>
         <div id="gal-1-image-1" class="lb-overlay">
           <!--ancre de la 1ère image, background opaque-->
-          <img alt="image01" src="img/01.jpg">
+          <img alt="Journée accueil Etudiants 27 09 2018 (3)" src="img/JournéeEtudiants/Journée accueil Etudiants 27 09 2018 (3).JPG">
           <div>
             <h3>LOGO CAROLO</h3>
              <!-- Controls -->
-    <a class="carousel-control-prev" href="#myCarousel" role="button" data-slide="prev">
-      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-      <span class="sr-only">Previous</span>
-    </a>
-    <a class="carousel-control-next" href="#myCarousel" role="button" data-slide="next">
-      <span class="carousel-control-next-icon" aria-hidden="true"></span>
-      <span class="sr-only">Next</span>
-    </a>
+  
             <!--titre de l'image grand format-->
-            <!--<a class="lb-prev" href="#gal-1-image-4">Prev</a>
-            lien vers image précédente
-            <a class="lb-next" href="#gal-1-image-2">Next</a>-->
+            <a class="lb-prev" href="#gal-1-image-4">Prev</a>
+            <a class="lb-next" href="#gal-1-image-2">Next</a>
             <!--lien vers image suivante-->
           </div>
           <a class="lb-close nolink" href="#galerie1">x Close</a>
@@ -85,10 +77,10 @@
       </li>
       <li>
         <a href="#gal-1-image-2">
-          <img class="gal" width="120" height="90" alt="image02" src="img/02.jpg">
+          <img class="gal" width="120" height="90" alt="image02" src="img/JournéeEtudiants/Journée accueil Etudiants 27 09 2018 (4).JPG">
         </a>
         <div id="gal-1-image-2" class="lb-overlay">
-          <img alt="image02" src="img/02.jpg">
+          <img alt="image02" src="img/JournéeEtudiants/Journée accueil Etudiants 27 09 2018 (4).JPG">
           <div>
             <h3>ETUDIANTS</h3>
             <a class="lb-prev" href="#gal-1-image-1">Prev</a>
@@ -99,10 +91,10 @@
       </li>
       <li>
         <a href="#gal-1-image-3">
-          <img class="gal" width="120" height="90" alt="image03" src="img/03.jpg">
+          <img class="gal" width="120" height="90" alt="image03" src="img/JournéeEtudiants/Journée accueil Etudiants 27 09 2018 (6).JPG">
         </a>
         <div id="gal-1-image-3" class="lb-overlay">
-          <img alt="image03" src="img/03.jpg">
+          <img alt="image03" src="img/JournéeEtudiants/Journée accueil Etudiants 27 09 2018 (6).JPG">
           <div>
             <h3>CAMPUS</h3>
             <a class="lb-prev" href="#gal-1-image-2">Prev</a>
@@ -113,10 +105,10 @@
       </li>
       <li>
         <a href="#gal-1-image-4">
-          <img class="gal" width="120" height="90" alt="image04" src="img/04.jpg">
+          <img class="gal" width="120" height="90" alt="image04" src="img/JournéeEtudiants/Journée accueil Etudiants 27 09 2018 (8).JPG">
         </a>
         <div id="gal-1-image-4" class="lb-overlay">
-          <img alt="image04" src="img/04.jpg">
+          <img alt="image04" src="img/JournéeEtudiants/Journée accueil Etudiants 27 09 2018 (8).JPG">
           <div>
             <h3>CONCOURS CUISINE</h3>
             <a class="lb-prev" href="#gal-1-image-3">Prev</a>
@@ -127,14 +119,146 @@
       </li>
     </ul>
     <!-- Controls -->
-    <a class="carousel-control-prev" href="#myCarousel" role="button" data-slide="prev">
-      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-      <span class="sr-only">Previous</span>
-    </a>
-    <a class="carousel-control-next" href="#myCarousel" role="button" data-slide="next">
-      <span class="carousel-control-next-icon" aria-hidden="true"></span>
-      <span class="sr-only">Next</span>
-    </a>
+
+  <div id="galerie1" class="cssgal">
+    <!-- ancre et conteneur de la galerie  
+  avec index propre à chaque galerie-->
+    <ul class="lb-album">
+      <li>
+        <a href="#gal-1-image-1">
+          <!----lien de la vignette vers le conteneur "lightbox" de la 1ère image-->
+          <img class="gal" width="120" height="90" alt="image01" src="img/JournéeEtudiants/Journée accueil Etudiants 27 09 2018 (9).JPG">
+        </a>
+        <div id="gal-1-image-1" class="lb-overlay">
+          <!--ancre de la 1ère image, background opaque-->
+          <img alt="image01" src="img/JournéeEtudiants/Journée accueil Etudiants 27 09 2018 (9).JPG">
+          <div>
+            <h3>LOGO CAROLO</h3>
+             <!-- Controls -->
+    
+            <!--titre de l'image grand format-->
+            <a class="lb-prev" href="#gal-1-image-4">Prev</a>
+            <a class="lb-next" href="#gal-1-image-2">Next</a>
+            <!--lien vers image suivante-->
+          </div>
+          <a class="lb-close nolink" href="#galerie1">x Close</a>
+          <!--lien vers l'ancre de la galerie: fermeture-->
+        </div>
+      </li>
+      <li>
+        <a href="#gal-1-image-2">
+          <img class="gal" width="120" height="90" alt="image02" src="img/JournéeEtudiants/Journée accueil Etudiants 27 09 2018 (10).JPG">
+        </a>
+        <div id="gal-1-image-2" class="lb-overlay">
+          <img alt="image02" src="img/JournéeEtudiants/Journée accueil Etudiants 27 09 2018 (10).JPG">
+          <div>
+            <h3>ETUDIANTS</h3>
+            <a class="lb-prev" href="#gal-1-image-1">Prev</a>
+            <a class="lb-next" href="#gal-1-image-3">Next</a>
+          </div>
+          <a class="lb-close nolink" href="#galerie1">x Close</a>
+        </div>
+      </li>
+      <li>
+        <a href="#gal-1-image-3">
+          <img class="gal" width="120" height="90" alt="image03" src="img/JournéeEtudiants/Journée accueil Etudiants 27 09 2018 (13).JPG">
+        </a>
+        <div id="gal-1-image-3" class="lb-overlay">
+          <img alt="image03" src="img/JournéeEtudiants/Journée accueil Etudiants 27 09 2018 (13).JPG">
+          <div>
+            <h3>CAMPUS</h3>
+            <a class="lb-prev" href="#gal-1-image-2">Prev</a>
+            <a class="lb-next" href="#gal-1-image-4">Next</a>
+          </div>
+          <a class="lb-close nolink" href="#galerie1">x Close</a>
+        </div>
+      </li>
+      <li>
+        <a href="#gal-1-image-4">
+          <img class="gal" width="120" height="90" alt="image04" src="img/JournéeEtudiants/Journée accueil Etudiants 27 09 2018 (17).JPG">
+        </a>
+        <div id="gal-1-image-4" class="lb-overlay">
+          <img alt="image04" src="img/JournéeEtudiants/Journée accueil Etudiants 27 09 2018 (17).JPG">
+          <div>
+            <h3>CONCOURS CUISINE</h3>
+            <a class="lb-prev" href="#gal-1-image-3">Prev</a>
+            <a class="lb-next" href="#gal-1-image-1">Next</a>
+          </div>
+          <a class="lb-close nolink" href="#galerie1">x Close</a>
+        </div>
+      </li>
+    </ul>
+    
+
+  <div id="galerie1" class="cssgal">
+    <!-- ancre et conteneur de la galerie  
+  avec index propre à chaque galerie-->
+    <ul class="lb-album">
+      <li>
+        <a href="#gal-1-image-1">
+          <!----lien de la vignette vers le conteneur "lightbox" de la 1ère image-->
+          <img class="gal" width="120" height="90" alt="image01" src="img/JournéeEtudiants/Journée accueil Etudiants 27 09 2018 (19).JPG">
+        </a>
+        <div id="gal-1-image-1" class="lb-overlay">
+          <!--ancre de la 1ère image, background opaque-->
+          <img alt="image01" src="img/JournéeEtudiants/Journée accueil Etudiants 27 09 2018 (19).JPG">
+          <div>
+            <h3>LOGO CAROLO</h3>
+             <!-- Controls -->
+  
+            <!--titre de l'image grand format-->
+            <a class="lb-prev" href="#gal-1-image-4">Prev</a>
+            <a class="lb-next" href="#gal-1-image-2">Next</a>
+            <!--lien vers image suivante-->
+          </div>
+          <a class="lb-close nolink" href="#galerie1">x Close</a>
+          <!--lien vers l'ancre de la galerie: fermeture-->
+        </div>
+      </li>
+      <li>
+        <a href="#gal-1-image-2">
+          <img class="gal" width="120" height="90" alt="image02" src="img/JournéeEtudiants/Journée accueil Etudiants 27 09 2018 (20).JPG">
+        </a>
+        <div id="gal-1-image-2" class="lb-overlay">
+          <img alt="image02" src="img/JournéeEtudiants/Journée accueil Etudiants 27 09 2018 (20).JPG">
+          <div>
+            <h3>ETUDIANTS</h3>
+            <a class="lb-prev" href="#gal-1-image-1">Prev</a>
+            <a class="lb-next" href="#gal-1-image-3">Next</a>
+          </div>
+          <a class="lb-close nolink" href="#galerie1">x Close</a>
+        </div>
+      </li>
+      <li>
+        <a href="#gal-1-image-3">
+          <img class="gal" width="120" height="90" alt="image03" src="img/JournéeEtudiants/Journée accueil Etudiants 27 09 2018 (28).JPG">
+        </a>
+        <div id="gal-1-image-3" class="lb-overlay">
+          <img alt="image03" src="img/JournéeEtudiants/Journée accueil Etudiants 27 09 2018 (28).JPG">
+          <div>
+            <h3>CAMPUS</h3>
+            <a class="lb-prev" href="#gal-1-image-2">Prev</a>
+            <a class="lb-next" href="#gal-1-image-4">Next</a>
+          </div>
+          <a class="lb-close nolink" href="#galerie1">x Close</a>
+        </div>
+      </li>
+      <li>
+        <a href="#gal-1-image-4">
+          <img class="gal" width="120" height="90" alt="image04" src="img/JournéeEtudiants/Journée accueil Etudiants 27 09 2018 (30).JPG">
+        </a>
+        <div id="gal-1-image-4" class="lb-overlay">
+          <img alt="image04" src="img/JournéeEtudiants/Journée accueil Etudiants 27 09 2018 (30).JPG">
+          <div>
+            <h3>CONCOURS CUISINE</h3>
+            <a class="lb-prev" href="#gal-1-image-3">Prev</a>
+            <a class="lb-next" href="#gal-1-image-1">Next</a>
+          </div>
+          <a class="lb-close nolink" href="#galerie1">x Close</a>
+        </div>
+      </li>
+    </ul>
+    <!-- Controls -->
   </div>
 
   <div id="galerie1" class="cssgal">
@@ -144,26 +268,17 @@
       <li>
         <a href="#gal-1-image-1">
           <!----lien de la vignette vers le conteneur "lightbox" de la 1ère image-->
-          <img class="gal" width="120" height="90" alt="image01" src="img/01.jpg">
+          <img class="gal" width="120" height="90" alt="image01" src="img/JournéeEtudiants/Journée accueil Etudiants 27 09 2018 (34).JPG">
         </a>
         <div id="gal-1-image-1" class="lb-overlay">
           <!--ancre de la 1ère image, background opaque-->
-          <img alt="image01" src="img/01.jpg">
+          <img alt="image01" src="img/JournéeEtudiants/Journée accueil Etudiants 27 09 2018 (34).JPG">
           <div>
             <h3>LOGO CAROLO</h3>
              <!-- Controls -->
-    <a class="carousel-control-prev" href="#myCarousel" role="button" data-slide="prev">
-      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-      <span class="sr-only">Previous</span>
-    </a>
-    <a class="carousel-control-next" href="#myCarousel" role="button" data-slide="next">
-      <span class="carousel-control-next-icon" aria-hidden="true"></span>
-      <span class="sr-only">Next</span>
-    </a>
             <!--titre de l'image grand format-->
-            <!--<a class="lb-prev" href="#gal-1-image-4">Prev</a>
-            lien vers image précédente
-            <a class="lb-next" href="#gal-1-image-2">Next</a>-->
+            <a class="lb-prev" href="#gal-1-image-4">Prev</a>
+            <a class="lb-next" href="#gal-1-image-2">Next</a>
             <!--lien vers image suivante-->
           </div>
           <a class="lb-close nolink" href="#galerie1">x Close</a>
@@ -172,10 +287,10 @@
       </li>
       <li>
         <a href="#gal-1-image-2">
-          <img class="gal" width="120" height="90" alt="image02" src="img/02.jpg">
+          <img class="gal" width="120" height="90" alt="image02" src="img/JournéeEtudiants/Journée accueil Etudiants 27 09 2018 (41).JPG">
         </a>
         <div id="gal-1-image-2" class="lb-overlay">
-          <img alt="image02" src="img/02.jpg">
+          <img alt="image02" src="img/JournéeEtudiants/Journée accueil Etudiants 27 09 2018 (41).JPG">
           <div>
             <h3>ETUDIANTS</h3>
             <a class="lb-prev" href="#gal-1-image-1">Prev</a>
@@ -186,10 +301,10 @@
       </li>
       <li>
         <a href="#gal-1-image-3">
-          <img class="gal" width="120" height="90" alt="image03" src="img/03.jpg">
+          <img class="gal" width="120" height="90" alt="image03" src="img/JournéeEtudiants/Journée accueil Etudiants 27 09 2018 (68).JPG">
         </a>
         <div id="gal-1-image-3" class="lb-overlay">
-          <img alt="image03" src="img/03.jpg">
+          <img alt="image03" src="img/JournéeEtudiants/Journée accueil Etudiants 27 09 2018 (68).JPG">
           <div>
             <h3>CAMPUS</h3>
             <a class="lb-prev" href="#gal-1-image-2">Prev</a>
@@ -200,10 +315,10 @@
       </li>
       <li>
         <a href="#gal-1-image-4">
-          <img class="gal" width="120" height="90" alt="image04" src="img/04.jpg">
+          <img class="gal" width="120" height="90" alt="image04" src="img/JournéeEtudiants/Journée accueil Etudiants 27 09 2018 (69).JPG">
         </a>
         <div id="gal-1-image-4" class="lb-overlay">
-          <img alt="image04" src="img/04.jpg">
+          <img alt="image04" src="img/JournéeEtudiants/Journée accueil Etudiants 27 09 2018 (69).JPG">
           <div>
             <h3>CONCOURS CUISINE</h3>
             <a class="lb-prev" href="#gal-1-image-3">Prev</a>
@@ -214,14 +329,6 @@
       </li>
     </ul>
     <!-- Controls -->
-    <a class="carousel-control-prev" href="#myCarousel" role="button" data-slide="prev">
-      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-      <span class="sr-only">Previous</span>
-    </a>
-    <a class="carousel-control-next" href="#myCarousel" role="button" data-slide="next">
-      <span class="carousel-control-next-icon" aria-hidden="true"></span>
-      <span class="sr-only">Next</span>
-    </a>
   </div>
 
   <div id="galerie1" class="cssgal">
@@ -231,26 +338,18 @@
       <li>
         <a href="#gal-1-image-1">
           <!----lien de la vignette vers le conteneur "lightbox" de la 1ère image-->
-          <img class="gal" width="120" height="90" alt="image01" src="img/01.jpg">
+          <img class="gal" width="120" height="90" alt="image01" src="img/JournéeEtudiants/Journée accueil Etudiants 27 09 2018 (98).JPG">
         </a>
         <div id="gal-1-image-1" class="lb-overlay">
           <!--ancre de la 1ère image, background opaque-->
-          <img alt="image01" src="img/01.jpg">
+          <img alt="image01" src="img/JournéeEtudiants/Journée accueil Etudiants 27 09 2018 (98).JPG">
           <div>
             <h3>LOGO CAROLO</h3>
              <!-- Controls -->
-    <a class="carousel-control-prev" href="#myCarousel" role="button" data-slide="prev">
-      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-      <span class="sr-only">Previous</span>
-    </a>
-    <a class="carousel-control-next" href="#myCarousel" role="button" data-slide="next">
-      <span class="carousel-control-next-icon" aria-hidden="true"></span>
-      <span class="sr-only">Next</span>
-    </a>
             <!--titre de l'image grand format-->
-            <!--<a class="lb-prev" href="#gal-1-image-4">Prev</a>
+            <a class="lb-prev" href="#gal-1-image-4">Prev</a>
             lien vers image précédente
-            <a class="lb-next" href="#gal-1-image-2">Next</a>-->
+            <a class="lb-next" href="#gal-1-image-2">Next</a>
             <!--lien vers image suivante-->
           </div>
           <a class="lb-close nolink" href="#galerie1">x Close</a>
@@ -259,10 +358,10 @@
       </li>
       <li>
         <a href="#gal-1-image-2">
-          <img class="gal" width="120" height="90" alt="image02" src="img/02.jpg">
+          <img class="gal" width="120" height="90" alt="image02" src="img/JournéeEtudiants/Journée accueil Etudiants 27 09 2018 (100).JPG">
         </a>
         <div id="gal-1-image-2" class="lb-overlay">
-          <img alt="image02" src="img/02.jpg">
+          <img alt="image02" src="img/JournéeEtudiants/Journée accueil Etudiants 27 09 2018 (100).JPG">
           <div>
             <h3>ETUDIANTS</h3>
             <a class="lb-prev" href="#gal-1-image-1">Prev</a>
@@ -273,10 +372,10 @@
       </li>
       <li>
         <a href="#gal-1-image-3">
-          <img class="gal" width="120" height="90" alt="image03" src="img/03.jpg">
+          <img class="gal" width="120" height="90" alt="image03" src="img/JournéeEtudiants/Journée accueil Etudiants 27 09 2018 (103).JPG">
         </a>
         <div id="gal-1-image-3" class="lb-overlay">
-          <img alt="image03" src="img/03.jpg">
+          <img alt="image03" src="img/JournéeEtudiants/Journée accueil Etudiants 27 09 2018 (103).JPG">
           <div>
             <h3>CAMPUS</h3>
             <a class="lb-prev" href="#gal-1-image-2">Prev</a>
@@ -287,10 +386,10 @@
       </li>
       <li>
         <a href="#gal-1-image-4">
-          <img class="gal" width="120" height="90" alt="image04" src="img/04.jpg">
+          <img class="gal" width="120" height="90" alt="image04" src="img/JournéeEtudiants/Journée accueil Etudiants 27 09 2018 (105).JPG">
         </a>
         <div id="gal-1-image-4" class="lb-overlay">
-          <img alt="image04" src="img/04.jpg">
+          <img alt="image04" src="img/JournéeEtudiants/Journée accueil Etudiants 27 09 2018 (105).JPG">
           <div>
             <h3>CONCOURS CUISINE</h3>
             <a class="lb-prev" href="#gal-1-image-3">Prev</a>
@@ -301,188 +400,6 @@
       </li>
     </ul>
     <!-- Controls -->
-    <a class="carousel-control-prev" href="#myCarousel" role="button" data-slide="prev">
-      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-      <span class="sr-only">Previous</span>
-    </a>
-    <a class="carousel-control-next" href="#myCarousel" role="button" data-slide="next">
-      <span class="carousel-control-next-icon" aria-hidden="true"></span>
-      <span class="sr-only">Next</span>
-    </a>
-  </div>
-
-  <div id="galerie1" class="cssgal">
-    <!-- ancre et conteneur de la galerie  
-  avec index propre à chaque galerie-->
-    <ul class="lb-album">
-      <li>
-        <a href="#gal-1-image-1">
-          <!----lien de la vignette vers le conteneur "lightbox" de la 1ère image-->
-          <img class="gal" width="120" height="90" alt="image01" src="img/01.jpg">
-        </a>
-        <div id="gal-1-image-1" class="lb-overlay">
-          <!--ancre de la 1ère image, background opaque-->
-          <img alt="image01" src="img/01.jpg">
-          <div>
-            <h3>LOGO CAROLO</h3>
-             <!-- Controls -->
-    <a class="carousel-control-prev" href="#myCarousel" role="button" data-slide="prev">
-      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-      <span class="sr-only">Previous</span>
-    </a>
-    <a class="carousel-control-next" href="#myCarousel" role="button" data-slide="next">
-      <span class="carousel-control-next-icon" aria-hidden="true"></span>
-      <span class="sr-only">Next</span>
-    </a>
-            <!--titre de l'image grand format-->
-            <!--<a class="lb-prev" href="#gal-1-image-4">Prev</a>
-            lien vers image précédente
-            <a class="lb-next" href="#gal-1-image-2">Next</a>-->
-            <!--lien vers image suivante-->
-          </div>
-          <a class="lb-close nolink" href="#galerie1">x Close</a>
-          <!--lien vers l'ancre de la galerie: fermeture-->
-        </div>
-      </li>
-      <li>
-        <a href="#gal-1-image-2">
-          <img class="gal" width="120" height="90" alt="image02" src="img/02.jpg">
-        </a>
-        <div id="gal-1-image-2" class="lb-overlay">
-          <img alt="image02" src="img/02.jpg">
-          <div>
-            <h3>ETUDIANTS</h3>
-            <a class="lb-prev" href="#gal-1-image-1">Prev</a>
-            <a class="lb-next" href="#gal-1-image-3">Next</a>
-          </div>
-          <a class="lb-close nolink" href="#galerie1">x Close</a>
-        </div>
-      </li>
-      <li>
-        <a href="#gal-1-image-3">
-          <img class="gal" width="120" height="90" alt="image03" src="img/03.jpg">
-        </a>
-        <div id="gal-1-image-3" class="lb-overlay">
-          <img alt="image03" src="img/03.jpg">
-          <div>
-            <h3>CAMPUS</h3>
-            <a class="lb-prev" href="#gal-1-image-2">Prev</a>
-            <a class="lb-next" href="#gal-1-image-4">Next</a>
-          </div>
-          <a class="lb-close nolink" href="#galerie1">x Close</a>
-        </div>
-      </li>
-      <li>
-        <a href="#gal-1-image-4">
-          <img class="gal" width="120" height="90" alt="image04" src="img/04.jpg">
-        </a>
-        <div id="gal-1-image-4" class="lb-overlay">
-          <img alt="image04" src="img/04.jpg">
-          <div>
-            <h3>CONCOURS CUISINE</h3>
-            <a class="lb-prev" href="#gal-1-image-3">Prev</a>
-            <a class="lb-next" href="#gal-1-image-1">Next</a>
-          </div>
-          <a class="lb-close nolink" href="#galerie1">x Close</a>
-        </div>
-      </li>
-    </ul>
-    <!-- Controls -->
-    <a class="carousel-control-prev" href="#myCarousel" role="button" data-slide="prev">
-      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-      <span class="sr-only">Previous</span>
-    </a>
-    <a class="carousel-control-next" href="#myCarousel" role="button" data-slide="next">
-      <span class="carousel-control-next-icon" aria-hidden="true"></span>
-      <span class="sr-only">Next</span>
-    </a>
-  </div>
-
-  <div id="galerie1" class="cssgal">
-    <!-- ancre et conteneur de la galerie  
-  avec index propre à chaque galerie-->
-    <ul class="lb-album">
-      <li>
-        <a href="#gal-1-image-1">
-          <!----lien de la vignette vers le conteneur "lightbox" de la 1ère image-->
-          <img class="gal" width="120" height="90" alt="image01" src="img/01.jpg">
-        </a>
-        <div id="gal-1-image-1" class="lb-overlay">
-          <!--ancre de la 1ère image, background opaque-->
-          <img alt="image01" src="img/01.jpg">
-          <div>
-            <h3>LOGO CAROLO</h3>
-             <!-- Controls -->
-    <a class="carousel-control-prev" href="#myCarousel" role="button" data-slide="prev">
-      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-      <span class="sr-only">Previous</span>
-    </a>
-    <a class="carousel-control-next" href="#myCarousel" role="button" data-slide="next">
-      <span class="carousel-control-next-icon" aria-hidden="true"></span>
-      <span class="sr-only">Next</span>
-    </a>
-            <!--titre de l'image grand format-->
-            <!--<a class="lb-prev" href="#gal-1-image-4">Prev</a>
-            lien vers image précédente
-            <a class="lb-next" href="#gal-1-image-2">Next</a>-->
-            <!--lien vers image suivante-->
-          </div>
-          <a class="lb-close nolink" href="#galerie1">x Close</a>
-          <!--lien vers l'ancre de la galerie: fermeture-->
-        </div>
-      </li>
-      <li>
-        <a href="#gal-1-image-2">
-          <img class="gal" width="120" height="90" alt="image02" src="img/02.jpg">
-        </a>
-        <div id="gal-1-image-2" class="lb-overlay">
-          <img alt="image02" src="img/02.jpg">
-          <div>
-            <h3>ETUDIANTS</h3>
-            <a class="lb-prev" href="#gal-1-image-1">Prev</a>
-            <a class="lb-next" href="#gal-1-image-3">Next</a>
-          </div>
-          <a class="lb-close nolink" href="#galerie1">x Close</a>
-        </div>
-      </li>
-      <li>
-        <a href="#gal-1-image-3">
-          <img class="gal" width="120" height="90" alt="image03" src="img/03.jpg">
-        </a>
-        <div id="gal-1-image-3" class="lb-overlay">
-          <img alt="image03" src="img/03.jpg">
-          <div>
-            <h3>CAMPUS</h3>
-            <a class="lb-prev" href="#gal-1-image-2">Prev</a>
-            <a class="lb-next" href="#gal-1-image-4">Next</a>
-          </div>
-          <a class="lb-close nolink" href="#galerie1">x Close</a>
-        </div>
-      </li>
-      <li>
-        <a href="#gal-1-image-4">
-          <img class="gal" width="120" height="90" alt="image04" src="img/04.jpg">
-        </a>
-        <div id="gal-1-image-4" class="lb-overlay">
-          <img alt="image04" src="img/04.jpg">
-          <div>
-            <h3>CONCOURS CUISINE</h3>
-            <a class="lb-prev" href="#gal-1-image-3">Prev</a>
-            <a class="lb-next" href="#gal-1-image-1">Next</a>
-          </div>
-          <a class="lb-close nolink" href="#galerie1">x Close</a>
-        </div>
-      </li>
-    </ul>
-    <!-- Controls -->
-    <a class="carousel-control-prev" href="#myCarousel" role="button" data-slide="prev">
-      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-      <span class="sr-only">Previous</span>
-    </a>
-    <a class="carousel-control-next" href="#myCarousel" role="button" data-slide="next">
-      <span class="carousel-control-next-icon" aria-hidden="true"></span>
-      <span class="sr-only">Next</span>
-    </a>
   </div>
 
  <?php include("footer1.php"); ?> 
