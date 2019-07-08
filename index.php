@@ -11,7 +11,7 @@
     <title>Rentrée des étudiants</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
+    <link rel="stylesheet" href="css/hover-min.css">
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/style.css">
 
@@ -671,11 +671,11 @@
         <h1>EDITION 2019</h1>
         <p>
             <!-- Bouton ouvrant l'accordéon -->
-            <button class="btn btn-danger btn-circle btn-lg" id="button1" type="button" data-toggle="collapse"
+            <div class="hvr-pulse-grow"><button class="btn btn-danger btn-circle btn-lg" id="button1" type="button" data-toggle="collapse"
                 data-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample"><span
                     class="fa fa-chevron-down"></span>
 
-            </button>
+            </button></div>
         </p>
         <div class="collapse" id="collapseExample">
             <div class="card card-body">
@@ -956,35 +956,35 @@
     <section class=ancienne_edition>
         <h2>EDITION 2018</h2>
         <div class="anciennephoto">
-            <div class="animated pulse"><a href="galerie.php">
+            <div class="hvr-grow-rotate"><a href="galerie.php">
                     <img src="img/JournéeEtudiants/Journée accueil Etudiants 27 09 2018 (126).JPG" class="img-fluid"
                         alt=""></a>
-                        <p>Remise des prix - Place Ducale</p>
-                    </div>
-            <div><a href="galerie.php">
+                <p>Remise des prix - Place Ducale</p>
+            </div>
+            <div class="hvr-grow-rotate"><a href="galerie.php">
                     <img src="img/JournéeEtudiants/Journée accueil Etudiants 27 09 2018 (69).JPG" class="img-fluid"
                         alt=""></a>
-                        <p>Carolo Warrior - Plaine du Mont-Olympe</p>
-                    </div>
-            <div><a href="galerie.php">
+                <p>Carolo Warrior - Plaine du Mont-Olympe</p>
+            </div>
+            <div class="hvr-grow-rotate"><a href="galerie.php">
                     <img src="img/JournéeEtudiants/Journée accueil Etudiants 27 09 2018 (13).JPG" class="img-fluid"
                         alt=""></a>
-                        <p>Pique Nique - Plaine du Mont-Olympe</p>
-                    </div>
-            <div><a href="galerie.php">
+                <p>Pique Nique - Plaine du Mont-Olympe</p>
+            </div>
+            <div class="hvr-grow-rotate"><a href="galerie.php">
                     <img src="img/JournéeEtudiants/Journée accueil Etudiants 27 09 2018 (115).JPG" class="img-fluid"
                         alt=""></a>
-                        <p>Remise des prix avec Boris Ravignon</p>
-                    </div>
-            <div><a href="galerie.php">
+                <p>Remise des prix avec Boris Ravignon</p>
+            </div>
+            <div class="hvr-grow-rotate"><a href="galerie.php">
                     <img src="img/JournéeEtudiants/Journée accueil Etudiants 27 09 2018 (41).JPG" class="img-fluid"
                         alt=""></a>
-                        <p>Carolo Warrior - Plaine du Mont-Olympe</p>
-                    </div>
+                <p>Carolo Warrior - Plaine du Mont-Olympe</p>
+            </div>
         </div>
     </section>
 
-    
+
 
 
     <!--/////////////////////TEMOIGNAGES///////////////////////-->
@@ -1066,28 +1066,6 @@
 
 
     <?php include("footer1.php") ; ?>
-
-
-
-
-    <script type="text/javascript" src="../../assets/warning.js"></script>
-
-
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
-        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
-    </script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
-        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous">
-    </script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
-        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
-    </script>
-
-
-
-</body>
-
-</html>
 
 
 
