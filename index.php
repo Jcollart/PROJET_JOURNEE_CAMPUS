@@ -961,22 +961,22 @@
                         alt=""></a>
                 <p>Remise des prix - Place Ducale</p>
             </div>
-            <div class="hvr-grow-rotate">><a href="galerie.php">
+            <div class="hvr-grow-rotate"><a href="galerie.php">
                     <img src="img/JournéeEtudiants/Journée accueil Etudiants 27 09 2018 (69).JPG" class="img-fluid"
                         alt=""></a>
                 <p>Carolo Warrior - Plaine du Mont-Olympe</p>
-            </div class="hvr-grow-rotate">>
-            <div><a href="galerie.php">
+            </div>
+            <div class="hvr-grow-rotate"><a href="galerie.php">
                     <img src="img/JournéeEtudiants/Journée accueil Etudiants 27 09 2018 (13).JPG" class="img-fluid"
                         alt=""></a>
                 <p>Pique Nique - Plaine du Mont-Olympe</p>
-            </div class="hvr-grow-rotate">>
-            <div><a href="galerie.php">
+            </div>
+            <div class="hvr-grow-rotate"><a href="galerie.php">
                     <img src="img/JournéeEtudiants/Journée accueil Etudiants 27 09 2018 (115).JPG" class="img-fluid"
                         alt=""></a>
                 <p>Remise des prix avec Boris Ravignon</p>
-            </div class="hvr-grow-rotate">>
-            <div><a href="galerie.php">
+            </div>
+            <div class="hvr-grow-rotate"><a href="galerie.php">
                     <img src="img/JournéeEtudiants/Journée accueil Etudiants 27 09 2018 (41).JPG" class="img-fluid"
                         alt=""></a>
                 <p>Carolo Warrior - Plaine du Mont-Olympe</p>
