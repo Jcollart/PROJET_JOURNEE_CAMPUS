@@ -56,7 +56,7 @@
 </head>
 
 <body>
-    <?php include("header1.php") ; ?>
+    <?php include("header.php") ; ?>
 
 
     <!--/////////////////////SECTION ENTETE///////////////////////-->
@@ -338,7 +338,7 @@
 
                                 <!-- LAYER NR. 16 -->
                                 <a class="tp-caption   tp-resizeme"
-                                    href="https://revolution.themepunch.com/direct-customer-benefits/" target="_blank"
+                                    href="https://revolution.themepunch.com/direct-customer-benefits/" target="_self"
                                     id="slide-32-layer-18" data-x="['center','center','center','center']"
                                     data-hoffset="['-270','-270','-230','0']"
                                     data-y="['bottom','bottom','bottom','bottom']"
@@ -355,8 +355,8 @@
 
                                 <!-- LAYER NR. 17 -->
                                 <a class="tp-caption   tp-resizeme"
-                                    href="https://revolution.themepunch.com/direct-customer-benefits/#templatelibrary"
-                                    target="_blank" id="slide-32-layer-19"
+                                    href="#new_edition"
+                                    target="_self" id="slide-32-layer-19"
                                     data-x="['center','center','center','center']" data-hoffset="['0','0','0','0']"
                                     data-y="['bottom','bottom','bottom','bottom']"
                                     data-voffset="['100','100','200','150']" data-fontsize="['30','30','25','25']"
@@ -371,8 +371,8 @@
                                     TOUTES NOS<br />ACTIVITEES DE LA JOURNEE </a>
 
                                 <!-- LAYER NR. 18 -->
-                                <a class="tp-caption   tp-resizeme" href="https://revolution.themepunch.com/examples/"
-                                    target="_blank" id="slide-32-layer-20"
+                                <a class="tp-caption   tp-resizeme" href="#edition2018"
+                                    target="_self" id="slide-32-layer-20"
                                     data-x="['center','center','center','center']"
                                     data-hoffset="['270','270','230','0']"
                                     data-y="['bottom','bottom','bottom','bottom']"
@@ -671,10 +671,11 @@
         <h1>EDITION 2019</h1>
         <p>
             <!-- Bouton ouvrant l'accordéon -->
-            <div class="hvr-pulse-grow"><button class="btn btn-danger btn-circle btn-lg" id="button1" type="button" data-toggle="collapse"
-                data-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample"><span
-                    class="fa fa-chevron-down"></span>
+            <div class="hvr-pulse-grow"><button class="btn btn-link" id="button1" type="button" data-toggle="collapse"
+                data-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample"><i style="font-size:1em" class="fa fa-spinner fa-spin fa-6x fa-fw"></i></br>Appuyez ici
 
+                
+               
             </button></div>
         </p>
         <div class="collapse" id="collapseExample">
@@ -955,7 +956,7 @@
 
     <section class=ancienne_edition>
         <h2>EDITION 2018</h2>
-        <div class="anciennephoto">
+        <div class="anciennephoto" id="edition2018">
             <div class="hvr-grow-rotate"><a href="galerie.php">
                     <img src="img/JournéeEtudiants/Journée accueil Etudiants 27 09 2018 (126).JPG" class="img-fluid"
                         alt=""></a>
@@ -1041,7 +1042,7 @@
                             <div class="col-md-12">
                                 <div class="card-body align-items-center">
                                     <p class="card-text"> « TOP !!! Je compte bien me réinscrire cette année… et gagner
-                                        le GROS LOT  #GUIGUI MONEY FROM NEUILLY»</p>
+                                        le GROS LOT <i class="fas fa-smile"></i> #GUIGUI MONEY FROM NEUILLY»</p>
                                     <p class="card-text">Jaahed – 19 ans</p>
                                 </div>
                             </div>

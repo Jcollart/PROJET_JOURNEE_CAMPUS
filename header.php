@@ -42,19 +42,19 @@
             Menu Deroulant
           </a>
           <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-            <a class="dropdown-item" href="formulexpress">CAROLO EXPRESS</a>
-            <a class="dropdown-item" href="formulpiquenique">CAROLO PIQUE-NIQUE</a>
+            <a class="dropdown-item" href="formulexpress.php">CAROLO EXPRESS</a>
+            <a class="dropdown-item" href="formulpiquenique.php">CAROLO PIQUE-NIQUE</a>
             <a class="dropdown-item" href="formulwarrior.php">CAROLO WARRIOR</a>
             <div class="dropdown-divider"></div>
             <a class="dropdown-item" href="formulcuisine.php">CAROLO CUISINE</a>
           </div>
         </li>
-        <li class="nav-item">
-          <a class="nav-link" href="galerie.php">GALERIE PHOTO</a>
-        </li>  
         <li class="nav-item">  
           <a class="nav-link" href="https://www.charleville-mezieres.fr/"><img id="logocm" src="img/Logos/logomairieCM.png" alt="logocm"/></a>
         </li>
+        <li class="nav-item">
+          <a class="nav-link" href="galerie.php">GALERIE PHOTO</a>
+        </li>  
       </ul>
       <form class="form-inline my-2 my-lg-0">
         <input class="form-control mr-sm-2" type="search" placeholder="recherche" aria-label="Search">

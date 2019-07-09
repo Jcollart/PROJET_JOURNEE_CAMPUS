@@ -62,7 +62,7 @@
 
         <!-- Copyright -->
         <div class="mentions">
-            <p class="text-center">© 2019 Copyright: <a href=""><strong>G.PONSARD & J.COLLART</strong></a><a href="#!">
+            <p class="text-center">© 2019 Copyright: <a href="">G.PONSARD & J.COLLART</a><a href="#!">
                     Mentions légales </a><a href="#!"> Politique de confidentialité </a><a href="#!"> CGV </a></p>
         </div>
         <!-- Copyright -->

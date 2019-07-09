@@ -24,10 +24,10 @@
 
   <link rel="stylesheet" href="css/reset.css">
   <link rel="stylesheet" href="css/formulaire.css">
-
+  <link rel="stylesheet" href="css/hover-min.css">
 
 </head>
-<?php include("header1.php"); ?></br></br></br>
+<?php include("header.php"); ?></br></br></br>
 
 <center><h1 style="color:rgb(233, 95, 16)"> INSCRIPTION CAROLO EXPRESS </h1></br>
 <p>Merci de remplir les champs ci dessous pour inscrire votre équipe </br>
@@ -90,15 +90,15 @@
                     <div class="arrow_box"></div></br></br>
               
                 <section>
-                        <button type="button" style="color:rgb(233, 95, 16)" class="btn btn-light">INSCRIPTION PIQUE-NIQUE</button>
+                        <button type="button" style="color:rgb(233, 95, 16)" href="formulpiquenique.php" class="btn btn-light">INSCRIPTION PIQUE-NIQUE</button>
                 </section></br>
               
                 <section>
-                        <button type="button" style="color:rgb(233, 95, 16)" class="btn btn-light">INSCRIPTION CAROLO WARRIOR</button>
+                        <button type="button" style="color:rgb(233, 95, 16)" href="formulwarrior.php" class="btn btn-light">INSCRIPTION CAROLO WARRIOR</button>
                 </section></br>
               
                 <section>
-                        <button type="button" style="color:rgb(233, 95, 16)" class="btn btn-light">INSCRIPTION CONCOURS DE CUISINE</button>
+                        <button type="button" style="color:rgb(233, 95, 16)"  href="formulcuisine.php" class="btn btn-light">INSCRIPTION CONCOURS DE CUISINE</button>
                 </section></br>
               
               </section></center>
