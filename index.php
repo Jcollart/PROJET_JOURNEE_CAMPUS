@@ -663,23 +663,24 @@
             </a>
     </section>
 
-
+    <div class="parallax-window" data-parallax="scroll" data-image-src="img/paracolor.jpg" alt="">  <!-- debut parallax-->
 
     <!--/////////////////////SECTION NOUVELLE EDITION///////////////////////-->
 
-    <section class="new_edition" id="new_edition">
+    <section class="new_edition"  id="new_edition">
         <h1>EDITION 2019</h1>
         <p>
             <!-- Bouton ouvrant l'accordéon -->
-            <div class="hvr-pulse-grow"><button class="btn btn-link" id="button1" type="button" data-toggle="collapse"
+            
+            <div class="hvr-pulse-grow"><button class="button id="button1" type="button" data-toggle="collapse"
                 data-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample"><i style="font-size:1em" class="fa fa-spinner fa-spin fa-6x fa-fw"></i></br>Appuyez ici
 
                 
                
             </button></div>
         </p>
-        <div class="collapse" id="collapseExample">
-            <div class="card card-body">
+        <div class="collapse" id="collapseExample" >
+            <div class="card card-body" >
 
                 <div class="accordion" id="accordionExample">
                     <div class="card">
@@ -694,7 +695,7 @@
 
                         <div id="collapseOne" class="collapse" aria-labelledby="headingOne"
                             data-parent="#accordionExample">
-                            <div class="card-body">
+                            <div class="card-body" >
                                 <p>A travers les rues de Charleville-Mézières, le Carolo Express permet aux étudiants de
                                     découvrir la ville autrement avec ses moments incontournables et de nombreux lieux
                                     insolites ou méconnus.
@@ -950,13 +951,13 @@
         </div>
     </section>
 
-
+                                    </div>  <!-- fin parallax-->
 
     <!--/////////////////////SECTION ANCIENNE EDITION///////////////////////-->
 
-    <section class=ancienne_edition>
+    <section class=ancienne_edition id="edition2018">
         <h2>EDITION 2018</h2>
-        <div class="anciennephoto" id="edition2018">
+        <div class="anciennephoto" >
             <div class="hvr-grow-rotate"><a href="galerie.php">
                     <img src="img/JournéeEtudiants/Journée accueil Etudiants 27 09 2018 (126).JPG" class="img-fluid"
                         alt=""></a>
@@ -986,7 +987,7 @@
     </section>
 
 
-
+    <div class="parallax-window" data-parallax="scroll" data-image-src="img/placeducale.jpg" alt=""></div>
 
     <!--/////////////////////TEMOIGNAGES///////////////////////-->
 
@@ -1072,7 +1073,7 @@
 
 
     <script type="text/javascript" src="../../assets/warning.js"></script>
-
+    <script src="https://cdn.jsdelivr.net/parallax.js/1.4.2/parallax.min.js"></script>
 
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
         integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
@@ -1083,7 +1084,7 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
         integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
     </script>
-
+    
 
 
 </body>
