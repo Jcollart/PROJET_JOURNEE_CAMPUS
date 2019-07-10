@@ -4,7 +4,6 @@
 
 body {
         position: relative;
-        background-color: white;
         min-height: 100%;
         margin: 0;
         padding: 0;
@@ -23,7 +22,7 @@ body {
 
 .lb-album {
         /*liste non ordonnée, conteneur vignettes*/
-        width: 900px;
+        width: 80%;
         margin: 0 auto;
         font-family: 'BebasNeueRegular', 'Arial Narrow', Arial, sans-serif;
 }
