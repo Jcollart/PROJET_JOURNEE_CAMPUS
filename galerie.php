@@ -47,7 +47,7 @@
 
 <body>
   <!-- NAVBAR -->
-  <?php include("header1.php"); ?>
+  <?php include("header.php"); ?>
   <!-- /* Code inspiré de celui de Mary Lou sur http://tympanus.net/codrops/2011/12/26/css3-lightbox/-->
 
   <div id="galerie1" class="cssgal">
