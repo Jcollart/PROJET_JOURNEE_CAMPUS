@@ -80,8 +80,12 @@
             </div>
             <div class="row justify-content-center">
                 <button type="button" class="btn btn-light"><strong>S'inscrire</strong></button>
-            </div>        
-
+                 </div>        
+<!-- Notre boite de vérification -->
+<div class="g-recaptcha" 
+          data-sitekey="6LeuNQITAAAAAPGRU7dkrCPIrrR64WPvzMc7pn6Z">
+          </div>
+          <input type="submit" id="valider" value="valider" />
 </div></br></br>
 
         <section>

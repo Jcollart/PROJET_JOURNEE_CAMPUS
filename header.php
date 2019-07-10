@@ -39,7 +39,7 @@
         <li class="nav-item dropdown">
           <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
             aria-haspopup="true" aria-expanded="false" hvr-grow-shadow hvr-underline-from-center>
-            Menu Deroulant
+            Activitées proposées
           </a>
           <div class="dropdown-menu" aria-labelledby="navbarDropdown">
             <a class="dropdown-item" href="formulexpress.php">CAROLO EXPRESS</a>
@@ -53,8 +53,11 @@
           <a class="nav-link" href="https://www.charleville-mezieres.fr/"><img id="logocm" src="img/Logos/logomairieCM.png" alt="logocm"/></a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="galerie.php">GALERIE PHOTO</a>
-        </li>  
+          <a class="nav-link" id="galerie" href="galerie.php">Galerie photo</a>
+        </li> 
+        <li class="nav-item">
+          <a class="nav-link" id="contact" href="contact.php">Contact</a>
+        </li> 
       </ul>
       
     </div>
