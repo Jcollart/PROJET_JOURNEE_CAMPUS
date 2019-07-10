@@ -672,10 +672,8 @@
         <p>
             <!-- Bouton ouvrant l'accordéon -->
             
-            <div class="hvr-pulse-grow"><button class="button id="button1" type="button" data-toggle="collapse"
-                data-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample"><i style="font-size:1em" class="fa fa-spinner fa-spin fa-6x fa-fw"></i></br>Appuyez ici
-
-                
+            <div class=""><center><button class="hvr-rectangle-out" id="button1" type="button" data-toggle="collapse"
+                data-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample"><p>DECOUVREZ LE PROGRAMME</p></center>              
                
             </button></div>
         </p>

@@ -56,10 +56,7 @@
           <a class="nav-link" href="galerie.php">GALERIE PHOTO</a>
         </li>  
       </ul>
-      <form class="form-inline my-2 my-lg-0">
-        <input class="form-control mr-sm-2" type="search" placeholder="recherche" aria-label="Search">
-        <button class="btn btn-outline-success my-2 my-sm-0" type="submit"><i style="font-size:1em" class="fas fa-search"></i></button>
-      </form>
+      
     </div>
   </nav>
 
