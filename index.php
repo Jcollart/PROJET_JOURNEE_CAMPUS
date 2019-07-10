@@ -354,11 +354,9 @@
                                     JOURNEE 100%<br />ENRICHISSANTE </a>
 
                                 <!-- LAYER NR. 17 -->
-                                <a class="tp-caption   tp-resizeme"
-                                    href="#new_edition"
-                                    target="_self" id="slide-32-layer-19"
-                                    data-x="['center','center','center','center']" data-hoffset="['0','0','0','0']"
-                                    data-y="['bottom','bottom','bottom','bottom']"
+                                <a class="tp-caption   tp-resizeme" href="#new_edition" target="_self"
+                                    id="slide-32-layer-19" data-x="['center','center','center','center']"
+                                    data-hoffset="['0','0','0','0']" data-y="['bottom','bottom','bottom','bottom']"
                                     data-voffset="['100','100','200','150']" data-fontsize="['30','30','25','25']"
                                     data-lineheight="['28','28','23','23']" data-width="270" data-height="none"
                                     data-whitespace="nowrap" data-type="text" data-actions=''
@@ -371,9 +369,8 @@
                                     TOUTES NOS<br />ACTIVITEES DE LA JOURNEE </a>
 
                                 <!-- LAYER NR. 18 -->
-                                <a class="tp-caption   tp-resizeme" href="#edition2018"
-                                    target="_self" id="slide-32-layer-20"
-                                    data-x="['center','center','center','center']"
+                                <a class="tp-caption   tp-resizeme" href="#edition2018" target="_self"
+                                    id="slide-32-layer-20" data-x="['center','center','center','center']"
                                     data-hoffset="['270','270','230','0']"
                                     data-y="['bottom','bottom','bottom','bottom']"
                                     data-voffset="['100','100','200','90']" data-fontsize="['30','30','25','25']"
@@ -597,7 +594,7 @@
                     <div class="card mb-3">
                         <div class="row no-gutters">
                             <div class="col-md-4">
-                                <img src="img/02.jpg" class="card-img"
+                                <img src="img/01.jpg" class="card-img"
                                     alt="La rentrée des étudiants - C'est pour qui? ">
                             </div>
                             <div class="col-md-8">
@@ -618,7 +615,7 @@
                     <div class="card mb-3">
                         <div class="row no-gutters">
                             <div class="col-md-4">
-                                <img src="img/03.jpg" class="card-img" alt="La rentrée des étudiants - C'est quand? ">
+                                <img src="img/01.jpg" class="card-img" alt="La rentrée des étudiants - C'est quand? ">
                             </div>
                             <div class="col-md-8">
                                 <div class="card-body">
@@ -634,19 +631,17 @@
                     <div class="card mb-3">
                         <div class="row no-gutters">
                             <div class="col-md-4">
-                                <img src="img/04.jpg" class="card-img" alt="La rentrée des étudiants - C'est où? ">
+                                <img src="img/01.jpg" class="card-img" alt="La rentrée des étudiants - C'est où? ">
                             </div>
                             <div class="col-md-8">
                                 <div class="card-body">
                                     <h5 class="card-title">C'est où?</h5>
                                     <p class="card-text">La manifestation se déroule sur la Ville de
                                         Charleville-Mézières à plusieurs endroits en fonction des activités de la
-                                        journée.
-                                        A titre d’exemple, le « Carolo Express » vise à la découverte des lieux
+                                        journée. A titre d’exemple, le « Carolo Express » vise à la découverte des lieux
                                         saillants de la ville, plusieurs activités auront lieu également sur la Plaine
                                         du Mont Olympe ou sur la Place Ducale.
                                         . </p>
-
                                 </div>
                             </div>
                         </div>
@@ -654,308 +649,327 @@
                 </div>
             </div>
             <a class="carousel-control-prev" href="#carouselPresentation" role="button" data-slide="prev">
-                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="carousel-control-prev-icon" aria-hidden="false"></span>
                 <span class="sr-only">Previous</span>
             </a>
             <a class="carousel-control-next" href="#carouselPresentation" role="button" data-slide="next">
-                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="carousel-control-next-icon" aria-hidden="false"></span>
                 <span class="sr-only">Next</span>
             </a>
     </section>
 
-    <div class="parallax-window" data-parallax="scroll" data-image-src="img/paracolor.jpg" alt="">  <!-- debut parallax-->
+    <div class="parallax-window" data-parallax="scroll" data-image-src="img/paracolor.jpg" alt="">
+        <!-- debut parallax-->
 
-    <!--/////////////////////SECTION NOUVELLE EDITION///////////////////////-->
+        <!--/////////////////////SECTION NOUVELLE EDITION///////////////////////-->
 
-    <section class="new_edition"  id="new_edition">
-        <h1>EDITION 2019</h1>
-        <p>
-            <!-- Bouton ouvrant l'accordéon -->
-            
-            <div class=""><center><button class="hvr-rectangle-out" id="button1" type="button" data-toggle="collapse"
-                data-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample"><p>DECOUVREZ LE PROGRAMME</p></center>              
-               
-            </button></div>
-        </p>
-        <div class="collapse" id="collapseExample" >
-            <div class="card card-body" >
+        <section class="new_edition" id="new_edition">
+            <h1>EDITION 2019</h1>
+            <p>
+                <!-- Bouton ouvrant l'accordéon -->
 
-                <div class="accordion" id="accordionExample">
-                    <div class="card">
-                        <div class="card-header" id="headingOne">
-                            <h2 class="mb-0">
-                                <button class="btn btn-link" type="button" data-toggle="collapse"
-                                    data-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
-                                    CAROLO EXPRESS
-                                </button>
-                            </h2>
-                        </div>
+                <div class="">
+                    <center><button class="hvr-rectangle-out" id="button1" type="button" data-toggle="collapse"
+                            data-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
+                            <p>DECOUVREZ LE PROGRAMME</p>
+                    </center>
 
-                        <div id="collapseOne" class="collapse" aria-labelledby="headingOne"
-                            data-parent="#accordionExample">
-                            <div class="card-body" >
-                                <p>A travers les rues de Charleville-Mézières, le Carolo Express permet aux étudiants de
-                                    découvrir la ville autrement avec ses moments incontournables et de nombreux lieux
-                                    insolites ou méconnus.
-                                    Etes-vous déjà entré au sein de la TOUR DU ROY ?
+                    </button>
+                </div>
+            </p>
+            <div class="collapse" id="collapseExample">
+                <div class="card card-body">
 
-                                    Le parcours est composé d’environ 15 étapes. Sur chaque étape, une énigme ou une
-                                    mise en situation sera demandée.
+                    <div class="accordion" id="accordionExample">
+                        <div class="card">
+                            <div class="card-header" id="headingOne">
+                                <h2 class="mb-0">
+                                    <button class="btn btn-link" type="button" data-toggle="collapse"
+                                        data-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+                                        CAROLO EXPRESS
+                                    </button>
+                                </h2>
+                            </div>
 
-                                    Les équipes qui auront découvert les lieux le plus rapidement possible remporteront
-                                    cette course d’orientation. Le parcours du Carolo Express doit, bien évidemment, se
-                                    faire à pied (sinon, c’est trop facile ). #SORS TES BASKETS
+                            <div id="collapseOne" class="collapse" aria-labelledby="headingOne"
+                                data-parent="#accordionExample">
+                                <div class="card-body">
+                                    <p>A travers les rues de Charleville-Mézières, le Carolo Express permet aux
+                                        étudiants de
+                                        découvrir la ville autrement avec ses moments incontournables et de nombreux
+                                        lieux
+                                        insolites ou méconnus.
+                                        Etes-vous déjà entré au sein de la TOUR DU ROY ?
 
-                                    Afin de participer à cette manifestation, il est nécessaire au préalable de composer
-                                    une équipe de 5 personnes.
+                                        Le parcours est composé d’environ 15 étapes. Sur chaque étape, une énigme ou une
+                                        mise en situation sera demandée.
 
-                                    Informations pratiques :
+                                        Les équipes qui auront découvert les lieux le plus rapidement possible
+                                        remporteront
+                                        cette course d’orientation. Le parcours du Carolo Express doit, bien évidemment,
+                                        se
+                                        faire à pied (sinon, c’est trop facile ). #SORS TES BASKETS
 
-                                    Horaires de la manifestation : 9h30-12h30
-                                    Départ : Place d’Arches
-                                    Arrivée : Place Ducale
-                                    Info + : pensez à prendre des baskets car vous allez crapahuter !
+                                        Afin de participer à cette manifestation, il est nécessaire au préalable de
+                                        composer
+                                        une équipe de 5 personnes.
 
-                                </p>
-                                <a id="button-inscription" href="formulexpress.php"
-                                    class="btn btn-warning btn-lg active" role="button"
-                                    title="Inscription">S'inscrire</a>
+                                        Informations pratiques :
+
+                                        Horaires de la manifestation : 9h30-12h30
+                                        Départ : Place d’Arches
+                                        Arrivée : Place Ducale
+                                        Info + : pensez à prendre des baskets car vous allez crapahuter !
+
+                                    </p>
+                                    <a id="button-inscription" href="formulexpress.php"
+                                        class="btn btn-warning btn-lg active" role="button"
+                                        title="Inscription">S'inscrire</a>
+                                </div>
                             </div>
                         </div>
-                    </div>
-                    <div class="card">
-                        <div class="card-header" id="headingTwo">
-                            <h2 class="mb-0">
-                                <button class="btn btn-link collapsed" type="button" data-toggle="collapse"
-                                    data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                                    PIQUE-NIQUE
-                                </button>
-                            </h2>
-                        </div>
-                        <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo"
-                            data-parent="#accordionExample">
-                            <div class="card-body">
-                                <p>Afin qu’on puisse passer tous ensemble une pause déjeuner conviviale, vous avez soit
-                                    la possibilité de venir avec votre déjeuner, des chaises et des tables seront à
-                                    disposition sur un espace de la Plaine du Mont Olympe.
-                                    Soit, vous avez la possibilité de profiter d’une formule déjeuner à 2.5€ (au lieu de
-                                    4€) pour les 200 premiers les plus rapides !!
+                        <div class="card">
+                            <div class="card-header" id="headingTwo">
+                                <h2 class="mb-0">
+                                    <button class="btn btn-link collapsed" type="button" data-toggle="collapse"
+                                        data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                        PIQUE-NIQUE
+                                    </button>
+                                </h2>
+                            </div>
+                            <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo"
+                                data-parent="#accordionExample">
+                                <div class="card-body">
+                                    <p>Afin qu’on puisse passer tous ensemble une pause déjeuner conviviale, vous avez
+                                        soit
+                                        la possibilité de venir avec votre déjeuner, des chaises et des tables seront à
+                                        disposition sur un espace de la Plaine du Mont Olympe.
+                                        Soit, vous avez la possibilité de profiter d’une formule déjeuner à 2.5€ (au
+                                        lieu de
+                                        4€) pour les 200 premiers les plus rapides !!
 
-                                    La formule sera composée d’un burger, d’une frite et d’une boisson !
+                                        La formule sera composée d’un burger, d’une frite et d’une boisson !
 
-                                    Afin de bénéficier du repas à 2.5€, il est impératif de réserver votre repas ! Vous
-                                    paierez sur place le jour J ! #NE TARDEZ PAS A RESERVER
+                                        Afin de bénéficier du repas à 2.5€, il est impératif de réserver votre repas !
+                                        Vous
+                                        paierez sur place le jour J ! #NE TARDEZ PAS A RESERVER
 
-                                    Informations pratiques :
+                                        Informations pratiques :
 
-                                    Horaires de la manifestation :
-                                    Lieu : Plaine du Mont Olympe
-                                    Info + : n’oubliez pas de prendre de la monnaie
-                                    .
-                                </p>
-                                <a id="button-inscription" href="formulpiquenique.php"
-                                    class="btn btn-warning btn-lg active" role="button"
-                                    title="Inscription">S'inscrire</a>
+                                        Horaires de la manifestation :
+                                        Lieu : Plaine du Mont Olympe
+                                        Info + : n’oubliez pas de prendre de la monnaie
+                                        .
+                                    </p>
+                                    <a id="button-inscription" href="formulpiquenique.php"
+                                        class="btn btn-warning btn-lg active" role="button"
+                                        title="Inscription">S'inscrire</a>
+                                </div>
                             </div>
                         </div>
-                    </div>
-                    <div class="card">
-                        <div class="card-header" id="headingThree">
-                            <h2 class="mb-0">
-                                <button class="btn btn-link collapsed" type="button" data-toggle="collapse"
-                                    data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                                    CAROLO WARRIOR
-                                </button>
-                            </h2>
-                        </div>
-                        <div id="collapseThree" class="collapse" aria-labelledby="headingThree"
-                            data-parent="#accordionExample">
-                            <div class="card-body">
-                                <p>Carolo Warrior est un relais sportif composé de nombreuses activités sportives et/ou
-                                    ludiques. Plusieurs activités composent le relais, à savoir :
+                        <div class="card">
+                            <div class="card-header" id="headingThree">
+                                <h2 class="mb-0">
+                                    <button class="btn btn-link collapsed" type="button" data-toggle="collapse"
+                                        data-target="#collapseThree" aria-expanded="false"
+                                        aria-controls="collapseThree">
+                                        CAROLO WARRIOR
+                                    </button>
+                                </h2>
+                            </div>
+                            <div id="collapseThree" class="collapse" aria-labelledby="headingThree"
+                                data-parent="#accordionExample">
+                                <div class="card-body">
+                                    <p>Carolo Warrior est un relais sportif composé de nombreuses activités sportives
+                                        et/ou
+                                        ludiques. Plusieurs activités composent le relais, à savoir :
 
-                                    <li>raversée en canoë/kayak</li>
-                                    <li>Slackline</li>
-                                    <li>Lancers francs de basket</li>
-                                    </li>
-                                    <li>Tir à l’arc</li>
-                                    <li>Pédalo de cirque</li>
-                                    <li>Frisbee</li>
-                                    <li>Parcours sac à patates</li>
-                                    <li>Blind Foot</li>
-                                    <li>Course</li>
-                                    <li>Activité aquatique</li>
-                                    <li>Course & passage d’obstacles</li>
+                                        <li>raversée en canoë/kayak</li>
+                                        <li>Slackline</li>
+                                        <li>Lancers francs de basket</li>
+                                        </li>
+                                        <li>Tir à l’arc</li>
+                                        <li>Pédalo de cirque</li>
+                                        <li>Frisbee</li>
+                                        <li>Parcours sac à patates</li>
+                                        <li>Blind Foot</li>
+                                        <li>Course</li>
+                                        <li>Activité aquatique</li>
+                                        <li>Course & passage d’obstacles</li>
 
-                                    Afin de participer à cette manifestation, il est nécessaire au préalable de composer
-                                    une équipe de 8 personnes.
+                                        Afin de participer à cette manifestation, il est nécessaire au préalable de
+                                        composer
+                                        une équipe de 8 personnes.
 
-                                    Informations pratiques :
+                                        Informations pratiques :
 
-                                    Horaires de la manifestation :
-                                    Lieu : Plaine du Mont Olympe
-                                    Info + : pensez à prendre une tenue de sport
+                                        Horaires de la manifestation :
+                                        Lieu : Plaine du Mont Olympe
+                                        Info + : pensez à prendre une tenue de sport
 
-                                </p>
-                                <a id="button-inscription" href="formulwarrior.php"
-                                    class="btn btn-warning btn-lg active" role="button"
-                                    title="Inscription">S'inscrire</a>
+                                    </p>
+                                    <a id="button-inscription" href="formulwarrior.php"
+                                        class="btn btn-warning btn-lg active" role="button"
+                                        title="Inscription">S'inscrire</a>
+                                </div>
                             </div>
                         </div>
-                    </div>
-                    <div class="card">
-                        <div class="card-header" id="headingFour">
-                            <h2 class="mb-0">
-                                <button class="btn btn-link collapsed" type="button" data-toggle="collapse"
-                                    data-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
-                                    CONCOURS CUISINE
-                                </button>
-                            </h2>
-                        </div>
-                        <div id="collapseFour" class="collapse" aria-labelledby="headingFour"
-                            data-parent="#accordionExample">
-                            <div class="card-body">
-                                <p>Pour ceux qui aiment cuisiner ou tout simplement ceux qui veulent se lancer un
-                                    challenge, un Concours de cuisine sera proposé sur la Place Ducale en partenariat
-                                    avec l’association INTERCampus.
-                                    Sur la base de quelques ingrédients, vous devrez concocter un bon petit plat !
+                        <div class="card">
+                            <div class="card-header" id="headingFour">
+                                <h2 class="mb-0">
+                                    <button class="btn btn-link collapsed" type="button" data-toggle="collapse"
+                                        data-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                                        CONCOURS CUISINE
+                                    </button>
+                                </h2>
+                            </div>
+                            <div id="collapseFour" class="collapse" aria-labelledby="headingFour"
+                                data-parent="#accordionExample">
+                                <div class="card-body">
+                                    <p>Pour ceux qui aiment cuisiner ou tout simplement ceux qui veulent se lancer un
+                                        challenge, un Concours de cuisine sera proposé sur la Place Ducale en
+                                        partenariat
+                                        avec l’association INTERCampus.
+                                        Sur la base de quelques ingrédients, vous devrez concocter un bon petit plat !
 
-                                    Plusieurs équipes s’affronteront. Le matériel minimum nécessaire vous sera mis à
-                                    disposition.
+                                        Plusieurs équipes s’affronteront. Le matériel minimum nécessaire vous sera mis à
+                                        disposition.
 
-                                    Un jury à la fin notera et goûtera, pour le meilleur ou pour le pire, vos
-                                    préparations  #MERCOTTE
+                                        Un jury à la fin notera et goûtera, pour le meilleur ou pour le pire, vos
+                                        préparations  #MERCOTTE
 
-                                    Afin de participer à cette manifestation, il est nécessaire au préalable de composer
-                                    une équipe de 2 personnes.
+                                        Afin de participer à cette manifestation, il est nécessaire au préalable de
+                                        composer
+                                        une équipe de 2 personnes.
 
-                                    Informations pratiques :
+                                        Informations pratiques :
 
-                                    Horaires de la manifestation :
-                                    Lieu : Place Ducale
-                                    .
-                                </p>
-                                <a id="button-inscription" href="formulcuisine.php"
-                                    class="btn btn-warning btn-lg active" role="button"
-                                    title="Inscription">S'inscrire</a>
+                                        Horaires de la manifestation :
+                                        Lieu : Place Ducale
+                                        .
+                                    </p>
+                                    <a id="button-inscription" href="formulcuisine.php"
+                                        class="btn btn-warning btn-lg active" role="button"
+                                        title="Inscription">S'inscrire</a>
+                                </div>
                             </div>
                         </div>
-                    </div>
-                    <div class="card">
-                        <div class="card-header" id="headingFive">
-                            <h2 class="mb-0">
-                                <button class="btn btn-link collapsed" type="button" data-toggle="collapse"
-                                    data-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
-                                    RECOMPENSES
-                                </button>
-                            </h2>
-                        </div>
-                        <div id="collapseFive" class="collapse" aria-labelledby="headingFive"
-                            data-parent="#accordionExample">
-                            <div class="card-body">
-                                <p>Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry
-                                    richardson ad
-                                    squid.
-                                    3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck
-                                    quinoa
-                                    nesciunt
-                                    laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid
-                                    single-origin
-                                    coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer
-                                    labore
-                                    wes
-                                    anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice
-                                    lomo.
-                                    Leggings
-                                    occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you
-                                    probably
-                                    haven't heard
-                                    of them accusamus labore sustainable VHS.
-                                </p>
+                        <div class="card">
+                            <div class="card-header" id="headingFive">
+                                <h2 class="mb-0">
+                                    <button class="btn btn-link collapsed" type="button" data-toggle="collapse"
+                                        data-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+                                        RECOMPENSES
+                                    </button>
+                                </h2>
+                            </div>
+                            <div id="collapseFive" class="collapse" aria-labelledby="headingFive"
+                                data-parent="#accordionExample">
+                                <div class="card-body">
+                                    <p>Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry
+                                        richardson ad
+                                        squid.
+                                        3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck
+                                        quinoa
+                                        nesciunt
+                                        laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid
+                                        single-origin
+                                        coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer
+                                        labore
+                                        wes
+                                        anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice
+                                        lomo.
+                                        Leggings
+                                        occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you
+                                        probably
+                                        haven't heard
+                                        of them accusamus labore sustainable VHS.
+                                    </p>
+                                </div>
                             </div>
                         </div>
-                    </div>
-                    <div class="card">
-                        <div class="card-header" id="headingSix">
-                            <h2 class="mb-0">
-                                <button class="btn btn-link collapsed" type="button" data-toggle="collapse"
-                                    data-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
-                                    COCKTAIL
-                                </button>
-                            </h2>
-                        </div>
-                        <div id="collapseSix" class="collapse" aria-labelledby="headingSix"
-                            data-parent="#accordionExample">
-                            <div class="card-body">
-                                <p>Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry
-                                    richardson ad
-                                    squid.
-                                    3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck
-                                    quinoa
-                                    nesciunt
-                                    laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid
-                                    single-origin
-                                    coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer
-                                    labore
-                                    wes
-                                    anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice
-                                    lomo.
-                                    Leggings
-                                    occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you
-                                    probably
-                                    haven't heard
-                                    of them accusamus labore sustainable VHS.
-                                </p>
+                        <div class="card">
+                            <div class="card-header" id="headingSix">
+                                <h2 class="mb-0">
+                                    <button class="btn btn-link collapsed" type="button" data-toggle="collapse"
+                                        data-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
+                                        COCKTAIL
+                                    </button>
+                                </h2>
+                            </div>
+                            <div id="collapseSix" class="collapse" aria-labelledby="headingSix"
+                                data-parent="#accordionExample">
+                                <div class="card-body">
+                                    <p>Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry
+                                        richardson ad
+                                        squid.
+                                        3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck
+                                        quinoa
+                                        nesciunt
+                                        laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid
+                                        single-origin
+                                        coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer
+                                        labore
+                                        wes
+                                        anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice
+                                        lomo.
+                                        Leggings
+                                        occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you
+                                        probably
+                                        haven't heard
+                                        of them accusamus labore sustainable VHS.
+                                    </p>
+                                </div>
                             </div>
                         </div>
-                    </div>
-                    <div class="card">
-                        <div class="card-header" id="headingSeven">
-                            <h2 class="mb-0">
-                                <button class="btn btn-link collapsed" type="button" data-toggle="collapse"
-                                    data-target="#collapseSeven" aria-expanded="false" aria-controls="collapseSeven">
-                                    FAQ
-                                </button>
-                            </h2>
-                        </div>
-                        <div id="collapseSeven" class="collapse" aria-labelledby="headingSeven"
-                            data-parent="#accordionExample">
-                            <div class="card-body">
-                                <p>
-                                    Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry
-                                    richardson ad
-                                    squid.
-                                    3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck
-                                    quinoa
-                                    nesciunt
-                                    laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid
-                                    single-origin
-                                    coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer
-                                    labore
-                                    wes
-                                    anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice
-                                    lomo.
-                                    Leggings
-                                    occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you
-                                    probably
-                                    haven't heard
-                                    of them accusamus labore sustainable VHS.
-                                </p>
+                        <div class="card">
+                            <div class="card-header" id="headingSeven">
+                                <h2 class="mb-0">
+                                    <button class="btn btn-link collapsed" type="button" data-toggle="collapse"
+                                        data-target="#collapseSeven" aria-expanded="false"
+                                        aria-controls="collapseSeven">
+                                        FAQ
+                                    </button>
+                                </h2>
+                            </div>
+                            <div id="collapseSeven" class="collapse" aria-labelledby="headingSeven"
+                                data-parent="#accordionExample">
+                                <div class="card-body">
+                                    <p>
+                                        Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry
+                                        richardson ad
+                                        squid.
+                                        3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck
+                                        quinoa
+                                        nesciunt
+                                        laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid
+                                        single-origin
+                                        coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer
+                                        labore
+                                        wes
+                                        anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice
+                                        lomo.
+                                        Leggings
+                                        occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you
+                                        probably
+                                        haven't heard
+                                        of them accusamus labore sustainable VHS.
+                                    </p>
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
-        </div>
-    </section>
+        </section>
 
-                                    </div>  <!-- fin parallax-->
+    </div> <!-- fin parallax-->
 
     <!--/////////////////////SECTION ANCIENNE EDITION///////////////////////-->
 
     <section class=ancienne_edition id="edition2018">
         <h2>EDITION 2018</h2>
-        <div class="anciennephoto" >
+        <div class="anciennephoto">
             <div class="hvr-grow-rotate"><a href="galerie.php">
                     <img src="img/JournéeEtudiants/Journée accueil Etudiants 27 09 2018 (126).JPG" class="img-fluid"
                         alt=""></a>
@@ -1082,7 +1096,7 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
         integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
     </script>
-    
+
 
 
 </body>
