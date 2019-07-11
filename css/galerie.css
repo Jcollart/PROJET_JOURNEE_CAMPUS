@@ -228,12 +228,12 @@ body {
 
 .lb-prev {
         margin-left: -30px;
-        background: transparent url(img/flechegauche.png) no-repeat top left;
+        background: transparent url(img/flegauche.jpg) no-repeat top left;
 }
 
 .lb-next {
         margin-left: 6px;
-        background: transparent url(../img/flechedroite.png) no-repeat top right;
+        background: transparent url(../img/fledroite.jpg) no-repeat top right;
 }
 
 .lb-overlay:target {
@@ -261,4 +261,5 @@ body {
 x:-o-prefocus,
 .lb-overlay img {
         height: 100%;
+        
 }
