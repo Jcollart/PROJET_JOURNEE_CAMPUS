@@ -1,4 +1,21 @@
-﻿html {
+﻿@font-face {
+        font-family: 'cookitregular';
+        src: url('../fonts/cookit-regular/cookit-regular-webfont.eot');
+        src: url('../fonts/cookit-regular/cookit-regular-webfont.eot?#iefix') format('embedded-opentype'),
+             url('../fonts/cookit-regular/cookit-regular-webfont.woff2') format('woff2'),
+             url('../fonts/cookit-regular/cookit-regular-webfont.woff') format('woff'),
+             url('../fonts/cookit-regular/cookit-regular-webfont.svg#cookitregular') format('svg');
+        font-weight: normal;
+        font-style: normal;
+    
+    }
+
+h1 {
+        /*font-family: 'cookitregular';*/
+        font-size: 4em;
+}
+
+html {
         height: 100%;
 }
 

@@ -49,7 +49,7 @@
   <!-- NAVBAR -->
   <?php include("header.php"); ?>
   <!-- /* Code inspiré de celui de Mary Lou sur http://tympanus.net/codrops/2011/12/26/css3-lightbox/-->
-
+  <h1>Galerie 2018</h1>
   <div id="galerie1" class="cssgal">
     <!-- ancre et conteneur de la galerie  
   avec index propre à chaque galerie-->
