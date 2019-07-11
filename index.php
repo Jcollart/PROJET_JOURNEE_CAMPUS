@@ -213,7 +213,7 @@
                                     data-paddingtop="[0,0,0,0]" data-paddingright="[0,0,0,0]"
                                     data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]"
                                     style="z-index: 12; white-space: nowrap; font-size: 25px; line-height: 25px; font-weight: 300; color: rgba(255,255,255,1);font-family:Oswald;letter-spacing:10px;cursor:pointer;text-decoration: none;">L'EXPERIENCE
-                                    COMMENCE MAINTENANT</a>
+                                    COMMENCE MAINTENANT</br>programme et inscriptions</a>
 
                                 <!-- LAYER NR. 9 -->
                                 <div class="tp-caption tp-shape tp-shapewrapper  tp-resizeme" id="slide-32-layer-17"
@@ -351,7 +351,7 @@
                                     data-paddingright="[0,0,0,0]" data-paddingbottom="[0,0,0,0]"
                                     data-paddingleft="[0,0,0,0]"
                                     style="z-index: 20; min-width: 270px; max-width: 270px; white-space: nowrap; font-size: 30px; line-height: 28px; font-weight: 300; color: rgba(255,255,255,1);font-family:Oswald;cursor:pointer;text-decoration: none;">UNE
-                                    JOURNEE 100%<br />ENRICHISSANTE </a>
+                                    JOURNEE 100%<br />ETUDIANTE </a>
 
                                 <!-- LAYER NR. 17 -->
                                 <a class="tp-caption   tp-resizeme" href="#new_edition" target="_self"
@@ -366,7 +366,7 @@
                                     data-paddingright="[0,0,0,0]" data-paddingbottom="[0,0,0,0]"
                                     data-paddingleft="[0,0,0,0]"
                                     style="z-index: 21; min-width: 270px; max-width: 270px; white-space: nowrap; font-size: 30px; line-height: 28px; font-weight: 300; color: rgba(255,255,255,1);font-family:Oswald;cursor:pointer;text-decoration: none;">DECOUVREZ
-                                    TOUTES NOS<br />ACTIVITEES DE LA JOURNEE </a>
+                                    TOUTES LES<br />ACTIVITEES DE LA JOURNEE </a>
 
                                 <!-- LAYER NR. 18 -->
                                 <a class="tp-caption   tp-resizeme" href="#edition2018" target="_self"
@@ -382,7 +382,7 @@
                                     data-paddingright="[0,0,0,0]" data-paddingbottom="[0,0,0,0]"
                                     data-paddingleft="[0,0,0,0]"
                                     style="z-index: 22; min-width: 270px; max-width: 270px; white-space: nowrap; font-size: 30px; line-height: 28px; font-weight: 300; color: rgba(255,255,255,1);font-family:Oswald;cursor:pointer;text-decoration: none;">REVIVEZ
-                                    NOTRE<br /> EDITION 2018 </a>
+                                    <br />L'EDITION 2018 </a>
 
                                 <!-- LAYER NR. 19 -->
                                 <div class="tp-caption   tp-resizeme" id="slide-32-layer-21"

@@ -2,11 +2,13 @@
     width:2em;
    float:left;
    margin-left: 2em;
+   position: absolute;
+   z-index: 600;
    
 }
 
 #logocm{
-    width:7.5em;
+    width:10em;
     z-index: 40;
     position:absolute;
     margin-top: 0em;

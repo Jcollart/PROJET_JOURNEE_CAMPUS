@@ -4,7 +4,8 @@ html{
 
 body {
   background:  url(../img/eclair.png) no-repeat center,
-   url(../img/mascotte.png) no-repeat right;
+   url(../img/mascotte.png) no-repeat right,
+   url(../img/logoetudiant.png) no-repeat left ;
   background-size: 65%;
    width:auto; 
 }

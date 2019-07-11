@@ -22,7 +22,7 @@
 <body>
   <!-- NAVBAR BOOTSTRAP-->
   <nav class="mynavbar navbar navbar-expand-lg navbar-light bg-light">
-    <a class="navbar-brand" href="http://www.ardenne-metropole.fr"><img id="logo" src="img/logoetudiant.png" alt="logo"/></a>
+    <a class="navbar-brand" href=""><img id="logo" src="img/logoetudiant.png" alt="logo"/></a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
       aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
@@ -37,7 +37,7 @@
           <a class="nav-link" href="https://www.charleville-mezieres.fr/">Lien CM</a>
         </li>-->
         <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+          <a class="nav-link dropdown-toggle active" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
             aria-haspopup="true" aria-expanded="false" hvr-grow-shadow hvr-underline-from-center>
             Activitées proposées
           </a>
@@ -52,11 +52,11 @@
         <li class="nav-item">  
           <a class="nav-link" href="https://www.charleville-mezieres.fr/"><img id="logocm" src="img/Logos/logomairieCM.png" alt="logocm"/></a>
         </li>
-        <li class="nav-item">
-          <a class="nav-link" id="galerie" href="galerie.php">Galerie photo</a>
+        <li class="nav-item active">
+          <a class="nav-link" id="galerie" href="galerie.php">Contact</a>
         </li> 
-        <li class="nav-item">
-          <a class="nav-link" id="contact" href="contact.php">Contact</a>
+        <li class="nav-item active">
+          <a class="nav-link" id="contact" href="formulcontact.php">Faq</a>
         </li> 
       </ul>
       
