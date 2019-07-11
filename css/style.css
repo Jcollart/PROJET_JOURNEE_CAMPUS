@@ -1,5 +1,5 @@
 html {
-    height: 100%;
+    
 }
 
 body {
@@ -98,8 +98,8 @@ p {
 
 .col-md-8>.card-body>.card-text {
     text-align: left;
-    font-size: 1.2em;
-    line-height: 1.2em;
+    font-size: 0.850em;
+    line-height: 0.8em;
 }
 
 .carousel-control-next,
