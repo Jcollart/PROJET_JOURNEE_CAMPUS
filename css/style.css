@@ -135,11 +135,12 @@ p {
 .new_edition {
     position: relative;
     min-height: 30vh;
-    background-color: #FB9F15;
-    background: #FB9F15;
-    background: -moz-linear-gradient(left, #FB9F15 0%, #F4552B 100%);
+    /*background-color: #FB9F15;*/
+    background:url(../img/fond.jpg);
+    background-size: cover;
+   /* background: -moz-linear-gradient(left, #FB9F15 0%, #F4552B 100%);
     background: -webkit-linear-gradient(left, #FB9F15 0%, #F4552B 100%);
-    background: linear-gradient(to right, #FB9F15 0%, #F4552B 100%);
+    background: linear-gradient(to right, #FB9F15 0%, #F4552B 100%);*/
     width: 70%;
     margin-left: auto;
     margin-right: auto;
@@ -173,16 +174,29 @@ p {
 }*/
 
 #collapseExample>.card.card-body {
-    background: #FB9F15;
-    background: -moz-linear-gradient(left, #FB9F15 0%, #F4552B 100%);
+    background: url(../img/fond.jpg);
+    background-size: cover;
+    /*background: -moz-linear-gradient(left, #FB9F15 0%, #F4552B 100%);
     background: -webkit-linear-gradient(left, #FB9F15 0%, #F4552B 100%);
     background: linear-gradient(to right, #FB9F15 0%, #F4552B 100%);
-    border: 0px solid rgba(0, 0, 0, .125);
+    border: 0px solid rgba(0, 0, 0, .125);*/
 }
-
-#button-inscription {
+#button2 {
     margin-top: 1em;
+    display: block;
+    background-color: white;
+    font-weight: bold;
+    text-decoration: none;
+    border: 1px grey solid;
+    height:30px;
+    line-height:15px;
+    margin-bottom:13px;
+    width:100px;
+
 }
+/*#button-inscription {
+    margin-top: 1em;
+}*/
 
 
 

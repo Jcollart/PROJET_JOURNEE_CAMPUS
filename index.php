@@ -722,9 +722,9 @@
                                         Info + : pensez à prendre des baskets car vous allez crapahuter !
 
                                     </p>
-                                    <a id="button-inscription" href="formulexpress.php"
-                                        class="btn btn-warning btn-lg active" role="button"
-                                        title="Inscription">S'inscrire</a>
+                                    <center><a id="button-inscription" href="formulpiquenique.php">
+                                    <button class="hvr-rectangle-out" id="button2" type="button">
+                                    S'inscrire</a></center>
                                 </div>
                             </div>
                         </div>
@@ -761,9 +761,9 @@
                                         Info + : n’oubliez pas de prendre de la monnaie
                                         .
                                     </p>
-                                    <a id="button-inscription" href="formulpiquenique.php"
-                                        class="btn btn-warning btn-lg active" role="button"
-                                        title="Inscription">S'inscrire</a>
+                                    <center><a id="button-inscription" href="formulpiquenique.php">
+                                    <button class="hvr-rectangle-out" id="button2" type="button">
+                                    S'inscrire</a></center>
                                 </div>
                             </div>
                         </div>
@@ -808,9 +808,9 @@
                                         Info + : pensez à prendre une tenue de sport
 
                                     </p>
-                                    <a id="button-inscription" href="formulwarrior.php"
-                                        class="btn btn-warning btn-lg active" role="button"
-                                        title="Inscription">S'inscrire</a>
+                                    <center><a id="button-inscription" href="formulpiquenique.php">
+                                    <button class="hvr-rectangle-out" id="button2" type="button">
+                                    S'inscrire</a></center>
                                 </div>
                             </div>
                         </div>
@@ -848,9 +848,9 @@
                                         Lieu : Place Ducale
                                         .
                                     </p>
-                                    <a id="button-inscription" href="formulcuisine.php"
-                                        class="btn btn-warning btn-lg active" role="button"
-                                        title="Inscription">S'inscrire</a>
+                                    <center><a id="button-inscription" href="formulpiquenique.php">
+                                    <button class="hvr-rectangle-out" id="button2" type="button">
+                                    S'inscrire</a></center>
                                 </div>
                             </div>
                         </div>
