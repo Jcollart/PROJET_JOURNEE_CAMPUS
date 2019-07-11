@@ -90,15 +90,15 @@
                     <div class="arrow_box"></div></br></br>
               
                 <section>
-                        <button type="button" style="color:rgb(233, 95, 16)"  href="formulexpress.php" class="btn btn-light">INSCRIPTION CAROLO EXPRESS</button>
+                <a href="formulexpress.php" ><button type="button" style="color:rgb(233, 95, 16)" class="btn btn-light">INSCRIPTION CAROLO EXPRESS</button></a>
                 </section></br>
               
                 <section>
-                        <button type="button" style="color:rgb(233, 95, 16)" href="formulpiquenique.php" class="btn btn-light">INSCRIPTION PIQUE NIQUE</button>
+                <a href="formulpiquenique.php" ><button type="button" style="color:rgb(233, 95, 16)" class="btn btn-light">INSCRIPTION PIQUE NIQUE</button></a>
                 </section></br>
               
                 <section>
-                        <button type="button" style="color:rgb(233, 95, 16)"  href="formulcuisine.php" class="btn btn-light">INSCRIPTION CONCOURS DE CUISINE</button>
+                <a href="formulcuisine.php" ><button type="button" style="color:rgb(233, 95, 16)"  class="btn btn-light">INSCRIPTION CONCOURS DE CUISINE</button></a>
                 </section></br>
               
               </section></center>
