@@ -157,11 +157,12 @@ p {
     display: block;
     background-color: white;
     font-weight: bold;
-    height: 60px;
+    height: 90px;
     line-height: 29px;
-    margin-bottom: 25px;
+    margin-top:40px;
+    margin-bottom: 15px;
     text-decoration: none;
-    width: 191px;
+    width: 300px;
     border: 1px grey solid;
 }
 

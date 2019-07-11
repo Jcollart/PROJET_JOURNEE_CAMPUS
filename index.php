@@ -660,14 +660,14 @@
         <!--/////////////////////SECTION NOUVELLE EDITION///////////////////////-->
 
         <section class="new_edition" id="new_edition">
-            <h1>EDITION 2019</h1>
+            <!--<h1>EDITION 2019</h1>-->
             <p>
                 <!-- Bouton ouvrant l'accordéon -->
 
                 <div class="">
                     <center><button class="hvr-rectangle-out" id="button1" type="button" data-toggle="collapse"
                             data-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
-                            <p>DECOUVREZ LE PROGRAMME</p>
+                            <p>EDITION 2019 </br>DECOUVREZ LE PROGRAMME</p>
                     </center>
 
                     </button>
@@ -850,7 +850,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="card">
+                      <!--  <div class="card">
                             <div class="card-header" id="headingFive">
                                 <h2 class="mb-0">
                                     <button class="btn btn-link collapsed" type="button" data-toggle="collapse"
@@ -953,7 +953,7 @@
                                     </p>
                                 </div>
                             </div>
-                        </div>
+                        </div>-->
                     </div>
                 </div>
             </div>
