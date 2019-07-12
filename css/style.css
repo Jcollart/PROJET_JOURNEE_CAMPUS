@@ -144,6 +144,7 @@ p {
     width: 70%;
     margin-left: auto;
     margin-right: auto;
+    border-radius: 1em;
 }
 
 .new_edition h1 {
@@ -153,21 +154,22 @@ p {
 }
 
 #button1 {
-
-    display: block;
+margin-top: 7%;
     background-color: white;
     font-weight: bold;
-    height: 90px;
-    line-height: 29px;
-    margin-top:40px;
-    margin-bottom: 15px;
+    height: 5em;
+    line-height: 1.5em;
     text-decoration: none;
-    width: 300px;
+    width: 18em;
     border: 1px grey solid;
 }
 
 .hvr-rectangle-out {
-    font: black !important;
+    background: #ffff00c0 !important;
+}
+
+.hvr-rectangle-out:before{
+    background: rgba(255, 238, 0, 0.692) !important;
 }
 
 /*.fa.fa-arrow-down {
@@ -189,10 +191,10 @@ p {
     font-weight: bold;
     text-decoration: none;
     border: 1px grey solid;
-    height:30px;
-    line-height:15px;
-    margin-bottom:13px;
-    width:100px;
+    height:3em;
+    line-height:1em;
+    margin-bottom:1em;
+    width:10em;
 
 }
 /*#button-inscription {
