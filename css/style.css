@@ -94,12 +94,14 @@ p {
 
 .col-md-8>.card-body>.card-title {
     font-size: 2em;
+    color:black;
 }
 
 .col-md-8>.card-body>.card-text {
     text-align: left;
-    font-size: 0.850em;
-    line-height: 0.9em;
+    font-size: 1em;
+    color:black;
+    line-height: 1.2em;
 }
 
 .carousel-control-next,
@@ -212,6 +214,7 @@ margin-top: 7%;
 
 .ancienne_edition h2 {
     margin-top: 1em;
+    margin-bottom: 2em;
     font-size: 1.5em;
     line-height: 1.5em;
 }
@@ -226,10 +229,10 @@ margin-top: 7%;
 }
 
 .anciennephoto img {
-    width: 20em;
+    width: 18em;
     height: auto;
-    margin-left: 1em;
-    margin-right: 1em;
+    margin-left: 2em;
+    margin-right: 2em;
     border-radius: 5px;
 }
 
@@ -237,6 +240,7 @@ margin-top: 7%;
     line-height: 1.2em;
     font-size: 1em;
     margin-bottom: 1em;
+    color:black;
 }
 
 
@@ -269,19 +273,21 @@ margin-top: 7%;
     padding-bottom: 1em;
 }
 
+
 #carouselTemoignages {
-    height: 25vh;
+    height: 18vh;
 }
 
 #carouselTemoignages>.carousel-inner>.carousel-item.active {
-    height: 25vh;
+    height: 18vh;
 }
 
 .carousel-item>.card.mb-4 {
-    height: 25vh;
+    height: 18vh;
     border: 0px solid rgba(0, 0, 0, .125);
     display: flex;
     justify-content: center;
+    align-items: center;
     background-color: transparent;
 
 }

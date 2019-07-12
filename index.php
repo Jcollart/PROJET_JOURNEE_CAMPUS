@@ -970,27 +970,27 @@
             <div class="hvr-grow-rotate"><a href="galerie.php">
                     <img src="img/JournéeEtudiants/Journée accueil Etudiants 27 09 2018 (126).JPG" class="img-fluid"
                         alt=""></a>
-                <p>Remise des prix - Place Ducale</p>
+                <p>Remise des prix<br>Place Ducale</p>
             </div>
             <div class="hvr-grow-rotate"><a href="galerie.php">
                     <img src="img/JournéeEtudiants/Journée accueil Etudiants 27 09 2018 (69).JPG" class="img-fluid"
                         alt=""></a>
-                <p>Carolo Warrior - Plaine du Mont-Olympe</p>
+                <p>Carolo Warrior<br>Plaine du Mont-Olympe</p>
             </div>
             <div class="hvr-grow-rotate"><a href="galerie.php">
                     <img src="img/JournéeEtudiants/Journée accueil Etudiants 27 09 2018 (13).JPG" class="img-fluid"
                         alt=""></a>
-                <p>Pique Nique - Plaine du Mont-Olympe</p>
+                <p>Pique Nique<br>Plaine du Mont-Olympe</p>
             </div>
             <div class="hvr-grow-rotate"><a href="galerie.php">
                     <img src="img/JournéeEtudiants/Journée accueil Etudiants 27 09 2018 (115).JPG" class="img-fluid"
                         alt=""></a>
-                <p>Remise des prix avec Boris Ravignon</p>
+                <p>Remise des prix<br>Place Ducale</p>
             </div>
             <div class="hvr-grow-rotate"><a href="galerie.php">
                     <img src="img/JournéeEtudiants/Journée accueil Etudiants 27 09 2018 (41).JPG" class="img-fluid"
                         alt=""></a>
-                <p>Carolo Warrior - Plaine du Mont-Olympe</p>
+                <p>Carolo Warrior<b>Plaine du Mont-Olympe</p>
             </div>
         </div>
     </section>
@@ -1001,6 +1001,7 @@
     <!--/////////////////////TEMOIGNAGES///////////////////////-->
 
     <section class=temoignages>
+        <div class="titre"><h2>TEMOIGNAGES</h2></div>
         <div id="carouselTemoignages" class="carousel slide" data-ride="carousel">
             <div class="carousel-inner">
                 <div class="carousel-item active">
