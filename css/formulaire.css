@@ -3,10 +3,10 @@ html{
 }
 
 body {
-  background:  url(../img/eclair.png) no-repeat center,
-   url(../img/mascotte.png) no-repeat right,
-   url(../img/logoetudiant.png) no-repeat left ;
-  background-size: 65%;
+  background:  url(../img/eclair.png) no-repeat center/65% ,
+   url(../img/mascotte.png) no-repeat right/65% ,
+   url(../img/logoetudiant.png) no-repeat left/20% ;
+  /*background-size: 65%;*/
    width:auto; 
 }
 .form {
@@ -28,7 +28,6 @@ body {
     display: inline-block;
     width: 90px;
     text-align:left ;
-    
   }
   
   select {
@@ -49,7 +48,6 @@ body {
     /* Pour souligner légèrement les éléments actifs */
     border-color: #000;
   }
-
 
   input {
     /* Pour s'assurer que tous les champs texte ont la même police.
@@ -73,7 +71,6 @@ body {
  .button {
     /* Pour placer le bouton à la même position que les champs texte */
     margin-left: 90px; /* même taille que les étiquettes */
-      
   }
   
   button {
@@ -88,6 +85,7 @@ body {
     border: 2px solid rgba(136, 183, 213, 0);
     border-bottom-color: #0a0a0a;
 }
+
 .arrow_box:after, .arrow_box:before {
 	top: 100%;
 	left: 50%;
@@ -105,6 +103,7 @@ body {
 	border-width: 30px;
 	margin-left: -30px;
 }
+
 .arrow_box:before {
 	border-color: rgba(194, 225, 245, 0);
 	border-top-color: #0a0a0a;

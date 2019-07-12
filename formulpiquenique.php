@@ -62,8 +62,9 @@
             </div>
         </br>
             <div>
-                <label for="name"><strong>Repas=2,5€</strong></label>
-                <input id="reserve" name="reservation repas"></input>
+            <input type="checkbox" id="reserve" name="reservation repas" checked>
+            <label for="name"><strong>Repas=2,5€</strong></label>
+                
             </div>
             <div class="button">
                 <button type="button" class="btn btn-light"><strong>Réserver le repas</strong></button>
