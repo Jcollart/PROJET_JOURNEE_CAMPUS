@@ -159,6 +159,7 @@ p {
 margin-top: 7%;
     background-color: white;
     font-weight: bold;
+    color:black !important;
     height: 5em;
     line-height: 1.5em;
     text-decoration: none;

@@ -8,7 +8,7 @@
     <meta name="description" content="Slider Revolution Example" />
     <meta name="keywords" content="fullscreen image, grid layout, flexbox grid, transition" />
     <meta name="author" content="ThemePunch" />
-    <title>Rentrée des étudiants</title>
+    <title>Rentrée des étudiants 2019</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" href="css/hover-min.css">
@@ -52,7 +52,7 @@
     <script type="text/javascript" src="extensions/revolution.extension.slideanims.min.js"></script>
     <script type="text/javascript" src="extensions/revolution.extension.video.min.js"></script>
 
-    <title>Rentrée de l'étudiant</title>
+    <title>Rentrée des étudiants</title>
 </head>
 
 <body>
@@ -115,7 +115,7 @@
                                     data-paddingleft="[0,0,0,0]"
                                     style="z-index: 6; white-space: nowrap; font-size: 120px; line-height: 130px; font-weight: 700; color: rgb(0, 0, 0);font-family:Poppins;letter-spacing:-10px;">
                                     <div class="rs-looped rs-wave" data-speed="3" data-angle="0" data-radius="2px"
-                                        data-origin="50% 50%">RENTREE<br />DES ETUDIANTS </div>
+                                        data-origin="50% 50%">RENTREE<br />DES ETUDIANTS 2019</div>
                                 </div>
 
                                 <!-- LAYER NR. 3 -->
@@ -131,7 +131,7 @@
                                     data-paddingleft="[0,0,0,0]"
                                     style="z-index: 7; white-space: nowrap; font-size: 120px; line-height: 130px; font-weight: 700; color: rgb(0, 0, 0);font-family:Poppins;letter-spacing:-10px;">
                                     <div class="rs-looped rs-wave" data-speed="3" data-angle="0" data-radius="2px"
-                                        data-origin="50% 50%">RENTREE<br />DES ETUDIANTS </div>
+                                        data-origin="50% 50%">RENTREE<br />DES ETUDIANTS 2019</div>
                                 </div>
 
                                 <!-- LAYER NR. 4 -->
@@ -147,7 +147,7 @@
                                     data-paddingleft="[0,0,0,0]"
                                     style="z-index: 8; white-space: nowrap; font-size: 120px; line-height: 130px; font-weight: 700; color: rgb(255, 255, 255);font-family:Poppins;letter-spacing:-10px;">
                                     <div class="rs-looped rs-wave" data-speed="3" data-angle="0" data-radius="2px"
-                                        data-origin="50% 50%">RENTREE<br />DES ETUDIANTS </div>
+                                        data-origin="50% 50%">RENTREE<br />DES ETUDIANTS 2019</div>
                                 </div>
 
                                 <!-- LAYER NR. 5 -->
@@ -162,7 +162,7 @@
                                     data-paddingright="[0,0,0,0]" data-paddingbottom="[0,0,0,0]"
                                     data-paddingleft="[0,0,0,0]"
                                     style="z-index: 9; white-space: nowrap; font-size: 120px; line-height: 130px; font-weight: 700; color: rgba(255,255,255,1);font-family:Poppins;letter-spacing:-10px;">
-                                    RENTREE<br />DES ETUDIANTS </div>
+                                    RENTREE<br />DES ETUDIANTS 2019</div>
 
                                 <!-- LAYER NR. 6 -->
                                 <div class="tp-caption   tp-resizeme rs-parallaxlevel-1" id="slide-32-layer-15"
@@ -667,7 +667,7 @@
                 <div class="">
                     <center><button class="hvr-rectangle-out" id="button1" type="button" data-toggle="collapse"
                             data-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
-                            <p>EDITION 2019 </br>DECOUVREZ LE PROGRAMME</p>
+                            <p><font color="black">EDITION 2019 </br>DECOUVREZ LE PROGRAMME</font></p>
                     </center>
 
                     </button>
@@ -719,8 +719,8 @@
 
                                     </p>
                                     <center><a id="button-inscription" href="formulexpress.php">
-                                    <button class="hvr-rectangle-out" id="button2" type="button">
-                                    S'inscrire</a></center>
+                                    <button class="hvr-rectangle-out" id="button2" type="button"><font color="black">
+                                    S'inscrire</font></a></center>
                                 </div>
                             </div>
                         </div>
@@ -767,8 +767,8 @@
 
                                     </p>
                                     <center><a id="button-inscription" href="formulwarrior.php">
-                                    <button class="hvr-rectangle-out" id="button2" type="button">
-                                    S'inscrire</a></center>
+                                    <button class="hvr-rectangle-out" id="button2" type="button"><font color="black">
+                                    S'inscrire</font></a></center>
                                 </div>
                             </div>
                         </div>
@@ -807,8 +807,8 @@
                                         .
                                     </p>
                                     <center><a id="button-inscription" href="formulcuisine.php">
-                                    <button class="hvr-rectangle-out" id="button2" type="button">
-                                    S'inscrire</a></center>
+                                    <button class="hvr-rectangle-out" id="button2" type="button"><font color="black">
+                                    S'inscrire</font></a></center>
                                 </div>
                             </div>
                         </div>
@@ -846,8 +846,8 @@
                                         .
                                     </p>
                                     <center><a id="button-inscription" href="formulpiquenique.php">
-                                    <button class="hvr-rectangle-out" id="button2" type="button">
-                                    S'inscrire</a></center>
+                                    <button class="hvr-rectangle-out" id="button2" type="button"><font color="black">
+                                    S'inscrire</font></a></center>
                                 </div>
                             </div>
                         </div>
