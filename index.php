@@ -574,12 +574,12 @@
                                         ludique, sportive et culturelle de découvrir la ville, de rencontrer d'autres
                                         étudiants issus des différents établissements du territoire.
                                         Plusieurs activités sont proposées aux étudiants durant la journée. De nombreux
-                                        lots sont à gagner pour les équipes gagnantes. C'est aussi, à cette occasion,
+                                        lots sont à gagner pour les équipes gagnantes. <!--C'est aussi, à cette occasion,
                                         que le « Chéquier étudiant » est distribué. Il s'agit d'un chéquier proposant
                                         des offres promotionnelles & des avantages aux étudiants du territoire.
                                         Cette manifestation témoigne de la volonté de tous les acteurs de développer une
                                         politique d’accueil et d’animation pour les étudiants.
-                                        Bien évidemment, les manifestations ne sont pas payantes.
+                                        Bien évidemment, les manifestations ne sont pas payantes.-->
                                     </p>
                                 </div>
                             </div>
