@@ -724,45 +724,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="card">
-                            <div class="card-header" id="headingTwo">
-                                <h2 class="mb-0">
-                                    <button class="btn btn-link collapsed" type="button" data-toggle="collapse"
-                                        data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                                        PIQUE-NIQUE
-                                    </button>
-                                </h2>
-                            </div>
-                            <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo"
-                                data-parent="#accordionExample">
-                                <div class="card-body">
-                                    <p>Afin qu’on puisse passer tous ensemble une pause déjeuner conviviale, vous avez
-                                        soit
-                                        la possibilité de venir avec votre déjeuner, des chaises et des tables seront à
-                                        disposition sur un espace de la Plaine du Mont Olympe.
-                                        Soit, vous avez la possibilité de profiter d’une formule déjeuner à 2.5€ (au
-                                        lieu de
-                                        4€) pour les 200 premiers les plus rapides !!
-
-                                        La formule sera composée d’un burger, d’une frite et d’une boisson !
-
-                                        Afin de bénéficier du repas à 2.5€, il est impératif de réserver votre repas !
-                                        Vous
-                                        paierez sur place le jour J ! #NE TARDEZ PAS A RESERVER
-
-                                        Informations pratiques :
-
-                                        Horaires de la manifestation :
-                                        Lieu : Plaine du Mont Olympe
-                                        Info + : n’oubliez pas de prendre de la monnaie
-                                        .
-                                    </p>
-                                    <center><a id="button-inscription" href="formulpiquenique.php">
-                                    <button class="hvr-rectangle-out" id="button2" type="button">
-                                    S'inscrire</a></center>
-                                </div>
-                            </div>
-                        </div>
+                        
                         <div class="card">
                             <div class="card-header" id="headingThree">
                                 <h2 class="mb-0">
@@ -845,6 +807,45 @@
                                         .
                                     </p>
                                     <center><a id="button-inscription" href="formulcuisine.php">
+                                    <button class="hvr-rectangle-out" id="button2" type="button">
+                                    S'inscrire</a></center>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="card-header" id="headingTwo">
+                                <h2 class="mb-0">
+                                    <button class="btn btn-link collapsed" type="button" data-toggle="collapse"
+                                        data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                        PIQUE-NIQUE
+                                    </button>
+                                </h2>
+                            </div>
+                            <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo"
+                                data-parent="#accordionExample">
+                                <div class="card-body">
+                                    <p>Afin qu’on puisse passer tous ensemble une pause déjeuner conviviale, vous avez
+                                        soit
+                                        la possibilité de venir avec votre déjeuner, des chaises et des tables seront à
+                                        disposition sur un espace de la Plaine du Mont Olympe.
+                                        Soit, vous avez la possibilité de profiter d’une formule déjeuner à 2.5€ (au
+                                        lieu de
+                                        4€) pour les 200 premiers les plus rapides !!
+
+                                        La formule sera composée d’un burger, d’une frite et d’une boisson !
+
+                                        Afin de bénéficier du repas à 2.5€, il est impératif de réserver votre repas !
+                                        Vous
+                                        paierez sur place le jour J ! #NE TARDEZ PAS A RESERVER
+
+                                        Informations pratiques :
+
+                                        Horaires de la manifestation :
+                                        Lieu : Plaine du Mont Olympe
+                                        Info + : n’oubliez pas de prendre de la monnaie
+                                        .
+                                    </p>
+                                    <center><a id="button-inscription" href="formulpiquenique.php">
                                     <button class="hvr-rectangle-out" id="button2" type="button">
                                     S'inscrire</a></center>
                                 </div>

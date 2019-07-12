@@ -43,20 +43,22 @@
           </a>
           <div class="dropdown-menu" aria-labelledby="navbarDropdown">
             <a class="dropdown-item" href="formulexpress.php">CAROLO EXPRESS</a>
-            <a class="dropdown-item" href="formulpiquenique.php">CAROLO PIQUE-NIQUE</a>
             <a class="dropdown-item" href="formulwarrior.php">CAROLO WARRIOR</a>
-            <div class="dropdown-divider"></div>
             <a class="dropdown-item" href="formulcuisine.php">CAROLO CUISINE</a>
+            
+            
+            <div class="dropdown-divider"></div>
+            <a class="dropdown-item" href="formulpiquenique.php">CAROLO PIQUE-NIQUE</a>
           </div>
         </li>
         <li class="nav-item">  
           <a class="nav-link" href="https://www.charleville-mezieres.fr/"><img id="logocm" src="img/Logos/logomairieCM.png" alt="logocm"/></a>
         </li>
         <li class="nav-item active">
-          <a class="nav-link" id="galerie" href="galerie.php">Contact</a>
+          <a class="nav-link" id="contact" href="formulcontact.php">Contact</a>
         </li> 
         <li class="nav-item active">
-          <a class="nav-link" id="contact" href="formulcontact.php">Faq</a>
+          <a class="nav-link" id="faq" href="faq.php">Faq</a>
         </li> 
       </ul>
       
