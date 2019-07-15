@@ -26,3 +26,8 @@ html {
     margin:5px;
 }
 
+.reseaux_sociaux{
+  display:flex;
+  flex-direction: row;
+  justify-content: center;
+}

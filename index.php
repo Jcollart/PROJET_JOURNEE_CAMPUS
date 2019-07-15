@@ -990,7 +990,7 @@
             <div class="hvr-grow-rotate"><a href="galerie.php">
                     <img src="img/JournéeEtudiants/Journée accueil Etudiants 27 09 2018 (41).JPG" class="img-fluid"
                         alt=""></a>
-                <p>Carolo Warrior<b>Plaine du Mont-Olympe</p>
+                <p>Carolo Warrior<br>Plaine du Mont-Olympe</p>
             </div>
         </div>
     </section>
@@ -1081,9 +1081,9 @@
 
 
 
-
-    <script type="text/javascript" src="../../assets/warning.js"></script>
     <script src="https://cdn.jsdelivr.net/parallax.js/1.4.2/parallax.min.js"></script>
+    <script type="text/javascript" src="../../assets/warning.js"></script>
+    
 
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
         integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">

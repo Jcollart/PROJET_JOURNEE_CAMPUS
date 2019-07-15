@@ -17,6 +17,7 @@
 }
 .mynavbar  {
     background: transparent !important;
+    justify-content: space-around;
 }
 
 #navbarDropdown{
@@ -28,7 +29,7 @@
 }
 
 #faq{
-    margin-left: 17em;
+    margin-left: 10em;
 }
 
 #contact{

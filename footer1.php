@@ -54,20 +54,20 @@
     
     <!-- Add font awesome icons -->
     <div class="reseaux_sociaux">
-        <a class="facebook" style="color: #eee !important" href="facebook.fr"> <i class="fab fa-facebook fa-3x"></i></a>
+        <a class="facebook" style="color: white !important" href="facebook.fr"> <i class="fab fa-facebook fa-3x"></i></a>
 
-        <a class="twitter" style="color: #eee !important" href="twitter.fr"><i class="fab fa-twitter fa-3x"></i></a>
+        <a class="twitter" style="color: white !important" href="twitter.fr"><i class="fab fa-twitter fa-3x"></i></a>
 
-
+        </div>
         <!-- Copyright -->
         <div class="mentions">
             <p class="text-center">© 2019 Copyright: <a href="">G.Ponsard & J.Collart</a><a href="mentionslegales.php">
                     Mentions légales </a><a href="politiqueconfidentialites.php"> Politique de confidentialité </a><a href="CGU.php"> CGU </a></p>
         </div>
         <!-- Copyright -->
-        </footer>
+    </footer>
     <!-- Footer -->
-    </div>
+    
     
 
 </html>

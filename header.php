@@ -58,7 +58,7 @@
           <a class="nav-link" id="contact" href="formulcontact.php">Contact</a>
         </li> 
         <li class="nav-item active">
-          <a class="nav-link" id="faq" href="faq.php">Faq</a>
+          <a class="nav-link" id="faq" href="faq.php">FAQ</a>
         </li> 
       </ul>
       
