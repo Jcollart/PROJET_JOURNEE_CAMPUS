@@ -21,53 +21,59 @@
 
 </head>
 
-    <!-- Footer -->
-    <footer>
+<!-- Footer -->
+<footer>
 
-        <div class="container">
-            <div><a href="http://www.ardenne-metropole.fr" target="_blank" ><img src="img/Logos/ARDENNE-LOGO-RVB.png" class="hvr-pulse"
-                        alt=""></a></div>
-            <div><a href="http://www.crous-reims.fr/" target="_blank"><img src="img/Logos/Crous Reims.png" class="hvr-pulse" alt=""></a>
-            </div>
-            <div><a href="http://www.decathlon.fr" target="_blank"><img src="img/Logos/decathlon.jpg" class="hvr-pulse" alt=""></a></div>
-            <div><a href="http://www.facebook.com/associationflap" target="_blank"><img src="img/Logos/FLaP (nouveau logo 2019)-1.png"
-                        class="hvr-pulse" alt=""></a></div>
-            <div><a href="" target="_blank"><img src="img/Logos/intercampus.jpg" class="hvr-pulse" alt=""></a></div>
-            <div><a href="http://www.jeanteur.fr" target="_blank"><img src="img/Logos/jeanteur.png" class="hvr-pulse" alt=""></a></div>
-            <div><a href="http://www.orange.fr"><img src="img/Logos/orange-logo-vector.png" class="hvr-pulse" alt=""></a>
-            </div>
-            <div><a href="https://o-tacos.com/fr/" target="_blank"><img src="img/Logos/otacos.png" class="hvr-pulse" alt=""></a></div>
-            <div><a href="https://www.yves-rocher.fr/" target="_blank"><img src="img/Logos/yvesrocher.png" class="hvr-pulse" alt=""></a>
-            </div>
-            <div><a href="http://www.ardennes.gouv.fr/" target="_blank"><img src="img/Logos/Prefecture new.jpg" class="hvr-pulse"
-                        alt=""></a></div>
-            <div><a href="http://www.rimbaud-librairie.fr/" target="_blank"><img src="img/Logos/Rimbaud librairie.png" class="hvr-pulse"
-                        alt=""></a></div>
-            <div><a href="http://www.terraltitude.com" target="_blank"><img src="img/Logos/TERRALTITUDE LOGO.jpg" class="hvr-pulse"
-                        alt=""></a></div>
-            <div><a href="http://www.ardennes.com › DETAIL" target="_blank"><img src="img/Logos/vitrines-charleville.png"
-                        class="hvr-pulse" alt=""></a></div>
-
+    <div class="container">
+        <div><a href="http://www.ardenne-metropole.fr" target="_blank"><img src="img/Logos/ARDENNE-LOGO-RVB.png"
+                    class="hvr-pulse" alt=""></a></div>
+        <div><a href="http://www.crous-reims.fr/" target="_blank"><img src="img/Logos/Crous Reims.png" class="hvr-pulse"
+                    alt=""></a>
         </div>
-    
+        <div><a href="http://www.decathlon.fr" target="_blank"><img src="img/Logos/decathlon.jpg" class="hvr-pulse"
+                    alt=""></a></div>
+        <div><a href="http://www.facebook.com/associationflap" target="_blank"><img
+                    src="img/Logos/FLaP (nouveau logo 2019)-1.png" class="hvr-pulse" alt=""></a></div>
+        <div><a href="" target="_blank"><img src="img/Logos/intercampus.jpg" class="hvr-pulse" alt=""></a></div>
+        <div><a href="http://www.jeanteur.fr" target="_blank"><img src="img/Logos/jeanteur.png" class="hvr-pulse"
+                    alt=""></a></div>
+        <div><a href="http://www.orange.fr"><img src="img/Logos/orange-logo-vector.png" class="hvr-pulse" alt=""></a>
+        </div>
+        <div><a href="https://o-tacos.com/fr/" target="_blank"><img src="img/Logos/otacos.png" class="hvr-pulse"
+                    alt=""></a></div>
+        <div><a href="https://www.yves-rocher.fr/" target="_blank"><img src="img/Logos/yvesrocher.png" class="hvr-pulse"
+                    alt=""></a>
+        </div>
+        <div><a href="http://www.ardennes.gouv.fr/" target="_blank"><img src="img/Logos/Prefecture new.jpg"
+                    class="hvr-pulse" alt=""></a></div>
+        <div><a href="http://www.rimbaud-librairie.fr/" target="_blank"><img src="img/Logos/Rimbaud librairie.png"
+                    class="hvr-pulse" alt=""></a></div>
+        <div><a href="http://www.terraltitude.com" target="_blank"><img src="img/Logos/TERRALTITUDE LOGO.jpg"
+                    class="hvr-pulse" alt=""></a></div>
+        <div><a href="http://www.ardennes.com › DETAIL" target="_blank"><img src="img/Logos/vitrines-charleville.png"
+                    class="hvr-pulse" alt=""></a></div>
+
+    </div>
+
     <!-- Footer Elements -->
-    
+
     <!-- Add font awesome icons -->
     <div class="reseaux_sociaux">
-        <a class="facebook" style="color: white !important" href="facebook.fr"> <i class="fab fa-facebook fa-3x"></i></a>
+        <a class="facebook" style="color: red !important" href="facebook.fr"> <i class="fab fa-facebook fa-3x"></i></a>
 
-        <a class="twitter" style="color: white !important" href="twitter.fr"><i class="fab fa-twitter fa-3x"></i></a>
+        <a class="twitter" style="color: red !important" href="twitter.fr"><i class="fab fa-twitter fa-3x"></i></a>
 
-        </div>
-        <!-- Copyright -->
-        <div class="mentions">
-            <p class="text-center">© 2019 Copyright: <a href="">G.Ponsard & J.Collart</a><a href="mentionslegales.php">
-                    Mentions légales </a><a href="politiqueconfidentialites.php"> Politique de confidentialité </a><a href="CGU.php"> CGU </a></p>
-        </div>
-        <!-- Copyright -->
-    </footer>
-    <!-- Footer -->
-    
-    
+    </div>
+    <!-- Copyright -->
+    <div class="text":center>
+        <p class="ecrit">© 2019 Copyright: <a href="">G.Ponsard & J.Collart</a><a href="mentionslegales.php">
+                Mentions légales </a><a href="politiqueconfidentialites.php"> Politique de confidentialité </a><a
+                href="CGU.php"> CGU </a></p>
+    </div>
+    <!-- Copyright -->
+</footer>
+<!-- Footer -->
+
+
 
 </html>

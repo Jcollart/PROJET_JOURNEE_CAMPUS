@@ -17,9 +17,12 @@
 }
 .mynavbar  {
     background: transparent !important;
-    justify-content: space-around;
+    
 }
 
+nav {
+    justify-content: space-around;
+}
 #navbarDropdown{
     margin-left: 4.5em;
 }
