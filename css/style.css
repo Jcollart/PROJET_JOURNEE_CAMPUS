@@ -67,12 +67,15 @@ p {
     padding-right: 10%;
     z-index: 5;
 }
-
+.less.active .button-read-more, .button-read-less  {display: none}
+.less.active .button-read-less {display: block}
+.more {margin-top: 10px}
+.more p {margin: 0;padding: 0}
 
 
 .carousel-item>.card.mb-3 {
     padding: 1.5em;
-    min-height: 45vh;
+    min-height: 40vh;
     margin-bottom:
         border: 0px solid rgba(0, 0, 0, .125);
     -webkit-box-shadow: 0px -5px 15px 3px rgba(177, 177, 177, 0.17);
