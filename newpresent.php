@@ -298,7 +298,7 @@
                     </div>
                     
                     <div class="less">
-        <a class="button-read-less button-read" href="#button1">fermer</a>
+        <a class="button-read-less button-read" href="#button1">X FERMER</a>
     </div>
                                         </div>
                 </div>
