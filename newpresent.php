@@ -58,7 +58,7 @@
                                         Info + : pensez à prendre des baskets car vous allez crapahuter !
 
                                     </p>
-                                    <center><a id="button-inscription" href="formulexpress.php">
+                                    <center><a  href="formulexpress.php" id="button-inscription">
                                     <button class="hvr-rectangle-out" id="button2" type="button"><font color="black">
                                     S'inscrire</font></a></center>
                                 </div>
