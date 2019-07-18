@@ -23,8 +23,8 @@
 
                                 <!-- LAYER NR. 1 -->
                                 <div class="tp-caption   tp-resizeme" id="slide-32-layer-1"
-                                    data-x="['center','center','center','center']" data-hoffset="['0','0','0','0']"
-                                    data-y="['bottom','bottom','bottom','bottom']" data-voffset="['0','0','0','0']"
+                                    data-x="['center','center','center','center']" data-hoffset="['-200','-200','-100','-50']"
+                                    data-y="['bottom','bottom','bottom','bottom']" data-voffset="['320','320','357','381']"
                                     data-width="full-proportional" data-height="full-proportional"
                                     data-whitespace="nowrap" data-type="image" data-basealign="slide"
                                     data-responsive_offset="on"
@@ -32,10 +32,10 @@
                                     data-textAlign="['inherit','inherit','inherit','inherit']"
                                     data-paddingtop="[0,0,0,0]" data-paddingright="[0,0,0,0]"
                                     data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]" style="z-index: 5;"><img
-                                        src="img/.png" alt=""
-                                        data-ww="['full-proportional','full-proportional','full-proportional','full-proportional']"
-                                        data-hh="['full-proportional','full-proportional','full-proportional','full-proportional']"
-                                        width="1920" height="1280" data-no-retina> </div>
+                                        src="img/logoetudiantcarolo.png" alt=""
+                                        data-ww="['230px','230px','230px','230px']"
+                                        data-hh="['229px','229px','229px','229px']"
+                                        width="50" height="49" data-no-retina> </div>
 
                                 <!-- LAYER NR. 2 -->
                                 <div class="tp-caption   tp-resizeme rs-parallaxlevel-1" id="slide-32-layer-8"
@@ -197,7 +197,7 @@
                                         data-origin="50% 50%"><img src="img/confetti.gif" alt=""
                                             data-ww="['28px','28px','28px','28px']"
                                             data-hh="['27px','27px','27px','27px']" width="28" height="27"
-                                            data-no-retina> </div>
+                                            data-no-retina><a style="font-size:60px;line-height:56px;font-height:600;color:white;font-family:Oswald"> Le 03 Octobre 2019 </a></div>
                                 </div>
 
                                 <!-- LAYER NR. 12 -->
@@ -225,14 +225,14 @@
                                     data-y="['bottom','bottom','bottom','bottom']"
                                     data-voffset="['320','320','357','381']" data-width="none" data-height="none"
                                     data-whitespace="nowrap" data-type="image" data-responsive_offset="on"
-                                    data-frames='[{"delay":550,"speed":3000,"frame":"0","from":"y:150px;rZ:-125deg;opacity:0;fb:10px;","to":"o:1;fb:0;","ease":"Power4.easeOut"},{"delay":"wait","speed":300,"frame":"999","to":"opacity:0;fb:0;","ease":"Power3.easeInOut"}]'
+                                    data-frames='[{"delay":550,"speed":3000,"frame":"0","from":"y:150px;rZ:-125deg;opacity:0.5;fb:10px;","to":"o:1;fb:0;","ease":"Power4.easeOut"},{"delay":"wait","speed":300,"frame":"999","to":"opacity:0;fb:0;","ease":"Power3.easeInOut"}]'
                                     data-textAlign="['inherit','inherit','inherit','inherit']"
                                     data-paddingtop="[0,0,0,0]" data-paddingright="[0,0,0,0]"
                                     data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]" style="z-index: 17;">
                                     <div class="rs-looped rs-wave" data-speed="5" data-angle="0" data-radius="4px"
                                         data-origin="50% 50%"><img src="img/confetti.gif" alt=""
-                                            data-ww="['27px','27px','27px','27px']"
-                                            data-hh="['26px','26px','26px','26px']" width="27" height="26"
+                                            data-ww="['30px','30px','30px','30px']"
+                                            data-hh="['29px','29px','29px','29px']" width="27" height="26"
                                             data-no-retina> </div>
                                 </div>
 

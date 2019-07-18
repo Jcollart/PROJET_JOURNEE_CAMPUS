@@ -1,197 +1,199 @@
 <!--<h1>EDITION 2019</h1>-->
-            <p>
-                <!-- Bouton ouvrant l'accordéon -->
-                <div class="toggle">
-               
-                
-                    <center><button class="hvr-rectangle-out" id="button1" type="button" data-toggle="collapse"
-                            data-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
-                            <p><font color="black"><a class="button-read-more button-read" href="#button1">EDITION 2019 </br>DECOUVREZ LE PROGRAMME</font></p></a>
-                    </center>
+<p>
+    <!-- Bouton ouvrant l'accordéon -->
+    <div class="toggle">
 
-                    </button>
-                    <div class="more">
+
+        <center><button class="hvr-rectangle-out" id="button1" type="button" data-toggle="collapse"
+                data-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
+                <p>
+                    <font color="black"><a class="button-read-more button-read" href="#button1">EDITION 2019
+                            </br>DECOUVREZ LE PROGRAMME</font>
+                </p></a>
+        </center>
+
+        </button>
+        <div class="more">
+        </div>
+</p>
+<div class="collapse" id="collapseExample">
+    <div class="card card-body">
+
+        <div class="accordion" id="accordionExample">
+            <div class="card">
+                <div class="card-header" id="headingOne">
+                    <h2 class="mb-0">
+                        <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseOne"
+                            aria-expanded="false" aria-controls="collapseOne">
+                            CAROLO EXPRESS
+                        </button>
+                    </h2>
                 </div>
-            </p>
-            <div class="collapse" id="collapseExample">
-                <div class="card card-body">
-                
-                    <div class="accordion" id="accordionExample">
-                        <div class="card">
-                            <div class="card-header" id="headingOne">
-                                <h2 class="mb-0">
-                                    <button class="btn btn-link" type="button" data-toggle="collapse"
-                                        data-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
-                                        CAROLO EXPRESS
-                                    </button>
-                                </h2>
-                            </div>
 
-                            <div id="collapseOne" class="collapse" aria-labelledby="headingOne"
-                                data-parent="#accordionExample">
-                                <div class="card-body">
-                                    <p>A travers les rues de Charleville-Mézières, le Carolo Express permet aux
-                                        étudiants de
-                                        découvrir la ville autrement avec ses moments incontournables et de nombreux
-                                        lieux
-                                        insolites ou méconnus.
-                                        Etes-vous déjà entré au sein de la TOUR DU ROY ?
+                <div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#accordionExample">
+                    <div class="card-body">
+                        <p>A travers les rues de Charleville-Mézières, le Carolo Express permet aux
+                            étudiants de
+                            découvrir la ville autrement avec ses moments incontournables et de nombreux
+                            lieux
+                            insolites ou méconnus.
+                            Etes-vous déjà entré au sein de la TOUR DU ROY ?
 
-                                        Le parcours est composé d’environ 15 étapes. Sur chaque étape, une énigme ou une
-                                        mise en situation sera demandée.
+                            Le parcours est composé d’environ 15 étapes. Sur chaque étape, une énigme ou une
+                            mise en situation sera demandée.
 
-                                        Les équipes qui auront découvert les lieux le plus rapidement possible
-                                        remporteront
-                                        cette course d’orientation. Le parcours du Carolo Express doit, bien évidemment,
-                                        se
-                                        faire à pied (sinon, c’est trop facile ). #SORS TES BASKETS
+                            Les équipes qui auront découvert les lieux le plus rapidement possible
+                            remporteront
+                            cette course d’orientation. Le parcours du Carolo Express doit, bien évidemment,
+                            se
+                            faire à pied (sinon, c’est trop facile ). #SORS TES BASKETS
 
-                                        Afin de participer à cette manifestation, il est nécessaire au préalable de
-                                        composer
-                                        une équipe de 5 personnes.
+                            Afin de participer à cette manifestation, il est nécessaire au préalable de
+                            composer
+                            une équipe de 5 personnes.
 
-                                        Informations pratiques :
+                            Informations pratiques :
 
-                                        Horaires de la manifestation : 9h30-12h30
-                                        Départ : Place d’Arches
-                                        Arrivée : Place Ducale
-                                        Info + : pensez à prendre des baskets car vous allez crapahuter !
+                            Horaires de la manifestation : 9h30-12h30
+                            Départ : Place d’Arches
+                            Arrivée : Place Ducale
+                            Info + : pensez à prendre des baskets car vous allez crapahuter !
 
-                                    </p>
-                                    <center><a  href="formulexpress.php" id="button-inscription">
-                                    <button class="hvr-rectangle-out" id="button2" type="button"><font color="black">
-                                    S'inscrire</font></a></center>
-                                </div>
-                            </div>
-                        </div>
-                        
-                        <div class="card">
-                            <div class="card-header" id="headingThree">
-                                <h2 class="mb-0">
-                                    <button class="btn btn-link collapsed" type="button" data-toggle="collapse"
-                                        data-target="#collapseThree" aria-expanded="false"
-                                        aria-controls="collapseThree">
-                                        CAROLO WARRIOR
-                                    </button>
-                                </h2>
-                            </div>
-                            <div id="collapseThree" class="collapse" aria-labelledby="headingThree"
-                                data-parent="#accordionExample">
-                                <div class="card-body">
-                                    <p>Carolo Warrior est un relais sportif composé de nombreuses activités sportives
-                                        et/ou
-                                        ludiques. Plusieurs activités composent le relais, à savoir :
+                        </p>
+                        <center><a href="formulexpress.php" id="button-inscription">
+                                <button class="hvr-rectangle-out" id="button2" type="button">
+                                    <font color="black">
+                                        S'inscrire</font></a></center>
+                    </div>
+                </div>
+            </div>
 
-                                        <li>raversée en canoë/kayak</li>
-                                        <li>Slackline</li>
-                                        <li>Lancers francs de basket</li>
-                                        </li>
-                                        <li>Tir à l’arc</li>
-                                        <li>Pédalo de cirque</li>
-                                        <li>Frisbee</li>
-                                        <li>Parcours sac à patates</li>
-                                        <li>Blind Foot</li>
-                                        <li>Course</li>
-                                        <li>Activité aquatique</li>
-                                        <li>Course & passage d’obstacles</li>
+            <div class="card">
+                <div class="card-header" id="headingThree">
+                    <h2 class="mb-0">
+                        <button class="btn btn-link collapsed" type="button" data-toggle="collapse"
+                            data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                            CAROLO WARRIOR
+                        </button>
+                    </h2>
+                </div>
+                <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+                    <div class="card-body">
+                        <p>Carolo Warrior est un relais sportif composé de nombreuses activités sportives
+                            et/ou
+                            ludiques. Plusieurs activités composent le relais, à savoir :
 
-                                        Afin de participer à cette manifestation, il est nécessaire au préalable de
-                                        composer
-                                        une équipe de 8 personnes.
+                            <li>raversée en canoë/kayak</li>
+                            <li>Slackline</li>
+                            <li>Lancers francs de basket</li>
+                            </li>
+                            <li>Tir à l’arc</li>
+                            <li>Pédalo de cirque</li>
+                            <li>Frisbee</li>
+                            <li>Parcours sac à patates</li>
+                            <li>Blind Foot</li>
+                            <li>Course</li>
+                            <li>Activité aquatique</li>
+                            <li>Course & passage d’obstacles</li>
 
-                                        Informations pratiques :
+                            Afin de participer à cette manifestation, il est nécessaire au préalable de
+                            composer
+                            une équipe de 8 personnes.
 
-                                        Horaires de la manifestation :
-                                        Lieu : Plaine du Mont Olympe
-                                        Info + : pensez à prendre une tenue de sport
+                            Informations pratiques :
 
-                                    </p>
-                                    <center><a id="button-inscription" href="formulwarrior.php">
-                                    <button class="hvr-rectangle-out" id="button2" type="button"><font color="black">
-                                    S'inscrire</font></a></center>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="card">
-                            <div class="card-header" id="headingFour">
-                                <h2 class="mb-0">
-                                    <button class="btn btn-link collapsed" type="button" data-toggle="collapse"
-                                        data-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
-                                        CONCOURS CUISINE
-                                    </button>
-                                </h2>
-                            </div>
-                            <div id="collapseFour" class="collapse" aria-labelledby="headingFour"
-                                data-parent="#accordionExample">
-                                <div class="card-body">
-                                    <p>Pour ceux qui aiment cuisiner ou tout simplement ceux qui veulent se lancer un
-                                        challenge, un Concours de cuisine sera proposé sur la Place Ducale en
-                                        partenariat
-                                        avec l’association INTERCampus.
-                                        Sur la base de quelques ingrédients, vous devrez concocter un bon petit plat !
+                            Horaires de la manifestation :
+                            Lieu : Plaine du Mont Olympe
+                            Info + : pensez à prendre une tenue de sport
 
-                                        Plusieurs équipes s’affronteront. Le matériel minimum nécessaire vous sera mis à
-                                        disposition.
+                        </p>
+                        <center><a id="button-inscription" href="formulwarrior.php">
+                                <button class="hvr-rectangle-out" id="button2" type="button">
+                                    <font color="black">
+                                        S'inscrire</font></a></center>
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-header" id="headingFour">
+                    <h2 class="mb-0">
+                        <button class="btn btn-link collapsed" type="button" data-toggle="collapse"
+                            data-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                            CONCOURS CUISINE
+                        </button>
+                    </h2>
+                </div>
+                <div id="collapseFour" class="collapse" aria-labelledby="headingFour" data-parent="#accordionExample">
+                    <div class="card-body">
+                        <p>Pour ceux qui aiment cuisiner ou tout simplement ceux qui veulent se lancer un
+                            challenge, un Concours de cuisine sera proposé sur la Place Ducale en
+                            partenariat
+                            avec l’association INTERCampus.
+                            Sur la base de quelques ingrédients, vous devrez concocter un bon petit plat !
 
-                                        Un jury à la fin notera et goûtera, pour le meilleur ou pour le pire, vos
-                                        préparations  #MERCOTTE
+                            Plusieurs équipes s’affronteront. Le matériel minimum nécessaire vous sera mis à
+                            disposition.
 
-                                        Afin de participer à cette manifestation, il est nécessaire au préalable de
-                                        composer
-                                        une équipe de 2 personnes.
+                            Un jury à la fin notera et goûtera, pour le meilleur ou pour le pire, vos
+                            préparations  #MERCOTTE
 
-                                        Informations pratiques :
+                            Afin de participer à cette manifestation, il est nécessaire au préalable de
+                            composer
+                            une équipe de 2 personnes.
 
-                                        Horaires de la manifestation :
-                                        Lieu : Place Ducale
-                                        .
-                                    </p>
-                                    <center><a id="button-inscription" href="formulcuisine.php">
-                                    <button class="hvr-rectangle-out" id="button2" type="button"><font color="black">
-                                    S'inscrire</font></a></center>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="card">
-                            <div class="card-header" id="headingTwo">
-                                <h2 class="mb-0">
-                                    <button class="btn btn-link collapsed" type="button" data-toggle="collapse"
-                                        data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                                        PIQUE-NIQUE
-                                    </button>
-                                </h2>
-                            </div>
-                            <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo"
-                                data-parent="#accordionExample">
-                                <div class="card-body">
-                                    <p>Afin qu’on puisse passer tous ensemble une pause déjeuner conviviale, vous avez
-                                        soit
-                                        la possibilité de venir avec votre déjeuner, des chaises et des tables seront à
-                                        disposition sur un espace de la Plaine du Mont Olympe.
-                                        Soit, vous avez la possibilité de profiter d’une formule déjeuner à 2.5€ (au
-                                        lieu de
-                                        4€) pour les 200 premiers les plus rapides !!
+                            Informations pratiques :
 
-                                        La formule sera composée d’un burger, d’une frite et d’une boisson !
+                            Horaires de la manifestation :
+                            Lieu : Place Ducale
+                            .
+                        </p>
+                        <center><a id="button-inscription" href="formulcuisine.php">
+                                <button class="hvr-rectangle-out" id="button2" type="button">
+                                    <font color="black">
+                                        S'inscrire</font></a></center>
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-header" id="headingTwo">
+                    <h2 class="mb-0">
+                        <button class="btn btn-link collapsed" type="button" data-toggle="collapse"
+                            data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                            PIQUE-NIQUE
+                        </button>
+                    </h2>
+                </div>
+                <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+                    <div class="card-body">
+                        <p>Afin qu’on puisse passer tous ensemble une pause déjeuner conviviale, vous avez
+                            soit
+                            la possibilité de venir avec votre déjeuner, des chaises et des tables seront à
+                            disposition sur un espace de la Plaine du Mont Olympe.
+                            Soit, vous avez la possibilité de profiter d’une formule déjeuner à 2.5€ (au
+                            lieu de
+                            4€) pour les 200 premiers les plus rapides !!
 
-                                        Afin de bénéficier du repas à 2.5€, il est impératif de réserver votre repas !
-                                        Vous
-                                        paierez sur place le jour J ! #NE TARDEZ PAS A RESERVER
+                            La formule sera composée d’un burger, d’une frite et d’une boisson !
 
-                                        Informations pratiques :
+                            Afin de bénéficier du repas à 2.5€, il est impératif de réserver votre repas !
+                            Vous
+                            paierez sur place le jour J ! #NE TARDEZ PAS A RESERVER
 
-                                        Horaires de la manifestation :
-                                        Lieu : Plaine du Mont Olympe
-                                        Info + : n’oubliez pas de prendre de la monnaie
-                                        .
-                                    </p>
-                                    <center><a id="button-inscription" href="formulpiquenique.php">
-                                    <button class="hvr-rectangle-out" id="button2" type="button"><font color="black">
-                                    S'inscrire</font></a></center>
-                                </div>
-                            </div>
-                        </div>
-                      <!--  <div class="card">
+                            Informations pratiques :
+
+                            Horaires de la manifestation :
+                            Lieu : Plaine du Mont Olympe
+                            Info + : n’oubliez pas de prendre de la monnaie
+                            .
+                        </p>
+                        <center><a id="button-inscription" href="formulpiquenique.php">
+                                <button class="hvr-rectangle-out" id="button2" type="button">
+                                    <font color="black">
+                                        S'inscrire</font></a></center>
+                    </div>
+                </div>
+            </div>
+            <!--  <div class="card">
                             <div class="card-header" id="headingFive">
                                 <h2 class="mb-0">
                                     <button class="btn btn-link collapsed" type="button" data-toggle="collapse"
@@ -295,11 +297,34 @@
                                 </div>
                             </div>
                         </div>-->
-                    </div>
-                    
-                    <div class="less">
-        <a class="button-read-less button-read" href="#button1">X FERMER</a>
+        </div>
+
+        <div class="less">
+            <a class="button-read-less button-read" href="#button1">X FERMER</a>
+        </div>
     </div>
-                                        </div>
-                </div>
-            </div>
+</div>
+</div>
+<script>
+    /* <![CDATA[ */
+    /*
+    |-----------------------------------------------------------------------
+    |  jQuery Multiple Toggle Script by Matt - www.skyminds.net
+    |-----------------------------------------------------------------------
+    |
+    | Affiche et cache le contenu de blocs multiples.
+    |
+    */
+    jQuery(document).ready(function () {
+        $(".more").hide();
+        jQuery('.button-read-more').click(function () {
+            $(this).closest('.less').addClass('active');
+            $(this).closest(".less").prev().stop(true).slideDown("1000");
+        });
+        jQuery('.button-read-less').click(function () {
+            $(this).closest('.less').removeClass('active');
+            $(this).closest(".less").prev().stop(true).slideUp("1000");
+        });
+    });
+    /* ]]> */
+</script>
