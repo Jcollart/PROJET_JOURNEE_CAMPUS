@@ -22,7 +22,7 @@
 <body>
   <!-- NAVBAR BOOTSTRAP-->
   <nav class="mynavbar navbar navbar-expand-lg navbar-light bg-light">
-    <a class="navbar-brand" href="index.php"><img id="logo" src="img/logoetudiant.png" alt="logo"/></a>
+    <a class="navbar-brand" href="index.php"><img id="logo" src="img/logoVNB.png" alt="logo"/></a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
       aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
@@ -52,7 +52,7 @@
           </div>
         </li>
         <li class="nav-item">  
-          <a class="nav-link" href="https://www.charleville-mezieres.fr/"><img id="logocm" src="img/Logos/logomairieCM.png" alt="logocm"/></a>
+          <a class="nav-link" href="https://www.charleville-mezieres.fr/"><img id="logoVNB" src="img/logoVNB.png" alt="logoVNB"/></a>
         </li>
         <li class="nav-item active">
           <a class="nav-link" id="contact" href="formulcontact.php">Contact</a>

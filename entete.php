@@ -23,7 +23,7 @@
 
                                 <!-- LAYER NR. 1 -->
                                 <div class="tp-caption   tp-resizeme" id="slide-32-layer-1"
-                                    data-x="['center','center','center','center']" data-hoffset="['-200','-200','-100','-50']"
+                                    data-x="['center','center','center','center']" data-hoffset="['-500','-500','-400','-350']"
                                     data-y="['bottom','bottom','bottom','bottom']" data-voffset="['320','320','357','381']"
                                     data-width="full-proportional" data-height="full-proportional"
                                     data-whitespace="nowrap" data-type="image" data-basealign="slide"

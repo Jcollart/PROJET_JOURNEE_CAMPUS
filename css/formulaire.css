@@ -4,8 +4,8 @@ html{
 
 body {
   background:  url(../img/eclair.png) no-repeat center/65% ,
-   url(../img/mascotte.png) no-repeat right/65% ,
-   url(../img/logoetudiant.png) no-repeat left/20% ;
+   url(../img/superhero20182019.png) no-repeat right/35% ,
+   url(../img/superhero2017.png) no-repeat left/35% ;
   /*background-size: 65%;*/
    width:auto; 
 }

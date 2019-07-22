@@ -101,14 +101,16 @@
     </section>
 
     </main>
-
+    <a href="#" class="cd-top text-replace js-cd-top">Top</a>
+	
 
     <!--/////////////////////FOOTER///////////////////////-->
 
 
     <?php include("footer1.php") ; ?>
 
-   
+    <script src="assets/js/util.js"></script> <!-- util functions included in the CodyHouse framework -->
+    <script src="assets/js/main.js"></script>
 
     <script src="https://cdn.jsdelivr.net/parallax.js/1.4.2/parallax.min.js"></script>
     <script type="text/javascript" src="../../assets/warning.js"></script>

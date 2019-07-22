@@ -15,6 +15,15 @@
     margin-left:4.5em;
 
 }
+
+#logoVNB{
+    width:12em;
+    z-index: 30;
+    position:absolute;
+    margin-top: 1em;
+    margin-left:3em;
+
+}
 .mynavbar  {
     background: transparent !important;
     
