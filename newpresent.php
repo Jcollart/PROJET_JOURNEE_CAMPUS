@@ -135,7 +135,7 @@
                             disposition.
 
                             Un jury à la fin notera et goûtera, pour le meilleur ou pour le pire, vos
-                            préparations  #MERCOTTE
+                            préparations  #MERCOTTE
 
                             Afin de participer à cette manifestation, il est nécessaire au préalable de
                             composer

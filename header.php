@@ -12,7 +12,9 @@
   <!-- Si vous voulez une favicon enregistrez-la dans le même répertoire que la page
     d'index du site, sous le format .ico pour compatibilié IE6 et linkez la-->
     
-
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+        integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/hover-min.css">
   <link rel="stylesheet" href="css/reset.css">
   <link rel="stylesheet" href="css/header.css">
   <link rel="stylesheet" href="css/hover-min.css">
@@ -22,8 +24,7 @@
 <body>
   <!-- NAVBAR BOOTSTRAP-->
   <nav class="mynavbar navbar navbar-expand-lg navbar-light bg-light">
-    <a class="navbar-brand" href="index.php"><img id="logo" src="img/logoVNB.png" alt="logo"/></a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
       aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
@@ -52,7 +53,7 @@
           </div>
         </li>
         <li class="nav-item">  
-          <a class="nav-link" href="https://www.charleville-mezieres.fr/"><img id="logoVNB" src="img/logoVNB.png" alt="logoVNB"/></a>
+          <a class="nav-link"id="logocmz" href="https://www.charleville-mezieres.fr/"><img id="logoVNB" src="img/logoVNB.png" alt="logoVNB"/></a>
         </li>
         <li class="nav-item active">
           <a class="nav-link" id="contact" href="formulcontact.php">Contact</a>

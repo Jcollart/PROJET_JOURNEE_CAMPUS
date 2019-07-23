@@ -1,7 +1,77 @@
  <div class="titre"><h2>TEMOIGNAGES</h2></div>
         <div id="carouselTemoignages" class="carousel slide" data-ride="carousel">
             <div class="carousel-inner">
-                <div class="carousel-item active">
+            <div class="carousel-item active">
+                    <div class="card mb-3">
+                        <div class="row no-gutters">
+                            <div class="col-md-4">
+                                <img src="img/01.jpg" class="card-img1"
+                                    alt="La rentrée des étudiants - Témoignage ">
+                            </div>
+                            <div class="col-md-8">
+                                <div class="card-body">
+                                    <p class="card-text"> « Une amie m’a convaincu et je n’ai pas regretté. J’ai
+                                        rencontré d’autres étudiants, c’était sympa ce brassage. Je n’ai pas pu faire
+                                        les activités mais j’ai encouragé les équipes de mon école et on a gagné ;) »
+                                    </p>
+                                    <p class="card-text">Mareme – 18 ans</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="card mb-3">
+                        <div class="row no-gutters">
+                            <div class="col-md-4">
+                                <img src="img/01.jpg" class="card-img1"
+                                    alt="La rentrée des étudiants - Témoignage ">
+                            </div>
+                            <div class="col-md-8">
+                                <div class="card-body">
+                                    <p class="card-text"> « J’ai apprécié cette journée et toutes les villes devraient
+                                        organiser ce genre de manifestation pour les étudiants. Moi j’ai participé au
+                                        Carolo Express, c’était fun ! »</p>
+                                    <p class="card-text">Jérémy – 21 ans</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="card mb-3">
+                        <div class="row no-gutters">
+                            <div class="col-md-4">
+                                <img src="img/01.jpg" class="card-img1" alt="La rentrée des étudiants - Témoignage ">
+                            </div>
+                            <div class="col-md-8">
+                                <div class="card-body">
+                                    <p class="card-text"> « Superbe journée ! J’ai notamment adoré le Carolo Express qui
+                                        m’a permis de découvrir des lieux que je ne connaissais pas à Charleville,
+                                        c’était super intéressant. Je recommande sans problème ! »</p>
+                                    <p class="card-text">Claire - 19ans</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="card mb-3">
+                        <div class="row no-gutters">
+                            <div class="col-md-4">
+                                <img src="img/01.jpg" class="card-img1" alt="La rentrée des étudiants - Témoignage ">
+                            </div>
+                            <div class="col-md-8">
+                                <div class="card-body">
+                                    <p class="card-text"> « TOP !!! Je compte bien me réinscrire cette année… et gagner
+                                        le GROS LOT <i class="fas fa-smile"></i> #GUIGUI MONEY FROM NEUILLY »</p>
+                                    <p class="card-text">Jaahed – 19 ans</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!--<div class="carousel-item active">
                     <div class="card mb-4">
                         <div class="row no-gutters">
                             <div class="col-md-12">
@@ -56,7 +126,7 @@
                             </div>
                         </div>
                     </div>
-                </div>
+                </div>-->
             </div>
             <a class="carousel-control-prev" href="#carouselTemoignages" role="button" data-slide="prev">
                 <span class="carousel-control-prev-icon" id="carousel-control-prev-icon" aria-hidden="true"></span>

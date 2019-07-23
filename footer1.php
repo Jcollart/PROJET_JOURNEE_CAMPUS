@@ -62,13 +62,13 @@
         <a class="facebook" style="color: red !important" href="facebook.fr"> <i class="fab fa-facebook fa-3x"></i></a>
 
         <a class="twitter" style="color: red !important" href="twitter.fr"><i class="fab fa-twitter fa-3x"></i></a>
-
+        <a class="navbar-brand" href="img/campusetudiant.pdf" download="fichier.pdf"><button type="button">Télécharger programme</button></a>
     </div>
     <!-- Copyright -->
     <div class="text":center>
-        <p class="ecrit">© 2019 Copyright: <a href="">G.Ponsard & J.Collart</a><a href="mentionslegales.php">
+        <center><p class="ecrit">© 2019 Copyright: <a href="">G.Ponsard & J.Collart</a><a href="mentionslegales.php">
                 Mentions légales </a><a href="politiqueconfidentialites.php"> Politique de confidentialité </a><a
-                href="CGU.php"> CGU </a></p>
+                href="CGU.php"> CGU </a></p></center>
     </div>
     <!-- Copyright -->
 </footer>
