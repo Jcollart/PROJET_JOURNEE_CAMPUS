@@ -56,13 +56,13 @@ p {
 /******* PRESENTATION ********/
 .presentation {
     position: relative;
-    min-height: 50vh;
+    height: 50vh;
     background-color: white;
 }
 
 .presentation:after {
     position: absolute;
-    min-height: 50vh;
+    height: 50vh;
     content: '';
     background-color: inherit;
     top: -4em;
@@ -74,7 +74,7 @@ p {
 }
 
 .carousel-item {
-    min-height: 45vh;
+    height: 45vh;
     margin-left: 0%;
     margin-right: -100% !important;
     margin-bottom: 2.5em;
@@ -162,9 +162,9 @@ p {
     background: -webkit-linear-gradient(left, #FB9F15 0%, #F4552B 100%);
     background: linear-gradient(to right, #FB9F15 0%, #F4552B 100%);*/
     width: 70vw;
+    border-radius: 1em;
     margin-left: auto;
     margin-right: auto;
-    border-radius: 1em;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -326,7 +326,9 @@ p {
 /**** MEDIA QUERIES *****/
 
 @media (max-width: 500px) {
-    /*.presentation {
+
+    /***PRESENTATION***/
+    .presentation {
         height: 100vh;
     }
     
@@ -344,4 +346,15 @@ p {
         padding-left: 10%;
         padding-right: 10%;
     }
-  }*/
+
+    .carousel-item>.card.mb-3 {
+        padding: 0.5em;
+        height: 95vh;
+    }
+
+    /***NEW EDITION***/
+    #button1 {
+        height: 5em;
+        width: 15em;
+    }
+  }
