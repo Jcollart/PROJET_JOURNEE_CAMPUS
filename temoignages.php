@@ -2,7 +2,7 @@
         <div id="carouselTemoignages" class="carousel slide" data-ride="carousel">
             <div class="carousel-inner">
             <div class="carousel-item active">
-                    <div class="card mb-3">
+                    <div class="card mb-3" id="mb">
                         <div class="row no-gutters">
                             <div class="col-md-4">
                                 <img src="img/01.jpg" class="card-img1"
@@ -21,7 +21,7 @@
                     </div>
                 </div>
                 <div class="carousel-item">
-                    <div class="card mb-3">
+                    <div class="card mb-3" id="mb">
                         <div class="row no-gutters">
                             <div class="col-md-4">
                                 <img src="img/01.jpg" class="card-img1"
@@ -39,7 +39,7 @@
                     </div>
                 </div>
                 <div class="carousel-item">
-                    <div class="card mb-3">
+                    <div class="card mb-3" id="mb">
                         <div class="row no-gutters">
                             <div class="col-md-4">
                                 <img src="img/01.jpg" class="card-img1" alt="La rentrée des étudiants - Témoignage ">
@@ -56,7 +56,7 @@
                     </div>
                 </div>
                 <div class="carousel-item">
-                    <div class="card mb-3">
+                    <div class="card mb-3" id="mb">
                         <div class="row no-gutters">
                             <div class="col-md-4">
                                 <img src="img/01.jpg" class="card-img1" alt="La rentrée des étudiants - Témoignage ">

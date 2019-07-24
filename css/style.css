@@ -269,7 +269,7 @@ p {
 /******* SECTION TEMOIGNAGES ********/
 
 .temoignages {
-    height: 25vh;
+    height: 20vh;
     position: relative;
     background: #FB9F15;
     background: -moz-linear-gradient(left, #FB9F15 0%, #F4552B 100%);
@@ -279,7 +279,7 @@ p {
 
 .temoignages:after {
     position: absolute;
-    height: 25vh;
+    height: 20vh;
     content: '';
     background: inherit;
     top: -4em;
@@ -295,24 +295,35 @@ p {
     padding-bottom: 1em;
 }
 
+#carouselTemoignages>.carousel-inner>.carousel-item>.card.mb-3 {
+    padding: 1.5em;
+    height: 10vh;
+    margin-bottom:
+        border: 0px solid rgba(0, 0, 0, .125);
+    -webkit-box-shadow: 0px -5px 15px 3px rgba(177, 177, 177, 0.17);
+    box-shadow: 0px -5px 15px 3px rgba(177, 177, 177, 0.17);
+}
 
 #carouselTemoignages {
-    height: 18vh;
+    height: 12vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 #carouselTemoignages>.carousel-inner>.carousel-item.active {
-    height: 18vh;
+    height: 12vh;
 }
 
-.carousel-item>.card.mb-4 {
-    height: 18vh;
+/*.carousel-item>.card.mb-4 {
+    height: 12vh;
     border: 0px solid rgba(0, 0, 0, .125);
     display: flex;
     justify-content: center;
     align-items: center;
     background-color: transparent;
 
-}
+}*/
 
 #carousel-control-prev-icon {
     background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' fill='%23fff' viewBox='0 0 8 8'%3e%3cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3e%3c/svg%3e")
