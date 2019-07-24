@@ -53,7 +53,7 @@
           </div>
         </li>
         <li class="nav-item">  
-          <a class="nav-link"id="logocmz" href="https://www.charleville-mezieres.fr/"><img id="logoVNB" src="img/logoVNB.png" alt="logoVNB"/></a>
+          <a class="nav-link"id="logocm" href="https://www.charleville-mezieres.fr/"><img id="logocm" src="img/logo/logomairie2.jpg" alt="logocm"/></a>
         </li>
         <li class="nav-item active">
           <a class="nav-link" id="contact" href="formulcontact.php">Contact</a>

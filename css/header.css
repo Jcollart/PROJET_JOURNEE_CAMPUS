@@ -1,18 +1,18 @@
-#/*logo{
+/*#logo{
     width:2em;
    float:left;
    margin-left: 2em;
    position: relative;
-   z-index: 300;*/
+   z-index: 300;
    
-}
+}*/
 
 #logocm{
     width:12em;
     z-index: 30;
     position:absolute;
-    /*margin-top: -2em;
-    margin-left:4.5em;*/
+    margin-top: -2em;
+    margin-left:4.5em;
 
 }
 
