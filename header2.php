@@ -30,7 +30,7 @@
         <li class="menu-home"><a href="">HOME</a>
         </li>
         <li class="menu-inscription"><a href="">INSCRIPTION</a>
-          <ul>
+          <ul class="sousmenu">
             <li><a href="">Carolo Express</a></li>
             <li><a href="">Carolo Warrior</a>
             <li>

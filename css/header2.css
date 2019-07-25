@@ -8,6 +8,8 @@ body{
 nav > ul{
   margin:0px;
   padding:0px;
+  display:flex;
+  justify-content: space-around;
 }
 
 nav li{
@@ -19,7 +21,7 @@ nav > ul > li{
   position: relative;
 }
 
-.submenu{
+.sousmenu{
   display:none;
 }
 
@@ -52,7 +54,7 @@ nav > ul > li > a{
   color:#FFF;
 }
 
-nav li:hover .submenu{
+nav li:hover .sousmenu{
   display: inline-block;
   position: absolute;
   top: 100%;
@@ -61,11 +63,11 @@ nav li:hover .submenu{
   z-index:100000;
 }
 
-.submenu li{
+.sousmenu li{
   border-bottom: 1px solid #ccc;
 }
 
-.submenu li a{
+.sousmenu li a{
 padding: 20px 30px;
 font-size:13px;
 color:#222538;
@@ -96,3 +98,57 @@ background-color:RGBa(228,77,38,0.15);
 nav ul li:hover a{
   padding: 15px, 30px, 20px, 30px;
 }
+
+.menu-inscription .sousmenu{
+  background-color: RGB(230, 100, 40);
+}
+
+.sousmenu li:hover a{
+  color:#EEE;
+  font-weight:bold;
+}
+
+.menu-inscription .sousmenu li:hover{
+  background-color: RGB(210, 77, 60);
+}
+
+.menu-mobile{
+  display:none;
+}
+
+nav input [type=checkbox]{
+  display:none;
+}
+
+nav input[type=checkbox]:checked ~ ul{
+  display:block;
+}
+
+@media screen and (max-width:680px){
+  .menu-mobile{
+    display:block;
+    color:#FFF;
+    background-color: RGBa(29, 197, 151, 0.97);
+    text-align:center;
+    padding: 12px 0px
+  }
+  nav-ul{
+    display:none;
+  }
+  nav ul li a , nav ul li:hover a{
+    padding: 10px 0 10px 0pc;
+  }
+  nav ul li , nav ul li a{
+    width:100%;
+    text-align:center;
+  }
+  nav li:hover .sousmenu{
+    display:block;
+    position:static;
+  }
+
+}
+
+
+
+
