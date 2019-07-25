@@ -25,6 +25,8 @@
 <footer>
 
     <div class="container">
+    <div><a href="https://www.grandest.fr/" target="_blank"><img src="img/Logos/grandest1.png"
+                    class="hvr-pulse" alt=""></a></div>
         <div><a href="http://www.ardenne-metropole.fr" target="_blank"><img src="img/Logos/ARDENNE-LOGO-RVB.png"
                     class="hvr-pulse" alt=""></a></div>
         <div><a href="http://www.crous-reims.fr/" target="_blank"><img src="img/Logos/Crous Reims.png" class="hvr-pulse"
@@ -62,7 +64,7 @@
         <a class="facebook" style="color: red !important" href="facebook.fr"> <i class="fab fa-facebook fa-3x"></i></a>
 
         <a class="twitter" style="color: red !important" href="twitter.fr"><i class="fab fa-twitter fa-3x"></i></a>
-        <a class="navbar-brand" href="img/campusetudiant.pdf" download="fichier.pdf"><button type="button">Télécharger programme</button></a>
+        
     </div>
     <!-- Copyright -->
     <div class="text":center>

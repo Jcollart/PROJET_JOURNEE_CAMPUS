@@ -14,6 +14,7 @@
     <link rel="stylesheet" href="css/hover-min.css">
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/style.css">
+    
 
     <!-- LOAD JQUERY LIBRARY -->
     <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.js"></script>
@@ -56,7 +57,7 @@
 </head>
 
 <body>
-    <?php include("header.php") ; ?>
+    <?php include("header2.php") ; ?>
 
 
     <!--/////////////////////SECTION ENTETE///////////////////////-->

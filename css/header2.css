@@ -146,8 +146,18 @@ nav input[type=checkbox]:checked ~ ul{
     display:block;
     position:static;
   }
-
 }
+
+#logocm{
+  width:10em;
+  z-index: 20;
+  position:absolute;
+  margin-left: -3em;
+  -ms-transform: rotate(-5deg); /* IE 9 */
+  -webkit-transform: rotate(-5deg); /* Safari 3-8 */
+  transform: rotate(-5deg);
+}
+  
 
 
 

@@ -27,7 +27,7 @@
       <label for="menu-mobile" class="menu-mobile">menu</label>
       <input type="checkbox" id="menu-mobile" role="button">
       <ul>
-        <li class="menu-home"><a href="">HOME</a>
+        <li class="menu-home"><a href=""><i style="font-size:1em" class="fas fa-home"></i></a>
         </li>
         <li class="menu-inscription"><a href="">INSCRIPTION</a>
           <ul class="sousmenu">
@@ -38,7 +38,7 @@
             <li><a href="">Pique-nique</a></li>
           </ul>
         </li>
-        <li class="menu-logomairie"><a href="">LOGO</a>
+        <li class="menu-logomairie"><a href="https://www.charleville-mezieres.fr/"><img id="logocm" src="img/logos/logomairieCM.png" alt="logocm"/></a>
         </li>
         <li class="menu-contact"><a href="formulcontact.php" >CONTACT</a>
         </li>
