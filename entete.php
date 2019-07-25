@@ -147,7 +147,7 @@
                                     data-textAlign="['inherit','inherit','inherit','center']"
                                     data-paddingtop="[0,0,0,0]" data-paddingright="[0,0,0,0]"
                                     data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]"
-                                    style="z-index: 12; white-space: nowrap; font-size: 25px; line-height: 25px; font-weight: 300; color: rgba(255,255,255,1);font-family:Oswald;letter-spacing:10px;cursor:pointer;text-decoration: none;">L'EXPERIENCE
+                                    style="z-index: 12; white-space: nowrap; font-size: 90px; line-height: 84px; font-weight: 900; color: rgba(255,255,255,1);font-family:Oswald;letter-spacing:10px;cursor:pointer;text-decoration: none;">L'EXPERIENCE
                                     COMMENCE MAINTENANT</br>programme et inscriptions</a>
 
                                 <!-- LAYER NR. 9 -->
@@ -197,7 +197,7 @@
                                         data-origin="50% 50%"><img src="img/confetti.gif" alt=""
                                             data-ww="['28px','28px','28px','28px']"
                                             data-hh="['27px','27px','27px','27px']" width="28" height="27"
-                                            data-no-retina><a style="font-size:60px;line-height:56px;font-height:600;color:white;font-family:Oswald"> Le 03 Octobre 2019 </a></div>
+                                            data-no-retina><a style="font-size:60px;line-height:56px;font-height:600;color:white;font-family:Oswald"> Jeudi 03 Octobre </a></div>
                                 </div>
 
                                 <!-- LAYER NR. 12 -->
