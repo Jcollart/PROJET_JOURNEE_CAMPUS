@@ -102,7 +102,7 @@
     </section>
 
     </main>
-    <a href="#" class="cd-top text-replace js-cd-top">Top</a>
+    
 	
 
     <!--/////////////////////FOOTER///////////////////////-->

@@ -9,33 +9,22 @@
     <meta name="keywords" content="fullscreen image, grid layout, flexbox grid, transition" />
     <meta name="author" content="ThemePunch" />
     <title>Mentions légales</title>
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
-        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
     <link rel="stylesheet" href="css/reset.css">
-    <link rel="stylesheet" href="css/style.css">
     
-    <!-- LOAD JQUERY LIBRARY -->
-    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.js"></script>
-
-    <!-- LOADING FONTS AND ICONS -->
-    <link href="http://fonts.googleapis.com/css?family=Poppins:700|Oswald:300" rel="stylesheet" property="stylesheet"
-        type="text/css" media="all">
-
-    <link rel="stylesheet" type="text/css" href="fonts/pe-icon-7-stroke/css/pe-icon-7-stroke.css">
-    <link rel="stylesheet" type="text/css" href="fonts/font-awesome/css/font-awesome.css">
-
-    
-    <link rel="stylesheet" type="text/css" href="css/noneed.css">
-
 
     
 </head>
 
 <body>
-    <?php include("header.php") ; ?>
-
-<p> blablabla </p>
+    <?php include("header2.php") ; ?>
+<div class="mention" style:" height=100vh"><br><br>
+<center><h1><strong>Mentions Légales</strong></h1></center>
+<p> « Les informations recueillies feront l’objet d’un traitement afin de mettre en place le projet de la Rentrée des étudiants.
+     Elles seront destinées uniquement à la Mission Vie Etudiante de la ville de Charleville-Mézières. Elles seront conservées 
+     jusqu’à la fin de l’opération. Conformément au Règlement Général de Protection des Données, vous pouvez exercer vos droits
+      d’accès et de rectification en vous adressant à dpo@ardenne-metropole.fr ou DPO - Mairie de Charleville-Mézières
+       – Service JURA – Place du Théâtre – 08000 CHARLEVILLE-MEZIERES » </p>
+</div>
 
     <?php include("footer1.php") ; ?>
 

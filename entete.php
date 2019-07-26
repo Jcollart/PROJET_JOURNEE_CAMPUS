@@ -48,7 +48,7 @@
                                     data-textAlign="['center','center','center','center']" data-paddingtop="[0,0,0,0]"
                                     data-paddingright="[0,0,0,0]" data-paddingbottom="[0,0,0,0]"
                                     data-paddingleft="[0,0,0,0]"
-                                    style="z-index: 6; white-space: nowrap; font-size: 120px; line-height: 130px; font-weight: 700; color: rgb(0, 0, 0);font-family:Poppins;letter-spacing:-10px;">
+                                    style="z-index: 6; white-space: nowrap; ont-size: 60px; line-height: 65px; font-weight: 350; color: rgb(0, 0, 0);font-family:Poppins;letter-spacing:-10px;">
                                     <div class="rs-looped rs-wave" data-speed="3" data-angle="0" data-radius="2px"
                                         data-origin="50% 50%">RENTREE<br />DES ETUDIANTS 2019</div>
                                 </div>
@@ -64,7 +64,7 @@
                                     data-textAlign="['center','center','center','center']" data-paddingtop="[0,0,0,0]"
                                     data-paddingright="[0,0,0,0]" data-paddingbottom="[0,0,0,0]"
                                     data-paddingleft="[0,0,0,0]"
-                                    style="z-index: 7; white-space: nowrap; font-size: 120px; line-height: 130px; font-weight: 700; color: rgb(0, 0, 0);font-family:Poppins;letter-spacing:-10px;">
+                                    style="z-index: 7; white-space: nowrap; ont-size: 60px; line-height: 65px; font-weight: 350; color: rgb(0, 0, 0);font-family:Poppins;letter-spacing:-10px;">
                                     <div class="rs-looped rs-wave" data-speed="3" data-angle="0" data-radius="2px"
                                         data-origin="50% 50%">RENTREE<br />DES ETUDIANTS 2019</div>
                                 </div>
@@ -80,7 +80,7 @@
                                     data-textAlign="['center','center','center','center']" data-paddingtop="[0,0,0,0]"
                                     data-paddingright="[0,0,0,0]" data-paddingbottom="[0,0,0,0]"
                                     data-paddingleft="[0,0,0,0]"
-                                    style="z-index: 8; white-space: nowrap; font-size: 120px; line-height: 130px; font-weight: 700; color: rgb(255, 255, 255);font-family:Poppins;letter-spacing:-10px;">
+                                    style="z-index: 8; white-space: nowrap; ont-size: 60px; line-height: 65px; font-weight: 350; color: rgb(255, 255, 255);font-family:Poppins;letter-spacing:-10px;">
                                     <div class="rs-looped rs-wave" data-speed="3" data-angle="0" data-radius="2px"
                                         data-origin="50% 50%">RENTREE<br />DES ETUDIANTS 2019</div>
                                 </div>
@@ -96,9 +96,8 @@
                                     data-textAlign="['center','center','center','center']" data-paddingtop="[0,0,0,0]"
                                     data-paddingright="[0,0,0,0]" data-paddingbottom="[0,0,0,0]"
                                     data-paddingleft="[0,0,0,0]"
-                                    style="z-index: 9; white-space: nowrap; font-size: 120px; line-height: 130px; font-weight: 700; color: rgba(255,255,255,1);font-family:Poppins;letter-spacing:-10px;">
+                                    style="z-index: 9; white-space: nowrap; font-size: 60px; line-height: 65px; font-weight: 350; color: rgba(255,255,255,1);font-family:Poppins;letter-spacing:-10px;">
                                     RENTREE<br />DES ETUDIANTS 2019</div>
-
                                 <!-- LAYER NR. 6 -->
                                 <div class="tp-caption   tp-resizeme rs-parallaxlevel-1" id="slide-32-layer-15"
                                     data-x="['center','center','center','center']" data-hoffset="['0','0','0','0']"
@@ -147,8 +146,8 @@
                                     data-textAlign="['inherit','inherit','inherit','center']"
                                     data-paddingtop="[0,0,0,0]" data-paddingright="[0,0,0,0]"
                                     data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]"
-                                    style="z-index: 12; white-space: nowrap; font-size: 90px; line-height: 84px; font-weight: 900; color: rgba(255,255,255,1);font-family:Oswald;letter-spacing:10px;cursor:pointer;text-decoration: none;"><strong>L'EXPERIENCE
-                                    COMMENCE MAINTENANT</br>programme et inscriptions</strong></a>
+                                    style="z-index: 12; white-space: nowrap; font-size: 90px; line-height: 84px; font-weight: 900; color: rgba(255,255,255,1);font-family:Oswald;letter-spacing:10px;cursor:pointer;text-decoration: none;">L'EXPERIENCE
+                                    COMMENCE MAINTENANT</br>programme et inscriptions</a>
 
                                 <!-- LAYER NR. 9 -->
                                 <div class="tp-caption tp-shape tp-shapewrapper  tp-resizeme" id="slide-32-layer-17"

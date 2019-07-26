@@ -1,15 +1,27 @@
+
+*{
+
+  margin:0;
+  
+  padding:0;
+  
+  }
 html {
-    
+  height:100%;
   }
   body {
     min-height: 100%;
+    height:100%;
     margin: 0;
     padding: 0;
+    
    
   }
 
   footer {
-    
+    background-color: white; 
+    width:auto;
+    bottom:0;
 }
 
 .container  {
@@ -17,7 +29,9 @@ html {
     flex-wrap: wrap;
     align-items: center;
     justify-content: center;
-    background: transparent;
+    background:transparent ;
+    background-color: white;
+    
 }
 
 .container img{

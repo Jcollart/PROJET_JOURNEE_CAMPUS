@@ -12,9 +12,8 @@
                                 <div class="card-body">
                                     <p class="card-text"> « Une amie m’a convaincu et je n’ai pas regretté. J’ai
                                         rencontré d’autres étudiants, c’était sympa ce brassage. Je n’ai pas pu faire
-                                        les activités mais j’ai encouragé les équipes de mon école et on a gagné ;) »
-                                    </p>
-                                    <p class="card-text">Mareme – 18 ans</p>
+                                        les activités mais j’ai encouragé les équipes de mon école et on a gagné ;) »<br>
+                                        Mareme – 18 ans</p>
                                 </div>
                             </div>
                         </div>
@@ -33,6 +32,24 @@
                                         organiser ce genre de manifestation pour les étudiants. Moi j’ai participé au
                                         Carolo Express, c’était fun ! »</p>
                                     <p class="card-text">Jérémy – 21 ans</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="card mb-3" id="mb">
+                        <div class="row no-gutters">
+                            <div class="col-md-4">
+                                <img src="img/KylianLambot.jpg" class="card-img1"
+                                    alt="La rentrée des étudiants - Témoignage ">
+                            </div>
+                            <div class="col-md-8">
+                                <div class="card-body">
+                                    <p class="card-text">« Le Carolo Warrior ! Des épreuves fantastiques
+                                      et quelle ambiance ! Des étudiants qui crient le slogan de leur équipe,
+                                      des banderoles de soutien ! Une vraie dynamique de la Rentrée étudiante à Charleville ! »</p>
+                                    <p class="card-text">Kylian Lambot</p>
                                 </div>
                             </div>
                         </div>

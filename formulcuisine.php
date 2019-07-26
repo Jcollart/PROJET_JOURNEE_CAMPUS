@@ -28,7 +28,7 @@
 
 <body>
     <!-- NAVBAR BOOTSTRAP-->
-    <?php include("header.php"); ?></br></br></br>
+    <?php include("header2.php"); ?></br></br></br>
 
 <center><h1 style="color:black"> INSCRIPTION CAROLO CUISINE </h1></br>
 <p>Merci de remplir les champs ci dessous pour inscrire votre équipe </br>
@@ -42,10 +42,25 @@
             <div>
                     <label for="name"><strong>Etablissement:</strong></label>
                     <select name="etablissement" id="etablissement">
-                            <option value="Sévignée">Sévigné</option>
-                            <option value="Chanzy">Chanzy</option>
-                            <option value="Monge">Monge</option>
-                            <option value="Bazin">Bazin</option>
+                    <option value="Sévignée">Institut Universitaire de Technologie (IUT RCC)</option>
+                            <option value="Chanzy">Ecole d’Ingénieurs en Sciences Industrielles et Numérique (EiSINe)</option>
+                            <option value="Monge">Institut national Supérieur du Professorat et de l’Education (INSPÉ)</option>
+                            <option value="Bazin">Ecole de gestion et de commerce (EGC)</option>
+                            <option value="Bazin">Ecole Simplon</option>
+                            <option value="Bazin">Institut supérieur de comptabilité et d’économie des entreprises (ISCEE)</option>
+                            <option value="Bazin">Ecole supérieure nationale des Arts de la marionnettes (ESNAM)</option>
+                            <option value="Bazin">Institut de formation en soins infirmiers (IFSI)</option>
+                            <option value="Bazin">Centre de formation des apprentis de l’industrie (CFAI)</option>
+                            <option value="Bazin">Lycée agricole Balcon des Ardennes</option>
+                            <option value="Bazin">Lycée des métiers de Bazeilles</option>
+                            <option value="Bazin">Lycée des métiers Bazin</option>
+                            <option value="Bazin">Lycée Mme de Sévigné</option>
+                            <option value="Bazin">Lycée Chanzy</option>
+                            <option value="Bazin">Lycée Monge</option>
+                            <option value="Bazin">Lycée JB Clément</option>
+                            <option value="Bazin">Lycée Pierre Bayle</option>
+                            <option value="Bazin">Lycée Simone Veil</option>
+                            <option value="Bazin">La Digitale Académie</option>
                             
                     </select>
                 </div>

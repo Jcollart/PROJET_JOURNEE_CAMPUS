@@ -12,15 +12,38 @@
         font-family:'cookit-regular-webfont', sans-serif;
         font-size:3em;
         }
-        
+       /* * {
+            line-height: 1.5!important;
+            letter-spacing:.12em!important;
+            word-spacing: .16em !important;
+        }*/
+
+        *{
+
+            margin:0;
+            
+            padding:0;
+            
+            }
 html {
     font-family:'cookit-regular-webfont';
+    height:100%;
 }
+
+*{
+
+    margin:0;
+    
+    padding:0;
+    
+    }
+
 
 body {
     position: relative;
-
+    text-align:center;
     min-height: 100%;
+    height:100%;
     margin: 0;
     padding: 0;
     overflow-x: hidden;
@@ -313,9 +336,11 @@ p {
 
 .temoignages p {
     color: white;
-    padding-bottom: 1em;
+    padding-bottom: 2em;
 }
-
+.card-body{
+    height:auto;
+}
 
 #carouselTemoignages {
     height: 18vh;

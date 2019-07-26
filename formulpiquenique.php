@@ -30,7 +30,7 @@
 
 <body>
     <!-- NAVBAR BOOTSTRAP-->
-    <?php include("header.php"); ?></br></br></br>
+    <?php include("header2.php"); ?></br></br></br>
   
 
 <center><h1 style="color:rgb(233, 95, 16)"> INSCRIPTION PIQUE-NIQUE </h1></br>
@@ -41,6 +41,7 @@
 
 
         <div class="form" action="/ma-page-de-formulaire" method="post">
+        
             <div>
                 <label for="name"><strong>Nom :</strong></label>
                 <input type="text" id="name" name="Votre noms">
@@ -62,7 +63,7 @@
             </div>
         </br>
             <div>
-            <input type="checkbox" id="reserve" name="reservation repas" checked>
+            
             <label for="name"><strong>Repas=2,5€</strong></label>
                 
             </div>
