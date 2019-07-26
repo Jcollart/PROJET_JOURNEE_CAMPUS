@@ -9,7 +9,7 @@ nav > ul{
   margin:0px;
   padding:0px;
   display:flex;
-  justify-content: space-around;
+  justify-content: space-between;
 }
 
 nav li{
@@ -150,12 +150,13 @@ nav input[type=checkbox]:checked ~ ul{
 
 #logocm{
   width:10em;
-  z-index: 20;
+  z-index: 600;
   position:absolute;
-  margin-left: -3em;
-  -ms-transform: rotate(-5deg); /* IE 9 */
-  -webkit-transform: rotate(-5deg); /* Safari 3-8 */
-  transform: rotate(-5deg);
+  margin-left: -3.5em;
+  margin-top: -0.8em;
+  -ms-transform: rotate(-3deg); /* IE 9 */
+  -webkit-transform: rotate(-3deg); /* Safari 3-8 */
+  transform: rotate(-3deg);
 }
   
 

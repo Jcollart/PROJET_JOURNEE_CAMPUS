@@ -185,7 +185,7 @@ p {
     text-decoration: none;
     width: 18em;
     border: 0px grey solid;
-    
+    align-items: baseline;
 }
 
 #button3 {
@@ -197,7 +197,7 @@ p {
     text-decoration: none;
     width: 18em;
     border: 0px grey solid;
-    margin-left: 15em;
+    
    
     
 }

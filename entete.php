@@ -147,8 +147,8 @@
                                     data-textAlign="['inherit','inherit','inherit','center']"
                                     data-paddingtop="[0,0,0,0]" data-paddingright="[0,0,0,0]"
                                     data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]"
-                                    style="z-index: 12; white-space: nowrap; font-size: 90px; line-height: 84px; font-weight: 900; color: rgba(255,255,255,1);font-family:Oswald;letter-spacing:10px;cursor:pointer;text-decoration: none;">L'EXPERIENCE
-                                    COMMENCE MAINTENANT</br>programme et inscriptions</a>
+                                    style="z-index: 12; white-space: nowrap; font-size: 90px; line-height: 84px; font-weight: 900; color: rgba(255,255,255,1);font-family:Oswald;letter-spacing:10px;cursor:pointer;text-decoration: none;"><strong>L'EXPERIENCE
+                                    COMMENCE MAINTENANT</br>programme et inscriptions</strong></a>
 
                                 <!-- LAYER NR. 9 -->
                                 <div class="tp-caption tp-shape tp-shapewrapper  tp-resizeme" id="slide-32-layer-17"
