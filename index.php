@@ -28,7 +28,7 @@
 
     <!-- REVOLUTION STYLE SHEETS -->
     <link rel="stylesheet" type="text/css" href="css/settings.css">
-
+    
     <!-- FONT AND STYLE FOR BASIC DOCUMENTS, NO NEED FOR FURTHER USAGE IN YOUR PROJECTS-->
     <link href="http://fonts.googleapis.com/css?family=Roboto%3A700%2C300" rel="stylesheet" property="stylesheet"
         type="text/css" media="all" />
@@ -37,11 +37,11 @@
     <!-- REVOLUTION JS FILES -->
     <script type="text/javascript" src="js/jquery.themepunch.tools.min.js"></script>
     <script type="text/javascript" src="js/jquery.themepunch.revolution.min.js"></script>
-
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
     <!-- PARTICLES ADD-ON FILES -->
     <link rel='stylesheet' href='particles/css/revolution.addon.particles.css?ver=1.0.3' type='text/css' media='all' />
     <script type='text/javascript' src='particles/js/revolution.addon.particles.min.js?ver=1.0.3'></script>
-
+   
     <!-- SLIDER REVOLUTION 5.0 EXTENSIONS  (Load Extensions only on Local File Systems !  The following part can be removed on Server for On Demand Loading) -->
     <script type="text/javascript" src="extensions/revolution.extension.actions.min.js"></script>
     <script type="text/javascript" src="extensions/revolution.extension.carousel.min.js"></script>
@@ -52,14 +52,17 @@
     <script type="text/javascript" src="extensions/revolution.extension.parallax.min.js"></script>
     <script type="text/javascript" src="extensions/revolution.extension.slideanims.min.js"></script>
     <script type="text/javascript" src="extensions/revolution.extension.video.min.js"></script>
+    
+
+
+
 
     <title>Rentrée des étudiants</title>
 </head>
 
 <body>
     <?php include("header2.php") ; ?>
-
-
+  
     <!--/////////////////////SECTION ENTETE///////////////////////-->
 
     <section class=entete>
@@ -94,7 +97,8 @@
 
 
     <div class="parallax-window" data-parallax="scroll" data-image-src="img/placeducale.jpg" alt=""></div>
-
+    
+   
     <!--/////////////////////TEMOIGNAGES///////////////////////-->
 
     <section class=temoignages>

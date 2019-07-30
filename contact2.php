@@ -8,22 +8,23 @@
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
         integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
     <title>CONTACT</title>
+    <link rel="stylesheet" type="text/css" href="css/contact.css">
 </head>
 <body>
 <?php include("header2.php") ; ?>
 <section class="resume-section p-4 p-lg-5 text-center" id="contact">
         <div class="my-auto">
-          <h2 class="mb-4"><i class="fas fa-id-badge"> Information pour contact <i class="fas fa-id-badge"></h2>
+          <h2 class="mb-4"> >>>INFORMATION POUR CONTACT<<< </h2>
 
           <ul class="fa-ul mb-4 ml-0">
             <li id="mail-address">
 <!--               Replace with your email address -->
                 <i class="fas fa-envelope-open mr-2 contact-icons"></i>
                 Sebastien.ELIE@mairie-charlevillemezieres.fr</a>
-            </li>
+            </li><br>
             <li>
               <i class="fas fa-mobile-alt mr-2 contact-icons"></i>03 24 32 44 40
-            </li>
+            </li><br>
             <li>
               <i class="fas fa-map-marker-alt mr-2 contact-icons"></i>Charleville-Mézières, Fr
             </li>
@@ -31,7 +32,7 @@
 
           <p>
             ...ou laisser votre message ci-dessous et nous vous recontacterons le plus rapidement possible.
-          </p>
+          </p><br>
 
           <form
             class="contact-form d-flex flex-column align-items-center"
@@ -68,7 +69,7 @@
               ></textarea>
             </div>
 
-            <button type="submit" class="btn btn-submit btn-info w-75">Soumettre</button>
+            <button type="submit" class="btn btn-warning btn-info w-75">Soumettre</button>
           </form>
         </div>
       </section>
