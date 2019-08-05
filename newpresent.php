@@ -7,9 +7,10 @@
         <center><button class="hvr-rectangle-out" id="button1" type="button" data-toggle="collapse"
                 data-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
                 <p>
-                    <a class="button-read-more button-read" href="#button1">EDITION 2019
-                            </br>Programme et Inscription</p></a>
-                <p><a class="button-read-more button-read" href="img/campusetudiant.pdf" download="fichier.pdf"><button class="hvr-rectangle-out" id="button3" type="button">Télécharger le Programme</button></a></p>
+                    <font color="black"><a class="button-read-more button-read" href="#button1">EDITION 2019
+                            </br>DECOUVREZ LE PROGRAMME</font>
+                </p></a>
+                <p><a class="button-read-more button-read" href="img/campusetudiant.pdf" download="fichier.pdf"><button class="hvr-rectangle-out" id="button3" type="button">Télécharger programme</button></a></p>
         </center>
 
         </button>

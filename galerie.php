@@ -47,11 +47,8 @@
 
 <body>
   <!-- NAVBAR -->
-  <?php include("header2.php"); ?>
+  <?php include("header.php"); ?>
   <!-- /* Code inspiré de celui de Mary Lou sur http://tympanus.net/codrops/2011/12/26/css3-lightbox/-->
-  <div><br>
-  <br>
-  </div>
   <h1>Galerie 2018</h1>
   <div id="galerie1" class="cssgal">
     <!-- ancre et conteneur de la galerie  
@@ -103,7 +100,7 @@
         <div id="gal-1-image-3" class="lb-overlay">
           <img alt="image03" src="img/JournéeEtudiants/Journée accueil Etudiants 27 09 2018 (6).JPG">
           <div>
-            <center><h3>Partie PIQUE-NIQUE</h3></center>
+            <h3>CAMPUS</h3>
             <a class="lb-prev" href="#gal-1-image-2">Prev</a>
             <a class="lb-next" href="#gal-1-image-4">Next</a>
           </div>
