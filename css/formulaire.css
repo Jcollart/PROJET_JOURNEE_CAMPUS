@@ -1,6 +1,3 @@
-html{
-
-}
 
 body {
   background:  url(../img/eclair.png) no-repeat center/65% ,
@@ -78,6 +75,10 @@ body {
        entre les étiquettes et les champs texte */
     margin-left: .5em;
   }
+
+strong{
+  display:inline;
+}
 
   .arrow_box {
 	position: relative;

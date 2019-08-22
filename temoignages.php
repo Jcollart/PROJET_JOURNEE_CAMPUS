@@ -12,8 +12,8 @@
                                 <div class="card-body">
                                     <p class="card-text"> « Une amie m’a convaincu et je n’ai pas regretté. J’ai
                                         rencontré d’autres étudiants, c’était sympa ce brassage. Je n’ai pas pu faire
-                                        les activités mais j’ai encouragé les équipes de mon école et on a gagné ;) »<br>
-                                        Mareme – 18 ans</p>
+                                        les activités mais j’ai encouragé les équipes de mon école et on a gagné. »</p>
+                                       <p class="card-text"> Mareme – 18 ans</p>
                                 </div>
                             </div>
                         </div>
@@ -41,14 +41,14 @@
                     <div class="card mb-3" id="mb">
                         <div class="row no-gutters">
                             <div class="col-md-4">
-                                <img src="img/KylianLambot.jpg" class="card-img1"
+                                <img src="img/01.jpg" class="card-img1"
                                     alt="La rentrée des étudiants - Témoignage ">
                             </div>
                             <div class="col-md-8">
                                 <div class="card-body">
                                     <p class="card-text">« Le Carolo Warrior ! Des épreuves fantastiques
                                       et quelle ambiance ! Des étudiants qui crient le slogan de leur équipe,
-                                      des banderoles de soutien ! Une vraie dynamique de la Rentrée étudiante à Charleville ! »</p>
+                                      des banderoles de soutien ! Une vraie dynamique de la Rentrée étudiante à Charleville-Mézières ! »</p>
                                     <p class="card-text">Kylian Lambot</p>
                                 </div>
                             </div>
@@ -64,9 +64,9 @@
                             <div class="col-md-8">
                                 <div class="card-body">
                                     <p class="card-text"> « Superbe journée ! J’ai notamment adoré le Carolo Express qui
-                                        m’a permis de découvrir des lieux que je ne connaissais pas à Charleville,
+                                        m’a permis de découvrir des lieux que je ne connaissais pas à Charleville-Mézières,
                                         c’était super intéressant. Je recommande sans problème ! »</p>
-                                    <p class="card-text">Claire - 19ans</p>
+                                    <p class="card-text">Claire - 19 ans</p>
                                 </div>
                             </div>
                         </div>
@@ -81,7 +81,7 @@
                             <div class="col-md-8">
                                 <div class="card-body">
                                     <p class="card-text"> « TOP !!! Je compte bien me réinscrire cette année… et gagner
-                                        le GROS LOT <i class="fas fa-smile"></i> #GUIGUI MONEY FROM NEUILLY »</p>
+                                        le GROS LOT <i class="fas fa-smile"></i> »</p>
                                     <p class="card-text">Jaahed – 19 ans</p>
                                 </div>
                             </div>

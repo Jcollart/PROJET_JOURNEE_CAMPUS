@@ -20,20 +20,20 @@
             <li id="mail-address">
 <!--               Replace with your email address -->
                 <i class="fas fa-envelope-open mr-2 contact-icons"></i
-                >Sebastien.ELIE@mairie-charlevillemezieres.fr</a
+                >etudiants@mairie-charlevillemezieres.fr</a
               >
             </li><br>
             <li>
-              <i class="fas fa-mobile-alt mr-2 contact-icons"></i>03 24 32 44 40
+              <i class="fas fa-mobile-alt mr-2 contact-icons"></i>03 24 32 44 91
             </li><br>
             <li>
-              <i class="fas fa-map-marker-alt mr-2 contact-icons"></i>Charleville-Mézières, Fr
+              <i class="fas fa--alt mr-2 contact-icons"></i>Charleville-Mézières, Fr
             </li><br>
           </ul>
 
           <p>
             ...ou laisser votre message ci-dessous et nous vous recontacterons le plus rapidement possible.
-          </p>
+          </p><br>
 
           <form
             class="contact-form d-flex flex-column align-items-center"

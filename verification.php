@@ -4,10 +4,10 @@ if(isset($_POST['username']) && isset($_POST['password']))
 {
     // connexion à la base de données
     $db_username = 'root';
-    $db_password = 'mot_de_passe_bdd';
+    $db_password = '';
     $db_name     = 'nom_bdd';
     $db_host     = 'localhost';
-    $db = mysqli_connect($db_host, $db_username, $db_password,$db_name)
+    $bdd = new PDO($db_host, $db_username, $db_password,$db_name)
            or die('could not connect to database');
     
     // on applique les deux fonctions mysqli_real_escape_string et htmlspecialchars

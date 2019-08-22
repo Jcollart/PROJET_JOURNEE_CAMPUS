@@ -29,20 +29,20 @@
       <ul>
         <li class="menu-home"><a href="index.php"><i style="font-size:1em" class="fas fa-home"></i></a>
         </li>
-        <li class="menu-inscription"><a href="">INSCRIPTION</a>
+        <li class="menu-inscription"><a href="">INSCRIPTIONS</a>
           <ul class="sousmenu">
-            <li><a href="">Carolo Express</a></li>
-            <li><a href="">Carolo Warrior</a>
+            <li><a href="formulexpress.php">Carolo Express</a></li>
+            <li><a href="formulwarrior.php">Carolo Warrior</a>
             <li>
-            <li><a href="">Concour Cuisine</a></li>
-            <li><a href="">Pique-nique</a></li>
+            <li><a href="formulcuisine.php">Concours Cuisine</a></li>
+            <li><a href="formulpiquenique.php">Pique-nique</a></li>
           </ul>
         </li>
         <li class="menu-logomairie"><a href="https://www.charleville-mezieres.fr/"><img id="logocm" src="img/logos/logomairieCM.png" alt="logocm"/></a>
         </li>
         <li class="menu-contact"><a href="contact2.php" >CONTACT</a>
         </li>
-        <li class="menu-faq"><a href="faq.php">FAQ</a>
+        <li class="menu-faq"><a href="faq.php">Aide/FAQ</a>
         </li>
       </ul>
       

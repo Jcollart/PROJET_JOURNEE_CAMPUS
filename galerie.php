@@ -49,7 +49,7 @@
   <!-- NAVBAR -->
   <?php include("header.php"); ?>
   <!-- /* Code inspiré de celui de Mary Lou sur http://tympanus.net/codrops/2011/12/26/css3-lightbox/-->
-  <h1>Galerie 2018</h1>
+  <h2>Galerie 2018</h2>
   <div id="galerie1" class="cssgal">
     <!-- ancre et conteneur de la galerie  
   avec index propre à chaque galerie-->
@@ -65,7 +65,7 @@
           <img alt="Journée accueil Etudiants 27 09 2018 (3)"
             src="img/JournéeEtudiants/Journée accueil Etudiants 27 09 2018 (3).JPG">
           <div>
-            <h3>LOGO CAROLO</h3>
+            <h3></h3>
             <!-- Controls -->
 
             <!--titre de l'image grand format-->
@@ -85,7 +85,7 @@
         <div id="gal-1-image-2" class="lb-overlay">
           <img alt="image02" src="img/JournéeEtudiants/Journée accueil Etudiants 27 09 2018 (4).JPG">
           <div>
-            <h3>ETUDIANTS</h3>
+            <h3></h3>
             <a class="lb-prev" href="#gal-1-image-1">Prev</a>
             <a class="lb-next" href="#gal-1-image-3">Next</a>
           </div>
@@ -100,7 +100,7 @@
         <div id="gal-1-image-3" class="lb-overlay">
           <img alt="image03" src="img/JournéeEtudiants/Journée accueil Etudiants 27 09 2018 (6).JPG">
           <div>
-            <h3>CAMPUS</h3>
+            <h3></h3>
             <a class="lb-prev" href="#gal-1-image-2">Prev</a>
             <a class="lb-next" href="#gal-1-image-4">Next</a>
           </div>
@@ -115,7 +115,7 @@
         <div id="gal-1-image-4" class="lb-overlay">
           <img alt="image04" src="img/JournéeEtudiants/Journée accueil Etudiants 27 09 2018 (8).JPG">
           <div>
-            <h3>CONCOURS CUISINE</h3>
+            <h3></h3>
             <a class="lb-prev" href="#gal-1-image-3">Prev</a>
             <a class="lb-next" href="#gal-1-image-5">Next</a>
           </div>
@@ -130,7 +130,7 @@
         <div id="gal-1-image-5" class="lb-overlay">
           <img alt="image04" src="img/JournéeEtudiants/Journée accueil Etudiants 27 09 2018 (9).JPG">
           <div>
-            <h3>CONCOURS CUISINE</h3>
+            <h3></h3>
             <a class="lb-prev" href="#gal-1-image-4">Prev</a>
             <a class="lb-next" href="#gal-1-image-6">Next</a>
           </div>
@@ -145,7 +145,7 @@
         <div id="gal-1-image-6" class="lb-overlay">
           <img alt="image04" src="img/JournéeEtudiants/Journée accueil Etudiants 27 09 2018 (10).JPG">
           <div>
-            <h3>CONCOURS CUISINE</h3>
+            <h3></h3>
             <a class="lb-prev" href="#gal-1-image-5">Prev</a>
             <a class="lb-next" href="#gal-1-image-7">Next</a>
           </div>
@@ -160,7 +160,7 @@
         <div id="gal-1-image-7" class="lb-overlay">
           <img alt="image04" src="img/JournéeEtudiants/Journée accueil Etudiants 27 09 2018 (13).JPG">
           <div>
-            <h3>CONCOURS CUISINE</h3>
+            <h3></h3>
             <a class="lb-prev" href="#gal-1-image-6">Prev</a>
             <a class="lb-next" href="#gal-1-image-8">Next</a>
           </div>
@@ -175,7 +175,7 @@
         <div id="gal-1-image-8" class="lb-overlay">
           <img alt="image04" src="img/JournéeEtudiants/Journée accueil Etudiants 27 09 2018 (17).JPG">
           <div>
-            <h3>CONCOURS CUISINE</h3>
+            <h3></h3>
             <a class="lb-prev" href="#gal-1-image-7">Prev</a>
             <a class="lb-next" href="#gal-1-image-9">Next</a>
           </div>
@@ -190,7 +190,7 @@
         <div id="gal-1-image-9" class="lb-overlay">
           <img alt="image04" src="img/JournéeEtudiants/Journée accueil Etudiants 27 09 2018 (19).JPG">
           <div>
-            <h3>CONCOURS CUISINE</h3>
+            <h3></h3>
             <a class="lb-prev" href="#gal-1-image-8">Prev</a>
             <a class="lb-next" href="#gal-1-image-10">Next</a>
           </div>
@@ -205,7 +205,7 @@
         <div id="gal-1-image-10" class="lb-overlay">
           <img alt="image04" src="img/JournéeEtudiants/Journée accueil Etudiants 27 09 2018 (20).JPG">
           <div>
-            <h3>CONCOURS CUISINE</h3>
+            <h3></h3>
             <a class="lb-prev" href="#gal-1-image-9">Prev</a>
             <a class="lb-next" href="#gal-1-image-11">Next</a>
           </div>
@@ -220,7 +220,7 @@
         <div id="gal-1-image-11" class="lb-overlay">
           <img alt="image04" src="img/JournéeEtudiants/Journée accueil Etudiants 27 09 2018 (28).JPG">
           <div>
-            <h3>CONCOURS CUISINE</h3>
+            <h3></h3>
             <a class="lb-prev" href="#gal-1-image-10">Prev</a>
             <a class="lb-next" href="#gal-1-image-12">Next</a>
           </div>
@@ -235,7 +235,7 @@
         <div id="gal-1-image-12" class="lb-overlay">
           <img alt="image04" src="img/JournéeEtudiants/Journée accueil Etudiants 27 09 2018 (30).JPG">
           <div>
-            <h3>CONCOURS CUISINE</h3>
+            <h3></h3>
             <a class="lb-prev" href="#gal-1-image-11">Prev</a>
             <a class="lb-next" href="#gal-1-image-13">Next</a>
           </div>
@@ -250,7 +250,7 @@
         <div id="gal-1-image-13" class="lb-overlay">
           <img alt="image04" src="img/JournéeEtudiants/Journée accueil Etudiants 27 09 2018 (34).JPG">
           <div>
-            <h3>CONCOURS CUISINE</h3>
+            <h3></h3>
             <a class="lb-prev" href="#gal-1-image-12">Prev</a>
             <a class="lb-next" href="#gal-1-image-14">Next</a>
           </div>
@@ -265,7 +265,7 @@
         <div id="gal-1-image-14" class="lb-overlay">
           <img alt="image04" src="img/JournéeEtudiants/Journée accueil Etudiants 27 09 2018 (41).JPG">
           <div>
-            <h3>CONCOURS CUISINE</h3>
+            <h3></h3>
             <a class="lb-prev" href="#gal-1-image-13">Prev</a>
             <a class="lb-next" href="#gal-1-image-15">Next</a>
           </div>
@@ -280,7 +280,7 @@
         <div id="gal-1-image-15" class="lb-overlay">
           <img alt="image04" src="img/JournéeEtudiants/Journée accueil Etudiants 27 09 2018 (68).JPG">
           <div>
-            <h3>CONCOURS CUISINE</h3>
+            <h3></h3>
             <a class="lb-prev" href="#gal-1-image-14">Prev</a>
             <a class="lb-next" href="#gal-1-image-16">Next</a>
           </div>
@@ -295,7 +295,7 @@
         <div id="gal-1-image-16" class="lb-overlay">
           <img alt="image04" src="img/JournéeEtudiants/Journée accueil Etudiants 27 09 2018 (69).JPG">
           <div>
-            <h3>CONCOURS CUISINE</h3>
+            <h3></h3>
             <a class="lb-prev" href="#gal-1-image-15">Prev</a>
             <a class="lb-next" href="#gal-1-image-17">Next</a>
           </div>
@@ -310,7 +310,7 @@
         <div id="gal-1-image-17" class="lb-overlay">
           <img alt="image04" src="img/JournéeEtudiants/Journée accueil Etudiants 27 09 2018 (98).JPG">
           <div>
-            <h3>CONCOURS CUISINE</h3>
+            <h3></h3>
             <a class="lb-prev" href="#gal-1-image-16">Prev</a>
             <a class="lb-next" href="#gal-1-image-18">Next</a>
           </div>
@@ -325,7 +325,7 @@
         <div id="gal-1-image-18" class="lb-overlay">
           <img alt="image04" src="img/JournéeEtudiants/Journée accueil Etudiants 27 09 2018 (100).JPG">
           <div>
-            <h3>CONCOURS CUISINE</h3>
+            <h3></h3>
             <a class="lb-prev" href="#gal-1-image-17">Prev</a>
             <a class="lb-next" href="#gal-1-image-19">Next</a>
           </div>
@@ -340,7 +340,7 @@
         <div id="gal-1-image-19" class="lb-overlay">
           <img alt="image04" src="img/JournéeEtudiants/Journée accueil Etudiants 27 09 2018 (103).JPG">
           <div>
-            <h3>CONCOURS CUISINE</h3>
+            <h3></h3>
             <a class="lb-prev" href="#gal-1-image-18">Prev</a>
             <a class="lb-next" href="#gal-1-image-20">Next</a>
           </div>
@@ -355,7 +355,7 @@
         <div id="gal-1-image-20" class="lb-overlay">
           <img alt="image04" src="img/JournéeEtudiants/Journée accueil Etudiants 27 09 2018 (105).JPG">
           <div>
-            <h3>CONCOURS CUISINE</h3>
+            <h3></h3>
             <a class="lb-prev" href="#gal-1-image-19">Prev</a>
             <a class="lb-next" href="#gal-1-image-01">Next</a>
           </div>

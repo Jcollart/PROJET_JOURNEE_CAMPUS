@@ -29,19 +29,19 @@
                     class="hvr-pulse" alt=""></a></div>
         <div><a href="http://www.ardenne-metropole.fr" target="_blank"><img src="img/Logos/ARDENNE-LOGO-RVB.png"
                     class="hvr-pulse" alt=""></a></div>
-        <div><a href="http://www.crous-reims.fr/" target="_blank"><img src="img/Logos/Crous Reims.png" class="hvr-pulse"
+        <div><a href="http://www.crous-reims.fr/" target="_blank"><img src="img/Logos/Crous Reims.png" style="height:50px" class="hvr-pulse"
                     alt=""></a>
         </div>
         <div><a href="http://www.decathlon.fr" target="_blank"><img src="img/Logos/decathlon.jpg" class="hvr-pulse"
                     alt=""></a></div>
         <div><a href="http://www.facebook.com/associationflap" target="_blank"><img
                     src="img/Logos/FLaP (nouveau logo 2019)-1.png" class="hvr-pulse" alt=""></a></div>
-        <div><a href="" target="_blank"><img src="img/Logos/intercampus.jpg" class="hvr-pulse" alt=""></a></div>
+        <div><a href="" target="_blank"><img src="img/Logos/intercampus.jpg" class="hvr-pulse" style="height:50px" alt=""></a></div>
         <div><a href="http://www.jeanteur.fr" target="_blank"><img src="img/Logos/jeanteur.png" class="hvr-pulse"
                     alt=""></a></div>
-        <div><a href="http://www.orange.fr"><img src="img/Logos/orange-logo-vector.png" class="hvr-pulse" alt=""></a>
+        <div><a href="http://www.orange.fr"><img src="img/Logos/orange-logo-vector.png" style="height:50px" class="hvr-pulse" alt=""></a>
         </div>
-        <div><a href="https://o-tacos.com/fr/" target="_blank"><img src="img/Logos/otacos.png" class="hvr-pulse"
+        <div><a href="https://o-tacos.com/fr/" target="_blank"><img src="img/Logos/otacos.png" style="height:50px" class="hvr-pulse"
                     alt=""></a></div>
         <div><a href="https://www.yves-rocher.fr/" target="_blank"><img src="img/Logos/yvesrocher.png" class="hvr-pulse"
                     alt=""></a>
@@ -52,7 +52,7 @@
                     class="hvr-pulse" alt=""></a></div>
         <div><a href="http://www.terraltitude.com" target="_blank"><img src="img/Logos/TERRALTITUDE LOGO.jpg"
                     class="hvr-pulse" alt=""></a></div>
-        <div><a href="http://www.ardennes.com › DETAIL" target="_blank"><img src="img/Logos/vitrines-charleville.png"
+        <div><a href="http://www.ardennes.com › DETAIL" target="_blank"><img src="img/Logos/vitrines-charleville.png" style="height:50px" 
                     class="hvr-pulse" alt=""></a></div>
 
     </div>

@@ -37,8 +37,8 @@
       <br>
       <li><strong style="text-decoration: underline;">Est-ce que les activités sont payantes ?</li></strong>
       Non, l’opération est organisée et prise en charge par la Ville de Charleville-Mézières en lien avec de nombreux
-      partenaires. En revanche, les repas pique-nique nécessitent une participation de 2.5€ pour les 200 premières
-      inscriptions puis 4.5€.<br>
+      partenaires. En revanche, les repas pique-nique nécessitent une participation de 3€ pour les 200 premières
+      inscriptions puis 5€.<br>
       <br>
       <li><strong style="text-decoration: underline;">Puis-je m’inscrire à plusieurs activités dans la journée
           ?</strong></li>
@@ -83,16 +83,16 @@
       <li><strong style="text-decoration: underline;">Pourquoi ne puis-je pas réserver plus d’un repas pour le
           pique-nique ?</strong></li>
       La réservation des repas pique-nique est limitée à un repas par personne afin de permettre à un maximum de
-      personne d’accéder aux 200 premiers repas à 2.5€.<br>
+      personne d’accéder aux 200 premiers repas à 3€.<br>
       <br>
       <li><strong style="text-decoration: underline;">Comment se déroule le paiement du repas pour le pique-nique
           ?</strong></li>
       Vous pourrez payer votre repas le jour J, sur place, sur la Plaine du Mont-Olympe. Seules les 200 premières
-      personnes inscrites pourront bénéficier de la formule à 2.5€.<br>
+      personnes inscrites pourront bénéficier de la formule à 3€.<br>
       <br>
-      <li><strong style="text-decoration: underline;">Pourquoi le tarif à 2.5€ est limité aux 200 premières commandes
+      <li><strong style="text-decoration: underline;">Pourquoi le tarif à 3€ est limité aux 200 premières commandes
           ?</strong></li>
-      Les 200 premières commandes bénéficient d’un prix avantageux. Le prix réel de la formule est à 4.5€. La Ville de
+      Les 200 premières commandes bénéficient d’un prix avantageux. Le prix réel de la formule est à 5€. La Ville de
       Charleville-Mézières prend à sa charge la différence pour les 200 premières commandes. Ce faisant, il est
       recommandé de ne pas tarder pour réserver son repas.<br>
       <br>

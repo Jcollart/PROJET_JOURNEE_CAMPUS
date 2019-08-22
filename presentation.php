@@ -11,19 +11,16 @@
                                 <div class="card-body">
                                     <h5 class="card-title">Qu'est-ce que c'est?</h5>
                                     <p class="card-text"> La Rentrée des Etudiants est une journée d'intégration ouverte
-                                        à tous les étudiants du territoire. C’EST LA JOURNEE DES ETUDIANTS !!!
+                                        à tous les étudiants du territoire. C’EST LA JOURNEE DES ETUDIANTS !!!<br><br>
                                         A l'initiative de la Ville de Charleville-Mézières et en partenariat avec les
                                         associations étudiantes, cette manifestation vise à souhaiter la bienvenue à
                                         tous les étudiants du territoire ! Cette journée est une occasion festive,
                                         ludique, sportive et culturelle de découvrir la ville, de rencontrer d'autres
                                         étudiants issus des différents établissements du territoire.
-                                        Plusieurs activités sont proposées aux étudiants durant la journée. De nombreux
-                                        lots sont à gagner pour les équipes gagnantes. <!--C'est aussi, à cette occasion,
+                                        <!--Plusieurs activités sont proposées aux étudiants durant la journée. De nombreux
+                                        lots sont à gagner pour les équipes gagnantes. C'est aussi, à cette occasion,
                                         que le « Chéquier étudiant » est distribué. Il s'agit d'un chéquier proposant
-                                        des offres promotionnelles & des avantages aux étudiants du territoire.
-                                        Cette manifestation témoigne de la volonté de tous les acteurs de développer une
-                                        politique d’accueil et d’animation pour les étudiants.
-                                        Bien évidemment, les manifestations ne sont pas payantes.-->
+                                        des offres promotionnelles & des avantages aux étudiants du territoire.-->
                                     </p>
                                 </div>
                             </div>
@@ -78,10 +75,11 @@
                                     <h5 class="card-title">C'est où?</h5>
                                     <p class="card-text">La manifestation se déroule sur la Ville de
                                         Charleville-Mézières à plusieurs endroits en fonction des activités de la
-                                        journée. A titre d’exemple, le « Carolo Express » vise à la découverte des lieux
+                                        journée.<br><br>
+                                        A titre d’exemple, le « Carolo Express » vise à la découverte des lieux
                                         saillants de la ville, plusieurs activités auront lieu également sur la Plaine
                                         du Mont Olympe ou sur la Place Ducale.
-                                        . </p>
+                                         </p>
                                 </div>
                             </div>
                         </div>

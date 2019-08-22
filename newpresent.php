@@ -8,9 +8,9 @@
                 data-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
                 <p>
                     <font color="black"><a class="button-read-more button-read" href="#button1">EDITION 2019
-                            </br>DECOUVREZ LE PROGRAMME</font>
+                            </br>INSCRIPTIONS</font>
                 </p></a>
-                <p><a class="button-read-more button-read" href="img/campusetudiant.pdf" download="fichier.pdf"><button class="hvr-rectangle-out" id="button3" type="button">Télécharger programme</button></a></p>
+                <p><a class="button-read-more button-read" href="img/campusetudiant.pdf" download="fichier.pdf"><button class="hvr-rectangle-out" id="button3" type="button">EDITION 2019</br>PROGRAMME</button></a></p>
         </center>
 
         </button>
@@ -33,27 +33,19 @@
 
                 <div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#accordionExample">
                     <div class="card-body">
-                        <p>A travers les rues de Charleville-Mézières, le Carolo Express permet aux
-                            étudiants de
-                            découvrir la ville autrement avec ses moments incontournables et de nombreux
-                            lieux
+                        <p style:" line-height= 20px";>A travers les rues de Charleville-Mézières, le Carolo Express permet aux etudiants de
+                            découvrir la ville autrement avec ses moments incontournables et de nombreux lieux
                             insolites ou méconnus.
                             Etes-vous déjà entré au sein de la TOUR DU ROY ?
-
                             Le parcours est composé d’environ 15 étapes. Sur chaque étape, une énigme ou une
-                            mise en situation sera demandée.
-
-                            Les équipes qui auront découvert les lieux le plus rapidement possible
-                            remporteront
-                            cette course d’orientation. Le parcours du Carolo Express doit, bien évidemment,
-                            se
-                            faire à pied (sinon, c’est trop facile ). #SORS TES BASKETS
-
+                            mise en situation sera demandée.Les équipes qui auront découvert les lieux le plus
+                            rapidement possible remporteront cette course d’orientation. Le parcours du Carolo
+                            Express doit, bien évidemment, se faire à pied (sinon, c’est trop facile ).
+                             #SORS TES BASKETS
                             Afin de participer à cette manifestation, il est nécessaire au préalable de
-                            composer
-                            une équipe de 5 personnes.
+                            composer une équipe de 5 personnes.
 
-                            Informations pratiques :
+                            <hr>Informations pratiques :
 
                             Horaires de la manifestation : 9h30-12h30
                             Départ : Place d’Arches
@@ -64,7 +56,7 @@
                         <center><a href="formulexpress.php" id="button-inscription">
                                 <button class="hvr-rectangle-out" id="button2" type="button">
                                     <font color="black">
-                                        S'inscrire</font></a></center>
+                                        inscription 03/09</font></a></center>
                     </div>
                 </div>
             </div>
@@ -81,37 +73,32 @@
                 <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
                     <div class="card-body">
                         <p>Carolo Warrior est un relais sportif composé de nombreuses activités sportives
-                            et/ou
-                            ludiques. Plusieurs activités composent le relais, à savoir :
-
-                            <li>raversée en canoë/kayak</li>
-                            <li>Slackline</li>
-                            <li>Lancers francs de basket</li>
-                            </li>
-                            <li>Tir à l’arc</li>
-                            <li>Pédalo de cirque</li>
-                            <li>Frisbee</li>
-                            <li>Parcours sac à patates</li>
-                            <li>Blind Foot</li>
-                            <li>Course</li>
-                            <li>Activité aquatique</li>
-                            <li>Course & passage d’obstacles</li>
-
+                            et/ou ludiques. Plusieurs activités composent le relais, à savoir :<br>
+                            <li>raversée en canoë/kayak</li><br>
+                            <li>Slackline</li><br>
+                            <li>Lancers francs de basket</li><br>
+                            <li>Tir à l’arc</li><br>
+                            <li>Pédalo de cirque</li><br>
+                            <li>Frisbee</li><br>
+                            <li>Parcours sac à patates</li><br>
+                            <li>Blind Foot</li><br>
+                            <li>Course</li><br>
+                            <li>Activité aquatique</li><br>
+                            <li>Course & passage d’obstacles</li><br>
                             Afin de participer à cette manifestation, il est nécessaire au préalable de
-                            composer
-                            une équipe de 8 personnes.
+                            composer une équipe de 8 personnes.
 
-                            Informations pratiques :
+                            <hr>Informations pratiques :<br>
 
-                            Horaires de la manifestation :
-                            Lieu : Plaine du Mont Olympe
+                            Horaires de la manifestation :<br>
+                            Lieu : Plaine du Mont Olympe<br>
                             Info + : pensez à prendre une tenue de sport
 
                         </p>
                         <center><a id="button-inscription" href="formulwarrior.php">
                                 <button class="hvr-rectangle-out" id="button2" type="button">
                                     <font color="black">
-                                        S'inscrire</font></a></center>
+                                    inscription 03/09</font></a></center>
                     </div>
                 </div>
             </div>
@@ -128,30 +115,24 @@
                     <div class="card-body">
                         <p>Pour ceux qui aiment cuisiner ou tout simplement ceux qui veulent se lancer un
                             challenge, un Concours de cuisine sera proposé sur la Place Ducale en
-                            partenariat
-                            avec l’association INTERCampus.
+                            partenariat avec l’association INTERCampus.
                             Sur la base de quelques ingrédients, vous devrez concocter un bon petit plat !
-
                             Plusieurs équipes s’affronteront. Le matériel minimum nécessaire vous sera mis à
                             disposition.
-
                             Un jury à la fin notera et goûtera, pour le meilleur ou pour le pire, vos
                             préparations  #MERCOTTE
-
                             Afin de participer à cette manifestation, il est nécessaire au préalable de
-                            composer
-                            une équipe de 2 personnes.
+                            composer une équipe de 2 personnes.
 
-                            Informations pratiques :
-
-                            Horaires de la manifestation :
+                            <hr>Informations pratiques :<br>
+                            Horaires de la manifestation : 18H<br>
                             Lieu : Place Ducale
                             .
                         </p>
                         <center><a id="button-inscription" href="formulcuisine.php">
                                 <button class="hvr-rectangle-out" id="button2" type="button">
                                     <font color="black">
-                                        S'inscrire</font></a></center>
+                                    inscription 03/09</font></a></center>
                     </div>
                 </div>
             </div>
@@ -167,30 +148,24 @@
                 <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
                     <div class="card-body">
                         <p>Afin qu’on puisse passer tous ensemble une pause déjeuner conviviale, vous avez
-                            soit
-                            la possibilité de venir avec votre déjeuner, des chaises et des tables seront à
-                            disposition sur un espace de la Plaine du Mont Olympe.
-                            Soit, vous avez la possibilité de profiter d’une formule déjeuner à 2.5€ (au
-                            lieu de
-                            4€) pour les 200 premiers les plus rapides !!
-
+                            soit la possibilité de venir avec votre déjeuner, des chaises et des tables seront
+                            à disposition sur un espace de la Plaine du Mont Olympe. Soit, vous avez la possibilité
+                            de profiter d’une formule déjeuner à 2.5€ (au lieu de 4€) pour les 200 premiers les plus rapides !!
                             La formule sera composée d’un burger, d’une frite et d’une boisson !
-
                             Afin de bénéficier du repas à 2.5€, il est impératif de réserver votre repas !
-                            Vous
-                            paierez sur place le jour J ! #NE TARDEZ PAS A RESERVER
+                            Vous paierez sur place le jour J ! #NE TARDEZ PAS A RESERVER
 
-                            Informations pratiques :
+                            <hr>Informations pratiques :<br>
 
-                            Horaires de la manifestation :
-                            Lieu : Plaine du Mont Olympe
-                            Info + : n’oubliez pas de prendre de la monnaie
-                            .
+                            Horaires de la manifestation :<br>
+                            Lieu : Plaine du Mont Olympe<br>
+                            Info + : n’oubliez pas de prendre de la monnaie<br>
+                            
                         </p>
                         <center><a id="button-inscription" href="formulpiquenique.php">
                                 <button class="hvr-rectangle-out" id="button2" type="button">
                                     <font color="black">
-                                        S'inscrire</font></a></center>
+                                    inscription 03/09</font></a></center>
                     </div>
                 </div>
             </div>
