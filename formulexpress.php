@@ -69,7 +69,13 @@
                     </div>
                     <div>
                 <label for="name"><strong>Participant:</strong></label>
-                <input type="text" id="participant" name="numéro participant">
+                <select name="participant" id="participant">
+                        <option value="part1">PARTICIPANT 1</option>
+                        <option value="part2">PARTICIPANT 2</option>
+                        <option value="part3">PARTICIPANT 3</option>
+                        <option value="part4">PARTICIPANT 4</option>
+                        <option value="part5">PARTICIPANT 5</option>
+</select>
             </div>
 
             <div>
