@@ -16,13 +16,13 @@
 
   <link rel="stylesheet" href="css/reset.css">
  <link rel="stylesheet" href="css/header2.css">
-  
+
 
 </head>
 
 <body>
 
-  
+
     <nav>
       <label for="menu-mobile" class="menu-mobile">menu</label>
       <input type="checkbox" id="menu-mobile" role="button">
@@ -31,21 +31,20 @@
         </li>
         <li class="menu-inscription"><a href="">INSCRIPTIONS</a>
           <ul class="sousmenu">
-            <li><a href="formulexpress.php">Carolo Express</a></li>
-            <li><a href="formulwarrior.php">Carolo Warrior</a>
-            <li>
-            <li><a href="formulcuisine.php">Concours Cuisine</a></li>
-            <li><a href="formulpiquenique.php">Pique-nique</a></li>
+            <li><a ><font color="black">Carolo Express<br> Inscription à partir du 03/09</font></a></li>
+            <li><a ><font color="black">Carolo Warrior<br> Inscription à partir du 03/09</font></a></li>
+            <li><a ><font color="black">Concours de Cuisine<br> Inscription à partir du 03/09</font></a></li>
+            <li><a ><font color="black">Pique-nique<br> Inscription à partir du 03/09</font></a></li>
           </ul>
         </li>
         <li class="menu-logomairie"><a href="https://www.charleville-mezieres.fr/"><img id="logocm" src="img/logos/logomairieCM.png" alt="logocm"/></a>
         </li>
         <li class="menu-contact"><a href="contact2.php" >CONTACT</a>
         </li>
-        <li class="menu-faq"><a href="faq.php">Aide/FAQ</a>
+        <li class="menu-faq"><a href="faq.php">AIDE /FAQ</a>
         </li>
       </ul>
-      
+
     </nav>
 
 

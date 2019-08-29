@@ -1,17 +1,10 @@
-<center><embed
-    src="http://www.countdownclockcodes.com/cd/ccc-cartoons/show.swf?clickURL=http://www.countdownclockcodes.com/cartoon-countdown-clocks/&clickLABEL=CountdownClockCodes.com&flashLABEL=CountdownClockCodes.com&skin=http://www.countdownclockcodes.com/cd/ccc-cartoons/skins/11.jpg&text=Bient%C3%B4t%20le%20Carolo%20Day&untilColor=6724095&textColor=0&datesColor=0&year=2019&month=9&day=3&hour=9&minute=0&second=0&x=6&y=77"
-    quality="high" bgcolor="#ffffff" width="300" height="200" name="countdown" align="middle" wmode="transparent"
-    type="application/x-shockwave-flash" pluginspage="http://www.macromedia.com/go/getflashplayer" /><br><small><a
-      href="http://www.countdownclockcodes.com/cartoon-countdown-clocks/">CAROLO DAY</a></small></center>
-<div id="demotext">
-  <br>
-  <button type="button"><a href="index.php">Retour accueil</a></button><br><br>
-  <label for="recherche-site"><strong style="text-decoration: underline;">Chercher sur le site:</strong></label>
-  <input type="recherche" id="recherche-site" name="q" aria-label="Rechercher dans le contenu du site">
-  <button>Chercher</button>
+<?php include("header2.php") ; ?>
+<div id="demotext" style="margin-left:40px;margin-right:40px">
+  <br><br>
+
   <br>
   <center>
-    <h1> BIENVENUE DANS LA FAQ </h1>
+    <h1> <font size="+2">BIENVENUE DANS AIDE/FAQ </font></h1><br>
   </center>
   <p>
     <hr>
@@ -52,10 +45,10 @@
 
       <li><strong style="text-decoration: underline;">Puis-je m’inscrire à moins ou plus de 5 personnes au Carolo
           Express et à moins ou plus de 8 personnes au Carolo Warrior ?</strong></li>
-      Pour la bonne organisation de ces animations, l’inscription à 5 personnes est obligatoire pour le Carolo express
+      Pour la bonne organisation de ces animations, l’inscription à 5 personnes est obligatoire pour le Carolo Express
       et à 8 personnes pour le Carolo Warrior.<br>
       <br>
-      <li><strong style="text-decoration: underline;">Peux-ton venir de différents établissements pour composer une
+      <li><strong style="text-decoration: underline;">Peut-on venir de différents établissements pour composer une
           équipe au Carolo Express ou Carolo Warrior ?</strong></li>
       Oui, il est possible que les membres d’une même équipe proviennent d’établissements différents.<br>
       <br>
@@ -72,7 +65,7 @@
 
       <li><strong style="text-decoration: underline;">Puis-je m’inscrire à moins ou plus de 2 personnes au Concours de
           cuisine?</strong></li>
-      Pour la bonne organisation de cette animations, l’inscription à 2 est obligatoire pour le Concours de cuisine.<br>
+      Pour la bonne organisation de cette animation, l’inscription à 2 est obligatoire pour le Concours de cuisine.<br>
       <br><br>
       <hr>
       <h2 style="background:yellow;">
@@ -83,7 +76,7 @@
       <li><strong style="text-decoration: underline;">Pourquoi ne puis-je pas réserver plus d’un repas pour le
           pique-nique ?</strong></li>
       La réservation des repas pique-nique est limitée à un repas par personne afin de permettre à un maximum de
-      personne d’accéder aux 200 premiers repas à 3€.<br>
+      personnes d’accéder aux 200 premiers repas à 3€.<br>
       <br>
       <li><strong style="text-decoration: underline;">Comment se déroule le paiement du repas pour le pique-nique
           ?</strong></li>
@@ -109,14 +102,14 @@
       <hr><br>
 
       <li><strong style="text-decoration: underline;">Qui peut bénéficier du chéquier étudiant ?</strong></li>
-      Tous les étudiants inscrits dans une établissement qui propose une formation post bac sur le territoire peuvent
+      Tous les étudiants inscrits dans un établissement qui propose une formation post bac sur le territoire peuvent
       bénéficier de cet avantage (périmètre Ardenne Métropole). La distribution a lieu sur la base d’un listing précis
       lors du moment convivial, Place Ducale.<br>
       <br>
     </ul>
   </p>
 </div>
-
+<?php include("footer1.php") ; ?>
 
 </body>
 

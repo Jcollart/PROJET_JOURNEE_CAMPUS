@@ -82,7 +82,7 @@
                                     data-paddingleft="[0,0,0,0]"
                                     style="z-index: 8; white-space: nowrap; font-size: 120px; line-height: 130px; font-weight: 700; color: rgb(255, 255, 255);font-family:Poppins;letter-spacing:-10px;">
                                     <div class="rs-looped rs-wave" data-speed="3" data-angle="0" data-radius="2px"
-                                        data-origin="50% 50%">RENTREE<br />DES ETUDIANTS 2019</div>
+                                        data-origin="50% 50%">RENTRÉE<br />DES ÉTUDIANTS 2019</div>
                                 </div>
 
                                 <!-- LAYER NR. 5 -->
@@ -478,6 +478,3 @@
 
             </article>
         </section>
-
-
-

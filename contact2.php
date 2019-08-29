@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    
+
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="fonts/pe-icon-7-stroke/css/pe-icon-7-stroke.css">
     <link rel="stylesheet" type="text/css" href="fonts/font-awesome/css/font-awesome.css">
@@ -25,14 +25,11 @@
             </li><br>
             <li>
               <i class="fas fa-mobile-alt mr-2 contact-icons"></i>03 24 32 44 91
-            </li><br>
-            <li>
-              <i class="fas fa--alt mr-2 contact-icons"></i>Charleville-Mézières, Fr
-            </li><br>
+            </li>
           </ul>
 
           <p>
-            ...ou laisser votre message ci-dessous et nous vous recontacterons le plus rapidement possible.
+            ...ou laisser votre message ci-dessous et nous vous recontacterons dès que possible.
           </p><br>
 
           <form

@@ -9,12 +9,12 @@
                             </div>
                             <div class="col-md-8">
                                 <div class="card-body">
-                                    <h5 class="card-title">Qu'est-ce que c'est?</h5>
+                                    <h5 class="card-title">Qu'est-ce que c'est ?</h5><br>
                                     <p class="card-text"> La Rentrée des Etudiants est une journée d'intégration ouverte
                                         à tous les étudiants du territoire. C’EST LA JOURNEE DES ETUDIANTS !!!<br><br>
                                         A l'initiative de la Ville de Charleville-Mézières et en partenariat avec les
                                         associations étudiantes, cette manifestation vise à souhaiter la bienvenue à
-                                        tous les étudiants du territoire ! Cette journée est une occasion festive,
+                                        tous les étudiants du territoire ! <br>Cette journée est une occasion festive,
                                         ludique, sportive et culturelle de découvrir la ville, de rencontrer d'autres
                                         étudiants issus des différents établissements du territoire.
                                         <!--Plusieurs activités sont proposées aux étudiants durant la journée. De nombreux
@@ -36,11 +36,11 @@
                             </div>
                             <div class="col-md-8">
                                 <div class="card-body">
-                                    <h5 class="card-title">C'est pour qui?</h5>
+                                    <h5 class="card-title">C'est pour qui ?</h5><br>
                                     <p class="card-text"> Cette journée est proposée à tous les étudiants du territoire
-                                        de Charleville-Mézières jusqu’à Sedan. Tous les étudiants qui entament ou
+                                        de Charleville-Mézières jusqu’à Sedan. <br><br>Tous les étudiants qui entament ou
                                         poursuivent une formation post bac sur le territoire peuvent participer à cette
-                                        manifestation.
+                                        manifestation.<br><br>
                                         Venez nombreux !
                                     </p>
                                 </div>
@@ -56,9 +56,9 @@
                             </div>
                             <div class="col-md-8">
                                 <div class="card-body">
-                                    <h5 class="card-title">C'est quand?</h5>
+                                    <h5 class="card-title">C'est quand ?</h5><br>
                                     <p class="card-text"> La Rentrée des Etudiants 2019 aura lieu le jeudi 3 octobre
-                                        prochain ! Prenez date . </p>
+                                        prochain !<BR> <br>Prenez date !!! </p>
                                 </div>
                             </div>
                         </div>
@@ -72,7 +72,7 @@
                             </div>
                             <div class="col-md-8">
                                 <div class="card-body">
-                                    <h5 class="card-title">C'est où?</h5>
+                                    <h5 class="card-title">C'est où ?</h5><br>
                                     <p class="card-text">La manifestation se déroule sur la Ville de
                                         Charleville-Mézières à plusieurs endroits en fonction des activités de la
                                         journée.<br><br>

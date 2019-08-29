@@ -49,7 +49,7 @@
                                     <p class="card-text">« Le Carolo Warrior ! Des épreuves fantastiques
                                       et quelle ambiance ! Des étudiants qui crient le slogan de leur équipe,
                                       des banderoles de soutien ! Une vraie dynamique de la Rentrée étudiante à Charleville-Mézières ! »</p>
-                                    <p class="card-text">Kylian Lambot</p>
+                                    <p class="card-text">Kylian - 22 ans</p>
                                 </div>
                             </div>
                         </div>
