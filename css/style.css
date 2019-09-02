@@ -300,7 +300,7 @@ p {
     background: inherit;
     top: -4em;
     right: 0;
-    bottom: 0;
+    bottom: 1em;
     left: 0;
     transform-origin: top right;
     transform: skewY(-2deg);
@@ -310,30 +310,32 @@ p {
     height: 50%;
     width: auto;
     border-radius: 50%;
+   
 }
 
 .temoignages p {
     color: white;
-    padding-bottom: 1em;
+    padding-bottom: 0.5em;
 }
 
 
 #carouselTemoignages {
-    height: 18vh;
+    height: 19vh;
 }
 
 #carouselTemoignages>.carousel-inner>.carousel-item.active {
-    height: 18vh;
+    height: 19vh;
 }
 
 #carouselTemoignages>.carousel-inner>.carousel-item>.card.mb-3 {
-    height: 18vh;
+    height: 19vh;
     border: 0px solid rgba(0, 0, 0, .125);
     display: flex;
     justify-content: center;
     align-items: center;
     background-color: transparent;
     box-shadow: none;
+    padding-bottom: 4em;
 
 }
 
