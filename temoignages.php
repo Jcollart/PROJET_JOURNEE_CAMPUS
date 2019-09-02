@@ -88,16 +88,20 @@
                         </div>
                     </div>
                 </div>
-                <!--<div class="carousel-item active">
-                    <div class="card mb-4">
+                <div class="carousel-item">
+                    <div class="card mb-3" id="mb">
                         <div class="row no-gutters">
-                            <div class="col-md-12">
+                            <div class="col-md-4">
+                                <img src="img/01.jpg" class="card-img1" alt="La rentrée des étudiants - Témoignage ">
+                            </div>
+                            <div class="col-md-8">
                                 <div class="card-body">
-                                    <p class="card-text"> « Une amie m’a convaincu et je n’ai pas regretté. J’ai
-                                        rencontré d’autres étudiants, c’était sympa ce brassage. Je n’ai pas pu faire
-                                        les activités mais j’ai encouragé les équipes de mon école et on a gagné ;) »
+                                    <p class="card-text"> « Pour ma part, j’ai participé au Concours de cuisine sur la Place Ducale ! <br>
+                                                           Bonne ambiance et bon challenge à relever pour ceux qui aiment cuisiner. <br>
+                                                           Et puis, avoir comme cuisine le cadre de la magnifique Place Ducale, ça le fait !
+                                        Merci encore aux organisateurs et notamment à Romain pour sa patience, j’en garde un très bon souvenir ! »
                                     </p>
-                                    <p class="card-text">Mareme – 18 ans</p>
+                                    <p class="card-text">Mélanie – 21 ans</p>
                                 </div>
                             </div>
                         </div>

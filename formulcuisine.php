@@ -1,3 +1,9 @@
+<?php include_once 'connectbdd.php' ;
+
+ echo 'ok cest bon' ;
+?>
+
+
 <!DOCTYPE html>
 <html lang="fr, FR">
 <!-- Pour indexation et lecteurs d'écran -->
@@ -40,100 +46,110 @@
     </center><br>
 
 
-    <div class="form" action="/ma-page-de-formulaire" method="post">
-        <div>
-            <label for="name"><strong>Etablissement:</strong></label>
-            <select name="etablissement" id="etablissement">
-                <option value="IUTRCC">Institut Universitaire de Technologie (IUT RCC)</option>
-                <option value="EiSINe">Ecole d’Ingénieurs en Sciences Industrielles et Numérique (EiSINe)</option>
-                <option value="INSPE">Institut national Supérieur du Professorat et de l’Education (INSPÉ)</option>
-                <option value="EGC">Ecole de gestion et de commerce (EGC)</option>
-                <option value="SIMPLON">Ecole Simplon</option>
-                <option value="ISCEE">Institut supérieur de comptabilité et d’économie des entreprises (ISCEE)</option>
-                <option value="ESNAM">Ecole supérieure nationale des Arts de la marionnettes (ESNAM)</option>
-                <option value="IFSI">Institut de formation en soins infirmiers (IFSI)</option>
-                <option value="CFAI">Centre de formation des apprentis de l’industrie (CFAI)</option>
-                <option value="LABDA">Lycée agricole Balcon des Ardennes</option>
-                <option value="LDMDB">Lycée des métiers de Bazeilles</option>
-                <option value="LMDS">Lycée Sévigné</option>
-                <option value="LDMB">Lycée des métiers Bazin</option>
-                <option value="LC">Lycée Chanzy</option>
-                <option value="LM">Lycée Monge</option>
-                <option value="LJBC">Lycée JB Clément</option>
-                <option value="LPB">Lycée Pierre Bayle</option>
-                <option value="LSV">Lycée Simone Veil</option>
-                <option value="LDA">Digitale Académie</option>
-
-            </select>
-        </div>
-        <div>
+    <div class="form">
+        <form action="inscriptioncuisine.php" method="post">
             <div>
-                <label for="name"><strong>Nom de l'équipe (à votre choix):</strong></label>
-                <input type="text" id="equipe" name="equipe">
+                <label for="name"><strong>Etablissement:</strong></label>
+                <select name="etablissement" id="etablissement">
+                    <option value="IUTRCC">Institut Universitaire de Technologie (IUT RCC)</option>
+                    <option value="EiSINe">Ecole d’Ingénieurs en Sciences Industrielles et Numérique (EiSINe)</option>
+                    <option value="INSPE">Institut national Supérieur du Professorat et de l’Education (INSPÉ)</option>
+                    <option value="EGC">Ecole de gestion et de commerce (EGC)</option>
+                    <option value="SIMPLON">Ecole Simplon</option>
+                    <option value="ISCEE">Institut supérieur de comptabilité et d’économie des entreprises (ISCEE)
+                    </option>
+                    <option value="ESNAM">Ecole supérieure nationale des Arts de la marionnettes (ESNAM)</option>
+                    <option value="IFSI">Institut de formation en soins infirmiers (IFSI)</option>
+                    <option value="CFAI">Centre de formation des apprentis de l’industrie (CFAI)</option>
+                    <option value="LABDA">Lycée agricole Balcon des Ardennes</option>
+                    <option value="LDMDB">Lycée des métiers de Bazeilles</option>
+                    <option value="LMDS">Lycée Sévigné</option>
+                    <option value="LDMB">Lycée des métiers Bazin</option>
+                    <option value="LC">Lycée Chanzy</option>
+                    <option value="LM">Lycée Monge</option>
+                    <option value="LJBC">Lycée JB Clément</option>
+                    <option value="LPB">Lycée Pierre Bayle</option>
+                    <option value="LSV">Lycée Simone Veil</option>
+                    <option value="LDA">Digitale Académie</option>
+
+                </select>
             </div>
             <div>
-                <label for="name"><strong>Participant:</strong></label>
-                <input type="text" id="participant" name="numéro participant">
-            </div>
-            <div>
-                <label for="name"><strong>Nom:</strong></label>
-                <input type="text" id="name" name="Votre noms">
-            </div>
-            <br>
-            <div>
-                <label for="name"><strong>Prénom:</strong></label>
-                <input type="text" id="surname" name="Votre prénom">
-            </div>
-            <br>
-            <div>
-                <label for="name"><strong>Mobile:</strong></label>
-                <input type="text" id="name" name="Votre téléphone mobile">
-            </div>
-            <br>
-            <div>
-                <label for="mail"><strong>E-mail:</strong></label>
-                <input type="email" id="mail" name="votre email">
-            </div>
-            <br>
-            <div class="row justify-content-center">
-                <button type="button" class="btn btn-light"><strong>« Inscription possible à partir du 03/09
-                        »</strong></button>
-            </div>
+                <div>
+                    <label for="name"><strong>Nom de l'équipe (à votre choix):</strong></label>
+                    <input type="text" id="equipe" name="equipe">
+                </div>
+                <div>
+                    <label for="name"><strong>Participant:</strong></label>
+                    <select name="participant" id="participant">
+                        <option value="1"> 1</option>
+                        <option value="2"> 2</option>
+                    </select>
+                </div>
+                <div>
+                    <select name="typeform" id="typeform">
+                        <option value="CUISINE">CONCOURS CUISINE</option>
+                    </select>
+                </div>
+                <div>
+                    <label for="name"><strong>Nom:</strong></label>
+                    <input type="text" id="name" name="Votre noms">
+                </div>
+                <br>
+                <div>
+                    <label for="surname"><strong>Prénom:</strong></label>
+                    <input type="text" id="prenom" name="prenom">
+                </div>
+                <br>
+                <div>
+                    <label for="name"><strong>Mobile:</strong></label>
+                    <input type="text" id="mobile" name="mobile">
+                </div>
+                <br>
+                <div>
+                    <label for="mail"><strong>E-mail:</strong></label>
+                    <input type="email" id="email" name="email">
+                </div>
+                <br>
+                <div class="row justify-content-center">
+                    <input name="submit" type="submit" value="Envoyer" />
+                </div>
 
-        </div><br><br>
-</div>
-        <section>
+        </form>
+    </div><br><br>
 
-            <center>
-                <h2> Vous désirez vous inscrire à une autre activité ?</h2>
-                <div class="arrow_box"></div><br><br>
+    <section>
 
-                <section>
-                    <a href="formulexpress.php"><button type="button" role="button" style="color:rgb(233, 95, 16)"
-                            class="btn btn-light">INSCRIPTION CAROLO EXPRESS</button></a>
-                </section></br>
+        <center>
+            <h2> Vous désirez vous inscrire à une autre activité ?</h2>
+            <div class="arrow_box"></div><br><br>
 
-                <section>
-                    <a href="formulpiquenique.php"><button type="button" role="button" style="color:rgb(233, 95, 16)"
-                            class="btn btn-light">INSCRIPTION CAROLO PIQUE-NIQUE</button></a>
-                </section></br>
+            <section>
+                <a href="formulexpress.php"><button type="button" role="button" style="color:rgb(233, 95, 16)"
+                        class="btn btn-light">INSCRIPTION CAROLO EXPRESS</button></a>
+            </section></br>
 
-                <section>
-                    <a href="formulwarrior.php"><button type="button" role="button" style="color:rgb(233, 95, 16)"
-                            class="btn btn-light">INSCRIPTION CAROLO WARRIOR</button></a>
-                </section></br>
-            </center>
-        </section>
-        
+            <section>
+                <a href="formulpiquenique.php"><button type="button" role="button" style="color:rgb(233, 95, 16)"
+                        class="btn btn-light">INSCRIPTION CAROLO PIQUE-NIQUE</button></a>
+            </section></br>
 
-        <?php include("footer1.php"); ?>
+            <section>
+                <a href="formulwarrior.php"><button type="button" role="button" style="color:rgb(233, 95, 16)"
+                        class="btn btn-light">INSCRIPTION CAROLO WARRIOR</button></a>
+            </section></br>
+        </center>
+    </section>
 
-        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
-            integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
-        </script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
-            integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous">
-        </script>
+
+    <?php include("footer1.php"); ?>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous">
+    </script>
 </body>
 
 </html>
