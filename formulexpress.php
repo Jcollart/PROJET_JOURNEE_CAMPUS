@@ -1,6 +1,5 @@
 <?php include_once 'connectbdd.php' ;
 
- echo 'ok cest bon' ;
 ?>
 
 <!DOCTYPE html>
@@ -49,15 +48,14 @@
     <div class="form">
         <form action="inscriptionexpress.php" method="post">
             <div>
-                <label for="name"><strong>Etablissement:</strong></label>
+                <label for="name"><strong><center>Etablissement</center><br></strong></label>
                 <select name="etablissement" id="etablissement">
                     <option value="IUTRCC">Institut Universitaire de Technologie (IUT RCC)</option>
                     <option value="EiSINe">Ecole d’Ingénieurs en Sciences Industrielles et Numérique (EiSINe)</option>
                     <option value="INSPE">Institut national Supérieur du Professorat et de l’Education (INSPÉ)</option>
                     <option value="EGC">Ecole de gestion et de commerce (EGC)</option>
                     <option value="SIMPLON">Ecole Simplon</option>
-                    <option value="ISCEE">Institut supérieur de comptabilité et d’économie des entreprises (ISCEE)
-                    </option>
+                    <option value="ISCEE">Institut supérieur de comptabilité et d’économie des entreprises (ISCEE)</option>
                     <option value="ESNAM">Ecole supérieure nationale des Arts de la marionnettes (ESNAM)</option>
                     <option value="IFSI">Institut de formation en soins infirmiers (IFSI)</option>
                     <option value="CFAI">Centre de formation des apprentis de l’industrie (CFAI)</option>
@@ -74,56 +72,158 @@
 
                 </select>
             </div>
+            <hr>
             <div>
-                <label for="name"><strong>Nom de l'équipe (à votre choix):</strong></label>
+                <label for="name"><strong>Nom de votre Équipe</strong><br><br></label>
                 <input type="text" id="equipe" name="equipe">
             </div>
-            <div>
-                <label for="name"><strong>Participant:</strong></label>
-                <select name="participant" id="participant">
-                    <option value="1"> 1</option>
-                    <option value="2"> 2</option>
-                    <option value="3"> 3</option>
-                    <option value="4"> 4</option>
-                    <option value="5"> 5</option>
-                </select>
-            </div>
-            <div>
 
-                <select name="typeform" id="typeform">
-                    <option value="EXPRESS">CAROLO EXPRESS</option>
-                </select>
+            <br>
+            <div>
+                <label for="password"><strong>Mot de passe de l'Équipe</strong><br><br></label>
+                <input type="text" id="password" name="password">
+            </div>
+
+            <hr>
+
+            <div>
+                <center><font size="+2">Participant 1 </font></center>
             </div>
             <div>
-                <label for="name"><strong>Nom:</strong></label>
+                <label for="name"><strong>Nom</strong></label>
                 <input type="text" id="nom" name="nom">
             </div>
             <br>
             <div>
-                <label for="surname"><strong>Prénom:</strong></label>
+                <label for="surname"><strong>Prénom</strong></label>
                 <input type="text" id="prenom" name="prenom">
             </div>
             <br>
             <div>
-                <label for="mobile"><strong>Mobile:</strong></label>
+                <label for="mobile"><strong>Mobile</strong></label>
                 <input type="text" id="mobile" name="mobile">
             </div>
             <br>
             <div>
-                <label for="email"><strong>E-mail:</strong></label>
+                <label for="email"><strong>E-mail</strong></label>
                 <input type="text" id="email" name="email">
+            </div>
+
+            <hr>
+
+
+            <div>
+                <center><font size="+2">Participant 2 </font></center>
+            </div>
+            <div>
+                <label for="name"><strong>Nom</strong></label>
+                <input type="text" id="nom2" name="nom2">
             </div>
             <br>
             <div>
-                <label for="password"><strong>Mot de passe:</strong></label>
-                <input type="text" id="password" name="password">
+                <label for="surname"><strong>Prénom</strong></label>
+                <input type="text" id="prenom2" name="prenom2">
             </div>
-            <div class="row justify-content-center">
+            <br>
+            <div>
+                <label for="mobile"><strong>Mobile</strong></label>
+                <input type="text" id="mobile2" name="mobile2">
+            </div>
+            <br>
+            <div>
+                <label for="email"><strong>E-mail</strong></label>
+                <input type="text" id="email2" name="email2">
+            </div>
+
+            <hr>
+
+
+            <div>
+                <center><font size="+2">Participant 3 </font></center>
+            </div>
+            <div>
+                <label for="name"><strong>Nom</strong></label>
+                <input type="text" id="nom3" name="nom3">
+            </div>
+            <br>
+            <div>
+                <label for="surname"><strong>Prénom</strong></label>
+                <input type="text" id="prenom3" name="prenom3">
+            </div>
+            <br>
+            <div>
+                <label for="mobile"><strong>Mobile</strong></label>
+                <input type="text" id="mobile3" name="mobile3">
+            </div>
+            <br>
+            <div>
+                <label for="email"><strong>E-mail</strong></label>
+                <input type="text" id="email3" name="email3">
+            </div>
+
+
+            <hr>
+
+
+            <div>
+                <center><font size="+2">Participant 4 </font></center>
+            </div>
+            <div>
+                <label for="name"><strong>Nom</strong></label>
+                <input type="text" id="nom4" name="nom4">
+            </div>
+            <br>
+            <div>
+                <label for="surname"><strong>Prénom</strong></label>
+                <input type="text" id="prenom4" name="prenom4">
+            </div>
+            <br>
+            <div>
+                <label for="mobile"><strong>Mobile</strong></label>
+                <input type="text" id="mobile4" name="mobile4">
+            </div>
+            <br>
+            <div>
+                <label for="email"><strong>E-mail</strong></label>
+                <input type="text" id="email4" name="email4">
+            </div>
+
+
+            <hr>
+
+
+            <div>
+                <center><font size="+2">Participant 5 </font></center>
+            </div>
+            <div>
+                <label for="name"><strong>Nom</strong></label>
+                <input type="text" id="nom5" name="nom5">
+            </div>
+            <br>
+            <div>
+                <label for="surname"><strong>Prénom</strong></label>
+                <input type="text" id="prenom5" name="prenom5">
+            </div>
+            <br>
+            <div>
+                <label for="mobile"><strong>Mobile</strong></label>
+                <input type="text" id="mobile5" name="mobile5">
+            </div>
+            <br>
+            <div>
+                <label for="email"><strong>E-mail</strong></label>
+                <input type="text" id="email5" name="email5">
+            </div>
+
+
+
+            <hr>
+            <div>
+                <center><font size="+2">S'inscrire maintenant ? </font></center>
+            </div>
+            <div>
                 <input name="submit" type="submit" value="Envoyer" />
             </div>
-
-
-
 
         </form>
     </div><br><br>
@@ -132,7 +232,7 @@
     <section>
 
         <center>
-            <h2> Vous désirez vous inscrire à une autre activité ?</h2>
+            <h2> Vous désirez vous inscrire à une autre activité ?</h2><br>
             <div class="arrow_box"></div><br><br>
 
             <section>

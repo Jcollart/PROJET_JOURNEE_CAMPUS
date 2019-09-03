@@ -56,7 +56,7 @@
                         <center><a  id="button-inscription">
                                 <button class="hvr-rectangle-out" id="button2" type="button">
                                     <font color="black">
-                                    inscription à partir du 03/09</font></a></center>
+                                    inscription à partir du 04/09</font></a></center>
                     </div>
                 </div>
             </div>
@@ -100,7 +100,7 @@
                         <center><a id="button-inscription" >
                                 <button class="hvr-rectangle-out" id="button2" type="button">
                                     <font color="black">
-                                    inscription à partir du 03/09</font></a></center>
+                                    inscription à partir du 04/09</font></a></center>
                     </div>
                 </div>
             </div>
@@ -132,7 +132,7 @@
                         <center><a id="button-inscription" >
                                 <button class="hvr-rectangle-out" id="button2" type="button">
                                     <font color="black">
-                                    inscription à partir du 03/09</font></a></center>
+                                    inscription à partir du 04/09</font></a></center>
                     </div>
                 </div>
             </div>
@@ -166,7 +166,7 @@
                         <center><a id="button-inscription" >
                                 <button class="hvr-rectangle-out" id="button2" type="button">
                                     <font color="black">
-                                    inscription à partir du 03/09</font></a></center>
+                                    inscription à partir du 04/09</font></a></center>
                     </div>
                 </div>
             </div>
