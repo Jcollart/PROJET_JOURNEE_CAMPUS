@@ -74,49 +74,82 @@
 
                 </select>
             </div>
+            <br>
             <div>
                 <div>
                     <label for="name"><strong>Nom de l'équipe (à votre choix):</strong></label>
                     <input type="text" id="equipe" name="equipe">
                 </div>
-                <div>
-                    <label for="name"><strong>Participant:</strong></label>
-                    <select name="participant" id="participant">
-                        <option value="1"> 1</option>
-                        <option value="2"> 2</option>
-                    </select>
-                </div>
+                
                 <div>
                     <select name="typeform" id="typeform">
                         <option value="CUISINE">CONCOURS CUISINE</option>
                     </select>
                 </div>
+
+                <hr>
+
                 <div>
-                    <label for="name"><strong>Nom:</strong></label>
-                    <input type="text" id="name" name="Votre noms">
-                </div>
-                <br>
-                <div>
-                    <label for="surname"><strong>Prénom:</strong></label>
-                    <input type="text" id="prenom" name="prenom">
-                </div>
-                <br>
-                <div>
-                    <label for="name"><strong>Mobile:</strong></label>
-                    <input type="text" id="mobile" name="mobile">
-                </div>
-                <br>
-                <div>
-                    <label for="mail"><strong>E-mail:</strong></label>
-                    <input type="email" id="email" name="email">
-                </div>
-                <br>
-                <div class="row justify-content-center">
-                    <input name="submit" type="submit" value="Envoyer" />
-                </div>
+                <center><font size="+2">Participant 1 </font></center>
+            </div>
+            <div>
+                <label for="name"><strong>Nom</strong></label>
+                <input type="text" id="nom" name="nom">
+            </div>
+            <br>
+            <div>
+                <label for="surname"><strong>Prénom</strong></label>
+                <input type="text" id="prenom" name="prenom">
+            </div>
+            <br>
+            <div>
+                <label for="mobile"><strong>Mobile</strong></label>
+                <input type="text" id="mobile" name="mobile">
+            </div>
+            <br>
+            <div>
+                <label for="email"><strong>E-mail</strong></label>
+                <input type="text" id="email" name="email">
+            </div>
+
+            <hr>
+
+
+            <div>
+                <center><font size="+2">Participant 2 </font></center>
+            </div>
+            <div>
+                <label for="name"><strong>Nom</strong></label>
+                <input type="text" id="nom2" name="nom2">
+            </div>
+            <br>
+            <div>
+                <label for="surname"><strong>Prénom</strong></label>
+                <input type="text" id="prenom2" name="prenom2">
+            </div>
+            <br>
+            <div>
+                <label for="mobile"><strong>Mobile</strong></label>
+                <input type="text" id="mobile2" name="mobile2">
+            </div>
+            <br>
+            <div>
+                <label for="email"><strong>E-mail</strong></label>
+                <input type="text" id="email2" name="email2">
+            </div>
+
+            <hr>
+
+
+            <div>
+                <center><font size="+2">S'inscrire maintenant ? </font></center>
+            </div>
+            <div>
+                <input name="submit" type="submit" value="Envoyer" />
+            </div>
 
         </form>
-    </div><br><br>
+   </div> </div><br><br>
 
     <section>
 

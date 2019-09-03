@@ -1,98 +1,106 @@
 <?php
+include 'connectbdd.php';
 
 
-if(isset($_POST["submit"])){
+$etablissement = isset($_POST['etablissement']) ? $_POST['etablissement'] : NULL;
+$equipe = isset($_POST['equipe']) ? $_POST['equipe'] : NULL;
 
-// connexion à la base
+$nom = isset($_POST['nom']) ? $_POST['nom'] : NULL;
+$prenom = isset($_POST['prenom']) ? $_POST['prenom'] : NULL;
+$mobile = isset($_POST['mobile']) ? $_POST['mobile'] : NULL;
+$email = isset($_POST['email']) ? $_POST['email'] : NULL;
 
-try
-    {
-        $pdo_options[PDO::ATTR_ERRMODE] = PDO::ERRMODE_EXCEPTION;
-        $bdd = new PDO('mysql:host=localhost;dbname=basetud', 'root', '', $pdo_options);
-      
-    }
-    catch(Exception $e)
-    {
-        die('Erreur : '.$e->getMessage());
-    }
+$nom2 = isset($_POST['nom2']) ? $_POST['nom2'] : NULL;
+$prenom2 = isset($_POST['prenom2']) ? $_POST['prenom2'] : NULL;
+$mobile2 = isset($_POST['mobile2']) ? $_POST['mobile2'] : NULL;
+$email2 = isset($_POST['email2']) ? $_POST['email2'] : NULL;
 
 
-    $reqajout = $bdd->prepare('INSERT INTO etudiant (participant, nom, prenom, mobile, email, typeform) VALUES (:participant, :nom, :prenom, :mobile, :email, :typeform)');
 
-$reqajout -> bindParam('participant', $_POST["participant"]);
-$reqajout -> bindParam(':email', $_POST["email"]);
-$reqajout -> bindParam(':nom', $_POST["nom"]);
-$reqajout -> bindParam(':prenom', $_POST["prenom"]);
-$reqajout -> bindParam(':mobile', $_POST["mobile"]);
-$reqajout -> bindParam(':typeform', $_POST["typeform"]);
-//$reqajout -> bindParam(':actif', $_POST['actif']);
+$typeform = "CUISINE";
 
+// Génération aléatoire d'une clé
+$cle = md5(microtime(TRUE)*100000);
 
-$reqajout->execute();
+$sql = $bdd->prepare ("INSERT INTO etudiant ( nom, prenom, mobile, password, email, participant,cle, typeform, actif, etablissement, nom_team)
+VALUES (:nom, :prenom, :mobile, :password, :email, :participant,:cle, :typeform, :actif, :etablissement, :nom_team )");
+$sql->execute(array(
+  ':nom' => $nom,
+  ':prenom' => $prenom,
+  ':mobile' => $mobile,
+  ':password' => 0,
+  ':email' => $email,
+  ':participant'=> 1,
+  ':cle' => $cle,
+  ':typeform' => $typeform,
+  ':actif' => 0,
+  ':etablissement' =>  $etablissement,
+  ':nom_team' => $equipe
+));
+$sql-> closeCursor();
 
-//if ($bdd->query($reqajout)) {
-//echo 'sa a marché' ;
-//}
-//else{
-//echo 'dans le cul lulu' ;
+// Préparation du mail contenant le lien d'activation
+$destinataire = $email;
+$sujet = "Valider votre inscription" ;
+$entete = "From: jejecollart@hotmail.com" ;
 
-// ci-dessous on insère les infos dans Formulaire : 
-$reqajout1 = $bdd->prepare('INSERT INTO Formulaire( etablissement) VALUES( :etablissement)');
-$reqajout1->bindParam(':etablissement', $_POST["etablissement"], PDO::PARAM_STR);
-$reqajout1->execute();
+// Le lien d'activation est composé du nom(nom) et de la clé(cle)
+$message = 'Bienvenue a la validation de linscription,
 
- // ci-dessous on insère les infos dans Equipe : 
- $reqajout2 = $bdd->prepare ('INSERT INTO Equipe( nom_equipe) VALUES( :equipe)'); 
- $reqajout2->bindParam(':equipe', $_POST["equipe"], PDO::PARAM_STR);
- $reqajout2->execute();
+Pour valider votre inscription, veuillez cliquer sur le lien ci dessous
+ou copier/coller dans votre navigateur internet.
 
-// Récupération des variables nécessaires au mail de confirmation	
-$email = $_POST['email']; 
-$nom = $_POST['nom']; 
-
-// Génération aléatoire d'une clé 
-$cle = md5(microtime(TRUE)*100000); 
-
-
-// Insertion de la clé dans la base de données 
-$req = $bdd->prepare("UPDATE etudiant SET cle=:cle WHERE nom like :nom"); 
-$req->bindParam(':cle', $cle); 
-$req->bindParam(':nom', $nom); 
-$req->execute(); 
+http://127.0.0.1/html/Projet_journee_campus/validation.php?nom='.urlencode($nom).'&cle='.urlencode($cle).'
 
 
-// Préparation du mail contenant le lien d'activation 
-$destinataire = $email; 
-$sujet = "Valider votre inscription au concours de cuisine" ; 
-$entete = "From: j.collart@simplon-charleville.fr" ; 
-
-// Le lien d'activation est composé du nom(nom) et de la clé(cle) 
-$message = 'Bienvenue a la validation de votre inscription au concour de cuisine, 
-
-Pour activer votre compte, veuillez cliquer sur le lien ci dessous 
-ou copier/coller dans votre navigateur internet. 
-
-http://127.0.0.1/html/Projet_journee_campus/validation.php?nom='.urlencode($nom).'&cle='.urlencode($cle).' 
-
-
---------------- 
-Ceci est un mail automatique, Merci de ne pas y répondre.'; 
+---------------
+Ceci est un mail automatique, Merci de ne pas y répondre.';
 
 // Envoi du mail
+mail($destinataire, $sujet, $message, $entete) ;
 
-mail($destinataire, $sujet, $message, $entete) ;  
+// Génération aléatoire d'une clé
+$cle = md5(microtime(TRUE)*100000);
 
-header('Location: formulcuisine.php'); 
-} 
-$reqajout2->closeCursor();
+$sql = $bdd->prepare ("INSERT INTO etudiant ( nom, prenom, mobile, password, email, participant,cle, typeform, actif, etablissement, nom_team)
+VALUES (:nom, :prenom, :mobile, :password, :email, :participant,:cle, :typeform, :actif, :etablissement, :nom_team )");
+$sql->execute(array(
+  ':nom' => $nom2,
+  ':prenom' => $prenom2,
+  ':password' => 0,
+  ':mobile' => $mobile2,
+  ':email' => $email2,
+  ':participant'=> 2,
+  ':cle' => $cle,
+  ':typeform' => $typeform,
+  ':actif' => 0,
+  ':etablissement' =>  $etablissement,
+  ':nom_team' => $equipe
 
-echo 'Inscription réalisée' ;
-
-?> 
-
- 
+));
+$sql-> closeCursor();
 
 
+// Préparation du mail contenant le lien d'activation
+$destinataire = $email2;
+$sujet = "Valider votre inscription" ;
+$entete = "From: jejecollart@photmail.com" ;
+
+// Le lien d'activation est composé du nom(nom) et de la clé(cle)
+$message = 'Bienvenue a la validation de linscription,
+
+Pour valider votre inscription, veuillez cliquer sur le lien ci dessous
+ou copier/coller dans votre navigateur internet.
+
+http://127.0.0.1/html/Projet_journee_campus/validation.php?nom='.urlencode($nom).'&cle='.urlencode($cle).'
 
 
-?>
+---------------
+Ceci est un mail automatique, Merci de ne pas y répondre.';
+
+// Envoi du mail
+mail($destinataire, $sujet, $message, $entete) ;
+
+
+
+ ?>

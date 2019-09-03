@@ -82,31 +82,36 @@
                 </select>
             </div>
             <div>
-                <label for="name"><strong>Nom :</strong></label>
+                <label for="name"><strong>Nom</strong></label>
                 <input type="text" id="nom" name="nom">
             </div>
             <br>
             <div>
-                <label for="surname"><strong>Prénom :</strong></label>
+                <label for="surname"><strong>Prénom</strong></label>
                 <input type="text" id="prenom" name="prenom">
             </div>
             <br>
             <div>
-                <label for="name"><strong>Mobile :</strong></label>
-                <input type="text" id="name" name="Votre téléphone mobile">
+                <label for="mobile"><strong>Mobile</strong></label>
+                <input type="text" id="mobile" name="mobile">
             </div>
             <br>
             <div>
-                <label for="mail"><strong>E-mail :</strong></label>
-                <input type="email" id="email" name="email">
+                <label for="email"><strong>E-mail</strong></label>
+                <input type="text" id="email" name="email">
             </div>
-            <br>
+
+            <hr>
             <div>
 
+             <hr>
                 <label for="name"><strong>Repas=3€</strong></label>
-
             </div>
-            <div class="row justify-content-center">
+                <hr>
+            <div>
+                <center><font size="+2">S'inscrire maintenant ? </font></center>
+            </div>
+            <div>
                 <input name="submit" type="submit" value="Envoyer" />
             </div>
 

@@ -56,7 +56,7 @@ $sql-> closeCursor();
 // Préparation du mail contenant le lien d'activation
 $destinataire = $email;
 $sujet = "Valider votre inscription" ;
-$entete = "From: contact@petitromain.fr" ;
+$entete = "From: jejecollart@hotmail.com" ;
 
 // Le lien d'activation est composé du nom(nom) et de la clé(cle)
 $message = 'Bienvenue a la validation de linscription,
@@ -64,7 +64,7 @@ $message = 'Bienvenue a la validation de linscription,
 Pour valider votre inscription, veuillez cliquer sur le lien ci dessous
 ou copier/coller dans votre navigateur internet.
 
-http://ardenniais.fr/validation.php?nom='.urlencode($nom).'&cle='.urlencode($cle).'
+http://127.0.0.1/html/Projet_journee_campus/validation.php?nom='.urlencode($nom).'&cle='.urlencode($cle).'
 
 
 ---------------
@@ -98,7 +98,7 @@ $sql-> closeCursor();
 // Préparation du mail contenant le lien d'activation
 $destinataire = $email2;
 $sujet = "Valider votre inscription" ;
-$entete = "From: contact@petitromain.fr" ;
+$entete = "From: jejecollart@hotmail.com" ;
 
 // Le lien d'activation est composé du nom(nom) et de la clé(cle)
 $message = 'Bienvenue a la validation de linscription,
@@ -106,7 +106,7 @@ $message = 'Bienvenue a la validation de linscription,
 Pour valider votre inscription, veuillez cliquer sur le lien ci dessous
 ou copier/coller dans votre navigateur internet.
 
-http://ardenniais.fr/validation.php?nom='.urlencode($nom).'&cle='.urlencode($cle).'
+http://127.0.0.1/html/Projet_journee_campus/validation.php?nom='.urlencode($nom).'&cle='.urlencode($cle).'
 
 
 ---------------
@@ -141,7 +141,7 @@ $sql-> closeCursor();
 // Préparation du mail contenant le lien d'activation
 $destinataire = $email3;
 $sujet = "Valider votre inscription" ;
-$entete = "From: contact@petitromain.fr" ;
+$entete = "From: jejecollart@hotmail.com" ;
 
 // Le lien d'activation est composé du nom(nom) et de la clé(cle)
 $message = 'Bienvenue a la validation de linscription,
@@ -149,7 +149,7 @@ $message = 'Bienvenue a la validation de linscription,
 Pour valider votre inscription, veuillez cliquer sur le lien ci dessous
 ou copier/coller dans votre navigateur internet.
 
-http://ardenniais.fr/validation.php?nom='.urlencode($nom).'&cle='.urlencode($cle).'
+http://127.0.0.1/html/Projet_journee_campus/validation.php?nom='.urlencode($nom).'&cle='.urlencode($cle).'
 
 
 ---------------
@@ -184,7 +184,7 @@ $sql-> closeCursor();
 // Préparation du mail contenant le lien d'activation
 $destinataire = $email4;
 $sujet = "Valider votre inscription" ;
-$entete = "From: contact@petitromain.fr" ;
+$entete = "From: jejecollart@hotmail.com" ;
 
 // Le lien d'activation est composé du nom(nom) et de la clé(cle)
 $message = 'Bienvenue a la validation de linscription,
@@ -192,7 +192,7 @@ $message = 'Bienvenue a la validation de linscription,
 Pour valider votre inscription, veuillez cliquer sur le lien ci dessous
 ou copier/coller dans votre navigateur internet.
 
-http://ardenniais.fr/validation.php?nom='.urlencode($nom).'&cle='.urlencode($cle).'
+http://127.0.0.1/html/Projet_journee_campus/validation.php?nom='.urlencode($nom).'&cle='.urlencode($cle).'
 
 
 ---------------
@@ -224,7 +224,7 @@ $sql-> closeCursor();
 // Préparation du mail contenant le lien d'activation
 $destinataire = $email5;
 $sujet = "Valider votre inscription" ;
-$entete = "From: contact@petitromain.fr" ;
+$entete = "From: jejecollart@hotmail.com" ;
 
 // Le lien d'activation est composé du nom(nom) et de la clé(cle)
 $message = 'Bienvenue a la validation de linscription,
@@ -232,7 +232,7 @@ $message = 'Bienvenue a la validation de linscription,
 Pour valider votre inscription, veuillez cliquer sur le lien ci dessous
 ou copier/coller dans votre navigateur internet.
 
-http://ardenniais.fr/validation.php?nom='.urlencode($nom).'&cle='.urlencode($cle).'
+http://127.0.0.1/html/Projet_journee_campus/validation.php?nom='.urlencode($nom).'&cle='.urlencode($cle).'
 
 
 ---------------
