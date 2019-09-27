@@ -1,4 +1,4 @@
-<?php include_once 'connectbdd.php' ;
+<?php //include_once 'connectbdd.php' ;
 
 ?>
 
@@ -38,8 +38,12 @@
     <center>
         <h1 style="color:rgb(233, 95, 16)"> INSCRIPTION CAROLO EXPRESS </h1><br>
         <p>Merci de remplir les champs ci-dessous pour inscrire votre équipe <br>
-            et participer à la course d'orientation qui pourra vous permettre <br>
-            de gagner des cadeaux. <br>
+            et participer au Carolo express (course d’orientation)  qui pourra vous permettre <br>
+            de gagner de nombreux lots. Pour constituer une équipe, vous devez être 5 participants.<br>
+            Un mot de passe à choisir vous sera demandé pour l’équipe. Ce dernier vous sera utile <br>
+            le jour de la manifestation. Merci de bien retenir le mot de passe que vous allez choisir !<br>
+            Opérez votre inscription ensemble.<br>
+ 
         </p>
     </center><br>
 
@@ -63,25 +67,24 @@
                     <option value="LDMDB">Lycée des métiers de Bazeilles</option>
                     <option value="LMDS">Lycée Sévigné</option>
                     <option value="LDMB">Lycée des métiers Bazin</option>
-                    <option value="LC">Lycée Chanzy</option>
                     <option value="LM">Lycée Monge</option>
                     <option value="LJBC">Lycée JB Clément</option>
                     <option value="LPB">Lycée Pierre Bayle</option>
                     <option value="LSV">Lycée Simone Veil</option>
-                    <option value="LDA">Digitale Académie</option>
+                    
 
                 </select>
             </div>
             <hr>
             <div>
-                <label for="name"><strong>Nom de votre Équipe</strong><br><br></label>
+                <label for="name"><strong>Nom de l’équipe (à votre choix) </strong><br><br></label>
                 <input type="text" id="equipe" name="equipe">
             </div>
 
             <br>
             <div>
-                <label for="password"><strong>Mot de passe de l'Équipe</strong><br><br></label>
-                <input type="text" id="password" name="password">
+                <label for="password"><strong>Merci de bien vouloir inscrire un mot de passe de votre choix qui vous sera nécessaire le jour de la manifestation</strong><br><br></label>
+                <input type="text" id="password" name="password" required>
             </div>
 
             <hr>
@@ -90,136 +93,290 @@
                 <center><font size="+2">Participant 1 </font></center>
             </div>
             <div>
-                <label for="name"><strong>Nom</strong></label>
-                <input type="text" id="nom" name="nom">
-            </div>
-            <br>
-            <div>
-                <label for="surname"><strong>Prénom</strong></label>
-                <input type="text" id="prenom" name="prenom">
-            </div>
-            <br>
-            <div>
-                <label for="mobile"><strong>Mobile</strong></label>
-                <input type="text" id="mobile" name="mobile">
-            </div>
-            <br>
-            <div>
-                <label for="email"><strong>E-mail</strong></label>
-                <input type="text" id="email" name="email">
-            </div>
+
+<label for="name"><strong>Nom</strong></label>
+
+<input type="text" id="nom" name="nom">
+
+</div>
+
+<br>
+
+<div>
+
+<label for="surname"><strong>Prénom</strong></label>
+
+<input type="text" id="prenom" name="prenom">
+
+</div>
+
+<br>
+
+<div>
+
+<label for="mobile"><strong>Mobile</strong></label>
+
+<input type="text" id="mobile" name="mobile">
+
+</div>
+
+<br>
+
+<div>
+
+<label for="email"><strong>E-mail</strong></label>
+
+<input type="text" id="email" name="email">
+
+</div>
+
+<br>
+
+<div>
+
+<label for="email"><strong>Retapez l'E-mail</strong></label>
+
+<input type="text" id="email" name="email11">
+
+</div>
+
+<hr>
+
+<div>
+
+<center><font size="+2">Participant 2 </font></center>
+
+</div>
+
+<div>
+
+<label for="name"><strong>Nom</strong></label>
+
+<input type="text" id="nom2" name="nom2">
+
+</div>
+
+<br>
+
+<div>
+
+<label for="surname"><strong>Prénom</strong></label>
+
+<input type="text" id="prenom2" name="prenom2">
+
+</div>
+
+<br>
+
+<div>
+
+<label for="mobile"><strong>Mobile</strong></label>
+
+<input type="text" id="mobile2" name="mobile2">
+
+</div>
+
+<br>
+
+<div>
+
+<label for="email"><strong>E-mail</strong></label>
+
+<input type="text" id="email2" name="email2">
+
+</div>
+
+
+<br>
+
+<div>
+
+<label for="email"><strong>Retapez l'E-mail</strong></label>
+
+<input type="text" id="email" name="email21">
+
+</div>
+
+<hr>
+
+<div>
+
+<center><font size="+2">Participant 3 </font></center>
+
+</div>
+
+<div>
+
+<label for="name"><strong>Nom</strong></label>
+
+<input type="text" id="nom3" name="nom3">
+
+</div>
+
+<br>
+
+<div>
+
+<label for="surname"><strong>Prénom</strong></label>
+
+<input type="text" id="prenom3" name="prenom3">
+
+</div>
+
+<br>
+
+<div>
+
+<label for="mobile"><strong>Mobile</strong></label>
+
+<input type="text" id="mobile3" name="mobile3">
+
+</div>
+
+<br>
+
+<div>
+
+<label for="email"><strong>E-mail</strong></label>
+
+<input type="text" id="email3" name="email3">
+
+</div>
+
+
+<br>
+
+
+<div>
+
+<label for="email"><strong>Retapez l'E-mail</strong></label>
+
+<input type="text" id="email" name="email31">
+
+</div>
+
+<hr>
+
+<div>
+
+<center><font size="+2">Participant 4 </font></center>
+
+</div>
+
+<div>
+
+<label for="name"><strong>Nom</strong></label>
+
+<input type="text" id="nom4" name="nom4">
+
+</div>
+
+<br>
+
+<div>
+
+<label for="surname"><strong>Prénom</strong></label>
+
+<input type="text" id="prenom4" name="prenom4">
+
+</div>
+
+<br>
+
+<div>
+
+<label for="mobile"><strong>Mobile</strong></label>
+
+<input type="text" id="mobile4" name="mobile4">
+
+</div>
+
+<br>
+
+<div>
+
+<label for="email"><strong>E-mail</strong></label>
+
+<input type="text" id="email4" name="email4">
+
+</div>
+
+
+<br>
+
+
+<div>
+
+<label for="email"><strong>Retapez l'E-mail</strong></label>
+
+<input type="text" id="email" name="email41">
+
+</div>
+
+<hr>
+
+<div>
+
+<center><font size="+2">Participant 5 </font></center>
+
+</div>
+
+<div>
+
+<label for="name"><strong>Nom</strong></label>
+
+<input type="text" id="nom5" name="nom5">
+
+</div>
+
+
+<br>
+
+<div>
+
+<label for="surname"><strong>Prénom</strong></label>
+
+<input type="text" id="prenom5" name="prenom5">
+
+</div>
+
+<br>
+
+<div>
+
+<label for="mobile"><strong>Mobile</strong></label>
+
+<input type="text" id="mobile5" name="mobile5">
+
+</div>
+
+<br>
+
+<div>
+
+<label for="email"><strong>E-mail</strong></label>
+
+<input type="text" id="email5" name="email5">
+
+</div>
+
+<br>
+
+
+<div>
+
+<label for="email"><strong>Retapez l'E-mail</strong></label>
+
+<input type="text" id="email" name="email51">
+
+</div>
+
+
+
 
             <hr>
-
-
             <div>
-                <center><font size="+2">Participant 2 </font></center>
-            </div>
-            <div>
-                <label for="name"><strong>Nom</strong></label>
-                <input type="text" id="nom2" name="nom2">
-            </div>
-            <br>
-            <div>
-                <label for="surname"><strong>Prénom</strong></label>
-                <input type="text" id="prenom2" name="prenom2">
-            </div>
-            <br>
-            <div>
-                <label for="mobile"><strong>Mobile</strong></label>
-                <input type="text" id="mobile2" name="mobile2">
-            </div>
-            <br>
-            <div>
-                <label for="email"><strong>E-mail</strong></label>
-                <input type="text" id="email2" name="email2">
-            </div>
-
-            <hr>
-
-
-            <div>
-                <center><font size="+2">Participant 3 </font></center>
-            </div>
-            <div>
-                <label for="name"><strong>Nom</strong></label>
-                <input type="text" id="nom3" name="nom3">
-            </div>
-            <br>
-            <div>
-                <label for="surname"><strong>Prénom</strong></label>
-                <input type="text" id="prenom3" name="prenom3">
-            </div>
-            <br>
-            <div>
-                <label for="mobile"><strong>Mobile</strong></label>
-                <input type="text" id="mobile3" name="mobile3">
-            </div>
-            <br>
-            <div>
-                <label for="email"><strong>E-mail</strong></label>
-                <input type="text" id="email3" name="email3">
-            </div>
-
-
-            <hr>
-
-
-            <div>
-                <center><font size="+2">Participant 4 </font></center>
-            </div>
-            <div>
-                <label for="name"><strong>Nom</strong></label>
-                <input type="text" id="nom4" name="nom4">
-            </div>
-            <br>
-            <div>
-                <label for="surname"><strong>Prénom</strong></label>
-                <input type="text" id="prenom4" name="prenom4">
-            </div>
-            <br>
-            <div>
-                <label for="mobile"><strong>Mobile</strong></label>
-                <input type="text" id="mobile4" name="mobile4">
-            </div>
-            <br>
-            <div>
-                <label for="email"><strong>E-mail</strong></label>
-                <input type="text" id="email4" name="email4">
-            </div>
-
-
-            <hr>
-
-
-            <div>
-                <center><font size="+2">Participant 5 </font></center>
-            </div>
-            <div>
-                <label for="name"><strong>Nom</strong></label>
-                <input type="text" id="nom5" name="nom5">
-            </div>
-            <br>
-            <div>
-                <label for="surname"><strong>Prénom</strong></label>
-                <input type="text" id="prenom5" name="prenom5">
-            </div>
-            <br>
-            <div>
-                <label for="mobile"><strong>Mobile</strong></label>
-                <input type="text" id="mobile5" name="mobile5">
-            </div>
-            <br>
-            <div>
-                <label for="email"><strong>E-mail</strong></label>
-                <input type="text" id="email5" name="email5">
-            </div>
-
-
-
-            <hr>
-            <div>
-                <center><font size="+2">S'inscrire maintenant ? </font></center>
+                <center><font size="+2">Je valide l’inscription de mon équipe  </font></center>
             </div>
             <div>
                 <input name="submit" type="submit" value="Envoyer" />

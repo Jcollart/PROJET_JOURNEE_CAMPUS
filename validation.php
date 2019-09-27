@@ -1,431 +1,330 @@
 <?php
+
+
 include 'connectbdd.php';
 
 
-$etablissement = isset($_POST['etablissement']) ? $_POST['etablissement'] : NULL;
-$equipe = isset($_POST['equipe']) ? $_POST['equipe'] : NULL;
-$password = isset($_POST['password']) ? $_POST['password'] : NULL;
-
-$nom = isset($_POST['nom']) ? $_POST['nom'] : NULL;
-$prenom = isset($_POST['prenom']) ? $_POST['prenom'] : NULL;
-$mobile = isset($_POST['mobile']) ? $_POST['mobile'] : NULL;
-$email = isset($_POST['email']) ? $_POST['email'] : NULL;
-
-$nom2 = isset($_POST['nom2']) ? $_POST['nom2'] : NULL;
-$prenom2 = isset($_POST['prenom2']) ? $_POST['prenom2'] : NULL;
-$mobile2 = isset($_POST['mobile2']) ? $_POST['mobile2'] : NULL;
-$email2 = isset($_POST['email2']) ? $_POST['email2'] : NULL;
-
-$nom3 = isset($_POST['nom3']) ? $_POST['nom3'] : NULL;
-$prenom3 = isset($_POST['prenom3']) ? $_POST['prenom3'] : NULL;
-$mobile3 = isset($_POST['mobile3']) ? $_POST['mobile3'] : NULL;
-$email3 = isset($_POST['email3']) ? $_POST['email3'] : NULL;
-
-$nom4 = isset($_POST['nom4']) ? $_POST['nom4'] : NULL;
-$prenom4 = isset($_POST['prenom4']) ? $_POST['prenom4'] : NULL;
-$mobile4 = isset($_POST['mobile4']) ? $_POST['mobile4'] : NULL;
-$email4 = isset($_POST['email4']) ? $_POST['email4'] : NULL;
-
-$nom5 = isset($_POST['nom5']) ? $_POST['nom5'] : NULL;
-$prenom5 = isset($_POST['prenom5']) ? $_POST['prenom5'] : NULL;
-$mobile5 = isset($_POST['mobile5']) ? $_POST['mobile5'] : NULL;
-$email5 = isset($_POST['email5']) ? $_POST['email5'] : NULL;
-
-$nom6 = isset($_POST['nom6']) ? $_POST['nom6'] : NULL;
-$prenom6 = isset($_POST['prenom6']) ? $_POST['prenom6'] : NULL;
-$mobile6 = isset($_POST['mobile6']) ? $_POST['mobile6'] : NULL;
-$email6 = isset($_POST['email6']) ? $_POST['email6'] : NULL;
-
-$nom7 = isset($_POST['nom7']) ? $_POST['nom7'] : NULL;
-$prenom7 = isset($_POST['prenom7']) ? $_POST['prenom7'] : NULL;
-$mobile7 = isset($_POST['mobile7']) ? $_POST['mobile7'] : NULL;
-$email7 = isset($_POST['email7']) ? $_POST['email7'] : NULL;
-
-$nom8 = isset($_POST['nom8']) ? $_POST['nom8'] : NULL;
-$prenom8 = isset($_POST['prenom8']) ? $_POST['prenom8'] : NULL;
-$mobile8 = isset($_POST['mobile8']) ? $_POST['mobile8'] : NULL;
-$email8 = isset($_POST['email8']) ? $_POST['email8'] : NULL;
-
-$typeform = "EXPRESS";
-
-
-// Génération aléatoire d'une clé
-$cle = md5(microtime(TRUE)*100000);
-
-$sql = $bdd->prepare ("INSERT INTO etudiant ( nom, prenom, password, mobile, email, participant,cle, typeform, actif, etablissement, nom_team)
-VALUES (:nom, :prenom, :password, :mobile, :email, :participant,:cle, :typeform, :actif, :etablissement, :nom_team )");
-$sql->execute(array(
-  ':nom' => $nom,
-  ':prenom' => $prenom,
-  ':password' => $password,
-  ':mobile' => $mobile,
-  ':email' => $email,
-  ':participant'=> 1,
-  ':cle' => $cle,
-  ':typeform' => $typeform,
-  ':actif' => 0,
-  ':etablissement' =>  $etablissement,
-  ':nom_team' => $equipe
-));
-$sql-> closeCursor();
-
-// Préparation du mail contenant le lien d'activation
-$destinataire = $email;
-$sujet = "Valider votre inscription" ;
-$entete = "From: jejecollart@hotmail.com" ;
-
-// Le lien d'activation est composé du nom(nom) et de la clé(cle)
-$message = 'Bienvenue a la validation de linscription,
+// Récupération des variables nécessaires à l'activation
+$nom = $_GET['nom'];
+$cle = $_GET['cle'];
+$prenom = $_GET['prenom'];
 
-Pour valider votre inscription, veuillez cliquer sur le lien ci dessous
-ou copier/coller dans votre navigateur internet.
 
-http://127.0.0.1/html/Projet_journee_campus/validation.php?nom='.urlencode($nom).'&cle='.urlencode($cle).'
+// Récupération de la clé correspondant au $nom dans la base de données
+$req = $bdd->prepare("SELECT cle, actif FROM etudiant WHERE nom = :nom AND prenom = :prenom");
 
 
----------------
-Ceci est un mail automatique, Merci de ne pas y répondre.';
-
-// Envoi du mail
-mail($destinataire, $sujet, $message, $entete) ;
-
-// Génération aléatoire d'une clé
-$cle = md5(microtime(TRUE)*100000);
-
-$sql = $bdd->prepare ("INSERT INTO etudiant ( nom, prenom, password, mobile, email, participant,cle, typeform, actif, etablissement, nom_team)
-VALUES (:nom, :prenom, :password, :mobile, :email, :participant,:cle, :typeform, :actif, :etablissement, :nom_team )");
-$sql->execute(array(
-  ':nom' => $nom2,
-  ':prenom' => $prenom2,
-  ':password' => $password,
-  ':mobile' => $mobile2,
-  ':email' => $email2,
-  ':participant'=> 2,
-  ':cle' => $cle,
-  ':typeform' => $typeform,
-  ':actif' => 0,
-  ':etablissement' =>  $etablissement,
-  ':nom_team' => $equipe
+if($req->execute(array(':nom' => $nom, ':prenom' => $prenom)) && $row = $req->fetch())
+  {
+// Récupération de la clé
+    $clebdd = $row['cle'];
+ // $actif contiendra alors 0 ou 1
+    $actif = $row['actif'];
+  }
 
-));
-$sql-> closeCursor();
 
+// On teste la valeur de la variable $actif récupéré dans la BDD
+// Si le compte est déjà actif on prévient
+if($actif == '1')
+  {
+    header('Location: duplicate-already-done.php');
+  }
+// Si ce n'est pas le cas on passe aux comparaisons
+   else
+  {
+// On compare nos deux clés
+     if($cle == $clebdd)
+       {
+// Si elles correspondent on active le compte !
 
-// Préparation du mail contenant le lien d'activation
-$destinataire = $email2;
-$sujet = "Valider votre inscription" ;
-$entete = "From: jejecollart@hotmail.com" ;
 
-// Le lien d'activation est composé du nom(nom) et de la clé(cle)
-$message = 'Bienvenue a la validation de linscription,
+// La requête qui va passer notre champ actif de 0 à 1
+         $req = $bdd->prepare("UPDATE etudiant SET actif = 1 WHERE nom = :nom AND prenom = :prenom ");
+         $req->bindParam(':nom', $nom);
+         $req->bindParam(':prenom', $prenom);
+         $req->execute();
 
-Pour valider votre inscription, veuillez cliquer sur le lien ci dessous
-ou copier/coller dans votre navigateur internet.
+         $req->closeCursor();
 
-http://127.0.0.1/html/Projet_journee_campus/validation.php?nom='.urlencode($nom).'&cle='.urlencode($cle).'
+         $req = $bdd->prepare("SELECT nom_team FROM etudiant where cle = :cle");
 
+         if($req->execute(array(':cle' => $cle )) && $row = $req->fetch())
+           {
+             $nomteam = $row['nom_team'];
 
----------------
-Ceci est un mail automatique, Merci de ne pas y répondre.';
+           }
 
-// Envoi du mail
-mail($destinataire, $sujet, $message, $entete) ;
 
+           $req->closeCursor();
 
-// Génération aléatoire d'une clé
-$cle = md5(microtime(TRUE)*100000);
+           echo '<br>';
 
-$sql = $bdd->prepare ("INSERT INTO etudiant ( nom, prenom, password, mobile, email, participant,cle, typeform, actif, etablissement, nom_team)
-VALUES (:nom, :prenom, :password, :mobile, :email, :participant,:cle, :typeform, :actif, :etablissement, :nom_team )");
-$sql->execute(array(
-  ':nom' => $nom3,
-  ':prenom' => $prenom3,
-  ':password' => $password,
-  ':mobile' => $mobile3,
-  ':email' => $email3,
-  ':participant'=> 3,
-  ':cle' => $cle,
-  ':typeform' => $typeform,
-  ':actif' => 0,
-  ':etablissement' =>  $etablissement,
-  ':nom_team' => $equipe
-));
-$sql-> closeCursor();
+           $req = $bdd->prepare("SELECT count(*) AS nombreactif FROM etudiant where actif=1 AND nom_team=:nom_team");
 
+           if($req->execute(array(':nom_team' => $nomteam )) && $row = $req->fetch())
+             {
 
+               $nbactif=$row['nombreactif'];
+               $email1;
+               $email2;
+               $email3;
+               $email4;
+               $email5;
+               $i=1;
+               if ($nbactif==5) {
 
-// Préparation du mail contenant le lien d'activation
-$destinataire = $email3;
-$sujet = "Valider votre inscription" ;
-$entete = "From: jejecollart@hotmail.com" ;
+                 $req2 = $bdd->prepare("SELECT email FROM etudiant WHERE nom_team=:nom_team");
 
-// Le lien d'activation est composé du nom(nom) et de la clé(cle)
-$message = 'Bienvenue a la validation de linscription,
+                 if ($req2->execute(array(':nom_team' => $nomteam ))) {
 
-Pour valider votre inscription, veuillez cliquer sur le lien ci dessous
-ou copier/coller dans votre navigateur internet.
+                   while ($row = $req2->fetch()) {
+                      if ($i == 1){
+                        $email1 = $row['email'];
+                      }
+                      if ($i == 2){
+                        $email2 = $row['email'];
+                      }
+                      if ($i == 3){
+                        $email3 = $row['email'];
+                      }
+                      if ($i == 4){
+                        $email4 = $row['email'];
+                      }
+                      if ($i == 5){
+                        $email5 = $row['email'];
+                      }
+                      $i = $i+1;
+                   }
 
-http://127.0.0.1/html/Projet_journee_campus/validation.php?nom='.urlencode($nom).'&cle='.urlencode($cle).'
 
 
----------------
-Ceci est un mail automatique, Merci de ne pas y répondre.';
+                   $from  = "contact@rentree-etudiants-cmz.fr";
 
-// Envoi du mail
-mail($destinataire, $sujet, $message, $entete) ;
+                   ini_set("SMTP", "smtp.rentree-etudiants-cmz.fr");   // Pour les hébergements mutualisés Windows de OVH
 
+                   // *** Laisser tel quel
 
-// Génération aléatoire d'une clé
-$cle = md5(microtime(TRUE)*100000);
+                   $Subject = "Rentree des etudiants – Inscription Carolo Express ";
 
-$sql = $bdd->prepare ("INSERT INTO etudiant ( nom, prenom, password, mobile, email, participant,cle, typeform, actif, etablissement, nom_team)
-VALUES (:nom, :prenom, :password, :mobile, :email, :participant,:cle, :typeform, :actif, :etablissement, :nom_team )");
-$sql->execute(array(
-  ':nom' => $nom4,
-  ':prenom' => $prenom4,
-  ':password' => $password,
-  ':mobile' => $mobile4,
-  ':email' => $email4,
-  ':participant'=> 4,
-  ':cle' => $cle,
-  ':typeform' => $typeform,
-  ':actif' => 0,
-  ':etablissement' =>  $etablissement,
-  ':nom_team' => $equipe
-));
-$sql-> closeCursor();
+                   $message = 'Féliciation !
+                   <br><br>
+                   Tous les participants de votre équipe ont confirmé leur inscription.
+                   <br>
+                   Votre équipe est bien enregistrée.
+                   <br>
+                   Rendez-Vous le 3 octobre !.<br>
 
+                   ---------------
 
+                   Ceci est un mail automatique, Merci de ne pas y répondre.';
 
-// Préparation du mail contenant le lien d'activation
-$destinataire = $email4;
-$sujet = "Valider votre inscription" ;
-$entete = "From: jejecollart@hotmail.com" ;
+                   $headers  = "MIME-Version: 1.0 \n";
 
-// Le lien d'activation est composé du nom(nom) et de la clé(cle)
-$message = 'Bienvenue a la validation de linscription,
+                   $headers .= "Content-type: text/html; charset=utf8 \n";
 
-Pour valider votre inscription, veuillez cliquer sur le lien ci dessous
-ou copier/coller dans votre navigateur internet.
+                   $headers .= "From: $from  \n";
 
-http://127.0.0.1/html/Projet_journee_campus/validation.php?nom='.urlencode($nom).'&cle='.urlencode($cle).'
 
 
----------------
-Ceci est un mail automatique, Merci de ne pas y répondre.';
+                   $headers .= "X-Priority: 1  \n";
 
-// Envoi du mail
-mail($destinataire, $sujet, $message, $entete) ;
-// Génération aléatoire d'une clé
-$cle = md5(microtime(TRUE)*100000);
+                   $headers .= "X-MSMail-Priority: High \n";
 
-$sql = $bdd->prepare ("INSERT INTO etudiant ( nom, prenom, password, mobile, email, participant,cle, typeform, actif, etablissement, nom_team)
-VALUES (:nom, :prenom, :password, :mobile, :email, :participant,:cle, :typeform, :actif, :etablissement, :nom_team )");
-$sql->execute(array(
-  ':nom' => $nom5,
-  ':prenom' => $prenom5,
-  ':password' => $password,
-  ':mobile' => $mobile5,
-  ':email' => $email5,
-  ':participant'=> 5,
-  ':cle' => $cle,
-  ':typeform' => $typeform,
-  ':actif' => 0,
-  ':etablissement' =>  $etablissement,
-  ':nom_team' => $equipe
-));
-$sql-> closeCursor();
+                   $CR_Mail = TRUE;
 
+                   $CR_Mail = @mail ($email1, $Subject, $message, $headers);
 
-// Préparation du mail contenant le lien d'activation
-$destinataire = $email5;
-$sujet = "Valider votre inscription" ;
-$entete = "From: jejecollart@hotmail.com" ;
 
-// Le lien d'activation est composé du nom(nom) et de la clé(cle)
-$message = 'Bienvenue a la validation de linscription,
 
-Pour valider votre inscription, veuillez cliquer sur le lien ci dessous
-ou copier/coller dans votre navigateur internet.
+                   $from  = "contact@rentree-etudiants-cmz.fr";
 
-http://127.0.0.1/html/Projet_journee_campus/validation.php?nom='.urlencode($nom).'&cle='.urlencode($cle).'
+                   ini_set("SMTP", "smtp.rentree-etudiants-cmz.fr");   // Pour les hébergements mutualisés Windows de OVH
 
+                   // *** Laisser tel quel
 
----------------
-Ceci est un mail automatique, Merci de ne pas y répondre.';
+                   $Subject = "Rentree des etudiants – Inscription Carolo Express ";
 
-// Envoi du mail
-mail($destinataire, $sujet, $message, $entete) ;
+                   $message = 'Féliciation !
+                   <br><br>
+                   Tous les participants de votre équipe ont confirmé leur inscription.
+                   <br>
+                   Votre équipe est bien enregistrée.
+                   <br>
+                   Rendez-Vous le 3 octobre !.<br>
 
+                   ---------------
 
+                   Ceci est un mail automatique, Merci de ne pas y répondre.';
 
-// Génération aléatoire d'une clé
-$cle = md5(microtime(TRUE)*100000);
+                   $headers  = "MIME-Version: 1.0 \n";
 
-$sql = $bdd->prepare ("INSERT INTO etudiant ( nom, prenom, password, mobile, email, participant,cle, typeform, actif, etablissement, nom_team)
-VALUES (:nom, :prenom, :password, :mobile, :email, :participant,:cle, :typeform, :actif, :etablissement, :nom_team )");
-$sql->execute(array(
-  ':nom' => $nom6,
-  ':prenom' => $prenom6,
-  ':password' => $password,
-  ':mobile' => $mobile6,
-  ':email' => $email6,
-  ':participant'=> 6,
-  ':cle' => $cle,
-  ':typeform' => $typeform,
-  ':actif' => 0,
-  ':etablissement' =>  $etablissement,
-  ':nom_team' => $equipe
-));
-$sql-> closeCursor();
+                   $headers .= "Content-type: text/html; charset=utf8 \n";
 
+                   $headers .= "From: $from  \n";
 
 
-// Préparation du mail contenant le lien d'activation
-$destinataire = $email6;
-$sujet = "Valider votre inscription" ;
-$entete = "From: jejecollart@hotmail.com" ;
 
-// Le lien d'activation est composé du nom(nom) et de la clé(cle)
-$message = 'Bienvenue a la validation de linscription,
+                   $headers .= "X-Priority: 1  \n";
 
-Pour valider votre inscription, veuillez cliquer sur le lien ci dessous
-ou copier/coller dans votre navigateur internet.
+                   $headers .= "X-MSMail-Priority: High \n";
 
-http://127.0.0.1/html/Projet_journee_campus/validation.php?nom='.urlencode($nom).'&cle='.urlencode($cle).'
+                   $CR_Mail = TRUE;
 
+                   $CR_Mail = @mail ($email2, $Subject, $message, $headers);
 
----------------
-Ceci est un mail automatique, Merci de ne pas y répondre.';
 
-// Envoi du mail
-mail($destinataire, $sujet, $message, $entete) ;
 
+                   $from  = "contact@rentree-etudiants-cmz.fr";
 
-// Génération aléatoire d'une clé
-$cle = md5(microtime(TRUE)*100000);
+                   ini_set("SMTP", "smtp.rentree-etudiants-cmz.fr");   // Pour les hébergements mutualisés Windows de OVH
 
-$sql = $bdd->prepare ("INSERT INTO etudiant ( nom, prenom, password, mobile, email, participant,cle, typeform, actif, etablissement, nom_team)
-VALUES (:nom, :prenom, :password, :mobile, :email, :participant,:cle, :typeform, :actif, :etablissement, :nom_team )");
-$sql->execute(array(
-  ':nom' => $nom7,
-  ':prenom' => $prenom7,
-  ':password' => $password,
-  ':mobile' => $mobile7,
-  ':email' => $email7,
-  ':participant'=> 7,
-  ':cle' => $cle,
-  ':typeform' => $typeform,
-  ':actif' => 0,
-  ':etablissement' =>  $etablissement,
-  ':nom_team' => $equipe
-));
-$sql-> closeCursor();
+                   // *** Laisser tel quel
 
+                   $Subject = "Rentree des etudiants – Inscription Carolo Express ";
 
+                   $message = 'Féliciation !
+                   <br><br>
+                   Tous les participants de votre équipe ont confirmé leur inscription.
+                   <br>
+                   Votre équipe est bien enregistrée.
+                   <br>
+                   Rendez-Vous le 3 octobre !.<br>
 
-// Préparation du mail contenant le lien d'activation
-$destinataire = $email7;
-$sujet = "Valider votre inscription" ;
-$entete = "From: jejecollart@hotmail.com" ;
+                   ---------------
 
-// Le lien d'activation est composé du nom(nom) et de la clé(cle)
-$message = 'Bienvenue a la validation de linscription,
+                   Ceci est un mail automatique, Merci de ne pas y répondre.';
 
-Pour valider votre inscription, veuillez cliquer sur le lien ci dessous
-ou copier/coller dans votre navigateur internet.
+                   $headers  = "MIME-Version: 1.0 \n";
 
-http://127.0.0.1/html/Projet_journee_campus/validation.php?nom='.urlencode($nom).'&cle='.urlencode($cle).'
+                   $headers .= "Content-type: text/html; charset=utf8 \n";
 
+                   $headers .= "From: $from  \n";
 
----------------
-Ceci est un mail automatique, Merci de ne pas y répondre.';
 
-// Envoi du mail
-mail($destinataire, $sujet, $message, $entete) ;
-// Génération aléatoire d'une clé
-$cle = md5(microtime(TRUE)*100000);
 
-$sql = $bdd->prepare ("INSERT INTO etudiant ( nom, prenom, password, mobile, email, participant,cle, typeform, actif, etablissement, nom_team)
-VALUES (:nom, :prenom, :password, :mobile, :email, :participant,:cle, :typeform, :actif, :etablissement, :nom_team )");
-$sql->execute(array(
-  ':nom' => $nom8,
-  ':prenom' => $prenom8,
-  ':password' => $password,
-  ':mobile' => $mobile8,
-  ':email' => $email8,
-  ':participant'=> 8,
-  ':cle' => $cle,
-  ':typeform' => $typeform,
-  ':actif' => 0,
-  ':etablissement' =>  $etablissement,
-  ':nom_team' => $equipe
-));
-$sql-> closeCursor();
+                   $headers .= "X-Priority: 1  \n";
 
+                   $headers .= "X-MSMail-Priority: High \n";
 
-// Préparation du mail contenant le lien d'activation
-$destinataire = $email8;
-$sujet = "Valider votre inscription" ;
-$entete = "From: jejecollart@hotmail.com" ;
+                   $CR_Mail = TRUE;
 
-// Le lien d'activation est composé du nom(nom) et de la clé(cle)
-$message = 'Bienvenue a la validation de linscription,
+                   $CR_Mail = @mail ($email3, $Subject, $message, $headers);
 
-Pour valider votre inscription, veuillez cliquer sur le lien ci dessous
-ou copier/coller dans votre navigateur internet.
 
-http://127.0.0.1/html/Projet_journee_campus/validation.php?nom='.urlencode($nom).'&cle='.urlencode($cle).'
 
 
----------------
-Ceci est un mail automatique, Merci de ne pas y répondre.';
+                   $from  = "contact@rentree-etudiants-cmz.fr";
 
-// Envoi du mail
-mail($destinataire, $sujet, $message, $entete) ;
+                   ini_set("SMTP", "smtp.rentree-etudiants-cmz.fr");   // Pour les hébergements mutualisés Windows de OVH
+
+                   // *** Laisser tel quel
+
+                   $Subject = "Rentree des etudiants – Inscription Carolo Express ";
+
+                   $message = 'Féliciation !
+                   <br><br>
+                   Tous les participants de votre équipe ont confirmé leur inscription.
+                   <br>
+                   Votre équipe est bien enregistrée.
+                   <br>
+                   Rendez-Vous le 3 octobre !.<br>
+
+                   ---------------
+
+                   Ceci est un mail automatique, Merci de ne pas y répondre.';
+
+                   $headers  = "MIME-Version: 1.0 \n";
+
+                   $headers .= "Content-type: text/html; charset=utf8 \n";
+
+                   $headers .= "From: $from  \n";
+
+
+
+                   $headers .= "X-Priority: 1  \n";
+
+                   $headers .= "X-MSMail-Priority: High \n";
+
+                   $CR_Mail = TRUE;
+
+                   $CR_Mail = @mail ($email4, $Subject, $message, $headers);
+
+
+
+
+                   $from  = "contact@rentree-etudiants-cmz.fr";
+
+                   ini_set("SMTP", "smtp.rentree-etudiants-cmz.fr");   // Pour les hébergements mutualisés Windows de OVH
+
+                   // *** Laisser tel quel
+
+                   $Subject = "Rentree des etudiants – Inscription Carolo Express ";
+
+                   $message = 'Féliciation !
+                   <br><br>
+                   Tous les participants de votre équipe ont confirmé leur inscription.
+                   <br>
+                   Votre équipe est bien enregistrée.
+                   <br>
+                   Rendez-Vous le 3 octobre !.<br>
+
+                   ---------------
+
+                   Ceci est un mail automatique, Merci de ne pas y répondre.';
+
+                   $headers  = "MIME-Version: 1.0 \n";
+
+                   $headers .= "Content-type: text/html; charset=utf8 \n";
+
+                   $headers .= "From: $from  \n";
+
+
+
+                   $headers .= "X-Priority: 1  \n";
+
+                   $headers .= "X-MSMail-Priority: High \n";
+
+                   $CR_Mail = TRUE;
+
+                   $CR_Mail = @mail ($email5, $Subject, $message, $headers);
+
+                   header('Location: duplicate-validation-team.php');
+                   $req2->closeCursor();
+
+                 }
+
+
+
+               }
+               else {
+                   header('Location: duplicate-validation-membre.php');
+               }
+
+             }
+
+
+             $req->closeCursor();
+
+
+
+
+
+
+
+
+
+       }
+// Si les deux clés sont différentes on provoque une erreur...
+     else
+       {
+         header('Location: duplicate-erreur-inscription.php');
+       }
+  }
+
+
+//...	fermeture connexion
+$req->closeCursor();
 
 
 
 ?>
-
-
-
-
-<!DOCTYPE html>
-<html lang="fr, FR">
-<!-- Pour indexation et lecteurs d'écran -->
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>FORMULAIRE CAROLO EXPRESS</title>
-    <meta name="author" content="Jérôme COLLART & Gaël PONSARD">
-    <meta name="description" content="description du site en max 3 phrases courtes -156 carac">
-    <!-- Si vous voulez une favicon enregistrez-la dans le même répertoire que la page
-    d'index du site, sous le format .ico pour compatibilié IE6 et linkez la-->
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
-        integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
-
-    <!-- liens bootstraps -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
-        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
-        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
-    </script>
-    <!-- Tout les liens -->
-
-    <link rel="stylesheet" href="css/reset.css">
-    <link rel="stylesheet" href="css/formulaire.css">
-    <link rel="stylesheet" href="css/hover-min.css">
-
-</head>
-
-<body>
-    <?php include("header2.php"); ?><br><br><br>
-
-
-    <h1> VOTRE INSCRIPTION A BIEN ETE PRISE EN COMPTE!!! </h1>
-
-    </body>
-    </html>

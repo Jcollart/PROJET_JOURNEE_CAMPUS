@@ -1,22 +1,30 @@
 <!--<h1>EDITION 2019</h1>-->
-<p>
+
     <!-- Bouton ouvrant l'accordéon -->
     <div class="toggle">
-
-
-        <center><button class="hvr-rectangle-out" id="button1" type="button" data-toggle="collapse"
+<div class="container-fluid">
+<div class="row justify-content-around">
+    <div class="col-lg-6 col-md-12">
+        <button class="hvr-rectangle-out" id="button1" type="button" data-toggle="collapse"
                 data-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
                 <p>
                     <font color="black"><a class="button-read-more button-read" href="#button1">EDITION 2019
                             </br>INSCRIPTIONS</font>
                 </p></a>
-                <p><a class="button-read-more button-read"  ><button class="hvr-rectangle-out" id="button3" type="button">EDITION 2019</br>PROGRAMME</button></a></p>
-        </center>
+            </button>
+            </div>
+            <div class="col-lg-6 col-md-12">
+            <p><a class="button-read-more button-read" href="pdf/Flyer_A5_étudianTS_2019.pdf"><button
+                        class="hvr-rectangle-out" id="button3" type="button">EDITION 2019</br>PROGRAMME</button></a>
+            </p>
+            </div>
+            </div>
+            </div>
 
-        </button>
+        
         <div class="more">
         </div>
-</p>
+
 <div class="collapse" id="collapseExample">
     <div class="card card-body">
 
@@ -33,7 +41,8 @@
 
                 <div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#accordionExample">
                     <div class="card-body">
-                        <p style:" line-height= 20px";>A travers les rues de Charleville-Mézières, le Carolo Express permet aux étudiants de
+                        <p style=" line-height= 20px" ;>A travers les rues de Charleville-Mézières, le Carolo Express
+                            permet aux étudiants de
                             découvrir la ville autrement avec ses moments incontournables et de nombreux lieux
                             insolites ou méconnus.<br>
                             Etes-vous déjà entré au sein de la TOUR DU ROY ?<br><br>
@@ -47,16 +56,15 @@
 
                             <u>Informations pratiques :</u><br><br>
 
-                           <center> Horaires de la manifestation : 9H30-12H30<br>
-                            Départ : Place de la Basilique<br>
-                            Arrivée : Place Ducale<br>
-                            Info + : pensez à prendre des baskets car vous allez crapahuter !<br>
+                            <center> Horaires de la manifestation : 9H30-12H30<br>
+                                Départ : Place de la Basilique<br>
+                                Arrivée : Place Ducale<br>
+                                Info + : pensez à prendre des baskets car vous allez crapahuter !<br>
 
-                        </p></center>
-                        <center><a  id="button-inscription">
-                                <button class="hvr-rectangle-out" id="button2" type="button">
-                                    <font color="black">
-                                    inscription à partir du 04/09</font></a></center>
+                        </p>
+                        </center>
+                        <center><a class="btn btn-warning" href="formulexpress.php" role="button">S'inscrire</a>
+                        </center>
                     </div>
                 </div>
             </div>
@@ -75,17 +83,17 @@
                         <p>Carolo Warrior est un relai sportif composé de nombreuses activités sportives
                             et/ou ludiques. <br>Plusieurs activités composent le relais, à savoir :<br><br>
                             <ul>
-                            <li>- Traversée en canoë/kayak</li>
-                            <li>- Slackline</li>
-                            <li>- Lancers francs de basket</li>
-                            <li>- Tir</li>
-                            <li>- Pédalo de cirque</li>
-                            <li>- Pétanque</li>
-                            <li>- Parcours sac à patates</li>
-                            <li>- Blind Foot</li>
-                            <li>- Course</li>
-                            <li>- Activité aquatique</li>
-                            <li>- Course & passage d’obstacles</li>
+                                <li>- Traversée en canoë/kayak</li>
+                                <li>- Slackline</li>
+                                <li>- Lancers francs de basket</li>
+                                <li>- Tir</li>
+                                <li>- Pédalo de cirque</li>
+                                <li>- Pétanque</li>
+                                <li>- Parcours sac à patates</li>
+                                <li>- Blind Foot</li>
+                                <li>- Course</li>
+                                <li>- Activité aquatique</li>
+                                <li>- Course & passage d’obstacles</li>
                             </ul><br><br>
                             Afin de participer à cette manifestation, il est nécessaire au préalable de
                             composer une équipe de 8 personnes.<br><br>
@@ -97,10 +105,9 @@
                             Info + : pensez à prendre une tenue de sport et un maillot de bain pour l'activité aquatique
 
                         </p>
-                        <center><a id="button-inscription" >
-                                <button class="hvr-rectangle-out" id="button2" type="button">
-                                    <font color="black">
-                                    inscription à partir du 04/09</font></a></center>
+                        <center><a class="btn btn-warning" href="formulwarrior.php" role="button">S'inscrire</a>
+                        </center>
+
                     </div>
                 </div>
             </div>
@@ -129,10 +136,9 @@
                             Horaires de la manifestation : 17H00<br>
                             Lieu : Place Ducale
                         </p>
-                        <center><a id="button-inscription" >
-                                <button class="hvr-rectangle-out" id="button2" type="button">
-                                    <font color="black">
-                                    inscription à partir du 04/09</font></a></center>
+                        <center><a class="btn btn-warning" href="formulcuisine.php" role="button">S'inscrire</a>
+                        </center>
+
                     </div>
                 </div>
             </div>
@@ -149,8 +155,10 @@
                     <div class="card-body">
                         <p>Afin de passer tous ensemble une pause déjeuner conviviale, vous avez
                             la possibilité de venir avec votre déjeuner, des chaises et des tables seront
-                            à disposition sur un espace de la Plaine du Mont Olympe.<br><br> Sinon, vous avez la possibilité
-                            de profiter d’une formule déjeuner à 3€ (au lieu de 5€)<br> pour les 200 premiers les plus rapides !!<br><br>
+                            à disposition sur un espace de la Plaine du Mont Olympe.<br><br> Sinon, vous avez la
+                            possibilité
+                            de profiter d’une formule déjeuner à 3€ (au lieu de 5€)<br> pour les 200 premiers les plus
+                            rapides !!<br><br>
                             La formule sera composée d’un burger, d’une frite et d’une boisson.<br><br>
                             Afin de bénéficier du repas à 3€, il est impératif de réserver votre repas.<br><br>
                             Vous paierez sur place le jour J.<br><br>
@@ -163,117 +171,13 @@
                             Info + : n’oubliez pas de prendre de la monnaie<br>
 
                         </p>
-                        <center><a id="button-inscription" >
-                                <button class="hvr-rectangle-out" id="button2" type="button">
-                                    <font color="black">
-                                    inscription à partir du 04/09</font></a></center>
+                        <center><a class="btn btn-warning" href="formulpiquenique.php" role="button">S'inscrire</a>
+                        </center>
+
                     </div>
                 </div>
             </div>
-            <!--  <div class="card">
-                            <div class="card-header" id="headingFive">
-                                <h2 class="mb-0">
-                                    <button class="btn btn-link collapsed" type="button" data-toggle="collapse"
-                                        data-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
-                                        RECOMPENSES
-                                    </button>
-                                </h2>
-                            </div>
-                            <div id="collapseFive" class="collapse" aria-labelledby="headingFive"
-                                data-parent="#accordionExample">
-                                <div class="card-body">
-                                    <p>Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry
-                                        richardson ad
-                                        squid.
-                                        3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck
-                                        quinoa
-                                        nesciunt
-                                        laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid
-                                        single-origin
-                                        coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer
-                                        labore
-                                        wes
-                                        anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice
-                                        lomo.
-                                        Leggings
-                                        occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you
-                                        probably
-                                        haven't heard
-                                        of them accusamus labore sustainable VHS.
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="card">
-                            <div class="card-header" id="headingSix">
-                                <h2 class="mb-0">
-                                    <button class="btn btn-link collapsed" type="button" data-toggle="collapse"
-                                        data-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
-                                        COCKTAIL
-                                    </button>
-                                </h2>
-                            </div>
-                            <div id="collapseSix" class="collapse" aria-labelledby="headingSix"
-                                data-parent="#accordionExample">
-                                <div class="card-body">
-                                    <p>Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry
-                                        richardson ad
-                                        squid.
-                                        3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck
-                                        quinoa
-                                        nesciunt
-                                        laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid
-                                        single-origin
-                                        coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer
-                                        labore
-                                        wes
-                                        anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice
-                                        lomo.
-                                        Leggings
-                                        occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you
-                                        probably
-                                        haven't heard
-                                        of them accusamus labore sustainable VHS.
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="card">
-                            <div class="card-header" id="headingSeven">
-                                <h2 class="mb-0">
-                                    <button class="btn btn-link collapsed" type="button" data-toggle="collapse"
-                                        data-target="#collapseSeven" aria-expanded="false"
-                                        aria-controls="collapseSeven">
-                                        FAQ
-                                    </button>
-                                </h2>
-                            </div>
-                            <div id="collapseSeven" class="collapse" aria-labelledby="headingSeven"
-                                data-parent="#accordionExample">
-                                <div class="card-body">
-                                    <p>
-                                        Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry
-                                        richardson ad
-                                        squid.
-                                        3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck
-                                        quinoa
-                                        nesciunt
-                                        laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid
-                                        single-origin
-                                        coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer
-                                        labore
-                                        wes
-                                        anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice
-                                        lomo.
-                                        Leggings
-                                        occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you
-                                        probably
-                                        haven't heard
-                                        of them accusamus labore sustainable VHS.
-                                    </p>
-                                </div>
-                            </div>
-                        </div>-->
+
         </div>
 
         <div class="less">
@@ -282,6 +186,8 @@
     </div>
 </div>
 </div>
+
+
 <script>
     /* <![CDATA[ */
     /*

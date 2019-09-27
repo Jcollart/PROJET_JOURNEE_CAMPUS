@@ -5,13 +5,13 @@ session_start();
 <html>
     <head>
        <meta charset="utf-8">
-        <!-- importer le fichier de style -->
+        <!-- importe le fichier css -->
         <link rel="stylesheet" href="css/login.css" media="screen" type="text/css" />
     </head>
     <body>
 
     <h1>Administration du Site</h1>
-    <div id="container">
+        <div id="container">
 
             <!-- zone de connexion -->
             

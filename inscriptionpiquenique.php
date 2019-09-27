@@ -1,23 +1,61 @@
 <?php
+
 include 'connectbdd.php';
+
 
 
 $etablissement = isset($_POST['etablissement']) ? $_POST['etablissement'] : NULL;
 
-
 $nom = isset($_POST['nom']) ? $_POST['nom'] : NULL;
+
 $prenom = isset($_POST['prenom']) ? $_POST['prenom'] : NULL;
+
 $mobile = isset($_POST['mobile']) ? $_POST['mobile'] : NULL;
+
 $email = isset($_POST['email']) ? $_POST['email'] : NULL;
 
-$typeform = "PIQUE-NIQUE";
+$email11 = isset($_POST['email11'])  ? $_POST['email11'] : NULL;
+
+if (($_POST['email']) == ($_POST['email11'])){
+ 
+
+
+$req = $bdd->prepare("SELECT nom, prenom FROM piquenique WHERE nom = :nom AND prenom =:prenom");
+
+$req->execute(array(
+
+    'nom' => $nom,
+    'prenom' => $prenom
+
+  ));
+
+$resultat = $req->fetch();
+
+$req-> closeCursor();
+
+// Verification si doublon 
+
+if (strtolower($nom) == strtolower($resultat['nom']) && strtolower($prenom) == strtolower($resultat['prenom']))
+
+ {
+
+     header('Location: duplicate-erreur-picnic.php');
+
+ }
+
+else {
 
 // Génération aléatoire d'une clé
+
 $cle = md5(microtime(TRUE)*100000);
 
-$sql = $bdd->prepare ("INSERT INTO etudiant ( nom, prenom, mobile, password, cle, email, participant, typeform, etablissement, actif, nom_team)
-VALUES (:nom, :prenom, :mobile, :password, :cle, :email, :participant, :typeform, :etablissement, :actif, :nom_team)");
+// Envoi des données dans la base de donnée
+
+$sql = $bdd->prepare ("INSERT INTO piquenique ( nom, prenom, mobile, password, email, participant,cle, actif, etablissement, nom_team)
+VALUES (:nom, :prenom, :mobile, :password, :email, :participant,:cle, :actif, :etablissement, :nom_team )");
+
 $sql->execute(array(
+
   ':nom' => $nom,
   ':prenom' => $prenom,
   ':mobile' => $mobile,
@@ -25,49 +63,40 @@ $sql->execute(array(
   ':participant'=> 1,
   ':email' => $email,
   ':cle' => $cle,
-  ':typeform' => $typeform,
-  ':etablissement' =>  $etablissement,
+  ':etablissement' => $etablissement,
   ':actif' => 0,
   ':nom_team' => 1
   ));
 
-/* $sql1 = $bdd->prepare(" SELECT   COUNT(*) AS ( nom, prenom, mobile, password, participant, email, cle, typeform, etablissement, actif, nom_team)
-FROM     etudiant
-GROUP BY (:nom, :prenom, :mobile, :password, :participant, :email, :cle, :typeform, :etablissement, :actif, :nom_team)
-HAVING  () COUNT(*) > 1)");
-$sql1->execute(array(
-    ':nom' => $nom,
-    ':prenom' => $prenom,
-    ':mobile' => $mobile,
-    ':password' => 0,
-    ':participant'=> 1,
-    ':email' => $email,
-    ':cle' => $cle,
-    ':typeform' => $typeform,
-    ':etablissement' =>  $etablissement,
-    ':actif' => 0,
-    ':nom_team' => 1
-    ));*/
 $sql-> closeCursor();
 
-// Préparation du mail contenant le lien d'activation
-$destinataire = $email;
-$sujet = "Valider votre inscription" ;
-$entete = "From: jejecollart@hotmail.com" ;
+// Envoi du mail avec lien de confirmation
 
-// Le lien d'activation est composé du nom(nom) et de la clé(cle)
-$message = 'Bienvenue a la validation de linscription,
+$from  = "contact@rentree-etudiants-cmz.fr";
 
-Pour valider votre inscription, veuillez cliquer sur le lien ci dessous
-ou copier/coller dans votre navigateur internet.
-
-http://127.0.0.1/html/Projet_journee_campus/validation.php?nom='.urlencode($nom).'&cle='.urlencode($cle).'
-
-
+ini_set("SMTP", "smtp.rentree-etudiants-cmz.fr");
+$Subject = "Rentree des etudiants – Inscription Pique-Nique à confirmer ";
+$message = 'Bonjour,<br><br>
+Merci pour votre inscription. Pour la rendre effective, merci de bien vouloir cliquer sur le lien ci-dessous<br><br>
+http://rentree-etudiants-cmz.fr/validation-picnic.php?nom='.urlencode($nom).'&cle='.urlencode($cle).'&prenom='.urlencode($prenom).'
+<br><br>
+A très bientôt. »
+<br><br><br><br>
 ---------------
 Ceci est un mail automatique, Merci de ne pas y répondre.';
+$headers  = "MIME-Version: 1.0 \n";
+$headers .= "Content-type: text/html; charset=utf8 \n";
+$headers .= "From: $from  \n";
+$headers .= "Disposition-Notification-To: $from  \n";
+$headers .= "X-Priority: 1  \n";
+$headers .= "X-MSMail-Priority: High \n";
+$CR_Mail = TRUE;
+$CR_Mail = @mail ($email, $Subject, $message, $headers);
 
-// Envoi du mail
-mail($destinataire, $sujet, $message, $entete) ;
+header('Location:duplicate-validation-picnic.php');
+}
+}else{
 
+  header('Location: duplicate-mailfail-different.php');
+}
 ?>

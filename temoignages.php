@@ -1,10 +1,32 @@
+ <?php include 'connectbdd.php';
+
+$temoignage = isset($_POST['texte_temoignage']) ? $_POST['texte_temoignage'] : NULL;
+
+$prenom = isset($_POST['prenom_temoin']) ? $_POST['prenom_temoin'] : NULL;
+
+$req = $bdd->prepare("SELECT texte_temoignage, prenom_temoin FROM temoignage WHERE texte_temoignage = :texte_temoignage AND prenom_temoin =:prenom_temoin");
+
+$req->execute(array(
+
+    'texte_temoignage' => $temoignage,
+    'prenom_temoin' => $prenom
+
+  ));
+
+$resultat = $req->fetch();
+
+$req-> closeCursor();
+
+
+ ?>
+ 
  <div class="titre"><h2>TEMOIGNAGES</h2></div>
         <div id="carouselTemoignages" class="carousel slide" data-ride="carousel" >
             <div class="carousel-inner" style="margin-bottom:100px;">
 				<div class="carousel-item active">
                     <div class="card mb-3" id="mb">
                         <div class="row no-gutters">
-                            <div class="col-md-4">
+                            <div class="col-md-4 card-left card-left">
                                 <img src="img/01.jpg" class="card-img1"
                                     alt="La rentrée des étudiants - Témoignage ">
                             </div>
@@ -22,7 +44,7 @@
                 <div class="carousel-item">
                     <div class="card mb-3" id="mb">
                         <div class="row no-gutters">
-                            <div class="col-md-4">
+                            <div class="col-md-4 card-left">
                                 <img src="img/01.jpg" class="card-img1"
                                     alt="La rentrée des étudiants - Témoignage ">
                             </div>
@@ -40,7 +62,7 @@
                 <div class="carousel-item">
                     <div class="card mb-3" id="mb">
                         <div class="row no-gutters">
-                            <div class="col-md-4">
+                            <div class="col-md-4 card-left card-left card-left">
                                 <img src="img/01.jpg" class="card-img1"
                                     alt="La rentrée des étudiants - Témoignage ">
                             </div>
@@ -58,7 +80,7 @@
                 <div class="carousel-item">
                     <div class="card mb-3" id="mb">
                         <div class="row no-gutters">
-                            <div class="col-md-4">
+                            <div class="col-md-4 card-left card-left">
                                 <img src="img/01.jpg" class="card-img1" alt="La rentrée des étudiants - Témoignage ">
                             </div>
                             <div class="col-md-8">
@@ -75,7 +97,7 @@
                 <div class="carousel-item">
                     <div class="card mb-3" id="mb">
                         <div class="row no-gutters">
-                            <div class="col-md-4">
+                            <div class="col-md-4 card-left">
                                 <img src="img/01.jpg" class="card-img1" alt="La rentrée des étudiants - Témoignage ">
                             </div>
                             <div class="col-md-8">
@@ -91,17 +113,13 @@
                 <div class="carousel-item">
                     <div class="card mb-3" id="mb">
                         <div class="row no-gutters">
-                            <div class="col-md-4">
+                            <div class="col-md-4 card-left">
                                 <img src="img/01.jpg" class="card-img1" alt="La rentrée des étudiants - Témoignage ">
                             </div>
                             <div class="col-md-8">
                                 <div class="card-body">
-                                    <p class="card-text"> « Pour ma part, j’ai participé au Concours de cuisine sur la Place Ducale ! <br>
-                                                           Bonne ambiance et bon challenge à relever pour ceux qui aiment cuisiner. <br>
-                                                           Et puis, avoir comme cuisine le cadre de la magnifique Place Ducale, ça le fait !
-                                        Merci encore aux organisateurs et notamment à Romain pour sa patience, j’en garde un très bon souvenir ! »
-                                    </p>
-                                    <p class="card-text">Mélanie – 21 ans</p>
+                                    <p class="card-text"><?php echo $resultat  ;?></p>
+                                    <p class="card-text"><?php //echo $resultat('prenom_temoin') ;?></p>
                                 </div>
                             </div>
                         </div>
@@ -110,11 +128,11 @@
                 <div class="carousel-item">
                     <div class="card mb-3">
                         <div class="row no-gutters">
-						 <div class="col-md-4">
+						 <div class="col-md-4 card-left">
                                 <img src="img/01.jpg" class="card-img1" alt="La rentrée des étudiants - Témoignage ">
                             </div>
                             <div class="col-md-8">
-							
+
                                 <div class="card-body align-items-center">
                                     <p class="card-text"> « J’ai apprécié cette journée et toutes les villes devraient
                                         organiser ce genre de manifestation pour les étudiants. Moi j’ai participé au
@@ -128,7 +146,7 @@
                 <div class="carousel-item">
                     <div class="card mb-3">
                         <div class="row no-gutters">
-                            <div class="col-md-4">
+                            <div class="col-md-4 card-left">
                                 <img src="img/01.jpg" class="card-img1" alt="La rentrée des étudiants - Témoignage ">
                             </div>
                             <div class="col-md-8">
@@ -145,7 +163,7 @@
                 <div class="carousel-item">
                     <div class="card mb-3">
                         <div class="row no-gutters">
-                            <div class="col-md-4">
+                            <div class="col-md-4 card-left">
                                 <img src="img/01.jpg" class="card-img1" alt="La rentrée des étudiants - Témoignage ">
                             </div>
                             <div class="col-md-8">

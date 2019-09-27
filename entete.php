@@ -31,14 +31,14 @@
                                     data-frames='[{"delay":500,"speed":2000,"frame":"0","from":"opacity:0;","to":"o:1;","ease":"Power3.easeInOut"},{"delay":"wait","speed":300,"frame":"999","to":"opacity:0;","ease":"Power3.easeInOut"}]'
                                     data-textAlign="['inherit','inherit','inherit','inherit']"
                                     data-paddingtop="[0,0,0,0]" data-paddingright="[0,0,0,0]"
-                                    data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]" style="z-index: 5;"><img
+                                    data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]" style="z-index: 5;"><img class="main_img"
                                         src="img/logoetudiantcarolo.png" alt=""
                                         data-ww="['230px','230px','230px','230px']"
                                         data-hh="['229px','229px','229px','229px']"
                                         width="50" height="49" data-no-retina> </div>
 
                                 <!-- LAYER NR. 2 -->
-                                <div class="tp-caption   tp-resizeme rs-parallaxlevel-1" id="slide-32-layer-8"
+                                <div class="tp-caption   tp-resizeme rs-parallaxlevel-1 main_title" id="slide-32-layer-8"
                                     data-x="['center','center','center','center']" data-hoffset="['0','0','0','0']"
                                     data-y="['bottom','bottom','bottom','bottom']"
                                     data-voffset="['597','517','597','497']" data-fontsize="['120','120','120','80']"
@@ -54,7 +54,7 @@
                                 </div>
 
                                 <!-- LAYER NR. 3 -->
-                                <div class="tp-caption   tp-resizeme rs-parallaxlevel-1" id="slide-32-layer-7"
+                                <div class="tp-caption   tp-resizeme rs-parallaxlevel-1 main_title" id="slide-32-layer-7"
                                     data-x="['center','center','center','center']" data-hoffset="['-3','-3','-3','-3']"
                                     data-y="['bottom','bottom','bottom','bottom']"
                                     data-voffset="['600','520','600','500']" data-fontsize="['120','120','120','80']"
@@ -70,7 +70,7 @@
                                 </div>
 
                                 <!-- LAYER NR. 4 -->
-                                <div class="tp-caption   tp-resizeme rs-parallaxlevel-1" id="slide-32-layer-5"
+                                <div class="tp-caption   tp-resizeme rs-parallaxlevel-1 main_title" id="slide-32-layer-5"
                                     data-x="['center','center','center','center']" data-hoffset="['3','3','3','3']"
                                     data-y="['bottom','bottom','bottom','bottom']"
                                     data-voffset="['600','520','600','500']" data-fontsize="['120','120','120','80']"
@@ -86,7 +86,7 @@
                                 </div>
 
                                 <!-- LAYER NR. 5 -->
-                                <div class="tp-caption   tp-resizeme rs-parallaxlevel-1" id="slide-32-layer-3"
+                                <div class="tp-caption   tp-resizeme rs-parallaxlevel-1 main_title" id="slide-32-layer-3"
                                     data-x="['center','center','center','center']" data-hoffset="['0','0','0','0']"
                                     data-y="['bottom','bottom','bottom','bottom']"
                                     data-voffset="['600','520','600','500']" data-fontsize="['120','120','120','80']"
@@ -127,7 +127,7 @@
                                     data-paddingtop="[0,0,0,0]" data-paddingright="[0,0,0,0]"
                                     data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]" style="z-index: 11;">
                                     <div class="rs-looped rs-wave" data-speed="10" data-angle="0" data-radius="5px"
-                                        data-origin="50% 50%"><img src="img/mascotte.png" alt=""
+                                        data-origin="50% 50%"><img class="mascotte" src="img/mascotte.png" alt=""
                                             data-ww="['620px','518px','415px','210px']"
                                             data-hh="['600px','550px','500px','400px']" width="1025" height="500"
                                             data-no-retina> </div>
@@ -197,7 +197,7 @@
                                         data-origin="50% 50%"><img src="img/confetti.gif" alt=""
                                             data-ww="['28px','28px','28px','28px']"
                                             data-hh="['27px','27px','27px','27px']" width="28" height="27"
-                                            data-no-retina><a style="font-size:60px;line-height:56px;font-height:600;color:white;font-family:Oswald"> Jeudi 03 Octobre </a></div>
+                                            data-no-retina><a class="main_date" style="font-size:60px;line-height:56px;font-height:600;color:white;font-family:Oswald"> Jeudi 03 Octobre </a></div>
                                 </div>
 
                                 <!-- LAYER NR. 12 -->

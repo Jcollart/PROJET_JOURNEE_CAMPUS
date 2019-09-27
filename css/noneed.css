@@ -163,13 +163,13 @@ td {
     -moz-osx-font-smoothing: grayscale;
 }
 
-* {
-    /*	 -moz-user-select: none;
+/* {
+    	 -moz-user-select: none;
         -khtml-user-select: none;
         -webkit-user-select: none;
         -o-user-select: none;
-*/
-}
+
+}*/
 
 .toolpad * {
     -moz-user-select: none;
@@ -337,10 +337,10 @@ a.button:hover i {
     line-height: 37px;
     text-align: center;
     margin: 0 !important;
-    -webkit-transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out;
+   /* -webkit-transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out;
     -moz-transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out;
     -o-transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out;
-    -ms-transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out;
+    -ms-transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out;*/
 }
 
 .tp-infoicon {
@@ -371,7 +371,6 @@ a.button:hover i {
     display: inline-block;
     font: normal normal normal 14px/1 'Material Design Iconic Font';
     font-size: inherit;
-    speak: none;
     text-rendering: auto;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
@@ -482,7 +481,7 @@ hr:not(.revslider-hr) {
     display: inline-block;
     width: 80%;
     padding: 0px 0px 0px 50px;
-    float: right;
+    /*float: right;*/
     box-sizing: border-box;
 }
 
@@ -518,7 +517,7 @@ hr:not(.revslider-hr) {
 
 .example-list .img-wrapper {
     display: block;
-    vertical-align: top;
+   /* vertical-align: top;*/
     margin: 0px 15px 15px 0px;
     float: left;
     position: relative;
@@ -528,7 +527,7 @@ hr:not(.revslider-hr) {
 
 .example-list img {
     display: block;
-    vertical-align: top;
+   /* vertical-align: top;*/
     width: 100%;
 }
 
@@ -555,7 +554,7 @@ hr:not(.revslider-hr) {
 
 
 footer {
-    background: #2d3032;
+    background: white;
     width: 100%;
     padding: 50px 150px;
     box-sizing: border-box;
@@ -616,9 +615,9 @@ footer a:hover {
     margin: auto;
 }
 
-.bottom-history-wrap {
-    /* display:table;*/
-}
+/*.bottom-history-wrap {
+     display:table;
+}*/
 
 .bottom-history a,
 .bottom-history a:visited {
@@ -644,11 +643,10 @@ footer a:hover {
     }
 }
 
-}
 
 
 /* Social Icons */
-.social {}
+/*.social {}*/
 
 .social ul {
     margin: 0;

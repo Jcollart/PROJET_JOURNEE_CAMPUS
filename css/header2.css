@@ -124,30 +124,6 @@ nav input[type=checkbox]:checked ~ ul{
   display:block;
 }
 
-@media screen and (max-width:680px){
-  .menu-mobile{
-    display:block;
-    color:#FFF;
-    background-color: RGBa(29, 197, 151, 0.97);
-    text-align:center;
-    padding: 12px 0px
-  }
-  nav-ul{
-    display:none;
-  }
-  nav ul li a , nav ul li:hover a{
-    padding: 10px 0 10px 0pc;
-  }
-  nav ul li , nav ul li a{
-    width:100%;
-    text-align:center;
-  }
-  nav li:hover .sousmenu{
-    display:block;
-    position:static;
-  }
-}
-
 #logocm{
   width:10em;
   z-index: 600;
@@ -159,6 +135,44 @@ nav input[type=checkbox]:checked ~ ul{
   transform: rotate(-5deg);
 }
   
+
+@media screen and (max-width:900px){
+  .menu-mobile{
+    display:block;
+    color:#FFF;
+    background-color: RGBa(29, 197, 151, 0.97);
+    text-align:center;
+    padding: 12px 0px
+  }
+  .nav-ul{
+    display:none;
+  }
+  nav > ul{
+    margin:0px;
+    padding:0px;
+    display:none;
+    justify-content: space-between;
+  }
+  ul{
+    display:none;
+  }
+  
+  nav ul li a , nav ul li:hover a{
+    padding: 10px 0 10px 0pc;
+  }
+  nav ul li , nav ul li a{
+    width:100%;
+    text-align:center;
+  }
+  nav li:hover .sousmenu{
+    display:block;
+    position:static;
+  }
+  #logocm{
+    display:none;
+}
+
+}
 
 
 

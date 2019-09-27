@@ -1,0 +1,120 @@
+@font-face {
+    font-family: 'cookit-regular-webfont';
+    src: url('../fonts/cookit-regular/cookit-regular-webfont.eot');
+    src: url('../fonts/cookit-regular/cookit-regular-webfont.otf') format('truetype'),
+         url('../fonts/cookit-regular/cookit-regular-webfont.woff') format('woff'),
+         url('../fonts/cookit-regular/cookit-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/cookit-regular/cookit-regular-webfont.svg#cookit-regular-webfontBold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    }
+    h4 {
+        font-family:'cookit-regular-webfont', sans-serif;
+        font-size:3em;
+        }
+        
+html {
+    font-family:'cookit-regular-webfont';
+}
+
+body {
+    position: relative;
+
+    min-height: 100%;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    text-align: center;
+}
+
+
+/************* PARALLAX********************/
+.parallax-window {
+    min-height: 30vh;
+
+    z-index: 300;
+    padding-top: 20vh;
+    padding-bottom: 20vh;
+}
+
+/******** SECTION NOUVELLE EDITION *********/
+.new_edition {
+    position: relative;
+    min-height: 30vh;
+    /*background-color: #FB9F15;*/
+    background:url(../img/fond.jpg);
+    background-size: 100%;
+    width: 70vw;
+    border-radius: 1em;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+
+#button1 {
+    background-color: white;
+    font-weight: bold;
+    color:black !important;
+    height: 5em;
+    line-height: 1.5em;
+    text-decoration: none;
+    width: 18em;
+    border: 0px grey solid;
+    margin-right: 5em;
+}
+
+#button3 {
+    background-color: white;
+    font-weight: bold;
+    color:black !important;
+    height: 5em;
+    line-height: 1.5em;
+    text-decoration: none;
+    width: 18em;
+    border: 0px grey solid;
+    margin-left: 10em;
+   
+    
+}
+
+.hvr-rectangle-out {
+    background: #ffff00c0 !important;
+}
+
+.hvr-rectangle-out:before{
+    background: rgba(177, 166, 9, 0.849) !important;
+}
+
+/*.fa.fa-arrow-down {
+    color: black;
+}*/
+
+#collapseExample>.card.card-body {
+    background: url(../img/fond.jpg);
+    background-size: cover;
+    width: 70vw;
+    /*background: -moz-linear-gradient(left, #FB9F15 0%, #F4552B 100%);
+    background: -webkit-linear-gradient(left, #FB9F15 0%, #F4552B 100%);
+    background: linear-gradient(to right, #FB9F15 0%, #F4552B 100%);
+    border: 0px solid rgba(0, 0, 0, .125);*/
+}
+#button2 {
+    margin-top: 1em;
+    display: block;
+    background-color: white;
+    font-weight: bold;
+    text-decoration: none;
+    border: 1px grey solid;
+    height:3em;
+    line-height:1em;
+    margin-bottom:1em;
+    width:10em;
+
+}
+/*#button-inscription {
+    margin-top: 1em;
+}*/
+

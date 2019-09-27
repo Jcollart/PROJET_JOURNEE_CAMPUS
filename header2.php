@@ -31,10 +31,10 @@
         </li>
         <li class="menu-inscription"><a href="">INSCRIPTIONS</a>
           <ul class="sousmenu">
-            <li><a ><font color="black">Carolo Express<br> Inscription à partir du 04/09</font></a></li>
-            <li><a ><font color="black">Carolo Warrior<br> Inscription à partir du 04/09</font></a></li>
-            <li><a ><font color="black">Concours de Cuisine<br> Inscription à partir du 04/09</font></a></li>
-            <li><a ><font color="black">Pique-nique<br> Inscription à partir du 04/09</font></a></li>
+            <li><a href="formulexpress.php" ><font color="black">Carolo Express</font></a></li>
+            <li><a href="formulwarrior.php"><font color="black">Carolo Warrior</font></a></li>
+            <li><a href="formulcuisine.php"><font color="black">Concours de Cuisine</font></a></li>
+            <li><a href="formulpiquenique.php"><font color="black">Pique-nique</font></a></li>
           </ul>
         </li>
         <li class="menu-logomairie"><a href="https://www.charleville-mezieres.fr/"><img id="logocm" src="img/logos/logomairieCM.png" alt="logocm"/></a>

@@ -27,38 +27,44 @@
     <!-- Tout les liens -->
 
     <link rel="stylesheet" href="css/reset.css">
-    <link rel="stylesheet" href="css/formulaire.css">
+    <!--<link rel="stylesheet" href="css/formulaire.css">-->
     <link rel="stylesheet" href="css/hover-min.css">
+    <link rel="stylesheet" href="css/admin.css">
 
 </head>
 
 <body>
     <?php include("header2.php"); ?><br><br><br>
 
-<h1> Modification des données<br> page formulaire<br>CAROLO EXPRESS ET CAROLO WARRIOR</h1>
+<center><h1> Modification des données<br> EXPRESS , WARRIOR , CUISINE et PIQUE-NIQUE</h1>
 <br><br>
 <form method="post" action="modif.php">
 
-<p>numero de participant :</p>
+
+<p>nom de l'equipe :</p>
+<input type="text" id="equipe" name="equipe" />
 <br>
+<p>type de formulaire :</p>
+<input type="text" id="formulaie" name="formulaire" />
+<br>
+<p>numero de participant :</p>
 <input type="text" id="participant" name="participant" />
 <br>
 <p>nom de l'etudiant:</p>
-<input type="text" id="noms" name="noms" />
+<input type="text" id="nom" name="nom" />
 <br>
 <p>Prenom du participant</p>
-<input type="text" id="prenoms" name="prenom" />
+<input type="text" id="prenom" name="prenom" />
 <br>
 <p>Mail de l'tetudiant  :</p>
 <input type="text" id="email" name="email" />
 <br>
 <p>Numéro de téléphone</p>
-<input type="text" id="telephonie" name="telephonie" />
-<br>
+<input type="text" id="mobile" name="mobile" />
+<br><br>
 <input type="submit" value="Envoyer les modifs">
-</form>
-
-<?php include("footer1.php"); ?>
+<br><br>
+</form></center>
 
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
     integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
