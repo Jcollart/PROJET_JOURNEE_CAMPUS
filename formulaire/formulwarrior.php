@@ -100,7 +100,7 @@
 
     <div class="form">
 
-        <form action="inscriptionwarrior.php" method="post">
+        <form action="" method="post">
 
             <div>
 

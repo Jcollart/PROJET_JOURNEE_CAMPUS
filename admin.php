@@ -60,7 +60,7 @@
                 </div><br>
                 <div>
                     <label><b>Mot de passe</b></label>
-                    <input type="password" placeholder="Entrer le mot de passe" name="mdp_admin" required /><br>
+                    <input type="password" placeholder="******" name="mdp_admin" required /><br>
                 </div><br>
 
                 <div>

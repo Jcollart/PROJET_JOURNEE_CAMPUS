@@ -1,0 +1,89 @@
+html{
+  margin: 0;
+  padding: 0;
+}
+body{
+  font-family: arial;
+  min-height: 100vh;
+  background: rgb(237,139,42);
+  background: -moz-linear-gradient(45deg, rgba(237,139,42,1) 0%, rgba(217,76,32,1) 100%);
+  background: -webkit-linear-gradient(45deg, rgba(237,139,42,1) 0%,rgba(217,76,32,1) 100%);
+  background: linear-gradient(45deg, rgba(237,139,42,1) 0%,rgba(217,76,32,1) 100%);
+}
+
+.main{
+  background: url(../img/eclair.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 100vw;
+  height: 100vh;
+  z-index: -1;
+}
+
+.defi-content{
+  top: 55px;
+  margin-bottom: -55px;
+}
+
+.active{
+  display: block !important;
+}
+
+.btn-defi{ display: none; }
+
+.bg-red{
+  background: #BC3421 !important;
+}
+.text-red{
+  color: #BC3421;
+}
+
+.bg-yellow{
+  background: #FDD866 !important;
+}
+.bg-gradient{
+  background: rgb(237,139,42);
+  background: -moz-linear-gradient(45deg, rgba(237,139,42,1) 0%, rgba(217,76,32,1) 100%);
+  background: -webkit-linear-gradient(45deg, rgba(237,139,42,1) 0%,rgba(217,76,32,1) 100%);
+  background: linear-gradient(45deg, rgba(237,139,42,1) 0%,rgba(217,76,32,1) 100%);
+}
+
+h1{
+  text-decoration:underline;
+}
+.affiche{
+  background:url(img/fond.jpg);
+  border: solid 0.5px white;
+  box-shadow: 5px 5px 10px white;
+  margin:0.5em;
+}
+
+.error{
+  display: none;
+}
+
+/* .map iframe{ opacity: 0; } */
+.blur{
+  height: 500px;
+  width: 96%;
+  background: rgba(235,235,235,.9);
+  z-index: 10;
+}
+
+.result .row:nth-of-type(odd){
+  background: rgba(150, 150, 150, 0.2);
+}
+
+.result-container{ width: 66%; display: none; }
+
+@media screen and (max-width: 769px){
+  .result-container{
+    width: 75%;
+  }
+}
+
+@media screen and (max-width: 579px){
+  .result-container{
+    width: 98%;
+  }
+}

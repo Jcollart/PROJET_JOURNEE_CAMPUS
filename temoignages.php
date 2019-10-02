@@ -4,23 +4,23 @@ $temoignage = isset($_POST['texte_temoignage']) ? $_POST['texte_temoignage'] : N
 
 $prenom = isset($_POST['prenom_temoin']) ? $_POST['prenom_temoin'] : NULL;
 
-$req = $bdd->prepare("SELECT texte_temoignage, prenom_temoin FROM temoignage WHERE texte_temoignage = :texte_temoignage AND prenom_temoin =:prenom_temoin");
+$req = $bdd->prepare("SELECT * FROM temoignage ");
 
-$req->execute(array(
+$req->execute();
 
-    'texte_temoignage' => $temoignage,
-    'prenom_temoin' => $prenom
+$result = $req->fetch();
+while ($row($result)) {
 
-  ));
-
-$resultat = $req->fetch();
-
-$req-> closeCursor();
+    ?>
 
 
- ?>
+  
  
- <div class="titre"><h2>TEMOIGNAGES</h2></div>
+    
+ 
+  
+  
+    <div class="titre"><h2>TEMOIGNAGES</h2></div>
         <div id="carouselTemoignages" class="carousel slide" data-ride="carousel" >
             <div class="carousel-inner" style="margin-bottom:100px;">
 				<div class="carousel-item active">
@@ -32,10 +32,8 @@ $req-> closeCursor();
                             </div>
                             <div class="col-md-8">
                                 <div class="card-body">
-                                    <p class="card-text"> « Une amie m’a convaincu et je n’ai pas regretté. J’ai
-                                        rencontré d’autres étudiants, c’était sympa ce brassage. Je n’ai pas pu faire
-                                        les activités mais j’ai encouragé les équipes de mon école et on a gagné. »</p>
-                                       <p class="card-text"> Mareme – 18 ans</p>
+                                    <p class="card-text"> </p>
+                                       <p class="card-text"> </p>
                                 </div>
                             </div>
                         </div>
@@ -118,8 +116,14 @@ $req-> closeCursor();
                             </div>
                             <div class="col-md-8">
                                 <div class="card-body">
-                                    <p class="card-text"><?php echo $resultat  ;?></p>
+                                    <p class="card-text"><?php echo $row[0] . ': ' . $row[1] . "\n"; ?></p>
                                     <p class="card-text"><?php //echo $resultat('prenom_temoin') ;?></p>
+
+                                    <?php }
+  
+ 
+  $req-> closeCursor();
+  ?>
                                 </div>
                             </div>
                         </div>

@@ -1,4 +1,4 @@
-<?php include_once 'connectbdd.php' ;
+<?php include_once '../connectbdd.php' ;
 
 
 
@@ -54,9 +54,9 @@
 
     <link rel="stylesheet" href="reset.css">
 
-    <link rel="stylesheet" href="css/formulaire.css">
+    <link rel="stylesheet" href="../css/formulaire.css">
 
-    <link rel="stylesheet" href="css/hover-min.css">
+    <link rel="stylesheet" href="../css/hover-min.css">
 
 
 
@@ -68,7 +68,7 @@
 
     <!-- NAVBAR BOOTSTRAP-->
 
-    <?php include("header2.php"); ?><br><br><br>
+    <?php include("../header2.php"); ?><br><br><br>
 
 
 
@@ -96,7 +96,7 @@
 
     <div class="form">
 
-        <form action="inscriptioncuisine.php" method="post">
+        <form action=".php" method="post">
 
             <div>
 

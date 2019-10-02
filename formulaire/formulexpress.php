@@ -50,7 +50,7 @@
 
 
     <div class="form">
-        <form action="inscriptionexpress.php" method="post">
+        <form action=".php" method="post">
             <div>
                 <label for="name"><strong><center>Etablissement</center><br></strong></label>
                 <select name="etablissement" id="etablissement">

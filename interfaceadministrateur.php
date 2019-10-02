@@ -28,6 +28,7 @@
 
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/hover-min.css">
+    <link rel="stylesheet" href="css/admin.css">
 
 </head>
 
@@ -36,7 +37,7 @@
 
 <div class="container">
 
-<center><p style="color:black; text-decoration:underline;"><font size="+2">PANEL DES INSCRIPTIONS AUX ACTIVITEES ET A LA RESERVATION REPAS</font></p>
+<center><p style="color:black; text-decoration:underline;"><font size="+2">PANEL DES INSCRIPTIONS AUX ACTIVITES ET A LA RESERVATION REPAS</font></p>
 <br><br>
 <input class="hvr-pulse" style=" border: 5px solid black; background:rgb(233, 95, 16)" type=button onclick=window.location.href='panel.php'; value="ACCEDEZ AU PANEL DES INSCRIPTIONS" />
 <br><br><hr><br><br>
@@ -46,7 +47,7 @@
 <br><br><hr><br><br>
 <center><p style="color:black; text-decoration:underline;"><font size="+2">MODIFICATION FAQ/AIDE</font></p>
 <br><br>
-<input class="hvr-pulse" style=" border: 5px solid black; background:rgb(233, 95, 16)" type=button onclick=window.location.href='faq.php'; value="ACCEDEZ A LA MODIFICATION DE LA FAQ/AIDE" /></center>
+<input class="hvr-pulse" style=" border: 5px solid black; background:rgb(233, 95, 16)" type=button onclick=window.location.href='modiffaq.php'; value="ACCEDEZ A LA MODIFICATION DE LA FAQ/AIDE" /></center>
 <br><br><hr><br><br>
 <center><p style="color:black ; text-decoration:underline;"><font size="+2">RESULTAT APPLICATION WEB QCM</font></p>
 <br><br>

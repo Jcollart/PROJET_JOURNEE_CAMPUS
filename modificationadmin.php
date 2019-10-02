@@ -1,4 +1,4 @@
-<?php include_once 'connectbdd.php' ;
+<?php include 'connectbdd.php' ;
 
 ?>
 
@@ -35,22 +35,22 @@
 
 <div class="container">
 
-<center><h1 style="color:rgb(233, 95, 16);" ><font size="+4"> Modification des données<br> page accueil</font></h1>
+<center><h1 style="color:rgb(233, 95, 16); text-decoration:underline; " ><font size="+4"> Modification des données<br> page accueil</font></h1>
 <br><br>
-<h2 text-decoration="underline"><font size="+2">Présentation avec mascotte</font></h2>
+<h2 style="color:black; text-decoration:underline;"><font size="+2">Présentation avec mascotte</font></h2>
 <br><br>
-<form method="post" action="modif.php"><br>
+<form method="post" action="ajoutaccueil.php"><br>
 <p>L'année de la rentrée étudiante :</p><br>
-<input type="text" id="titre" name="annee" /><br><br>
+<input type="text" id="titre" name="anneerentree" /><br><br>
 <p>Le jour de la rentrée étudiante :</p><br>
-<input type="text" id="date" name="journee" /><br><br>
+<input type="text" id="date" name="daterentree" /><br><br>
 <p>Modification du champs : "revivez l'année ****" </p><br>
-<input type="text" id="revivre" name="revivre" /><br><br>
+<input type="text" id="revivre" name="revivezannee" /><br><br>
 <input class="hvr-pulse"type="submit" value="Envoyer les modifs"><br>
 </form>
 
 <br><br>
-<h2><font size="+2">Descriptif de l'évenement :</font></h2>
+<h2 style="color:black; text-decoration:underline;"><font size="+2">Descriptif de l'évenement :</font></h2>
 <br><br>
 <form method="post" action="modif.php"><br>
 <p>Modifiez : "c'est quand"</p><br>
@@ -64,7 +64,7 @@
 <input type="submit" value="Envoyer les modifs"><br>
 </form>
 <br><br>
-<h2><font size="+2">Modification accueil inscription</font></h2>
+<h2 style="color:black; text-decoration:underline;"><font size="+2">Modification accueil inscription</font></h2>
 <br>
 <form method="post" action="modif.php">
 <br>
@@ -79,26 +79,26 @@
 <input type="submit" value="Envoyer les modifs">
 </form>
 <br><br>
-<h2><font size="+2" >Modification Edition passée</font></h2>
+<h2 style="color:black; text-decoration:underline;"><font size="+2" >Modification Edition passée</font></h2>
 <br><br>
 <form method="post" action="modif.php">
 <br>
-<p>Modifiez titre edition passée"</p><br>
+<p >Modifiez titre edition passée"</p><br>
 <input type="text" id="passee" name="" /><br>
 <br>
 <input type="submit" value="Envoyer les modifs"><br>
 </form>
 <br><br>
-<h2><font size="+2">Ajoutez une photo dans galerie</font></h2>
+<h2 style="color:black; text-decoration:underline;"><font size="+2">Ajoutez une photo dans galerie</font></h2>
 <br><br>
-<form method="post" action="ajout.php"><br>
-<input type="image" id="image1" alt="newsimage1" src=""><br>
+<form method="post" action="ajoutima.php"><br>
+<input type="texte" id="image" name="nom_image"><br>
 <br>
 <input type="submit" value="Envoyer les modifs"><br>
 </form>
 
 <br><br>
-<h2><font size="+2">Supprimez une photo dans galerie</font></h2>
+<h2 style="color:black; text-decoration:underline;"><font size="+2">Supprimez une photo dans galerie</font></h2>
 <br><br>
 <form method="post" action="suprim.php"><br>
 <input type="image" id="image2" alt="newsimage2" src=""><br>
@@ -106,13 +106,13 @@
 <input type="submit" value="Envoyer les modifs"><br>
 </form>
 <br><br>
-<h2><font size="+2">Modification Témoignages</font></h2>
-<form method="post" action="ajout.php"><br>
+<h2 style="color:black; text-decoration:underline;"><font size="+2">Modification Témoignages</font></h2>
+<form method="post" action="ajouttem.php"><br>
 <p>Ajoutez un temoignage</p><br>
-<input type="text" id="temoignage" name="temoignage" /><br>
+<input type="text" id="texte_temoignage" name="texte_temoignage" /><br>
 <br>
-<p>Ajoutez un temoignage</p><br>
-<input type="text" id="nom_temoin" name="nom_temoin" /><br>
+<p>Ajoutez un nom de temoignage</p><br>
+<input type="text" id="prenom_temoin" name="prenom_temoin" /><br>
 <br>
 <input type="submit" value="Envoyer les modifs"><br>
 </form>

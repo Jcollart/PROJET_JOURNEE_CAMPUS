@@ -1,3 +1,17 @@
+
+<?php include 'connectbdd.php';
+
+
+$rentree = isset($_POST['anneerentree']) ? $_POST['anneerentree'] : NULL;
+
+$req = $bdd->prepare("SELECT anneerentree FROM accueil ");
+
+$req->execute();
+$donnees = $req->fetch()
+
+
+
+?>
 <!-- SLIDER EXAMPLE -->
 <section class="example">
             <article class="content">
