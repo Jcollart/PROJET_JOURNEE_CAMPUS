@@ -1,12 +1,12 @@
 <?php
 
   class Connexion{
-
-    private $server = "mysql:host=ttsabrbrdecmz.mysql.db;dbname=ttsabrbrdecmz" ;
-
-    private $user = "ttsabrbrdecmz";
-
-    private $password = "rdeCMZ08";
+    private $server = "mysql:host=localhost;dbname=etudiantlive";
+   // private $server = "mysql:host=ttsabrbrdecmz.mysql.db;dbname=ttsabrbrdecmz" ;
+    private $user = "root";
+   // private $user = "ttsabrbrdecmz";
+    private $password = "";
+   // private $password = "rdeCMZ08" "";
     
     private $security = array(PDO::ATTR_ERRMODE => PDO::ERRMODE_EXCEPTION,
         PDO::ATTR_DEFAULT_FETCH_MODE => PDO::FETCH_ASSOC

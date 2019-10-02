@@ -51,7 +51,7 @@
 <br><br><hr><br><br>
 <center><p style="color:black ; text-decoration:underline;"><font size="+2">RESULTAT APPLICATION WEB QCM</font></p>
 <br><br>
-<input class="hvr-pulse" style=" border: 5px solid black; background:rgb(233, 95, 16)" type=button onclick=window.location.href='resultat.php'; value="ACCEDEZ AUX RESULTATS" /></center>
+<input class="hvr-pulse" style=" border: 5px solid black; background:rgb(233, 95, 16)" type=button onclick=window.location.href='caroloexpress/view/result.php'; value="ACCEDEZ AUX RESULTATS" /></center>
 
 <br><br><hr><br><br>
 
