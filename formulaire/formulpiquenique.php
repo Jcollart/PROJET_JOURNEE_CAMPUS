@@ -191,49 +191,29 @@
 
             <div>
 <?php   
-    
- // Selection du prix du repas   
-
+  // Selection du prix du repas   
       $req = $bdd->prepare("SELECT COUNT(*) AS total FROM piquenique WHERE actif=1");
+      $req->execute( );
+      $resultat = $req->fetch();
+      $chiffre = $resultat['total'];
+      echo 'le nombre de reservation est de <font size="+4"> '.$chiffre. '</font> repas<br> sur les 200 repas à 3€';
+      $req-> closeCursor();
 
-$req->execute( );
+      $rep3 = 'Repas à 3€';
+      $rep5 = 'Repas à 5€';
 
-$resultat = $req->fetch();
-$chiffre = $resultat['total'];
-
- echo 'le nombre de reservation est de <font size="+4"> '.$chiffre. '</font> repas<br> sur les 200 repas à 3€';
-
-$req-> closeCursor();
-
-$repas3€ = 'Repas à 3€';
-$repas5€ = 'Repas à 5€';
-
-if ($chiffre <= 200){
-
-$donnees = $repas3€;
-
-}else{
-
-$donnees = $repas5€;
-
+      if ($chiffre <= 200){
+         $donnees = $rep3;
+ }else{
+$donnees = $rep5;
 }
-
 ?>
-
              <hr>
-
-    
-    
                 <label for="name"><strong><font size="+2"><?php echo $donnees ?></font></strong></label>
-
             </div>
-
-                <hr>
-
+             <hr>
             <div>
-
                 <center><font size="+2">Je confirme ma réservation de repas </font></center>
-
             </div>
 
             <div>
@@ -256,7 +236,7 @@ $donnees = $repas5€;
 
         <center>
 
-            <h2> Vous désirez vous inscrire à une autre activité ?</h2>
+           <h2> Vous désirez vous inscrire à une autre activité ?</h2>
 
             <div class="arrow_box"></div><br><br>
 

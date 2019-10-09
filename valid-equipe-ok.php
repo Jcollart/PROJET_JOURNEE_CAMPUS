@@ -15,3 +15,5 @@ if($req->execute(array(':actif' => $actif)) && $row = $req->fetch())
 
 
 // Si elles correspondent on active le compte !
+
+?>
