@@ -1,4 +1,4 @@
-<?php //include_once 'connectbdd.php' ;
+<?php include '../connectbdd.php';
 
 ?>
 
@@ -26,14 +26,16 @@
     </script>
     <!-- Tout les liens -->
 
-    <link rel="stylesheet" href="css/reset.css">
-    <link rel="stylesheet" href="css/formulaire.css">
-    <link rel="stylesheet" href="css/hover-min.css">
+    <link rel="stylesheet" href="../css/reset.css">
+    <link rel="stylesheet" href="../css/header2.css">
+    <link rel="stylesheet" href="../css/footer.css">
+    <link rel="stylesheet" href="../css/formulaire.css">
+    <link rel="stylesheet" href="../css/hover-min.css">
 
 </head>
 
 <body>
-    <?php include("header2.php"); ?><br><br><br>
+    <?php include '../header2.php'; ?><br><br><br>
 
     <center>
         <h1 style="color:rgb(233, 95, 16)"> INSCRIPTION CAROLO EXPRESS </h1><br>
@@ -410,7 +412,7 @@
     </section>
     </center>
 
-    <?php include("footer1.php"); ?>
+    <?php include '../footer1.php'; ?>
 
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
         integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">

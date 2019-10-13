@@ -105,10 +105,10 @@ $avg = $questcontroller->avgResults();
                     }
                 },
                 error: function(){
-                    console.log('Erreur ajax');
-                }
-            });
-        }
+                   console.log('Erreur ajax');
+              }
+          });
+         }
 
     </script>
 </body>

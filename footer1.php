@@ -25,39 +25,39 @@
 
 <div class="container">
 <p>Partenaires :</p>
-    <div><a href="" target="_blank"><img src="img/logos/supardenne_logo_rvb_couleur_horizontal.jpg" style="height:50px" 
+    <div><a href="" target="_blank"><img src="../img/logos/supardenne_logo_rvb_couleur_horizontal.jpg" style="height:50px" 
                 class="hvr-pulse" alt=""></a></div>
-    <div><a href="https://www.grandest.fr/" target="_blank"><img src="img/logos/grandest1.png"
+    <div><a href="https://www.grandest.fr/" target="_blank"><img src="../img/logos/grandest1.png"
                 class="hvr-pulse" alt=""></a></div>
-    <div><a href="http://www.ardenne-metropole.fr" target="_blank"><img src="img/logos/ARDENNE-LOGO-RVB.png"
+    <div><a href="http://www.ardenne-metropole.fr" target="_blank"><img src="../img/logos/ARDENNE-LOGO-RVB.png"
                 class="hvr-pulse" alt=""></a></div>
-                <div><a href="http://www.ardennes.gouv.fr/" target="_blank"><img src="img/logos/Prefecture new.jpg"
+                <div><a href="http://www.ardennes.gouv.fr/" target="_blank"><img src="../img/logos/Prefecture new.jpg"
                             class="hvr-pulse" alt=""></a></div>
-    <div><a href="http://www.crous-reims.fr/" target="_blank"><img src="img/logos/Crous_Reims.png" style="height:50px" class="hvr-pulse"
+    <div><a href="http://www.crous-reims.fr/" target="_blank"><img src="../img/logos/Crous_Reims.png" style="height:50px" class="hvr-pulse"
                 alt=""></a>
     </div>
-    <div><a href="http://www.decathlon.fr" target="_blank"><img src="img/logos/decathlon.jpg" class="hvr-pulse"
+    <div><a href="http://www.decathlon.fr" target="_blank"><img src="../img/logos/decathlon.jpg" class="hvr-pulse"
                 alt=""></a></div>
     <div><a href="http://www.facebook.com/associationflap" target="_blank"><img
-                src="img/logos/FLaP (nouveau logo 2019)-1.png" class="hvr-pulse" alt=""></a></div>
-    <div><a href="" target="_blank"><img src="img/logos/INDEPENDANT__DURABLE-1.png" class="hvr-pulse" style="height:50px" alt=""></a></div>
-    <div><a href="" target="_blank"><img src="img/logos/intercampus.jpg" class="hvr-pulse" style="height:50px" alt=""></a></div>
-    <div><a href="http://www.https://www.mcdonalds.fr" target="_blank"><img src="img/logos/Mc_donald.jpg" class="hvr-pulse" style="height:50px" alt=""></a></div>
-    <div><a href="http://www.jeanteur.fr" target="_blank"><img src="img/logos/jeanteur.png" class="hvr-pulse"
+                src="../img/logos/FLaP (nouveau logo 2019)-1.png" class="hvr-pulse" alt=""></a></div>
+    <div><a href="" target="_blank"><img src="../img/logos/INDEPENDANT__DURABLE-1.png" class="hvr-pulse" style="height:50px" alt=""></a></div>
+    <div><a href="" target="_blank"><img src="../img/logos/intercampus.jpg" class="hvr-pulse" style="height:50px" alt=""></a></div>
+    <div><a href="http://www.https://www.mcdonalds.fr" target="_blank"><img src="../img/logos/Mc_donald.jpg" class="hvr-pulse" style="height:50px" alt=""></a></div>
+    <div><a href="http://www.jeanteur.fr" target="_blank"><img src="../img/logos/jeanteur.png" class="hvr-pulse"
                 alt=""></a></div>
-    <div><a href="http://www.orange.fr"><img src="img/logos/orange-logo-vector.png" style="height:50px" class="hvr-pulse" alt=""></a>
+    <div><a href="http://www.orange.fr"><img src="../img/logos/orange-logo-vector.png" style="height:50px" class="hvr-pulse" alt=""></a>
     </div>
-    <div><a href="https://o-tacos.com/fr/" target="_blank"><img src="img/logos/otacos.png" style="height:60px" class="hvr-pulse"
+    <div><a href="https://o-tacos.com/fr/" target="_blank"><img src="../img/logos/otacos.png" style="height:60px" class="hvr-pulse"
                 alt=""></a></div>
-    <div><a href="https://www.yves-rocher.fr/" target="_blank"><img src="img/logos/yvesrocher.png" class="hvr-pulse"
+    <div><a href="https://www.yves-rocher.fr/" target="_blank"><img src="../img/logos/yvesrocher.png" class="hvr-pulse"
                 alt=""></a>
     </div>
 
-    <div><a href="http://www.terraltitude.com" target="_blank"><img src="img/logos/TERRALTITUDE LOGO.jpg"
+    <div><a href="http://www.terraltitude.com" target="_blank"><img src="../img/logos/TERRALTITUDELOGO.jpg"
                 class="hvr-pulse" alt=""></a></div>
-    <div><a href="http://www.ardennes.com › DETAIL" target="_blank"><img src="img/logos/vitrines-charleville.png" style="height:50px"
+    <div><a href="http://www.ardennes.com › DETAIL" target="_blank"><img src="../img/logos/vitrines-charleville.png" style="height:50px"
                 class="hvr-pulse" alt=""></a></div>
-    <div><a href="http://www.leroymerlin.fr › DETAIL" target="_blank"><img src="img/logos/Leroy_Merlin.png" style="height:60px"
+    <div><a href="http://www.leroymerlin.fr › DETAIL" target="_blank"><img src="../img/logos/Leroy_Merlin.png" style="height:60px"
                 class="hvr-pulse" alt=""></a></div>            
 
 </div>          

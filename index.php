@@ -95,7 +95,7 @@
     </section>
 
 
-   <!-- <div class="parallax-window" data-parallax="scroll" data-image-src="img/placeducale.jpg" alt=""></div>-->
+    <div class="parallax-window" data-parallax="scroll" data-image-src="img/placeducale.jpg" alt=""></div>
 
     <!--/////////////////////TEMOIGNAGES///////////////////////-->
 

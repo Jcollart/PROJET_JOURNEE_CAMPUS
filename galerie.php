@@ -44,13 +44,11 @@
       <li>
         <a href="#gal-1-image-1">
           <!----lien de la vignette vers le conteneur "lightbox" de la 1ère image-->
-          <img class="gal" width="120" height="90" alt="Journée_accueil_Etudiants_27_09_2018_(3)"
-            src="img/journeeetudiants/Journée_accueil_Etudiants_27_09_2018_(3).JPG">
+          <img class="gal" width="120" height="90" alt="image01" src="img/journeeetudiants/Journee_accueil_Etudiants_27_09_2018_(127).JPG">
         </a>
         <div id="gal-1-image-1" class="lb-overlay">
           <!--ancre de la 1ère image, background opaque-->
-          <img alt="Journée accueil Etudiants 27 09 2018 (3)"
-            src="img/journeeetudiants/Journée accueil Etudiants 27 09 2018 (3).JPG">
+          <img alt="image01" src="img/journeeetudiants/Journee_accueil_Etudiants_27_09_2018_(127).JPG">
           <div>
             <h3></h3>
             <!-- Controls -->
@@ -67,10 +65,10 @@
       <li>
         <a href="#gal-1-image-2">
           <img class="gal" width="120" height="90" alt="image02"
-            src="img/journeeetudiants/Journée accueil Etudiants 27 09 2018 (4).JPG">
+            src="img/journeeetudiants/Journee_accueil_Etudiants_27_09_2018_(4).JPG">
         </a>
         <div id="gal-1-image-2" class="lb-overlay">
-          <img alt="image02" src="img/journeeetudiants/Journée accueil Etudiants 27 09 2018 (4).JPG">
+          <img alt="image02" src="img/journeeetudiants/Journee_accueil_Etudiants_27_09_2018_(4).JPG">
           <div>
             <h3></h3>
             <a class="lb-prev" href="#gal-1-image-1">Prev</a>
@@ -82,10 +80,10 @@
       <li>
         <a href="#gal-1-image-3">
           <img class="gal" width="120" height="90" alt="image03"
-            src="img/journeeetudiants/Journée accueil Etudiants 27 09 2018 (6).JPG">
+            src="img/journeeetudiants/Journee_accueil_Etudiants_27_09_2018_(6).JPG">
         </a>
         <div id="gal-1-image-3" class="lb-overlay">
-          <img alt="image03" src="img/journeeetudiants/Journée accueil Etudiants 27 09 2018 (6).JPG">
+          <img alt="image03" src="img/journeeetudiants/Journee_accueil_Etudiants_27_09_2018_(6).JPG">
           <div>
             <h3></h3>
             <a class="lb-prev" href="#gal-1-image-2">Prev</a>
@@ -96,11 +94,11 @@
       </li>
       <li>
         <a href="#gal-1-image-4">
-          <img class="gal" width="120" height="90" alt="image04"
-            src="img/journeeetudiants/Journée accueil Etudiants 27 09 2018 (8).JPG">
+          <img class="gal" width="120" height="90" alt="image03"
+            src="img/journeeetudiants/Journee_accueil_Etudiants_27_09_2018_(8).JPG">
         </a>
         <div id="gal-1-image-4" class="lb-overlay">
-          <img alt="image04" src="img/journeeetudiants/Journée accueil Etudiants 27 09 2018 (8).JPG">
+          <img alt="image04" src="img/journeeetudiants/Journee_accueil_Etudiants_27_09_2018_(8).JPG">
           <div>
             <h3></h3>
             <a class="lb-prev" href="#gal-1-image-3">Prev</a>
@@ -111,11 +109,11 @@
       </li>
       <li>
         <a href="#gal-1-image-5">
-          <img class="gal" width="120" height="90" alt="image04"
-            src="img/journeeetudiants/Journée accueil Etudiants 27 09 2018 (9).JPG">
+          <img class="gal" width="120" height="90" alt="image05"
+            src="img/journeeetudiants/Journee_accueil_Etudiants_27_09_2018_(9).JPG">
         </a>
         <div id="gal-1-image-5" class="lb-overlay">
-          <img alt="image04" src="img/journeeetudiants/Journée accueil Etudiants 27 09 2018 (9).JPG">
+          <img alt="image05" src="img/journeeetudiants/Journee_accueil_Etudiants_27_09_2018_(9).JPG">
           <div>
             <h3></h3>
             <a class="lb-prev" href="#gal-1-image-4">Prev</a>
@@ -126,11 +124,11 @@
       </li>
       <li>
         <a href="#gal-1-image-6">
-          <img class="gal" width="120" height="90" alt="image04"
-            src="img/journeeetudiants/Journée accueil Etudiants 27 09 2018 (10).JPG">
+          <img class="gal" width="120" height="90" alt="image06"
+            src="img/journeeetudiants/Journee_accueil_Etudiants_27_09_2018_(10).JPG">
         </a>
         <div id="gal-1-image-6" class="lb-overlay">
-          <img alt="image04" src="img/journeeetudiants/Journée accueil Etudiants 27 09 2018 (10).JPG">
+          <img alt="image06" src="img/journeeetudiants/Journee_accueil_Etudiants_27_09_2018_(10).JPG">
           <div>
             <h3></h3>
             <a class="lb-prev" href="#gal-1-image-5">Prev</a>
@@ -141,11 +139,11 @@
       </li>
       <li>
         <a href="#gal-1-image-7">
-          <img class="gal" width="120" height="90" alt="image04"
-            src="img/journeeetudiants/Journée accueil Etudiants 27 09 2018 (13).JPG">
+          <img class="gal" width="120" height="90" alt="image07"
+            src="img/journeeetudiants/Journee_accueil_Etudiants_27_09_2018_(13).JPG">
         </a>
         <div id="gal-1-image-7" class="lb-overlay">
-          <img alt="image04" src="img/journeeetudiants/Journée accueil Etudiants 27 09 2018 (13).JPG">
+          <img alt="image07" src="img/journeeetudiants/Journee_accueil_Etudiants_27_09_2018_(13).JPG">
           <div>
             <h3></h3>
             <a class="lb-prev" href="#gal-1-image-6">Prev</a>
@@ -156,11 +154,11 @@
       </li>
       <li>
         <a href="#gal-1-image-8">
-          <img class="gal" width="120" height="90" alt="image04"
-            src="img/journeeetudiants/Journée accueil Etudiants 27 09 2018 (17).JPG">
+          <img class="gal" width="120" height="90" alt="image08"
+            src="img/journeeetudiants/Journee_accueil_Etudiants_27_09_2018_(17).JPG">
         </a>
         <div id="gal-1-image-8" class="lb-overlay">
-          <img alt="image04" src="img/journeeetudiants/Journée accueil Etudiants 27 09 2018 (17).JPG">
+          <img alt="image08" src="img/journeeetudiants/Journee_accueil_Etudiants_27_09_2018_(17).JPG">
           <div>
             <h3></h3>
             <a class="lb-prev" href="#gal-1-image-7">Prev</a>
@@ -171,11 +169,11 @@
       </li>
       <li>
         <a href="#gal-1-image-9">
-          <img class="gal" width="120" height="90" alt="image04"
-            src="img/journeeetudiants/Journée accueil Etudiants 27 09 2018 (19).JPG">
+          <img class="gal" width="120" height="90" alt="image09"
+            src="img/journeeetudiants/Journee_accueil_Etudiants_27_09_2018_(19).JPG">
         </a>
         <div id="gal-1-image-9" class="lb-overlay">
-          <img alt="image04" src="img/journeeetudiants/Journée accueil Etudiants 27 09 2018 (19).JPG">
+          <img alt="image09" src="img/journeeetudiants/Journee_accueil_Etudiants_27_09_2018_(19).JPG">
           <div>
             <h3></h3>
             <a class="lb-prev" href="#gal-1-image-8">Prev</a>
@@ -186,11 +184,11 @@
       </li>
       <li>
         <a href="#gal-1-image-10">
-          <img class="gal" width="120" height="90" alt="image04"
-            src="img/journeeetudiants/Journée accueil Etudiants 27 09 2018 (20).JPG">
+          <img class="gal" width="120" height="90" alt="image10"
+            src="img/journeeetudiants/Journee_accueil_Etudiants_27_09_2018_(20).JPG">
         </a>
         <div id="gal-1-image-10" class="lb-overlay">
-          <img alt="image04" src="img/journeeetudiants/Journée accueil Etudiants 27 09 2018 (20).JPG">
+          <img alt="image10" src="img/journeeetudiants/Journee_accueil_Etudiants_27_09_2018_(20).JPG">
           <div>
             <h3></h3>
             <a class="lb-prev" href="#gal-1-image-9">Prev</a>
@@ -201,11 +199,11 @@
       </li>
       <li>
         <a href="#gal-1-image-11">
-          <img class="gal" width="120" height="90" alt="image04"
-            src="img/journeeetudiants/Journée accueil Etudiants 27 09 2018 (28).JPG">
+          <img class="gal" width="120" height="90" alt="image11"
+            src="img/journeeetudiants/Journee_accueil_Etudiants_27_09_2018_(28).JPG">
         </a>
         <div id="gal-1-image-11" class="lb-overlay">
-          <img alt="image04" src="img/journeeetudiants/Journée accueil Etudiants 27 09 2018 (28).JPG">
+          <img alt="image11" src="img/journeeetudiants/Journee_accueil_Etudiants_27_09_2018_(28).JPG">
           <div>
             <h3></h3>
             <a class="lb-prev" href="#gal-1-image-10">Prev</a>
@@ -216,11 +214,11 @@
       </li>
       <li>
         <a href="#gal-1-image-12">
-          <img class="gal" width="120" height="90" alt="image04"
-            src="img/journeeetudiants/Journée accueil Etudiants 27 09 2018 (30).JPG">
+          <img class="gal" width="120" height="90" alt="image012"
+            src="img/journeeetudiants/Journee_accueil_Etudiants_27_09_2018_(30).JPG">
         </a>
         <div id="gal-1-image-12" class="lb-overlay">
-          <img alt="image04" src="img/journeeetudiants/Journée accueil Etudiants 27 09 2018 (30).JPG">
+          <img alt="image12" src="img/journeeetudiants/Journee_accueil_Etudiants_27_09_2018_(30).JPG">
           <div>
             <h3></h3>
             <a class="lb-prev" href="#gal-1-image-11">Prev</a>
@@ -231,11 +229,11 @@
       </li>
       <li>
         <a href="#gal-1-image-13">
-          <img class="gal" width="120" height="90" alt="image04"
-            src="img/journeeetudiants/Journée accueil Etudiants 27 09 2018 (34).JPG">
+          <img class="gal" width="120" height="90" alt="image13"
+            src="img/journeeetudiants/Journee_accueil_Etudiants_27_09_2018_(34).JPG">
         </a>
         <div id="gal-1-image-13" class="lb-overlay">
-          <img alt="image04" src="img/journeeetudiants/Journée accueil Etudiants 27 09 2018 (34).JPG">
+          <img alt="image13" src="img/journeeetudiants/Journee_accueil_Etudiants_27_09_2018_(34).JPG">
           <div>
             <h3></h3>
             <a class="lb-prev" href="#gal-1-image-12">Prev</a>
@@ -246,11 +244,11 @@
       </li>
       <li>
         <a href="#gal-1-image-14">
-          <img class="gal" width="120" height="90" alt="image04"
-            src="img/journeeetudiants/Journée accueil Etudiants 27 09 2018 (41).JPG">
+          <img class="gal" width="120" height="90" alt="image14"
+            src="img/journeeetudiants/Journee_accueil_Etudiants_27_09_2018_(41).JPG">
         </a>
         <div id="gal-1-image-14" class="lb-overlay">
-          <img alt="image04" src="img/journeeetudiants/Journée accueil Etudiants 27 09 2018 (41).JPG">
+          <img alt="image14" src="img/journeeetudiants/Journee_accueil_Etudiants_27_09_2018_(41).JPG">
           <div>
             <h3></h3>
             <a class="lb-prev" href="#gal-1-image-13">Prev</a>
@@ -261,11 +259,11 @@
       </li>
       <li>
         <a href="#gal-1-image-15">
-          <img class="gal" width="120" height="90" alt="image04"
-            src="img/journeeetudiants/Journée accueil Etudiants 27 09 2018 (68).JPG">
+          <img class="gal" width="120" height="90" alt="image15"
+            src="img/journeeetudiants/Journee_accueil_Etudiants_27_09_2018_(68).JPG">
         </a>
         <div id="gal-1-image-15" class="lb-overlay">
-          <img alt="image04" src="img/journeeetudiants/Journée accueil Etudiants 27 09 2018 (68).JPG">
+          <img alt="image15" src="img/journeeetudiants/Journee_accueil_Etudiants_27_09_2018_(68).JPG">
           <div>
             <h3></h3>
             <a class="lb-prev" href="#gal-1-image-14">Prev</a>
@@ -276,11 +274,11 @@
       </li>
       <li>
         <a href="#gal-1-image-16">
-          <img class="gal" width="120" height="90" alt="image04"
-            src="img/journeeetudiants/Journée accueil Etudiants 27 09 2018 (69).JPG">
+          <img class="gal" width="120" height="90" alt="image16"
+            src="img/journeeetudiants/Journee_accueil_Etudiants_27_09_2018_(69).JPG">
         </a>
         <div id="gal-1-image-16" class="lb-overlay">
-          <img alt="image04" src="img/journeeetudiants/Journée accueil Etudiants 27 09 2018 (69).JPG">
+          <img alt="image16" src="img/journeeetudiants/Journee_accueil_Etudiants_27_09_2018_(69).JPG">
           <div>
             <h3></h3>
             <a class="lb-prev" href="#gal-1-image-15">Prev</a>
@@ -291,11 +289,11 @@
       </li>
       <li>
         <a href="#gal-1-image-17">
-          <img class="gal" width="120" height="90" alt="image04"
-            src="img/journeeetudiants/Journée accueil Etudiants 27 09 2018 (98).JPG">
+          <img class="gal" width="120" height="90" alt="image17"
+            src="img/journeeetudiants/Journee_accueil_Etudiants_27_09_2018_(98).JPG">
         </a>
         <div id="gal-1-image-17" class="lb-overlay">
-          <img alt="image04" src="img/journeeetudiants/Journée accueil Etudiants 27 09 2018 (98).JPG">
+          <img alt="image17" src="img/journeeetudiants/Journee_accueil_Etudiants_27_09_2018_(98).JPG">
           <div>
             <h3></h3>
             <a class="lb-prev" href="#gal-1-image-16">Prev</a>
@@ -306,11 +304,11 @@
       </li>
       <li>
         <a href="#gal-1-image-18">
-          <img class="gal" width="120" height="90" alt="image04"
-            src="img/journeeetudiants/Journée accueil Etudiants 27 09 2018 (100).JPG">
+          <img class="gal" width="120" height="90" alt="image18"
+            src="img/journeeetudiants/Journee_accueil_Etudiants_27_09_2018_(100).JPG">
         </a>
         <div id="gal-1-image-18" class="lb-overlay">
-          <img alt="image04" src="img/journeeetudiants/Journée accueil Etudiants 27 09 2018 (100).JPG">
+          <img alt="image18" src="img/journeeetudiants/Journee_accueil_Etudiants_27_09_2018_(100).JPG">
           <div>
             <h3></h3>
             <a class="lb-prev" href="#gal-1-image-17">Prev</a>
@@ -321,11 +319,11 @@
       </li>
       <li>
         <a href="#gal-1-image-19">
-          <img class="gal" width="120" height="90" alt="image04"
-            src="img/journeeetudiants/Journée accueil Etudiants 27 09 2018 (103).JPG">
+          <img class="gal" width="120" height="90" alt="image19"
+            src="img/journeeetudiants/Journee_accueil_Etudiants_27_09_2018_(103).JPG">
         </a>
         <div id="gal-1-image-19" class="lb-overlay">
-          <img alt="image04" src="img/journeeetudiants/Journée accueil Etudiants 27 09 2018 (103).JPG">
+          <img alt="image19" src="img/journeeetudiants/Journee_accueil_Etudiants_27_09_2018_(103).JPG">
           <div>
             <h3></h3>
             <a class="lb-prev" href="#gal-1-image-18">Prev</a>
@@ -336,11 +334,11 @@
       </li>
       <li>
         <a href="#gal-1-image-20">
-          <img class="gal" width="120" height="90" alt="image04"
-            src="img/journeeetudiants/Journée accueil Etudiants 27 09 2018 (105).JPG">
+          <img class="gal" width="120" height="90" alt="image20"
+            src="img/journeeetudiants/Journee_accueil_Etudiants_27_09_2018_(105).JPG">
         </a>
         <div id="gal-1-image-20" class="lb-overlay">
-          <img alt="image04" src="img/journeeetudiants/Journée accueil Etudiants 27 09 2018 (105).JPG">
+          <img alt="image20" src="img/journeeetudiants/Journee_accueil_Etudiants_27_09_2018_(105).JPG">
           <div>
             <h3></h3>
             <a class="lb-prev" href="#gal-1-image-19">Prev</a>

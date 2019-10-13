@@ -67,7 +67,6 @@
             $nombre = 1;  // on va afficher 1 résultats par page.
             if (!isset($limite)) $limite = 1; // si on arrive sur la page pour la première fois 
                // on met limite à 0.
-
             $sql =(' 
             SELECT DISTINCT q.id 
             FROM question as q, reponse as r, appartenir as ap, avoir, qcm

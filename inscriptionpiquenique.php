@@ -28,19 +28,17 @@ else {
 $cle = md5(microtime(TRUE)*100000);
 
 // Envoi des données dans la base de donnée
-$sql = $bdd->prepare ("INSERT INTO piquenique ( nom, prenom, mobile, password, email, participant,cle, actif, etablissement, nom_team)
-VALUES (:nom, :prenom, :mobile, :password, :email, :participant,:cle, :actif, :etablissement, :nom_team )");
+$sql = $bdd->prepare ("INSERT INTO piquenique ( nom, prenom, mobile, email, cle, actif, etablissement)
+VALUES (:nom, :prenom, :mobile, :email, :cle, :actif, :etablissement )");
 $sql->execute(array(
   ':nom' => $nom,
   ':prenom' => $prenom,
   ':mobile' => $mobile,
-  ':password' => 0,
-  ':participant'=> 1,
   ':email' => $email,
   ':cle' => $cle,
   ':etablissement' => $etablissement,
-  ':actif' => 0,
-  ':nom_team' => 1
+  ':actif' => 0
+  
   ));
 $sql-> closeCursor();
 

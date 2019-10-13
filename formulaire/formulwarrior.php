@@ -1,4 +1,4 @@
-<?php //include_once 'connectbdd.php' ;
+<?php include '../connectbdd.php';
 
 
 
@@ -54,11 +54,13 @@
 
 
 
-    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="../css/reset.css">
 
-    <link rel="stylesheet" href="css/formulaire.css">
+    <link rel="stylesheet" href="../css/formulaire.css">
 
-    <link rel="stylesheet" href="css/hover-min.css">
+    <link rel="stylesheet" href="../css/header2.css">
+
+    <link rel="stylesheet" href="../css/hover-min.css">
 
 
 
@@ -70,7 +72,7 @@
 
     <!-- NAVBAR BOOTSTRAP-->
 
-    <?php include("header2.php"); ?><br><br><br>
+    <?php include '../header2.php' ; ?><br><br><br>
 
 
 
@@ -698,7 +700,7 @@
 
 
 
-            <?php include("footer1.php"); ?>
+            <?php include '../footer1.php'; ?>
 
 
 

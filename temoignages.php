@@ -8,9 +8,6 @@ $req = $bdd->prepare("SELECT * FROM temoignage ");
 
 $req->execute();
 
-$result = $req->fetch();
-while ($row($result)) {
-
     ?>
 
 
@@ -116,14 +113,10 @@ while ($row($result)) {
                             </div>
                             <div class="col-md-8">
                                 <div class="card-body">
-                                    <p class="card-text"><?php echo $row[0] . ': ' . $row[1] . "\n"; ?></p>
-                                    <p class="card-text"><?php //echo $resultat('prenom_temoin') ;?></p>
+                                    <p class="card-text"></p>
+                                    <p class="card-text"></p>
 
-                                    <?php }
-  
- 
-  $req-> closeCursor();
-  ?>
+
                                 </div>
                             </div>
                         </div>

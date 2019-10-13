@@ -10,16 +10,10 @@
             $co = $bdd->openConnexion();
 
             $sql = "SELECT * FROM qcm";
-
             $req = $co->prepare($sql);
             $req->execute();
         }
-
         public function getId(){
-
         }
-        
-
-        
     }
 ?>

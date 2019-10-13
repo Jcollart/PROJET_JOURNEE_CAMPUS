@@ -1,71 +1,37 @@
 <?php
 include 'connectbdd.php';
 
-
 $etablissement = isset($_POST['etablissement']) ? $_POST['etablissement'] : NULL;
-
 $equipe = isset($_POST['equipe']) ? $_POST['equipe'] : NULL;
-
 $password = isset($_POST['password']) ? $_POST['password'] : NULL;
-
-
 $nom = isset($_POST['nom']) ? $_POST['nom'] : NULL;
-
 $prenom = isset($_POST['prenom']) ? $_POST['prenom'] : NULL;
-
 $mobile = isset($_POST['mobile']) ? $_POST['mobile'] : NULL;
-
 $email = isset($_POST['email']) ? $_POST['email'] : NULL;
-
 $email11 = isset($_POST['email11'])  ? $_POST['email11'] : NULL;
-
-
 $nom2 = isset($_POST['nom2']) ? $_POST['nom2'] : NULL;
-
 $prenom2 = isset($_POST['prenom2']) ? $_POST['prenom2'] : NULL;
-
 $mobile2 = isset($_POST['mobile2']) ? $_POST['mobile2'] : NULL;
-
 $email2 = isset($_POST['email2']) ? $_POST['email2'] : NULL;
-
 $email21 = isset($_POST['email21'])  ? $_POST['email21'] : NULL;
-
-
 $nom3 = isset($_POST['nom3']) ? $_POST['nom3'] : NULL;
-
 $prenom3 = isset($_POST['prenom3']) ? $_POST['prenom3'] : NULL;
-
 $mobile3 = isset($_POST['mobile3']) ? $_POST['mobile3'] : NULL;
-
 $email3 = isset($_POST['email3']) ? $_POST['email3'] : NULL;
-
 $email31 = isset($_POST['email31'])  ? $_POST['email31'] : NULL;
-
-
 $nom4 = isset($_POST['nom4']) ? $_POST['nom4'] : NULL;
-
 $prenom4 = isset($_POST['prenom4']) ? $_POST['prenom4'] : NULL;
-
 $mobile4 = isset($_POST['mobile4']) ? $_POST['mobile4'] : NULL;
-
 $email4 = isset($_POST['email4']) ? $_POST['email4'] : NULL;
-
 $email41 = isset($_POST['email41'])  ? $_POST['email41'] : NULL;
-
 $nom5 = isset($_POST['nom5']) ? $_POST['nom5'] : NULL;
-
 $prenom5 = isset($_POST['prenom5']) ? $_POST['prenom5'] : NULL;
-
 $mobile5 = isset($_POST['mobile5']) ? $_POST['mobile5'] : NULL;
-
 $email5 = isset($_POST['email5']) ? $_POST['email5'] : NULL;
-
 $email51 = isset($_POST['email51'])  ? $_POST['email51'] : NULL;
 
 
 if ((($_POST['email']) == ($_POST['email11'])) And (($_POST['email2']) == ($_POST['email21'])) And (($_POST['email3']) == ($_POST['email31'])) And (($_POST['email4']) == ($_POST['email41'])) And (($_POST['email5']) == ($_POST['email51']))){
-
-
 
 $req = $bdd->prepare("SELECT nom, prenom FROM etudiant WHERE nom = :nom AND prenom = :prenom");
 

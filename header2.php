@@ -14,9 +14,10 @@
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
     integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
 
-  <link rel="stylesheet" href="css/reset.css">
- <link rel="stylesheet" href="css/header2.css">
-
+  <link rel="stylesheet" href="../css/reset.css">
+ <link rel="stylesheet" href="../css/header2.css">
+ <link rel="stylesheet" type="text/css" href="fonts/pe-icon-7-stroke/css/pe-icon-7-stroke.css">
+    <link rel="stylesheet" type="text/css" href="fonts/font-awesome/css/font-awesome.css">
 
 </head>
 
@@ -31,13 +32,13 @@
         </li>
         <li class="menu-inscription"><a href="">INSCRIPTIONS</a>
           <ul class="sousmenu">
-            <li><a href="" ><font color="black">Carolo Express</font></a></li>
-            <li><a href=""><font color="black">Carolo Warrior</font></a></li>
-            <li><a href=""><font color="black">Concours de Cuisine</font></a></li>
-            <li><a href="formulaire/formulpiquenique.php"><font color="black">Pique-nique</font></a></li>
+            <li><a href="formulaire/formulexpress.php" ><font color="black">Carolo Express</font></a></li>
+            <li><a href="formulaire/formulwarrior.php"><font color="black">Carolo Warrior</font></a></li>
+            <li><a href="formulaire/formulcuisine.php"><font color="black">Concours de Cuisine</font></a></li>
+            <li><a href="formulpiquenique.php"><font color="black">Pique-nique</font></a></li>
           </ul>
         </li>
-        <li class="menu-logomairie"><a href="https://www.charleville-mezieres.fr/"><img id="logocm" src="img/logos/logomairieCM.png" alt="logocm"/></a>
+        <li class="menu-logomairie"><a href="https://www.charleville-mezieres.fr/"><img id="logocm" src="../img/logos/logomairieCM.png" alt="logocm"/></a>
         </li>
         <li class="menu-contact"><a href="contact2.php" >CONTACT</a>
         </li>
@@ -48,8 +49,7 @@
     </nav>
 
 
-    <link rel="stylesheet" type="text/css" href="fonts/pe-icon-7-stroke/css/pe-icon-7-stroke.css">
-    <link rel="stylesheet" type="text/css" href="fonts/font-awesome/css/font-awesome.css">
+    
 
 
 

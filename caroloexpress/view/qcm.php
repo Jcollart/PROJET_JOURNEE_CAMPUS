@@ -2,8 +2,6 @@
 if (! empty($result)) {
     foreach ($result as $k => $v) {
         ?>
-
-    
     <div class="affiche col d-flex row-wrap justify-content-center ">
         <p>
             <?php echo $result[$k]["titre"]; ?><br>

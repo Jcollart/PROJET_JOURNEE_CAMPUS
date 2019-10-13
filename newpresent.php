@@ -63,7 +63,7 @@
 
                         </p>
                         </center>
-                        <center><a class="btn btn-warning" href="" role="button">S'inscrire</a>
+                        <center><a class="btn btn-warning" href="formulaire/formulexpress.php" role="button">S'inscrire</a>
                         </center>
                     </div>
                 </div>
@@ -105,7 +105,7 @@
                             Info + : pensez à prendre une tenue de sport et un maillot de bain pour l'activité aquatique
 
                         </p>
-                        <center><a class="btn btn-warning" href="" role="button">S'inscrire</a>
+                        <center><a class="btn btn-warning" href="formulaire/formulwarrior.php" role="button">S'inscrire</a>
                         </center>
 
                     </div>
@@ -136,7 +136,7 @@
                             Horaires de la manifestation : 17H00<br>
                             Lieu : Place Ducale
                         </p>
-                        <center><a class="btn btn-warning" href="" role="button">S'inscrire</a>
+                        <center><a class="btn btn-warning" href="formulaire/formulcuisine.php" role="button">S'inscrire</a>
                         </center>
 
                     </div>
