@@ -56,7 +56,7 @@
 
                 <div>
                     <label><b>Nom d'utilisateur</b></label>
-                    <input type="text" placeholder="Entrer le nom d'utilisateur" name="pseudo_admin" required /><br>
+                    <input type="text" placeholder="Nom Utilisateur" name="pseudo_admin" required /><br>
                 </div><br>
                 <div>
                     <label><b>Mot de passe</b></label>

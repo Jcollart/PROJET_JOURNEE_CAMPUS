@@ -45,6 +45,9 @@ $avg = $questcontroller->avgResults();
 
 
     <div class="bg-white mx-auto my-5 p-4 shadow-lg result-container">
+    <br>
+<input class="retour" style=" border: 3px solid black; background:white;" type=button onclick=window.location.href='https://rentree-etudiants-cmz.fr/interfaceadministrateur.php'; value="RETOUR" />
+<br>
         <div class="text-center my-4">
             <img src="../public/img/logoetudiant.png" width="150" height="150" class="rounded-circle shadow">
         </div>
