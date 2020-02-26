@@ -416,7 +416,7 @@ $('form').on('submit', function(e) {
 
 
 
-                    if (distance > 10000.001) {
+                    if (distance > 500000.001) {
 
                         SetupAlertBlock("Vous êtes trop loin de la position reliée a ce code, rapprochez vous pour pouvoir l'utiliser.");
 

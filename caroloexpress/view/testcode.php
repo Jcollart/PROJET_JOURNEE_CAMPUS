@@ -23,7 +23,7 @@
             <label for="inputName">Ecrivez votre code :</label><br>
             <input type="name" class="form-control" id="code" placeholder="Entrez votre code"><br>
             <br><br>
-            <p class="error text-danger" style="font size=+3">Mauvais code, Essayez de nouveau</p>
+            <p class="error text-danger" style.fontsize = "+3">Mauvais code, Essayez de nouveau</p>
             <button class="btn btn-secondary"  value="fonctions.php" data-id="44" onclick="test(this)"> Envoi du code </button>
         </div>
  
@@ -61,7 +61,7 @@
             <?php
               //  } else { ?>
             <div class="form-check">
-                <input type="checkbox" class="form-check-input" name="answer<?php// echo $j ?>"
+                <input type="checkbox" class="form-check-input" name="answer<?php echo $j ?>"
                     value="<?= $result[$j]['valid'] ?>">
                 <label class="form-check-label" for="answer<?php echo $j ?>"><?= $result[$j]['reponse'] ?></label><br>
                 
